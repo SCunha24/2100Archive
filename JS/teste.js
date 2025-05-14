@@ -1961,9 +1961,9 @@ function Update(id, value) {
             var sky = document.getElementById("sky");
             const popUp = document.getElementById("TextPopUp");
             const circlePopUp = document.getElementById("trigger");
-            const circlePopUp2 = document.getElementById("trigger2"); 
 
-            const popUp2 = document.getElementById("TextPopUp2");
+
+           
 
             if (markerData.name == "Asia") {
                 regiao_cenarios ="South Asia";
@@ -1971,36 +1971,36 @@ function Update(id, value) {
                     sky.setAttribute('src','#1950_asia');
                     popUp.setAttribute('src','#PopUpAsia1');
                     circlePopUp.setAttribute('position','0 1.5 -3');
-                    circlePopUp2.setAttribute('position','5 1.5 2.5');
-                    popUp2.setAttribute('src','#PopUpAsia5');
+                    //circlePopUp2.setAttribute('position','5 1.5 2.5');
+                    //popUp2.setAttribute('src','#PopUpAsia5');
                 }
                 if (ano > 1970 && ano < 1990) {
                     sky.setAttribute('src','#1990_asia');
                     popUp.setAttribute('src','#PopUpAsia2');
                     circlePopUp.setAttribute('position','0 1.5 -3');
-                    circlePopUp2.setAttribute('position','5 1.5 2.5');
-                    popUp2.setAttribute('src','#PopUpAsia6');
+                    //circlePopUp2.setAttribute('position','5 1.5 2.5');
+                    //popUp2.setAttribute('src','#PopUpAsia6');
                 }
                 if (ano > 1990 && ano < 2040) {
                     sky.setAttribute('src','#2030_asia');
                     popUp.setAttribute('src','#PopUpAsia3');
                     circlePopUp.setAttribute('position','0 1.5 -3');
-                    circlePopUp2.setAttribute('position','5 1.5 2.5');
-                    popUp2.setAttribute('src','#PopUpAsia7');
+                    //circlePopUp2.setAttribute('position','5 1.5 2.5');
+                    //popUp2.setAttribute('src','#PopUpAsia7');
                 }
                 if (ano > 2040 && ano < 2070)  {
                     sky.setAttribute('src','#2050_asia');
                     popUp.setAttribute('src','#PopUpAsia4');
                     circlePopUp.setAttribute('position','0 1.5 -3');
-                    circlePopUp2.setAttribute('position','5 1.5 2.5');
-                    popUp2.setAttribute('src','#PopUpAsia7');
+                    //circlePopUp2.setAttribute('position','5 1.5 2.5');
+                    //popUp2.setAttribute('src','#PopUpAsia7');
                 }
                  if (ano > 2070)  {
                     sky.setAttribute('src','#2100_asia');
                     popUp.setAttribute('src','#PopUpAsia5');
                     circlePopUp.setAttribute('position','0 1.5 -3');
-                    circlePopUp2.setAttribute('position','5 1.5 2.5');
-                    popUp2.setAttribute('src','#PopUpAsia7');
+                    //circlePopUp2.setAttribute('position','5 1.5 2.5');
+                    //popUp2.setAttribute('src','#PopUpAsia7');
                 }
             }
 
@@ -2010,33 +2010,33 @@ function Update(id, value) {
                     sky.setAttribute('src','#1950_amazonia');
                     popUp.setAttribute('src','#PopUpAmerica1');
                     circlePopUp.setAttribute('position','0 1.5 -3');
-                    circlePopUp2.setAttribute('position','0 0 0');
+                    //circlePopUp2.setAttribute('position','0 0 0');
                 }
                 if (ano > 1970 && ano < 1990) {
                 sky.setAttribute('src','#1970_amazonia');
                 popUp.setAttribute('src','#PopUpAmerica2');
                 circlePopUp.setAttribute('position','0 1.5 -3');
-                circlePopUp2.setAttribute('position','0 0 0');
+                //circlePopUp2.setAttribute('position','0 0 0');
                 }
 
                 if (ano > 1990 && ano < 2015) {
                 sky.setAttribute('src','#1990_amazonia'); 
                 popUp.setAttribute('src','#PopUpAmerica3');
                 circlePopUp.setAttribute('position','0 1.5 -3');
-                circlePopUp2.setAttribute('position','0 0 0');
+                //circlePopUp2.setAttribute('position','0 0 0');
                 }
 
                 if (ano > 2015 && ano < 2060) {
                 sky.setAttribute('src','#2015_amazonia'); 
                 popUp.setAttribute('src','');
                 circlePopUp.setAttribute('position','0 0 0');
-                circlePopUp2.setAttribute('position','0 0 0');
+                //circlePopUp2.setAttribute('position','0 0 0');
                 }
                 if (ano > 2060) {
                 sky.setAttribute('src','#2060_amazonia');
                 popUp.setAttribute('src','');
                 circlePopUp.setAttribute('position','0 0 0');
-                circlePopUp2.setAttribute('position','0 0 0');
+                //circlePopUp2.setAttribute('position','0 0 0');
                 }
             }
 
@@ -2046,25 +2046,25 @@ function Update(id, value) {
                     sky.setAttribute('src','#1950_europa');
                     popUp.setAttribute('src','');
                     circlePopUp.setAttribute('position','0 0 0');
-                    circlePopUp2.setAttribute('position','0 0 0');
+                    //circlePopUp2.setAttribute('position','0 0 0');
                 }
                 if (ano > 2000 && ano < 2040) {
                     sky.setAttribute('src','#2020_europa');
                     popUp.setAttribute('src','');
                     circlePopUp.setAttribute('position','0 0 0');
-                    circlePopUp2.setAttribute('position','0 0 0');
+                    //circlePopUp2.setAttribute('position','0 0 0');
                 }
                 if (ano > 2040 && ano < 2070)  {
                     sky.setAttribute('src','#2050_europa');
                     popUp.setAttribute('src','');
                     circlePopUp.setAttribute('position','0 0 0');   
-                    circlePopUp2.setAttribute('position','0 0 0');             
+                    //circlePopUp2.setAttribute('position','0 0 0');             
                 }
                  if (ano > 2070)  {
                     sky.setAttribute('src','#2100_europa');
                     popUp.setAttribute('src','');
                     circlePopUp.setAttribute('position','0 0 0');
-                    circlePopUp2.setAttribute('position','0 0 0');
+                    //circlePopUp2.setAttribute('position','0 0 0');
                 }
             }
             //------------------------------------------------------------------------------//
