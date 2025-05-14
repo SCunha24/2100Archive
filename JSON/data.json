@@ -1,0 +1,92 @@
+{
+    "Ásia": {
+      "2025": {
+        "populacao": 166303498,
+        "temperatura": 26.1,
+        "lost_land": 250,
+        "percent_lost_land": 0.18,
+        "oxigenio": 20.9,
+        "dioxido_carbono": 410,
+        "metano": 1.8
+      },
+      "2050": {
+        "populacao": 171000000,
+        "temperatura": 26.5,
+        "lost_land": 300,
+        "percent_lost_land": 0.22,
+        "oxigenio": 20.8,
+        "dioxido_carbono": 420,
+        "metano": 1.9
+      },
+      "2100": {
+        "populacao": 192320084,
+        "temperatura": 28.2,
+        "lost_land": 512,
+        "percent_lost_land": 0.22,
+        "oxigenio": 20.8,
+        "dioxido_carbono": 420,
+        "metano": 3.5
+      }
+    },
+    "América": {
+      "2020": {
+        "populacao": 1000000000,
+        "temperatura": 24.5,
+        "lost_land": 500,
+        "percent_lost_land": 0.1,
+        "oxigenio": 21.0,
+        "dioxido_carbono": 405,
+        "metano": 1.7
+      },
+      "2100": {
+        "populacao": 1020000000,
+        "temperatura": 24.8,
+        "lost_land": 600,
+        "percent_lost_land": 0.12,
+        "oxigenio": 20.9,
+        "dioxido_carbono": 415,
+        "metano": 2.7
+      }
+    },
+    "Europa": {
+      "2020": {
+        "populacao": 200000000,
+        "temperatura": 10.2,
+        "lost_land": 100,
+        "percent_lost_land": 0.05,
+        "oxigenio": 21.0,
+        "dioxido_carbono": 400,
+        "metano": 1.6
+      },
+      "2100": {
+        "populacao": 202500000,
+        "temperatura": 10.5,
+        "lost_land": 120,
+        "percent_lost_land": 0.06,
+        "oxigenio": 20.9,
+        "dioxido_carbono": 410,
+        "metano": 1.7
+      }
+    },
+    "África": {
+      "2020": {
+        "populacao": 1300000000,
+        "temperatura": 27.8,
+        "lost_land": 700,
+        "percent_lost_land": 0.15,
+        "oxigenio": 20.8,
+        "dioxido_carbono": 420,
+        "metano": 2.0
+      },
+      "2100": {
+        "populacao": 1350000000,
+        "temperatura": 28.1,
+        "lost_land": 800,
+        "percent_lost_land": 0.18,
+        "oxigenio": 20.7,
+        "dioxido_carbono": 430,
+        "metano": 2.1
+      }
+    }
+  }
+  

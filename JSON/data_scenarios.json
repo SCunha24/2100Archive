@@ -1,0 +1,3632 @@
+{
+  "North Europe": {
+    "1950": {
+      "Temperature": "7°C",
+      "Wind": "12 km/h",
+      "UV_Index": 2,
+      "Humidity": "80%",
+      "Visibility": "10 km",
+      "Air_Quality": "Good"
+    },
+    "1951": {
+      "Temperature": "7.0°C",
+      "Wind": "12.0 km/h",
+      "UV_Index": 2,
+      "Humidity": "79%",
+      "Visibility": "10.0 km",
+      "Air_Quality": "Moderate"
+    },
+    "1952": {
+      "Temperature": "7.1°C",
+      "Wind": "12.1 km/h",
+      "UV_Index": 2,
+      "Humidity": "79%",
+      "Visibility": "10.0 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "1953": {
+      "Temperature": "7.1°C",
+      "Wind": "12.1 km/h",
+      "UV_Index": 2,
+      "Humidity": "79%",
+      "Visibility": "10.0 km",
+      "Air_Quality": "Moderate"
+    },
+    "1954": {
+      "Temperature": "7.2°C",
+      "Wind": "12.2 km/h",
+      "UV_Index": 2,
+      "Humidity": "79%",
+      "Visibility": "9.9 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "1955": {
+      "Temperature": "7.2°C",
+      "Wind": "12.2 km/h",
+      "UV_Index": 2,
+      "Humidity": "79%",
+      "Visibility": "9.9 km",
+      "Air_Quality": "Moderate"
+    },
+    "1956": {
+      "Temperature": "7.2°C",
+      "Wind": "12.2 km/h",
+      "UV_Index": 2,
+      "Humidity": "79%",
+      "Visibility": "9.9 km",
+      "Air_Quality": "Good"
+    },
+    "1957": {
+      "Temperature": "7.3°C",
+      "Wind": "12.3 km/h",
+      "UV_Index": 2,
+      "Humidity": "79%",
+      "Visibility": "9.9 km",
+      "Air_Quality": "Good"
+    },
+    "1958": {
+      "Temperature": "7.3°C",
+      "Wind": "12.3 km/h",
+      "UV_Index": 2,
+      "Humidity": "79%",
+      "Visibility": "9.9 km",
+      "Air_Quality": "Moderate"
+    },
+    "1959": {
+      "Temperature": "7.4°C",
+      "Wind": "12.4 km/h",
+      "UV_Index": 2,
+      "Humidity": "79%",
+      "Visibility": "9.9 km",
+      "Air_Quality": "Moderate"
+    },
+    "1960": {
+      "Temperature": "7.4°C",
+      "Wind": "12.4 km/h",
+      "UV_Index": 2,
+      "Humidity": "79%",
+      "Visibility": "9.9 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "1961": {
+      "Temperature": "7.4°C",
+      "Wind": "12.4 km/h",
+      "UV_Index": 2,
+      "Humidity": "79%",
+      "Visibility": "9.9 km",
+      "Air_Quality": "Good"
+    },
+    "1962": {
+      "Temperature": "7.5°C",
+      "Wind": "12.5 km/h",
+      "UV_Index": 2,
+      "Humidity": "79%",
+      "Visibility": "9.8 km",
+      "Air_Quality": "Moderate"
+    },
+    "1963": {
+      "Temperature": "7.5°C",
+      "Wind": "12.5 km/h",
+      "UV_Index": 2,
+      "Humidity": "79%",
+      "Visibility": "9.8 km",
+      "Air_Quality": "Good"
+    },
+    "1964": {
+      "Temperature": "7.6°C",
+      "Wind": "12.6 km/h",
+      "UV_Index": 2,
+      "Humidity": "79%",
+      "Visibility": "9.8 km",
+      "Air_Quality": "Moderate"
+    },
+    "1965": {
+      "Temperature": "7.6°C",
+      "Wind": "12.6 km/h",
+      "UV_Index": 2,
+      "Humidity": "79%",
+      "Visibility": "9.8 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "1966": {
+      "Temperature": "7.6°C",
+      "Wind": "12.6 km/h",
+      "UV_Index": 2,
+      "Humidity": "78%",
+      "Visibility": "9.8 km",
+      "Air_Quality": "Good"
+    },
+    "1967": {
+      "Temperature": "7.7°C",
+      "Wind": "12.7 km/h",
+      "UV_Index": 2,
+      "Humidity": "78%",
+      "Visibility": "9.8 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "1968": {
+      "Temperature": "7.7°C",
+      "Wind": "12.7 km/h",
+      "UV_Index": 2,
+      "Humidity": "78%",
+      "Visibility": "9.8 km",
+      "Air_Quality": "Moderate"
+    },
+    "1969": {
+      "Temperature": "7.8°C",
+      "Wind": "12.8 km/h",
+      "UV_Index": 2,
+      "Humidity": "78%",
+      "Visibility": "9.7 km",
+      "Air_Quality": "Moderate"
+    },
+    "1970": {
+      "Temperature": "7.8°C",
+      "Wind": "12.8 km/h",
+      "UV_Index": 2,
+      "Humidity": "78%",
+      "Visibility": "9.7 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "1971": {
+      "Temperature": "7.8°C",
+      "Wind": "12.8 km/h",
+      "UV_Index": 2,
+      "Humidity": "78%",
+      "Visibility": "9.7 km",
+      "Air_Quality": "Good"
+    },
+    "1972": {
+      "Temperature": "7.9°C",
+      "Wind": "12.9 km/h",
+      "UV_Index": 2,
+      "Humidity": "78%",
+      "Visibility": "9.7 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "1973": {
+      "Temperature": "7.9°C",
+      "Wind": "12.9 km/h",
+      "UV_Index": 2,
+      "Humidity": "78%",
+      "Visibility": "9.7 km",
+      "Air_Quality": "Moderate"
+    },
+    "1974": {
+      "Temperature": "8.0°C",
+      "Wind": "13.0 km/h",
+      "UV_Index": 2,
+      "Humidity": "78%",
+      "Visibility": "9.7 km",
+      "Air_Quality": "Good"
+    },
+    "1975": {
+      "Temperature": "8.0°C",
+      "Wind": "13.0 km/h",
+      "UV_Index": 2,
+      "Humidity": "78%",
+      "Visibility": "9.7 km",
+      "Air_Quality": "Moderate"
+    },
+    "1976": {
+      "Temperature": "8.0°C",
+      "Wind": "13.0 km/h",
+      "UV_Index": 2,
+      "Humidity": "78%",
+      "Visibility": "9.7 km",
+      "Air_Quality": "Good"
+    },
+    "1977": {
+      "Temperature": "8.1°C",
+      "Wind": "13.1 km/h",
+      "UV_Index": 2,
+      "Humidity": "78%",
+      "Visibility": "9.6 km",
+      "Air_Quality": "Good"
+    },
+    "1978": {
+      "Temperature": "8.1°C",
+      "Wind": "13.1 km/h",
+      "UV_Index": 2,
+      "Humidity": "78%",
+      "Visibility": "9.6 km",
+      "Air_Quality": "Good"
+    },
+    "1979": {
+      "Temperature": "8.2°C",
+      "Wind": "13.2 km/h",
+      "UV_Index": 2,
+      "Humidity": "78%",
+      "Visibility": "9.6 km",
+      "Air_Quality": "Moderate"
+    },
+    "1980": {
+      "Temperature": "8.2°C",
+      "Wind": "13.2 km/h",
+      "UV_Index": 2,
+      "Humidity": "78%",
+      "Visibility": "9.6 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "1981": {
+      "Temperature": "8.2°C",
+      "Wind": "13.2 km/h",
+      "UV_Index": 2,
+      "Humidity": "77%",
+      "Visibility": "9.6 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "1982": {
+      "Temperature": "8.3°C",
+      "Wind": "13.3 km/h",
+      "UV_Index": 2,
+      "Humidity": "77%",
+      "Visibility": "9.6 km",
+      "Air_Quality": "Moderate"
+    },
+    "1983": {
+      "Temperature": "8.3°C",
+      "Wind": "13.3 km/h",
+      "UV_Index": 2,
+      "Humidity": "77%",
+      "Visibility": "9.6 km",
+      "Air_Quality": "Good"
+    },
+    "1984": {
+      "Temperature": "8.4°C",
+      "Wind": "13.4 km/h",
+      "UV_Index": 2,
+      "Humidity": "77%",
+      "Visibility": "9.5 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "1985": {
+      "Temperature": "8.4°C",
+      "Wind": "13.4 km/h",
+      "UV_Index": 2,
+      "Humidity": "77%",
+      "Visibility": "9.5 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "1986": {
+      "Temperature": "8.4°C",
+      "Wind": "13.4 km/h",
+      "UV_Index": 2,
+      "Humidity": "77%",
+      "Visibility": "9.5 km",
+      "Air_Quality": "Good"
+    },
+    "1987": {
+      "Temperature": "8.5°C",
+      "Wind": "13.5 km/h",
+      "UV_Index": 2,
+      "Humidity": "77%",
+      "Visibility": "9.5 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "1988": {
+      "Temperature": "8.5°C",
+      "Wind": "13.5 km/h",
+      "UV_Index": 2,
+      "Humidity": "77%",
+      "Visibility": "9.5 km",
+      "Air_Quality": "Good"
+    },
+    "1989": {
+      "Temperature": "8.6°C",
+      "Wind": "13.6 km/h",
+      "UV_Index": 2,
+      "Humidity": "77%",
+      "Visibility": "9.5 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "1990": {
+      "Temperature": "8.6°C",
+      "Wind": "13.6 km/h",
+      "UV_Index": 2,
+      "Humidity": "77%",
+      "Visibility": "9.5 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "1991": {
+      "Temperature": "8.6°C",
+      "Wind": "13.6 km/h",
+      "UV_Index": 2,
+      "Humidity": "77%",
+      "Visibility": "9.5 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "1992": {
+      "Temperature": "8.7°C",
+      "Wind": "13.7 km/h",
+      "UV_Index": 2,
+      "Humidity": "77%",
+      "Visibility": "9.4 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "1993": {
+      "Temperature": "8.7°C",
+      "Wind": "13.7 km/h",
+      "UV_Index": 2,
+      "Humidity": "77%",
+      "Visibility": "9.4 km",
+      "Air_Quality": "Good"
+    },
+    "1994": {
+      "Temperature": "8.8°C",
+      "Wind": "13.8 km/h",
+      "UV_Index": 2,
+      "Humidity": "77%",
+      "Visibility": "9.4 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "1995": {
+      "Temperature": "8.8°C",
+      "Wind": "13.8 km/h",
+      "UV_Index": 2,
+      "Humidity": "77%",
+      "Visibility": "9.4 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "1996": {
+      "Temperature": "8.8°C",
+      "Wind": "13.8 km/h",
+      "UV_Index": 2,
+      "Humidity": "76%",
+      "Visibility": "9.4 km",
+      "Air_Quality": "Moderate"
+    },
+    "1997": {
+      "Temperature": "8.9°C",
+      "Wind": "13.9 km/h",
+      "UV_Index": 2,
+      "Humidity": "76%",
+      "Visibility": "9.4 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "1998": {
+      "Temperature": "8.9°C",
+      "Wind": "13.9 km/h",
+      "UV_Index": 2,
+      "Humidity": "76%",
+      "Visibility": "9.4 km",
+      "Air_Quality": "Good"
+    },
+    "1999": {
+      "Temperature": "9.0°C",
+      "Wind": "14.0 km/h",
+      "UV_Index": 2,
+      "Humidity": "76%",
+      "Visibility": "9.3 km",
+      "Air_Quality": "Good"
+    },
+    "2000": {
+      "Temperature": "9.0°C",
+      "Wind": "14.0 km/h",
+      "UV_Index": 2,
+      "Humidity": "76%",
+      "Visibility": "9.3 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2001": {
+      "Temperature": "9.0°C",
+      "Wind": "14.0 km/h",
+      "UV_Index": 2,
+      "Humidity": "76%",
+      "Visibility": "9.3 km",
+      "Air_Quality": "Good"
+    },
+    "2002": {
+      "Temperature": "9.1°C",
+      "Wind": "14.1 km/h",
+      "UV_Index": 2,
+      "Humidity": "76%",
+      "Visibility": "9.3 km",
+      "Air_Quality": "Good"
+    },
+    "2003": {
+      "Temperature": "9.1°C",
+      "Wind": "14.1 km/h",
+      "UV_Index": 2,
+      "Humidity": "76%",
+      "Visibility": "9.3 km",
+      "Air_Quality": "Good"
+    },
+    "2004": {
+      "Temperature": "9.2°C",
+      "Wind": "14.2 km/h",
+      "UV_Index": 2,
+      "Humidity": "76%",
+      "Visibility": "9.3 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2005": {
+      "Temperature": "9.2°C",
+      "Wind": "14.2 km/h",
+      "UV_Index": 2,
+      "Humidity": "76%",
+      "Visibility": "9.3 km",
+      "Air_Quality": "Moderate"
+    },
+    "2006": {
+      "Temperature": "9.2°C",
+      "Wind": "14.2 km/h",
+      "UV_Index": 2,
+      "Humidity": "76%",
+      "Visibility": "9.3 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2007": {
+      "Temperature": "9.3°C",
+      "Wind": "14.3 km/h",
+      "UV_Index": 2,
+      "Humidity": "76%",
+      "Visibility": "9.2 km",
+      "Air_Quality": "Moderate"
+    },
+    "2008": {
+      "Temperature": "9.3°C",
+      "Wind": "14.3 km/h",
+      "UV_Index": 2,
+      "Humidity": "76%",
+      "Visibility": "9.2 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2009": {
+      "Temperature": "9.4°C",
+      "Wind": "14.4 km/h",
+      "UV_Index": 2,
+      "Humidity": "76%",
+      "Visibility": "9.2 km",
+      "Air_Quality": "Moderate"
+    },
+    "2010": {
+      "Temperature": "9.4°C",
+      "Wind": "14.4 km/h",
+      "UV_Index": 2,
+      "Humidity": "76%",
+      "Visibility": "9.2 km",
+      "Air_Quality": "Moderate"
+    },
+    "2011": {
+      "Temperature": "9.4°C",
+      "Wind": "14.4 km/h",
+      "UV_Index": 2,
+      "Humidity": "75%",
+      "Visibility": "9.2 km",
+      "Air_Quality": "Good"
+    },
+    "2012": {
+      "Temperature": "9.5°C",
+      "Wind": "14.5 km/h",
+      "UV_Index": 2,
+      "Humidity": "75%",
+      "Visibility": "9.2 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2013": {
+      "Temperature": "9.5°C",
+      "Wind": "14.5 km/h",
+      "UV_Index": 2,
+      "Humidity": "75%",
+      "Visibility": "9.2 km",
+      "Air_Quality": "Moderate"
+    },
+    "2014": {
+      "Temperature": "9.6°C",
+      "Wind": "14.6 km/h",
+      "UV_Index": 2,
+      "Humidity": "75%",
+      "Visibility": "9.1 km",
+      "Air_Quality": "Moderate"
+    },
+    "2015": {
+      "Temperature": "9.6°C",
+      "Wind": "14.6 km/h",
+      "UV_Index": 2,
+      "Humidity": "75%",
+      "Visibility": "9.1 km",
+      "Air_Quality": "Moderate"
+    },
+    "2016": {
+      "Temperature": "9.6°C",
+      "Wind": "14.6 km/h",
+      "UV_Index": 2,
+      "Humidity": "75%",
+      "Visibility": "9.1 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2017": {
+      "Temperature": "9.7°C",
+      "Wind": "14.7 km/h",
+      "UV_Index": 2,
+      "Humidity": "75%",
+      "Visibility": "9.1 km",
+      "Air_Quality": "Good"
+    },
+    "2018": {
+      "Temperature": "9.7°C",
+      "Wind": "14.7 km/h",
+      "UV_Index": 2,
+      "Humidity": "75%",
+      "Visibility": "9.1 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2019": {
+      "Temperature": "9.8°C",
+      "Wind": "14.8 km/h",
+      "UV_Index": 2,
+      "Humidity": "75%",
+      "Visibility": "9.1 km",
+      "Air_Quality": "Moderate"
+    },
+    "2020": {
+      "Temperature": "9.8°C",
+      "Wind": "14.8 km/h",
+      "UV_Index": 2,
+      "Humidity": "75%",
+      "Visibility": "9.1 km",
+      "Air_Quality": "Moderate"
+    },
+    "2021": {
+      "Temperature": "9.8°C",
+      "Wind": "14.8 km/h",
+      "UV_Index": 2,
+      "Humidity": "75%",
+      "Visibility": "9.1 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2022": {
+      "Temperature": "9.9°C",
+      "Wind": "14.9 km/h",
+      "UV_Index": 3,
+      "Humidity": "75%",
+      "Visibility": "9.0 km",
+      "Air_Quality": "Good"
+    },
+    "2023": {
+      "Temperature": "9.9°C",
+      "Wind": "14.9 km/h",
+      "UV_Index": 3,
+      "Humidity": "75%",
+      "Visibility": "9.0 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2024": {
+      "Temperature": "10.0°C",
+      "Wind": "15.0 km/h",
+      "UV_Index": 3,
+      "Humidity": "75%",
+      "Visibility": "9.0 km",
+      "Air_Quality": "Moderate"
+    },
+    "2025": {
+      "Temperature": "10°C",
+      "Wind": "15 km/h",
+      "UV_Index": 3,
+      "Humidity": "75%",
+      "Visibility": "9 km",
+      "Air_Quality": "Moderate"
+    },
+    "2026": {
+      "Temperature": "10.1°C",
+      "Wind": "15.0 km/h",
+      "UV_Index": 3,
+      "Humidity": "74%",
+      "Visibility": "9.0 km",
+      "Air_Quality": "Good"
+    },
+    "2027": {
+      "Temperature": "10.1°C",
+      "Wind": "15.1 km/h",
+      "UV_Index": 3,
+      "Humidity": "74%",
+      "Visibility": "8.9 km",
+      "Air_Quality": "Moderate"
+    },
+    "2028": {
+      "Temperature": "10.2°C",
+      "Wind": "15.1 km/h",
+      "UV_Index": 3,
+      "Humidity": "74%",
+      "Visibility": "8.9 km",
+      "Air_Quality": "Good"
+    },
+    "2029": {
+      "Temperature": "10.2°C",
+      "Wind": "15.2 km/h",
+      "UV_Index": 3,
+      "Humidity": "74%",
+      "Visibility": "8.9 km",
+      "Air_Quality": "Good"
+    },
+    "2030": {
+      "Temperature": "10.3°C",
+      "Wind": "15.2 km/h",
+      "UV_Index": 3,
+      "Humidity": "74%",
+      "Visibility": "8.9 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2031": {
+      "Temperature": "10.3°C",
+      "Wind": "15.2 km/h",
+      "UV_Index": 3,
+      "Humidity": "74%",
+      "Visibility": "8.8 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2032": {
+      "Temperature": "10.4°C",
+      "Wind": "15.3 km/h",
+      "UV_Index": 3,
+      "Humidity": "74%",
+      "Visibility": "8.8 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2033": {
+      "Temperature": "10.4°C",
+      "Wind": "15.3 km/h",
+      "UV_Index": 3,
+      "Humidity": "74%",
+      "Visibility": "8.8 km",
+      "Air_Quality": "Good"
+    },
+    "2034": {
+      "Temperature": "10.5°C",
+      "Wind": "15.4 km/h",
+      "UV_Index": 3,
+      "Humidity": "74%",
+      "Visibility": "8.8 km",
+      "Air_Quality": "Good"
+    },
+    "2035": {
+      "Temperature": "10.5°C",
+      "Wind": "15.4 km/h",
+      "UV_Index": 3,
+      "Humidity": "74%",
+      "Visibility": "8.7 km",
+      "Air_Quality": "Good"
+    },
+    "2036": {
+      "Temperature": "10.6°C",
+      "Wind": "15.4 km/h",
+      "UV_Index": 3,
+      "Humidity": "74%",
+      "Visibility": "8.7 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2037": {
+      "Temperature": "10.6°C",
+      "Wind": "15.5 km/h",
+      "UV_Index": 3,
+      "Humidity": "74%",
+      "Visibility": "8.7 km",
+      "Air_Quality": "Good"
+    },
+    "2038": {
+      "Temperature": "10.7°C",
+      "Wind": "15.5 km/h",
+      "UV_Index": 3,
+      "Humidity": "74%",
+      "Visibility": "8.7 km",
+      "Air_Quality": "Good"
+    },
+    "2039": {
+      "Temperature": "10.7°C",
+      "Wind": "15.6 km/h",
+      "UV_Index": 3,
+      "Humidity": "74%",
+      "Visibility": "8.6 km",
+      "Air_Quality": "Moderate"
+    },
+    "2040": {
+      "Temperature": "10.8°C",
+      "Wind": "15.6 km/h",
+      "UV_Index": 3,
+      "Humidity": "74%",
+      "Visibility": "8.6 km",
+      "Air_Quality": "Moderate"
+    },
+    "2041": {
+      "Temperature": "10.9°C",
+      "Wind": "15.6 km/h",
+      "UV_Index": 3,
+      "Humidity": "73%",
+      "Visibility": "8.6 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2042": {
+      "Temperature": "10.9°C",
+      "Wind": "15.7 km/h",
+      "UV_Index": 3,
+      "Humidity": "73%",
+      "Visibility": "8.5 km",
+      "Air_Quality": "Good"
+    },
+    "2043": {
+      "Temperature": "11.0°C",
+      "Wind": "15.7 km/h",
+      "UV_Index": 3,
+      "Humidity": "73%",
+      "Visibility": "8.5 km",
+      "Air_Quality": "Good"
+    },
+    "2044": {
+      "Temperature": "11.0°C",
+      "Wind": "15.8 km/h",
+      "UV_Index": 3,
+      "Humidity": "73%",
+      "Visibility": "8.5 km",
+      "Air_Quality": "Good"
+    },
+    "2045": {
+      "Temperature": "11.1°C",
+      "Wind": "15.8 km/h",
+      "UV_Index": 3,
+      "Humidity": "73%",
+      "Visibility": "8.5 km",
+      "Air_Quality": "Good"
+    },
+    "2046": {
+      "Temperature": "11.1°C",
+      "Wind": "15.8 km/h",
+      "UV_Index": 3,
+      "Humidity": "73%",
+      "Visibility": "8.4 km",
+      "Air_Quality": "Good"
+    },
+    "2047": {
+      "Temperature": "11.2°C",
+      "Wind": "15.9 km/h",
+      "UV_Index": 3,
+      "Humidity": "73%",
+      "Visibility": "8.4 km",
+      "Air_Quality": "Good"
+    },
+    "2048": {
+      "Temperature": "11.2°C",
+      "Wind": "15.9 km/h",
+      "UV_Index": 3,
+      "Humidity": "73%",
+      "Visibility": "8.4 km",
+      "Air_Quality": "Good"
+    },
+    "2049": {
+      "Temperature": "11.3°C",
+      "Wind": "16.0 km/h",
+      "UV_Index": 3,
+      "Humidity": "73%",
+      "Visibility": "8.4 km",
+      "Air_Quality": "Good"
+    },
+    "2050": {
+      "Temperature": "11.3°C",
+      "Wind": "16.0 km/h",
+      "UV_Index": 3,
+      "Humidity": "73%",
+      "Visibility": "8.3 km",
+      "Air_Quality": "Moderate"
+    },
+    "2051": {
+      "Temperature": "11.4°C",
+      "Wind": "16.0 km/h",
+      "UV_Index": 3,
+      "Humidity": "73%",
+      "Visibility": "8.3 km",
+      "Air_Quality": "Good"
+    },
+    "2052": {
+      "Temperature": "11.4°C",
+      "Wind": "16.1 km/h",
+      "UV_Index": 3,
+      "Humidity": "73%",
+      "Visibility": "8.3 km",
+      "Air_Quality": "Good"
+    },
+    "2053": {
+      "Temperature": "11.5°C",
+      "Wind": "16.1 km/h",
+      "UV_Index": 3,
+      "Humidity": "73%",
+      "Visibility": "8.3 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2054": {
+      "Temperature": "11.5°C",
+      "Wind": "16.2 km/h",
+      "UV_Index": 3,
+      "Humidity": "73%",
+      "Visibility": "8.2 km",
+      "Air_Quality": "Moderate"
+    },
+    "2055": {
+      "Temperature": "11.6°C",
+      "Wind": "16.2 km/h",
+      "UV_Index": 3,
+      "Humidity": "73%",
+      "Visibility": "8.2 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2056": {
+      "Temperature": "11.7°C",
+      "Wind": "16.2 km/h",
+      "UV_Index": 3,
+      "Humidity": "72%",
+      "Visibility": "8.2 km",
+      "Air_Quality": "Moderate"
+    },
+    "2057": {
+      "Temperature": "11.7°C",
+      "Wind": "16.3 km/h",
+      "UV_Index": 3,
+      "Humidity": "72%",
+      "Visibility": "8.1 km",
+      "Air_Quality": "Moderate"
+    },
+    "2058": {
+      "Temperature": "11.8°C",
+      "Wind": "16.3 km/h",
+      "UV_Index": 3,
+      "Humidity": "72%",
+      "Visibility": "8.1 km",
+      "Air_Quality": "Good"
+    },
+    "2059": {
+      "Temperature": "11.8°C",
+      "Wind": "16.4 km/h",
+      "UV_Index": 3,
+      "Humidity": "72%",
+      "Visibility": "8.1 km",
+      "Air_Quality": "Good"
+    },
+    "2060": {
+      "Temperature": "11.9°C",
+      "Wind": "16.4 km/h",
+      "UV_Index": 3,
+      "Humidity": "72%",
+      "Visibility": "8.1 km",
+      "Air_Quality": "Good"
+    },
+    "2061": {
+      "Temperature": "11.9°C",
+      "Wind": "16.4 km/h",
+      "UV_Index": 4,
+      "Humidity": "72%",
+      "Visibility": "8.0 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2062": {
+      "Temperature": "12.0°C",
+      "Wind": "16.5 km/h",
+      "UV_Index": 4,
+      "Humidity": "72%",
+      "Visibility": "8.0 km",
+      "Air_Quality": "Good"
+    },
+    "2063": {
+      "Temperature": "12.0°C",
+      "Wind": "16.5 km/h",
+      "UV_Index": 4,
+      "Humidity": "72%",
+      "Visibility": "8.0 km",
+      "Air_Quality": "Good"
+    },
+    "2064": {
+      "Temperature": "12.1°C",
+      "Wind": "16.6 km/h",
+      "UV_Index": 4,
+      "Humidity": "72%",
+      "Visibility": "8.0 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2065": {
+      "Temperature": "12.1°C",
+      "Wind": "16.6 km/h",
+      "UV_Index": 4,
+      "Humidity": "72%",
+      "Visibility": "7.9 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2066": {
+      "Temperature": "12.2°C",
+      "Wind": "16.6 km/h",
+      "UV_Index": 4,
+      "Humidity": "72%",
+      "Visibility": "7.9 km",
+      "Air_Quality": "Moderate"
+    },
+    "2067": {
+      "Temperature": "12.2°C",
+      "Wind": "16.7 km/h",
+      "UV_Index": 4,
+      "Humidity": "72%",
+      "Visibility": "7.9 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2068": {
+      "Temperature": "12.3°C",
+      "Wind": "16.7 km/h",
+      "UV_Index": 4,
+      "Humidity": "72%",
+      "Visibility": "7.9 km",
+      "Air_Quality": "Moderate"
+    },
+    "2069": {
+      "Temperature": "12.3°C",
+      "Wind": "16.8 km/h",
+      "UV_Index": 4,
+      "Humidity": "72%",
+      "Visibility": "7.8 km",
+      "Air_Quality": "Moderate"
+    },
+    "2070": {
+      "Temperature": "12.4°C",
+      "Wind": "16.8 km/h",
+      "UV_Index": 4,
+      "Humidity": "72%",
+      "Visibility": "7.8 km",
+      "Air_Quality": "Moderate"
+    },
+    "2071": {
+      "Temperature": "12.5°C",
+      "Wind": "16.8 km/h",
+      "UV_Index": 4,
+      "Humidity": "71%",
+      "Visibility": "7.8 km",
+      "Air_Quality": "Good"
+    },
+    "2072": {
+      "Temperature": "12.5°C",
+      "Wind": "16.9 km/h",
+      "UV_Index": 4,
+      "Humidity": "71%",
+      "Visibility": "7.7 km",
+      "Air_Quality": "Good"
+    },
+    "2073": {
+      "Temperature": "12.6°C",
+      "Wind": "16.9 km/h",
+      "UV_Index": 4,
+      "Humidity": "71%",
+      "Visibility": "7.7 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2074": {
+      "Temperature": "12.6°C",
+      "Wind": "17.0 km/h",
+      "UV_Index": 4,
+      "Humidity": "71%",
+      "Visibility": "7.7 km",
+      "Air_Quality": "Moderate"
+    },
+    "2075": {
+      "Temperature": "12.7°C",
+      "Wind": "17.0 km/h",
+      "UV_Index": 4,
+      "Humidity": "71%",
+      "Visibility": "7.7 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2076": {
+      "Temperature": "12.7°C",
+      "Wind": "17.0 km/h",
+      "UV_Index": 4,
+      "Humidity": "71%",
+      "Visibility": "7.6 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2077": {
+      "Temperature": "12.8°C",
+      "Wind": "17.1 km/h",
+      "UV_Index": 4,
+      "Humidity": "71%",
+      "Visibility": "7.6 km",
+      "Air_Quality": "Good"
+    },
+    "2078": {
+      "Temperature": "12.8°C",
+      "Wind": "17.1 km/h",
+      "UV_Index": 4,
+      "Humidity": "71%",
+      "Visibility": "7.6 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2079": {
+      "Temperature": "12.9°C",
+      "Wind": "17.2 km/h",
+      "UV_Index": 4,
+      "Humidity": "71%",
+      "Visibility": "7.6 km",
+      "Air_Quality": "Moderate"
+    },
+    "2080": {
+      "Temperature": "12.9°C",
+      "Wind": "17.2 km/h",
+      "UV_Index": 4,
+      "Humidity": "71%",
+      "Visibility": "7.5 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2081": {
+      "Temperature": "13.0°C",
+      "Wind": "17.2 km/h",
+      "UV_Index": 4,
+      "Humidity": "71%",
+      "Visibility": "7.5 km",
+      "Air_Quality": "Moderate"
+    },
+    "2082": {
+      "Temperature": "13.0°C",
+      "Wind": "17.3 km/h",
+      "UV_Index": 4,
+      "Humidity": "71%",
+      "Visibility": "7.5 km",
+      "Air_Quality": "Good"
+    },
+    "2083": {
+      "Temperature": "13.1°C",
+      "Wind": "17.3 km/h",
+      "UV_Index": 4,
+      "Humidity": "71%",
+      "Visibility": "7.5 km",
+      "Air_Quality": "Moderate"
+    },
+    "2084": {
+      "Temperature": "13.1°C",
+      "Wind": "17.4 km/h",
+      "UV_Index": 4,
+      "Humidity": "71%",
+      "Visibility": "7.4 km",
+      "Air_Quality": "Moderate"
+    },
+    "2085": {
+      "Temperature": "13.2°C",
+      "Wind": "17.4 km/h",
+      "UV_Index": 4,
+      "Humidity": "71%",
+      "Visibility": "7.4 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2086": {
+      "Temperature": "13.3°C",
+      "Wind": "17.4 km/h",
+      "UV_Index": 4,
+      "Humidity": "70%",
+      "Visibility": "7.4 km",
+      "Air_Quality": "Moderate"
+    },
+    "2087": {
+      "Temperature": "13.3°C",
+      "Wind": "17.5 km/h",
+      "UV_Index": 4,
+      "Humidity": "70%",
+      "Visibility": "7.3 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2088": {
+      "Temperature": "13.4°C",
+      "Wind": "17.5 km/h",
+      "UV_Index": 4,
+      "Humidity": "70%",
+      "Visibility": "7.3 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2089": {
+      "Temperature": "13.4°C",
+      "Wind": "17.6 km/h",
+      "UV_Index": 4,
+      "Humidity": "70%",
+      "Visibility": "7.3 km",
+      "Air_Quality": "Moderate"
+    },
+    "2090": {
+      "Temperature": "13.5°C",
+      "Wind": "17.6 km/h",
+      "UV_Index": 4,
+      "Humidity": "70%",
+      "Visibility": "7.3 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2091": {
+      "Temperature": "13.5°C",
+      "Wind": "17.6 km/h",
+      "UV_Index": 4,
+      "Humidity": "70%",
+      "Visibility": "7.2 km",
+      "Air_Quality": "Good"
+    },
+    "2092": {
+      "Temperature": "13.6°C",
+      "Wind": "17.7 km/h",
+      "UV_Index": 4,
+      "Humidity": "70%",
+      "Visibility": "7.2 km",
+      "Air_Quality": "Good"
+    },
+    "2093": {
+      "Temperature": "13.6°C",
+      "Wind": "17.7 km/h",
+      "UV_Index": 4,
+      "Humidity": "70%",
+      "Visibility": "7.2 km",
+      "Air_Quality": "Moderate"
+    },
+    "2094": {
+      "Temperature": "13.7°C",
+      "Wind": "17.8 km/h",
+      "UV_Index": 4,
+      "Humidity": "70%",
+      "Visibility": "7.2 km",
+      "Air_Quality": "Moderately Unhealthy"
+    },
+    "2095": {
+      "Temperature": "13.7°C",
+      "Wind": "17.8 km/h",
+      "UV_Index": 4,
+      "Humidity": "70%",
+      "Visibility": "7.1 km",
+      "Air_Quality": "Moderate"
+    },
+    "2096": {
+      "Temperature": "13.8°C",
+      "Wind": "17.8 km/h",
+      "UV_Index": 4,
+      "Humidity": "70%",
+      "Visibility": "7.1 km",
+      "Air_Quality": "Moderate"
+    },
+    "2097": {
+      "Temperature": "13.8°C",
+      "Wind": "17.9 km/h",
+      "UV_Index": 4,
+      "Humidity": "70%",
+      "Visibility": "7.1 km",
+      "Air_Quality": "Good"
+    },
+    "2098": {
+      "Temperature": "13.9°C",
+      "Wind": "17.9 km/h",
+      "UV_Index": 4,
+      "Humidity": "70%",
+      "Visibility": "7.1 km",
+      "Air_Quality": "Moderate"
+    },
+    "2099": {
+      "Temperature": "13.9°C",
+      "Wind": "18.0 km/h",
+      "UV_Index": 5,
+      "Humidity": "70%",
+      "Visibility": "7.0 km",
+      "Air_Quality": "Good"
+    },
+    "2100": {
+      "Temperature": "14°C",
+      "Wind": "18 km/h",
+      "UV_Index": 5,
+      "Humidity": "70%",
+      "Visibility": "7 km",
+      "Air_Quality": "Moderately Unhealthy"
+    }
+  },
+  "South Asia": {
+    "1950": {
+      "Temperature": "26°C",
+      "Wind": "8 km/h",
+      "UV_Index": 7,
+      "Humidity": "70%",
+      "Visibility": "12 km",
+      "Air_Quality": "Moderate"
+    },
+    "1951": {
+      "Temperature": "26.1°C",
+      "Wind": "8.0 km/h",
+      "UV_Index": 7,
+      "Humidity": "70%",
+      "Visibility": "11.9 km",
+      "Air_Quality": "Moderate"
+    },
+    "1952": {
+      "Temperature": "26.1°C",
+      "Wind": "8.1 km/h",
+      "UV_Index": 7,
+      "Humidity": "70%",
+      "Visibility": "11.9 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1953": {
+      "Temperature": "26.2°C",
+      "Wind": "8.1 km/h",
+      "UV_Index": 7,
+      "Humidity": "70%",
+      "Visibility": "11.8 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "1954": {
+      "Temperature": "26.2°C",
+      "Wind": "8.1 km/h",
+      "UV_Index": 7,
+      "Humidity": "70%",
+      "Visibility": "11.8 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1955": {
+      "Temperature": "26.3°C",
+      "Wind": "8.1 km/h",
+      "UV_Index": 7,
+      "Humidity": "70%",
+      "Visibility": "11.7 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "1956": {
+      "Temperature": "26.3°C",
+      "Wind": "8.2 km/h",
+      "UV_Index": 7,
+      "Humidity": "70%",
+      "Visibility": "11.7 km",
+      "Air_Quality": "Moderate"
+    },
+    "1957": {
+      "Temperature": "26.4°C",
+      "Wind": "8.2 km/h",
+      "UV_Index": 7,
+      "Humidity": "70%",
+      "Visibility": "11.6 km",
+      "Air_Quality": "Moderate"
+    },
+    "1958": {
+      "Temperature": "26.4°C",
+      "Wind": "8.2 km/h",
+      "UV_Index": 7,
+      "Humidity": "70%",
+      "Visibility": "11.6 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1959": {
+      "Temperature": "26.5°C",
+      "Wind": "8.2 km/h",
+      "UV_Index": 7,
+      "Humidity": "70%",
+      "Visibility": "11.5 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "1960": {
+      "Temperature": "26.5°C",
+      "Wind": "8.3 km/h",
+      "UV_Index": 7,
+      "Humidity": "70%",
+      "Visibility": "11.5 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1961": {
+      "Temperature": "26.6°C",
+      "Wind": "8.3 km/h",
+      "UV_Index": 7,
+      "Humidity": "70%",
+      "Visibility": "11.4 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "1962": {
+      "Temperature": "26.6°C",
+      "Wind": "8.3 km/h",
+      "UV_Index": 7,
+      "Humidity": "70%",
+      "Visibility": "11.4 km",
+      "Air_Quality": "Moderate"
+    },
+    "1963": {
+      "Temperature": "26.7°C",
+      "Wind": "8.3 km/h",
+      "UV_Index": 7,
+      "Humidity": "70%",
+      "Visibility": "11.3 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1964": {
+      "Temperature": "26.7°C",
+      "Wind": "8.4 km/h",
+      "UV_Index": 7,
+      "Humidity": "70%",
+      "Visibility": "11.3 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1965": {
+      "Temperature": "26.8°C",
+      "Wind": "8.4 km/h",
+      "UV_Index": 7,
+      "Humidity": "71%",
+      "Visibility": "11.2 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1966": {
+      "Temperature": "26.9°C",
+      "Wind": "8.4 km/h",
+      "UV_Index": 7,
+      "Humidity": "71%",
+      "Visibility": "11.1 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1967": {
+      "Temperature": "26.9°C",
+      "Wind": "8.5 km/h",
+      "UV_Index": 7,
+      "Humidity": "71%",
+      "Visibility": "11.1 km",
+      "Air_Quality": "Moderate"
+    },
+    "1968": {
+      "Temperature": "27.0°C",
+      "Wind": "8.5 km/h",
+      "UV_Index": 7,
+      "Humidity": "71%",
+      "Visibility": "11.0 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "1969": {
+      "Temperature": "27.0°C",
+      "Wind": "8.5 km/h",
+      "UV_Index": 7,
+      "Humidity": "71%",
+      "Visibility": "11.0 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1970": {
+      "Temperature": "27.1°C",
+      "Wind": "8.5 km/h",
+      "UV_Index": 7,
+      "Humidity": "71%",
+      "Visibility": "10.9 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "1971": {
+      "Temperature": "27.1°C",
+      "Wind": "8.6 km/h",
+      "UV_Index": 7,
+      "Humidity": "71%",
+      "Visibility": "10.9 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1972": {
+      "Temperature": "27.2°C",
+      "Wind": "8.6 km/h",
+      "UV_Index": 7,
+      "Humidity": "71%",
+      "Visibility": "10.8 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1973": {
+      "Temperature": "27.2°C",
+      "Wind": "8.6 km/h",
+      "UV_Index": 7,
+      "Humidity": "71%",
+      "Visibility": "10.8 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "1974": {
+      "Temperature": "27.3°C",
+      "Wind": "8.6 km/h",
+      "UV_Index": 7,
+      "Humidity": "71%",
+      "Visibility": "10.7 km",
+      "Air_Quality": "Moderate"
+    },
+    "1975": {
+      "Temperature": "27.3°C",
+      "Wind": "8.7 km/h",
+      "UV_Index": 7,
+      "Humidity": "71%",
+      "Visibility": "10.7 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "1976": {
+      "Temperature": "27.4°C",
+      "Wind": "8.7 km/h",
+      "UV_Index": 7,
+      "Humidity": "71%",
+      "Visibility": "10.6 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1977": {
+      "Temperature": "27.4°C",
+      "Wind": "8.7 km/h",
+      "UV_Index": 7,
+      "Humidity": "71%",
+      "Visibility": "10.6 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "1978": {
+      "Temperature": "27.5°C",
+      "Wind": "8.7 km/h",
+      "UV_Index": 7,
+      "Humidity": "71%",
+      "Visibility": "10.5 km",
+      "Air_Quality": "Moderate"
+    },
+    "1979": {
+      "Temperature": "27.5°C",
+      "Wind": "8.8 km/h",
+      "UV_Index": 7,
+      "Humidity": "71%",
+      "Visibility": "10.5 km",
+      "Air_Quality": "Moderate"
+    },
+    "1980": {
+      "Temperature": "27.6°C",
+      "Wind": "8.8 km/h",
+      "UV_Index": 7,
+      "Humidity": "72%",
+      "Visibility": "10.4 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "1981": {
+      "Temperature": "27.7°C",
+      "Wind": "8.8 km/h",
+      "UV_Index": 7,
+      "Humidity": "72%",
+      "Visibility": "10.3 km",
+      "Air_Quality": "Moderate"
+    },
+    "1982": {
+      "Temperature": "27.7°C",
+      "Wind": "8.9 km/h",
+      "UV_Index": 7,
+      "Humidity": "72%",
+      "Visibility": "10.3 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "1983": {
+      "Temperature": "27.8°C",
+      "Wind": "8.9 km/h",
+      "UV_Index": 7,
+      "Humidity": "72%",
+      "Visibility": "10.2 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "1984": {
+      "Temperature": "27.8°C",
+      "Wind": "8.9 km/h",
+      "UV_Index": 7,
+      "Humidity": "72%",
+      "Visibility": "10.2 km",
+      "Air_Quality": "Moderate"
+    },
+    "1985": {
+      "Temperature": "27.9°C",
+      "Wind": "8.9 km/h",
+      "UV_Index": 7,
+      "Humidity": "72%",
+      "Visibility": "10.1 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "1986": {
+      "Temperature": "27.9°C",
+      "Wind": "9.0 km/h",
+      "UV_Index": 8,
+      "Humidity": "72%",
+      "Visibility": "10.1 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1987": {
+      "Temperature": "28.0°C",
+      "Wind": "9.0 km/h",
+      "UV_Index": 8,
+      "Humidity": "72%",
+      "Visibility": "10.0 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1988": {
+      "Temperature": "28.0°C",
+      "Wind": "9.0 km/h",
+      "UV_Index": 8,
+      "Humidity": "72%",
+      "Visibility": "10.0 km",
+      "Air_Quality": "Moderate"
+    },
+    "1989": {
+      "Temperature": "28.1°C",
+      "Wind": "9.0 km/h",
+      "UV_Index": 8,
+      "Humidity": "72%",
+      "Visibility": "9.9 km",
+      "Air_Quality": "Moderate"
+    },
+    "1990": {
+      "Temperature": "28.1°C",
+      "Wind": "9.1 km/h",
+      "UV_Index": 8,
+      "Humidity": "72%",
+      "Visibility": "9.9 km",
+      "Air_Quality": "Moderate"
+    },
+    "1991": {
+      "Temperature": "28.2°C",
+      "Wind": "9.1 km/h",
+      "UV_Index": 8,
+      "Humidity": "72%",
+      "Visibility": "9.8 km",
+      "Air_Quality": "Moderate"
+    },
+    "1992": {
+      "Temperature": "28.2°C",
+      "Wind": "9.1 km/h",
+      "UV_Index": 8,
+      "Humidity": "72%",
+      "Visibility": "9.8 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1993": {
+      "Temperature": "28.3°C",
+      "Wind": "9.1 km/h",
+      "UV_Index": 8,
+      "Humidity": "72%",
+      "Visibility": "9.7 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1994": {
+      "Temperature": "28.3°C",
+      "Wind": "9.2 km/h",
+      "UV_Index": 8,
+      "Humidity": "72%",
+      "Visibility": "9.7 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1995": {
+      "Temperature": "28.4°C",
+      "Wind": "9.2 km/h",
+      "UV_Index": 8,
+      "Humidity": "73%",
+      "Visibility": "9.6 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1996": {
+      "Temperature": "28.5°C",
+      "Wind": "9.2 km/h",
+      "UV_Index": 8,
+      "Humidity": "73%",
+      "Visibility": "9.5 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1997": {
+      "Temperature": "28.5°C",
+      "Wind": "9.3 km/h",
+      "UV_Index": 8,
+      "Humidity": "73%",
+      "Visibility": "9.5 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "1998": {
+      "Temperature": "28.6°C",
+      "Wind": "9.3 km/h",
+      "UV_Index": 8,
+      "Humidity": "73%",
+      "Visibility": "9.4 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1999": {
+      "Temperature": "28.6°C",
+      "Wind": "9.3 km/h",
+      "UV_Index": 8,
+      "Humidity": "73%",
+      "Visibility": "9.4 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2000": {
+      "Temperature": "28.7°C",
+      "Wind": "9.3 km/h",
+      "UV_Index": 8,
+      "Humidity": "73%",
+      "Visibility": "9.3 km",
+      "Air_Quality": "Moderate"
+    },
+    "2001": {
+      "Temperature": "28.7°C",
+      "Wind": "9.4 km/h",
+      "UV_Index": 8,
+      "Humidity": "73%",
+      "Visibility": "9.3 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2002": {
+      "Temperature": "28.8°C",
+      "Wind": "9.4 km/h",
+      "UV_Index": 8,
+      "Humidity": "73%",
+      "Visibility": "9.2 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2003": {
+      "Temperature": "28.8°C",
+      "Wind": "9.4 km/h",
+      "UV_Index": 8,
+      "Humidity": "73%",
+      "Visibility": "9.2 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2004": {
+      "Temperature": "28.9°C",
+      "Wind": "9.4 km/h",
+      "UV_Index": 8,
+      "Humidity": "73%",
+      "Visibility": "9.1 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2005": {
+      "Temperature": "28.9°C",
+      "Wind": "9.5 km/h",
+      "UV_Index": 8,
+      "Humidity": "73%",
+      "Visibility": "9.1 km",
+      "Air_Quality": "Moderate"
+    },
+    "2006": {
+      "Temperature": "29.0°C",
+      "Wind": "9.5 km/h",
+      "UV_Index": 8,
+      "Humidity": "73%",
+      "Visibility": "9.0 km",
+      "Air_Quality": "Moderate"
+    },
+    "2007": {
+      "Temperature": "29.0°C",
+      "Wind": "9.5 km/h",
+      "UV_Index": 8,
+      "Humidity": "73%",
+      "Visibility": "9.0 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2008": {
+      "Temperature": "29.1°C",
+      "Wind": "9.5 km/h",
+      "UV_Index": 8,
+      "Humidity": "73%",
+      "Visibility": "8.9 km",
+      "Air_Quality": "Moderate"
+    },
+    "2009": {
+      "Temperature": "29.1°C",
+      "Wind": "9.6 km/h",
+      "UV_Index": 8,
+      "Humidity": "73%",
+      "Visibility": "8.9 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2010": {
+      "Temperature": "29.2°C",
+      "Wind": "9.6 km/h",
+      "UV_Index": 8,
+      "Humidity": "74%",
+      "Visibility": "8.8 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2011": {
+      "Temperature": "29.3°C",
+      "Wind": "9.6 km/h",
+      "UV_Index": 8,
+      "Humidity": "74%",
+      "Visibility": "8.7 km",
+      "Air_Quality": "Moderate"
+    },
+    "2012": {
+      "Temperature": "29.3°C",
+      "Wind": "9.7 km/h",
+      "UV_Index": 8,
+      "Humidity": "74%",
+      "Visibility": "8.7 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2013": {
+      "Temperature": "29.4°C",
+      "Wind": "9.7 km/h",
+      "UV_Index": 8,
+      "Humidity": "74%",
+      "Visibility": "8.6 km",
+      "Air_Quality": "Moderate"
+    },
+    "2014": {
+      "Temperature": "29.4°C",
+      "Wind": "9.7 km/h",
+      "UV_Index": 8,
+      "Humidity": "74%",
+      "Visibility": "8.6 km",
+      "Air_Quality": "Moderate"
+    },
+    "2015": {
+      "Temperature": "29.5°C",
+      "Wind": "9.7 km/h",
+      "UV_Index": 8,
+      "Humidity": "74%",
+      "Visibility": "8.5 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2016": {
+      "Temperature": "29.5°C",
+      "Wind": "9.8 km/h",
+      "UV_Index": 8,
+      "Humidity": "74%",
+      "Visibility": "8.5 km",
+      "Air_Quality": "Moderate"
+    },
+    "2017": {
+      "Temperature": "29.6°C",
+      "Wind": "9.8 km/h",
+      "UV_Index": 8,
+      "Humidity": "74%",
+      "Visibility": "8.4 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2018": {
+      "Temperature": "29.6°C",
+      "Wind": "9.8 km/h",
+      "UV_Index": 8,
+      "Humidity": "74%",
+      "Visibility": "8.4 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2019": {
+      "Temperature": "29.7°C",
+      "Wind": "9.8 km/h",
+      "UV_Index": 8,
+      "Humidity": "74%",
+      "Visibility": "8.3 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2020": {
+      "Temperature": "29.7°C",
+      "Wind": "9.9 km/h",
+      "UV_Index": 8,
+      "Humidity": "74%",
+      "Visibility": "8.3 km",
+      "Air_Quality": "Moderate"
+    },
+    "2021": {
+      "Temperature": "29.8°C",
+      "Wind": "9.9 km/h",
+      "UV_Index": 8,
+      "Humidity": "74%",
+      "Visibility": "8.2 km",
+      "Air_Quality": "Moderate"
+    },
+    "2022": {
+      "Temperature": "29.8°C",
+      "Wind": "9.9 km/h",
+      "UV_Index": 8,
+      "Humidity": "74%",
+      "Visibility": "8.2 km",
+      "Air_Quality": "Moderate"
+    },
+    "2023": {
+      "Temperature": "29.9°C",
+      "Wind": "9.9 km/h",
+      "UV_Index": 8,
+      "Humidity": "74%",
+      "Visibility": "8.1 km",
+      "Air_Quality": "Moderate"
+    },
+    "2024": {
+      "Temperature": "29.9°C",
+      "Wind": "10.0 km/h",
+      "UV_Index": 9,
+      "Humidity": "74%",
+      "Visibility": "8.1 km",
+      "Air_Quality": "Moderate"
+    },
+    "2025": {
+      "Temperature": "30°C",
+      "Wind": "10 km/h",
+      "UV_Index": 9,
+      "Humidity": "75%",
+      "Visibility": "8 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2026": {
+      "Temperature": "30.1°C",
+      "Wind": "10.1 km/h",
+      "UV_Index": 9,
+      "Humidity": "75%",
+      "Visibility": "8.0 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2027": {
+      "Temperature": "30.1°C",
+      "Wind": "10.1 km/h",
+      "UV_Index": 9,
+      "Humidity": "75%",
+      "Visibility": "7.9 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2028": {
+      "Temperature": "30.2°C",
+      "Wind": "10.2 km/h",
+      "UV_Index": 9,
+      "Humidity": "75%",
+      "Visibility": "7.9 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2029": {
+      "Temperature": "30.3°C",
+      "Wind": "10.2 km/h",
+      "UV_Index": 9,
+      "Humidity": "75%",
+      "Visibility": "7.8 km",
+      "Air_Quality": "Moderate"
+    },
+    "2030": {
+      "Temperature": "30.3°C",
+      "Wind": "10.3 km/h",
+      "UV_Index": 9,
+      "Humidity": "75%",
+      "Visibility": "7.8 km",
+      "Air_Quality": "Moderate"
+    },
+    "2031": {
+      "Temperature": "30.4°C",
+      "Wind": "10.3 km/h",
+      "UV_Index": 9,
+      "Humidity": "75%",
+      "Visibility": "7.8 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2032": {
+      "Temperature": "30.5°C",
+      "Wind": "10.4 km/h",
+      "UV_Index": 9,
+      "Humidity": "75%",
+      "Visibility": "7.7 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2033": {
+      "Temperature": "30.5°C",
+      "Wind": "10.4 km/h",
+      "UV_Index": 9,
+      "Humidity": "75%",
+      "Visibility": "7.7 km",
+      "Air_Quality": "Moderate"
+    },
+    "2034": {
+      "Temperature": "30.6°C",
+      "Wind": "10.5 km/h",
+      "UV_Index": 9,
+      "Humidity": "75%",
+      "Visibility": "7.6 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2035": {
+      "Temperature": "30.7°C",
+      "Wind": "10.5 km/h",
+      "UV_Index": 9,
+      "Humidity": "75%",
+      "Visibility": "7.6 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2036": {
+      "Temperature": "30.7°C",
+      "Wind": "10.6 km/h",
+      "UV_Index": 9,
+      "Humidity": "75%",
+      "Visibility": "7.6 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2037": {
+      "Temperature": "30.8°C",
+      "Wind": "10.6 km/h",
+      "UV_Index": 9,
+      "Humidity": "75%",
+      "Visibility": "7.5 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2038": {
+      "Temperature": "30.9°C",
+      "Wind": "10.7 km/h",
+      "UV_Index": 9,
+      "Humidity": "75%",
+      "Visibility": "7.5 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2039": {
+      "Temperature": "30.9°C",
+      "Wind": "10.7 km/h",
+      "UV_Index": 9,
+      "Humidity": "75%",
+      "Visibility": "7.4 km",
+      "Air_Quality": "Moderate"
+    },
+    "2040": {
+      "Temperature": "31.0°C",
+      "Wind": "10.8 km/h",
+      "UV_Index": 9,
+      "Humidity": "76%",
+      "Visibility": "7.4 km",
+      "Air_Quality": "Moderate"
+    },
+    "2041": {
+      "Temperature": "31.1°C",
+      "Wind": "10.9 km/h",
+      "UV_Index": 9,
+      "Humidity": "76%",
+      "Visibility": "7.4 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2042": {
+      "Temperature": "31.1°C",
+      "Wind": "10.9 km/h",
+      "UV_Index": 9,
+      "Humidity": "76%",
+      "Visibility": "7.3 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2043": {
+      "Temperature": "31.2°C",
+      "Wind": "11.0 km/h",
+      "UV_Index": 9,
+      "Humidity": "76%",
+      "Visibility": "7.3 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2044": {
+      "Temperature": "31.3°C",
+      "Wind": "11.0 km/h",
+      "UV_Index": 9,
+      "Humidity": "76%",
+      "Visibility": "7.2 km",
+      "Air_Quality": "Moderate"
+    },
+    "2045": {
+      "Temperature": "31.3°C",
+      "Wind": "11.1 km/h",
+      "UV_Index": 9,
+      "Humidity": "76%",
+      "Visibility": "7.2 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2046": {
+      "Temperature": "31.4°C",
+      "Wind": "11.1 km/h",
+      "UV_Index": 9,
+      "Humidity": "76%",
+      "Visibility": "7.2 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2047": {
+      "Temperature": "31.5°C",
+      "Wind": "11.2 km/h",
+      "UV_Index": 9,
+      "Humidity": "76%",
+      "Visibility": "7.1 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2048": {
+      "Temperature": "31.5°C",
+      "Wind": "11.2 km/h",
+      "UV_Index": 9,
+      "Humidity": "76%",
+      "Visibility": "7.1 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2049": {
+      "Temperature": "31.6°C",
+      "Wind": "11.3 km/h",
+      "UV_Index": 9,
+      "Humidity": "76%",
+      "Visibility": "7.0 km",
+      "Air_Quality": "Moderate"
+    },
+    "2050": {
+      "Temperature": "31.7°C",
+      "Wind": "11.3 km/h",
+      "UV_Index": 9,
+      "Humidity": "76%",
+      "Visibility": "7.0 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2051": {
+      "Temperature": "31.7°C",
+      "Wind": "11.4 km/h",
+      "UV_Index": 9,
+      "Humidity": "76%",
+      "Visibility": "7.0 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2052": {
+      "Temperature": "31.8°C",
+      "Wind": "11.4 km/h",
+      "UV_Index": 9,
+      "Humidity": "76%",
+      "Visibility": "6.9 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2053": {
+      "Temperature": "31.9°C",
+      "Wind": "11.5 km/h",
+      "UV_Index": 9,
+      "Humidity": "76%",
+      "Visibility": "6.9 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2054": {
+      "Temperature": "31.9°C",
+      "Wind": "11.5 km/h",
+      "UV_Index": 9,
+      "Humidity": "76%",
+      "Visibility": "6.8 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2055": {
+      "Temperature": "32.0°C",
+      "Wind": "11.6 km/h",
+      "UV_Index": 9,
+      "Humidity": "77%",
+      "Visibility": "6.8 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2056": {
+      "Temperature": "32.1°C",
+      "Wind": "11.7 km/h",
+      "UV_Index": 9,
+      "Humidity": "77%",
+      "Visibility": "6.8 km",
+      "Air_Quality": "Moderate"
+    },
+    "2057": {
+      "Temperature": "32.1°C",
+      "Wind": "11.7 km/h",
+      "UV_Index": 9,
+      "Humidity": "77%",
+      "Visibility": "6.7 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2058": {
+      "Temperature": "32.2°C",
+      "Wind": "11.8 km/h",
+      "UV_Index": 9,
+      "Humidity": "77%",
+      "Visibility": "6.7 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2059": {
+      "Temperature": "32.3°C",
+      "Wind": "11.8 km/h",
+      "UV_Index": 9,
+      "Humidity": "77%",
+      "Visibility": "6.6 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2060": {
+      "Temperature": "32.3°C",
+      "Wind": "11.9 km/h",
+      "UV_Index": 9,
+      "Humidity": "77%",
+      "Visibility": "6.6 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2061": {
+      "Temperature": "32.4°C",
+      "Wind": "11.9 km/h",
+      "UV_Index": 10,
+      "Humidity": "77%",
+      "Visibility": "6.6 km",
+      "Air_Quality": "Moderate"
+    },
+    "2062": {
+      "Temperature": "32.5°C",
+      "Wind": "12.0 km/h",
+      "UV_Index": 10,
+      "Humidity": "77%",
+      "Visibility": "6.5 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2063": {
+      "Temperature": "32.5°C",
+      "Wind": "12.0 km/h",
+      "UV_Index": 10,
+      "Humidity": "77%",
+      "Visibility": "6.5 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2064": {
+      "Temperature": "32.6°C",
+      "Wind": "12.1 km/h",
+      "UV_Index": 10,
+      "Humidity": "77%",
+      "Visibility": "6.4 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2065": {
+      "Temperature": "32.7°C",
+      "Wind": "12.1 km/h",
+      "UV_Index": 10,
+      "Humidity": "77%",
+      "Visibility": "6.4 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2066": {
+      "Temperature": "32.7°C",
+      "Wind": "12.2 km/h",
+      "UV_Index": 10,
+      "Humidity": "77%",
+      "Visibility": "6.4 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2067": {
+      "Temperature": "32.8°C",
+      "Wind": "12.2 km/h",
+      "UV_Index": 10,
+      "Humidity": "77%",
+      "Visibility": "6.3 km",
+      "Air_Quality": "Moderate"
+    },
+    "2068": {
+      "Temperature": "32.9°C",
+      "Wind": "12.3 km/h",
+      "UV_Index": 10,
+      "Humidity": "77%",
+      "Visibility": "6.3 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2069": {
+      "Temperature": "32.9°C",
+      "Wind": "12.3 km/h",
+      "UV_Index": 10,
+      "Humidity": "77%",
+      "Visibility": "6.2 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2070": {
+      "Temperature": "33.0°C",
+      "Wind": "12.4 km/h",
+      "UV_Index": 10,
+      "Humidity": "78%",
+      "Visibility": "6.2 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2071": {
+      "Temperature": "33.1°C",
+      "Wind": "12.5 km/h",
+      "UV_Index": 10,
+      "Humidity": "78%",
+      "Visibility": "6.2 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2072": {
+      "Temperature": "33.1°C",
+      "Wind": "12.5 km/h",
+      "UV_Index": 10,
+      "Humidity": "78%",
+      "Visibility": "6.1 km",
+      "Air_Quality": "Moderate"
+    },
+    "2073": {
+      "Temperature": "33.2°C",
+      "Wind": "12.6 km/h",
+      "UV_Index": 10,
+      "Humidity": "78%",
+      "Visibility": "6.1 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2074": {
+      "Temperature": "33.3°C",
+      "Wind": "12.6 km/h",
+      "UV_Index": 10,
+      "Humidity": "78%",
+      "Visibility": "6.0 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2075": {
+      "Temperature": "33.3°C",
+      "Wind": "12.7 km/h",
+      "UV_Index": 10,
+      "Humidity": "78%",
+      "Visibility": "6.0 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2076": {
+      "Temperature": "33.4°C",
+      "Wind": "12.7 km/h",
+      "UV_Index": 10,
+      "Humidity": "78%",
+      "Visibility": "6.0 km",
+      "Air_Quality": "Moderate"
+    },
+    "2077": {
+      "Temperature": "33.5°C",
+      "Wind": "12.8 km/h",
+      "UV_Index": 10,
+      "Humidity": "78%",
+      "Visibility": "5.9 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2078": {
+      "Temperature": "33.5°C",
+      "Wind": "12.8 km/h",
+      "UV_Index": 10,
+      "Humidity": "78%",
+      "Visibility": "5.9 km",
+      "Air_Quality": "Moderate"
+    },
+    "2079": {
+      "Temperature": "33.6°C",
+      "Wind": "12.9 km/h",
+      "UV_Index": 10,
+      "Humidity": "78%",
+      "Visibility": "5.8 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2080": {
+      "Temperature": "33.7°C",
+      "Wind": "12.9 km/h",
+      "UV_Index": 10,
+      "Humidity": "78%",
+      "Visibility": "5.8 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2081": {
+      "Temperature": "33.7°C",
+      "Wind": "13.0 km/h",
+      "UV_Index": 10,
+      "Humidity": "78%",
+      "Visibility": "5.8 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2082": {
+      "Temperature": "33.8°C",
+      "Wind": "13.0 km/h",
+      "UV_Index": 10,
+      "Humidity": "78%",
+      "Visibility": "5.7 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2083": {
+      "Temperature": "33.9°C",
+      "Wind": "13.1 km/h",
+      "UV_Index": 10,
+      "Humidity": "78%",
+      "Visibility": "5.7 km",
+      "Air_Quality": "Moderate"
+    },
+    "2084": {
+      "Temperature": "33.9°C",
+      "Wind": "13.1 km/h",
+      "UV_Index": 10,
+      "Humidity": "78%",
+      "Visibility": "5.6 km",
+      "Air_Quality": "Moderate"
+    },
+    "2085": {
+      "Temperature": "34.0°C",
+      "Wind": "13.2 km/h",
+      "UV_Index": 10,
+      "Humidity": "79%",
+      "Visibility": "5.6 km",
+      "Air_Quality": "Moderate"
+    },
+    "2086": {
+      "Temperature": "34.1°C",
+      "Wind": "13.3 km/h",
+      "UV_Index": 10,
+      "Humidity": "79%",
+      "Visibility": "5.6 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2087": {
+      "Temperature": "34.1°C",
+      "Wind": "13.3 km/h",
+      "UV_Index": 10,
+      "Humidity": "79%",
+      "Visibility": "5.5 km",
+      "Air_Quality": "Moderate"
+    },
+    "2088": {
+      "Temperature": "34.2°C",
+      "Wind": "13.4 km/h",
+      "UV_Index": 10,
+      "Humidity": "79%",
+      "Visibility": "5.5 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2089": {
+      "Temperature": "34.3°C",
+      "Wind": "13.4 km/h",
+      "UV_Index": 10,
+      "Humidity": "79%",
+      "Visibility": "5.4 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2090": {
+      "Temperature": "34.3°C",
+      "Wind": "13.5 km/h",
+      "UV_Index": 10,
+      "Humidity": "79%",
+      "Visibility": "5.4 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2091": {
+      "Temperature": "34.4°C",
+      "Wind": "13.5 km/h",
+      "UV_Index": 10,
+      "Humidity": "79%",
+      "Visibility": "5.4 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2092": {
+      "Temperature": "34.5°C",
+      "Wind": "13.6 km/h",
+      "UV_Index": 10,
+      "Humidity": "79%",
+      "Visibility": "5.3 km",
+      "Air_Quality": "Moderate"
+    },
+    "2093": {
+      "Temperature": "34.5°C",
+      "Wind": "13.6 km/h",
+      "UV_Index": 10,
+      "Humidity": "79%",
+      "Visibility": "5.3 km",
+      "Air_Quality": "Moderate"
+    },
+    "2094": {
+      "Temperature": "34.6°C",
+      "Wind": "13.7 km/h",
+      "UV_Index": 10,
+      "Humidity": "79%",
+      "Visibility": "5.2 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2095": {
+      "Temperature": "34.7°C",
+      "Wind": "13.7 km/h",
+      "UV_Index": 10,
+      "Humidity": "79%",
+      "Visibility": "5.2 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2096": {
+      "Temperature": "34.7°C",
+      "Wind": "13.8 km/h",
+      "UV_Index": 10,
+      "Humidity": "79%",
+      "Visibility": "5.2 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2097": {
+      "Temperature": "34.8°C",
+      "Wind": "13.8 km/h",
+      "UV_Index": 10,
+      "Humidity": "79%",
+      "Visibility": "5.1 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2098": {
+      "Temperature": "34.9°C",
+      "Wind": "13.9 km/h",
+      "UV_Index": 10,
+      "Humidity": "79%",
+      "Visibility": "5.1 km",
+      "Air_Quality": "Very Unhealthy"
+    },
+    "2099": {
+      "Temperature": "34.9°C",
+      "Wind": "13.9 km/h",
+      "UV_Index": 11,
+      "Humidity": "79%",
+      "Visibility": "5.0 km",
+      "Air_Quality": "Moderate"
+    },
+    "2100": {
+      "Temperature": "35°C",
+      "Wind": "14 km/h",
+      "UV_Index": 11,
+      "Humidity": "80%",
+      "Visibility": "5 km",
+      "Air_Quality": "Very Unhealthy"
+    }
+  },
+  "Rainforests": {
+    "1950": {
+      "Temperature": "22°C",
+      "Wind": "10 km/h",
+      "UV_Index": 6,
+      "Humidity": "65%",
+      "Visibility": "10 km",
+      "Air_Quality": "Good"
+    },
+    "1951": {
+      "Temperature": "22.0°C",
+      "Wind": "10.0 km/h",
+      "UV_Index": 6,
+      "Humidity": "65%",
+      "Visibility": "10.0 km",
+      "Air_Quality": "Moderate"
+    },
+    "1952": {
+      "Temperature": "22.1°C",
+      "Wind": "10.1 km/h",
+      "UV_Index": 6,
+      "Humidity": "65%",
+      "Visibility": "10.0 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1953": {
+      "Temperature": "22.1°C",
+      "Wind": "10.1 km/h",
+      "UV_Index": 6,
+      "Humidity": "65%",
+      "Visibility": "10.0 km",
+      "Air_Quality": "Moderate"
+    },
+    "1954": {
+      "Temperature": "22.2°C",
+      "Wind": "10.1 km/h",
+      "UV_Index": 6,
+      "Humidity": "65%",
+      "Visibility": "9.9 km",
+      "Air_Quality": "Good"
+    },
+    "1955": {
+      "Temperature": "22.2°C",
+      "Wind": "10.1 km/h",
+      "UV_Index": 6,
+      "Humidity": "65%",
+      "Visibility": "9.9 km",
+      "Air_Quality": "Moderate"
+    },
+    "1956": {
+      "Temperature": "22.2°C",
+      "Wind": "10.2 km/h",
+      "UV_Index": 6,
+      "Humidity": "65%",
+      "Visibility": "9.9 km",
+      "Air_Quality": "Good"
+    },
+    "1957": {
+      "Temperature": "22.3°C",
+      "Wind": "10.2 km/h",
+      "UV_Index": 6,
+      "Humidity": "65%",
+      "Visibility": "9.9 km",
+      "Air_Quality": "Good"
+    },
+    "1958": {
+      "Temperature": "22.3°C",
+      "Wind": "10.2 km/h",
+      "UV_Index": 6,
+      "Humidity": "65%",
+      "Visibility": "9.9 km",
+      "Air_Quality": "Good"
+    },
+    "1959": {
+      "Temperature": "22.4°C",
+      "Wind": "10.2 km/h",
+      "UV_Index": 6,
+      "Humidity": "65%",
+      "Visibility": "9.9 km",
+      "Air_Quality": "Moderate"
+    },
+    "1960": {
+      "Temperature": "22.4°C",
+      "Wind": "10.3 km/h",
+      "UV_Index": 6,
+      "Humidity": "65%",
+      "Visibility": "9.9 km",
+      "Air_Quality": "Moderate"
+    },
+    "1961": {
+      "Temperature": "22.4°C",
+      "Wind": "10.3 km/h",
+      "UV_Index": 6,
+      "Humidity": "65%",
+      "Visibility": "9.9 km",
+      "Air_Quality": "Good"
+    },
+    "1962": {
+      "Temperature": "22.5°C",
+      "Wind": "10.3 km/h",
+      "UV_Index": 6,
+      "Humidity": "65%",
+      "Visibility": "9.8 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1963": {
+      "Temperature": "22.5°C",
+      "Wind": "10.3 km/h",
+      "UV_Index": 6,
+      "Humidity": "65%",
+      "Visibility": "9.8 km",
+      "Air_Quality": "Good"
+    },
+    "1964": {
+      "Temperature": "22.6°C",
+      "Wind": "10.4 km/h",
+      "UV_Index": 6,
+      "Humidity": "65%",
+      "Visibility": "9.8 km",
+      "Air_Quality": "Moderate"
+    },
+    "1965": {
+      "Temperature": "22.6°C",
+      "Wind": "10.4 km/h",
+      "UV_Index": 6,
+      "Humidity": "66%",
+      "Visibility": "9.8 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1966": {
+      "Temperature": "22.6°C",
+      "Wind": "10.4 km/h",
+      "UV_Index": 6,
+      "Humidity": "66%",
+      "Visibility": "9.8 km",
+      "Air_Quality": "Moderate"
+    },
+    "1967": {
+      "Temperature": "22.7°C",
+      "Wind": "10.5 km/h",
+      "UV_Index": 6,
+      "Humidity": "66%",
+      "Visibility": "9.8 km",
+      "Air_Quality": "Moderate"
+    },
+    "1968": {
+      "Temperature": "22.7°C",
+      "Wind": "10.5 km/h",
+      "UV_Index": 6,
+      "Humidity": "66%",
+      "Visibility": "9.8 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1969": {
+      "Temperature": "22.8°C",
+      "Wind": "10.5 km/h",
+      "UV_Index": 6,
+      "Humidity": "66%",
+      "Visibility": "9.7 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1970": {
+      "Temperature": "22.8°C",
+      "Wind": "10.5 km/h",
+      "UV_Index": 6,
+      "Humidity": "66%",
+      "Visibility": "9.7 km",
+      "Air_Quality": "Moderate"
+    },
+    "1971": {
+      "Temperature": "22.8°C",
+      "Wind": "10.6 km/h",
+      "UV_Index": 6,
+      "Humidity": "66%",
+      "Visibility": "9.7 km",
+      "Air_Quality": "Good"
+    },
+    "1972": {
+      "Temperature": "22.9°C",
+      "Wind": "10.6 km/h",
+      "UV_Index": 6,
+      "Humidity": "66%",
+      "Visibility": "9.7 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1973": {
+      "Temperature": "22.9°C",
+      "Wind": "10.6 km/h",
+      "UV_Index": 6,
+      "Humidity": "66%",
+      "Visibility": "9.7 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1974": {
+      "Temperature": "23.0°C",
+      "Wind": "10.6 km/h",
+      "UV_Index": 6,
+      "Humidity": "66%",
+      "Visibility": "9.7 km",
+      "Air_Quality": "Moderate"
+    },
+    "1975": {
+      "Temperature": "23.0°C",
+      "Wind": "10.7 km/h",
+      "UV_Index": 6,
+      "Humidity": "66%",
+      "Visibility": "9.7 km",
+      "Air_Quality": "Good"
+    },
+    "1976": {
+      "Temperature": "23.0°C",
+      "Wind": "10.7 km/h",
+      "UV_Index": 6,
+      "Humidity": "66%",
+      "Visibility": "9.7 km",
+      "Air_Quality": "Good"
+    },
+    "1977": {
+      "Temperature": "23.1°C",
+      "Wind": "10.7 km/h",
+      "UV_Index": 6,
+      "Humidity": "66%",
+      "Visibility": "9.6 km",
+      "Air_Quality": "Moderate"
+    },
+    "1978": {
+      "Temperature": "23.1°C",
+      "Wind": "10.7 km/h",
+      "UV_Index": 6,
+      "Humidity": "66%",
+      "Visibility": "9.6 km",
+      "Air_Quality": "Moderate"
+    },
+    "1979": {
+      "Temperature": "23.2°C",
+      "Wind": "10.8 km/h",
+      "UV_Index": 6,
+      "Humidity": "66%",
+      "Visibility": "9.6 km",
+      "Air_Quality": "Moderate"
+    },
+    "1980": {
+      "Temperature": "23.2°C",
+      "Wind": "10.8 km/h",
+      "UV_Index": 6,
+      "Humidity": "67%",
+      "Visibility": "9.6 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1981": {
+      "Temperature": "23.2°C",
+      "Wind": "10.8 km/h",
+      "UV_Index": 6,
+      "Humidity": "67%",
+      "Visibility": "9.6 km",
+      "Air_Quality": "Good"
+    },
+    "1982": {
+      "Temperature": "23.3°C",
+      "Wind": "10.9 km/h",
+      "UV_Index": 6,
+      "Humidity": "67%",
+      "Visibility": "9.6 km",
+      "Air_Quality": "Moderate"
+    },
+    "1983": {
+      "Temperature": "23.3°C",
+      "Wind": "10.9 km/h",
+      "UV_Index": 6,
+      "Humidity": "67%",
+      "Visibility": "9.6 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1984": {
+      "Temperature": "23.4°C",
+      "Wind": "10.9 km/h",
+      "UV_Index": 6,
+      "Humidity": "67%",
+      "Visibility": "9.5 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1985": {
+      "Temperature": "23.4°C",
+      "Wind": "10.9 km/h",
+      "UV_Index": 6,
+      "Humidity": "67%",
+      "Visibility": "9.5 km",
+      "Air_Quality": "Good"
+    },
+    "1986": {
+      "Temperature": "23.4°C",
+      "Wind": "11.0 km/h",
+      "UV_Index": 7,
+      "Humidity": "67%",
+      "Visibility": "9.5 km",
+      "Air_Quality": "Good"
+    },
+    "1987": {
+      "Temperature": "23.5°C",
+      "Wind": "11.0 km/h",
+      "UV_Index": 7,
+      "Humidity": "67%",
+      "Visibility": "9.5 km",
+      "Air_Quality": "Good"
+    },
+    "1988": {
+      "Temperature": "23.5°C",
+      "Wind": "11.0 km/h",
+      "UV_Index": 7,
+      "Humidity": "67%",
+      "Visibility": "9.5 km",
+      "Air_Quality": "Moderate"
+    },
+    "1989": {
+      "Temperature": "23.6°C",
+      "Wind": "11.0 km/h",
+      "UV_Index": 7,
+      "Humidity": "67%",
+      "Visibility": "9.5 km",
+      "Air_Quality": "Moderate"
+    },
+    "1990": {
+      "Temperature": "23.6°C",
+      "Wind": "11.1 km/h",
+      "UV_Index": 7,
+      "Humidity": "67%",
+      "Visibility": "9.5 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1991": {
+      "Temperature": "23.6°C",
+      "Wind": "11.1 km/h",
+      "UV_Index": 7,
+      "Humidity": "67%",
+      "Visibility": "9.5 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1992": {
+      "Temperature": "23.7°C",
+      "Wind": "11.1 km/h",
+      "UV_Index": 7,
+      "Humidity": "67%",
+      "Visibility": "9.4 km",
+      "Air_Quality": "Moderate"
+    },
+    "1993": {
+      "Temperature": "23.7°C",
+      "Wind": "11.1 km/h",
+      "UV_Index": 7,
+      "Humidity": "67%",
+      "Visibility": "9.4 km",
+      "Air_Quality": "Moderate"
+    },
+    "1994": {
+      "Temperature": "23.8°C",
+      "Wind": "11.2 km/h",
+      "UV_Index": 7,
+      "Humidity": "67%",
+      "Visibility": "9.4 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1995": {
+      "Temperature": "23.8°C",
+      "Wind": "11.2 km/h",
+      "UV_Index": 7,
+      "Humidity": "68%",
+      "Visibility": "9.4 km",
+      "Air_Quality": "Moderate"
+    },
+    "1996": {
+      "Temperature": "23.8°C",
+      "Wind": "11.2 km/h",
+      "UV_Index": 7,
+      "Humidity": "68%",
+      "Visibility": "9.4 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1997": {
+      "Temperature": "23.9°C",
+      "Wind": "11.3 km/h",
+      "UV_Index": 7,
+      "Humidity": "68%",
+      "Visibility": "9.4 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "1998": {
+      "Temperature": "23.9°C",
+      "Wind": "11.3 km/h",
+      "UV_Index": 7,
+      "Humidity": "68%",
+      "Visibility": "9.4 km",
+      "Air_Quality": "Moderate"
+    },
+    "1999": {
+      "Temperature": "24.0°C",
+      "Wind": "11.3 km/h",
+      "UV_Index": 7,
+      "Humidity": "68%",
+      "Visibility": "9.3 km",
+      "Air_Quality": "Moderate"
+    },
+    "2000": {
+      "Temperature": "24.0°C",
+      "Wind": "11.3 km/h",
+      "UV_Index": 7,
+      "Humidity": "68%",
+      "Visibility": "9.3 km",
+      "Air_Quality": "Good"
+    },
+    "2001": {
+      "Temperature": "24.0°C",
+      "Wind": "11.4 km/h",
+      "UV_Index": 7,
+      "Humidity": "68%",
+      "Visibility": "9.3 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2002": {
+      "Temperature": "24.1°C",
+      "Wind": "11.4 km/h",
+      "UV_Index": 7,
+      "Humidity": "68%",
+      "Visibility": "9.3 km",
+      "Air_Quality": "Moderate"
+    },
+    "2003": {
+      "Temperature": "24.1°C",
+      "Wind": "11.4 km/h",
+      "UV_Index": 7,
+      "Humidity": "68%",
+      "Visibility": "9.3 km",
+      "Air_Quality": "Good"
+    },
+    "2004": {
+      "Temperature": "24.2°C",
+      "Wind": "11.4 km/h",
+      "UV_Index": 7,
+      "Humidity": "68%",
+      "Visibility": "9.3 km",
+      "Air_Quality": "Moderate"
+    },
+    "2005": {
+      "Temperature": "24.2°C",
+      "Wind": "11.5 km/h",
+      "UV_Index": 7,
+      "Humidity": "68%",
+      "Visibility": "9.3 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2006": {
+      "Temperature": "24.2°C",
+      "Wind": "11.5 km/h",
+      "UV_Index": 7,
+      "Humidity": "68%",
+      "Visibility": "9.3 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2007": {
+      "Temperature": "24.3°C",
+      "Wind": "11.5 km/h",
+      "UV_Index": 7,
+      "Humidity": "68%",
+      "Visibility": "9.2 km",
+      "Air_Quality": "Good"
+    },
+    "2008": {
+      "Temperature": "24.3°C",
+      "Wind": "11.5 km/h",
+      "UV_Index": 7,
+      "Humidity": "68%",
+      "Visibility": "9.2 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2009": {
+      "Temperature": "24.4°C",
+      "Wind": "11.6 km/h",
+      "UV_Index": 7,
+      "Humidity": "68%",
+      "Visibility": "9.2 km",
+      "Air_Quality": "Good"
+    },
+    "2010": {
+      "Temperature": "24.4°C",
+      "Wind": "11.6 km/h",
+      "UV_Index": 7,
+      "Humidity": "69%",
+      "Visibility": "9.2 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2011": {
+      "Temperature": "24.4°C",
+      "Wind": "11.6 km/h",
+      "UV_Index": 7,
+      "Humidity": "69%",
+      "Visibility": "9.2 km",
+      "Air_Quality": "Good"
+    },
+    "2012": {
+      "Temperature": "24.5°C",
+      "Wind": "11.7 km/h",
+      "UV_Index": 7,
+      "Humidity": "69%",
+      "Visibility": "9.2 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2013": {
+      "Temperature": "24.5°C",
+      "Wind": "11.7 km/h",
+      "UV_Index": 7,
+      "Humidity": "69%",
+      "Visibility": "9.2 km",
+      "Air_Quality": "Moderate"
+    },
+    "2014": {
+      "Temperature": "24.6°C",
+      "Wind": "11.7 km/h",
+      "UV_Index": 7,
+      "Humidity": "69%",
+      "Visibility": "9.1 km",
+      "Air_Quality": "Moderate"
+    },
+    "2015": {
+      "Temperature": "24.6°C",
+      "Wind": "11.7 km/h",
+      "UV_Index": 7,
+      "Humidity": "69%",
+      "Visibility": "9.1 km",
+      "Air_Quality": "Moderate"
+    },
+    "2016": {
+      "Temperature": "24.6°C",
+      "Wind": "11.8 km/h",
+      "UV_Index": 7,
+      "Humidity": "69%",
+      "Visibility": "9.1 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2017": {
+      "Temperature": "24.7°C",
+      "Wind": "11.8 km/h",
+      "UV_Index": 7,
+      "Humidity": "69%",
+      "Visibility": "9.1 km",
+      "Air_Quality": "Moderate"
+    },
+    "2018": {
+      "Temperature": "24.7°C",
+      "Wind": "11.8 km/h",
+      "UV_Index": 7,
+      "Humidity": "69%",
+      "Visibility": "9.1 km",
+      "Air_Quality": "Good"
+    },
+    "2019": {
+      "Temperature": "24.8°C",
+      "Wind": "11.8 km/h",
+      "UV_Index": 7,
+      "Humidity": "69%",
+      "Visibility": "9.1 km",
+      "Air_Quality": "Moderate"
+    },
+    "2020": {
+      "Temperature": "24.8°C",
+      "Wind": "11.9 km/h",
+      "UV_Index": 7,
+      "Humidity": "69%",
+      "Visibility": "9.1 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2021": {
+      "Temperature": "24.8°C",
+      "Wind": "11.9 km/h",
+      "UV_Index": 7,
+      "Humidity": "69%",
+      "Visibility": "9.1 km",
+      "Air_Quality": "Good"
+    },
+    "2022": {
+      "Temperature": "24.9°C",
+      "Wind": "11.9 km/h",
+      "UV_Index": 7,
+      "Humidity": "69%",
+      "Visibility": "9.0 km",
+      "Air_Quality": "Good"
+    },
+    "2023": {
+      "Temperature": "24.9°C",
+      "Wind": "11.9 km/h",
+      "UV_Index": 7,
+      "Humidity": "69%",
+      "Visibility": "9.0 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2024": {
+      "Temperature": "25.0°C",
+      "Wind": "12.0 km/h",
+      "UV_Index": 8,
+      "Humidity": "69%",
+      "Visibility": "9.0 km",
+      "Air_Quality": "Moderate"
+    },
+    "2025": {
+      "Temperature": "25°C",
+      "Wind": "12 km/h",
+      "UV_Index": 8,
+      "Humidity": "70%",
+      "Visibility": "9 km",
+      "Air_Quality": "Moderate"
+    },
+    "2026": {
+      "Temperature": "25.1°C",
+      "Wind": "12.0 km/h",
+      "UV_Index": 8,
+      "Humidity": "70%",
+      "Visibility": "9.0 km",
+      "Air_Quality": "Moderate"
+    },
+    "2027": {
+      "Temperature": "25.1°C",
+      "Wind": "12.1 km/h",
+      "UV_Index": 8,
+      "Humidity": "70%",
+      "Visibility": "8.9 km",
+      "Air_Quality": "Moderate"
+    },
+    "2028": {
+      "Temperature": "25.2°C",
+      "Wind": "12.1 km/h",
+      "UV_Index": 8,
+      "Humidity": "70%",
+      "Visibility": "8.9 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2029": {
+      "Temperature": "25.2°C",
+      "Wind": "12.2 km/h",
+      "UV_Index": 8,
+      "Humidity": "70%",
+      "Visibility": "8.8 km",
+      "Air_Quality": "Moderate"
+    },
+    "2030": {
+      "Temperature": "25.3°C",
+      "Wind": "12.2 km/h",
+      "UV_Index": 8,
+      "Humidity": "70%",
+      "Visibility": "8.8 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2031": {
+      "Temperature": "25.3°C",
+      "Wind": "12.2 km/h",
+      "UV_Index": 8,
+      "Humidity": "70%",
+      "Visibility": "8.8 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2032": {
+      "Temperature": "25.4°C",
+      "Wind": "12.3 km/h",
+      "UV_Index": 8,
+      "Humidity": "70%",
+      "Visibility": "8.7 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2033": {
+      "Temperature": "25.4°C",
+      "Wind": "12.3 km/h",
+      "UV_Index": 8,
+      "Humidity": "70%",
+      "Visibility": "8.7 km",
+      "Air_Quality": "Moderate"
+    },
+    "2034": {
+      "Temperature": "25.5°C",
+      "Wind": "12.4 km/h",
+      "UV_Index": 8,
+      "Humidity": "70%",
+      "Visibility": "8.6 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2035": {
+      "Temperature": "25.5°C",
+      "Wind": "12.4 km/h",
+      "UV_Index": 8,
+      "Humidity": "70%",
+      "Visibility": "8.6 km",
+      "Air_Quality": "Good"
+    },
+    "2036": {
+      "Temperature": "25.6°C",
+      "Wind": "12.4 km/h",
+      "UV_Index": 8,
+      "Humidity": "70%",
+      "Visibility": "8.6 km",
+      "Air_Quality": "Moderate"
+    },
+    "2037": {
+      "Temperature": "25.6°C",
+      "Wind": "12.5 km/h",
+      "UV_Index": 8,
+      "Humidity": "70%",
+      "Visibility": "8.5 km",
+      "Air_Quality": "Moderate"
+    },
+    "2038": {
+      "Temperature": "25.7°C",
+      "Wind": "12.5 km/h",
+      "UV_Index": 8,
+      "Humidity": "70%",
+      "Visibility": "8.5 km",
+      "Air_Quality": "Good"
+    },
+    "2039": {
+      "Temperature": "25.7°C",
+      "Wind": "12.6 km/h",
+      "UV_Index": 8,
+      "Humidity": "70%",
+      "Visibility": "8.4 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2040": {
+      "Temperature": "25.8°C",
+      "Wind": "12.6 km/h",
+      "UV_Index": 8,
+      "Humidity": "71%",
+      "Visibility": "8.4 km",
+      "Air_Quality": "Good"
+    },
+    "2041": {
+      "Temperature": "25.9°C",
+      "Wind": "12.6 km/h",
+      "UV_Index": 8,
+      "Humidity": "71%",
+      "Visibility": "8.4 km",
+      "Air_Quality": "Good"
+    },
+    "2042": {
+      "Temperature": "25.9°C",
+      "Wind": "12.7 km/h",
+      "UV_Index": 8,
+      "Humidity": "71%",
+      "Visibility": "8.3 km",
+      "Air_Quality": "Moderate"
+    },
+    "2043": {
+      "Temperature": "26.0°C",
+      "Wind": "12.7 km/h",
+      "UV_Index": 8,
+      "Humidity": "71%",
+      "Visibility": "8.3 km",
+      "Air_Quality": "Good"
+    },
+    "2044": {
+      "Temperature": "26.0°C",
+      "Wind": "12.8 km/h",
+      "UV_Index": 8,
+      "Humidity": "71%",
+      "Visibility": "8.2 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2045": {
+      "Temperature": "26.1°C",
+      "Wind": "12.8 km/h",
+      "UV_Index": 8,
+      "Humidity": "71%",
+      "Visibility": "8.2 km",
+      "Air_Quality": "Moderate"
+    },
+    "2046": {
+      "Temperature": "26.1°C",
+      "Wind": "12.8 km/h",
+      "UV_Index": 8,
+      "Humidity": "71%",
+      "Visibility": "8.2 km",
+      "Air_Quality": "Moderate"
+    },
+    "2047": {
+      "Temperature": "26.2°C",
+      "Wind": "12.9 km/h",
+      "UV_Index": 8,
+      "Humidity": "71%",
+      "Visibility": "8.1 km",
+      "Air_Quality": "Moderate"
+    },
+    "2048": {
+      "Temperature": "26.2°C",
+      "Wind": "12.9 km/h",
+      "UV_Index": 8,
+      "Humidity": "71%",
+      "Visibility": "8.1 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2049": {
+      "Temperature": "26.3°C",
+      "Wind": "13.0 km/h",
+      "UV_Index": 8,
+      "Humidity": "71%",
+      "Visibility": "8.0 km",
+      "Air_Quality": "Moderate"
+    },
+    "2050": {
+      "Temperature": "26.3°C",
+      "Wind": "13.0 km/h",
+      "UV_Index": 8,
+      "Humidity": "71%",
+      "Visibility": "8.0 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2051": {
+      "Temperature": "26.4°C",
+      "Wind": "13.0 km/h",
+      "UV_Index": 8,
+      "Humidity": "71%",
+      "Visibility": "8.0 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2052": {
+      "Temperature": "26.4°C",
+      "Wind": "13.1 km/h",
+      "UV_Index": 8,
+      "Humidity": "71%",
+      "Visibility": "7.9 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2053": {
+      "Temperature": "26.5°C",
+      "Wind": "13.1 km/h",
+      "UV_Index": 8,
+      "Humidity": "71%",
+      "Visibility": "7.9 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2054": {
+      "Temperature": "26.5°C",
+      "Wind": "13.2 km/h",
+      "UV_Index": 8,
+      "Humidity": "71%",
+      "Visibility": "7.8 km",
+      "Air_Quality": "Moderate"
+    },
+    "2055": {
+      "Temperature": "26.6°C",
+      "Wind": "13.2 km/h",
+      "UV_Index": 8,
+      "Humidity": "72%",
+      "Visibility": "7.8 km",
+      "Air_Quality": "Good"
+    },
+    "2056": {
+      "Temperature": "26.7°C",
+      "Wind": "13.2 km/h",
+      "UV_Index": 8,
+      "Humidity": "72%",
+      "Visibility": "7.8 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2057": {
+      "Temperature": "26.7°C",
+      "Wind": "13.3 km/h",
+      "UV_Index": 8,
+      "Humidity": "72%",
+      "Visibility": "7.7 km",
+      "Air_Quality": "Good"
+    },
+    "2058": {
+      "Temperature": "26.8°C",
+      "Wind": "13.3 km/h",
+      "UV_Index": 8,
+      "Humidity": "72%",
+      "Visibility": "7.7 km",
+      "Air_Quality": "Moderate"
+    },
+    "2059": {
+      "Temperature": "26.8°C",
+      "Wind": "13.4 km/h",
+      "UV_Index": 8,
+      "Humidity": "72%",
+      "Visibility": "7.6 km",
+      "Air_Quality": "Good"
+    },
+    "2060": {
+      "Temperature": "26.9°C",
+      "Wind": "13.4 km/h",
+      "UV_Index": 8,
+      "Humidity": "72%",
+      "Visibility": "7.6 km",
+      "Air_Quality": "Moderate"
+    },
+    "2061": {
+      "Temperature": "26.9°C",
+      "Wind": "13.4 km/h",
+      "UV_Index": 9,
+      "Humidity": "72%",
+      "Visibility": "7.6 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2062": {
+      "Temperature": "27.0°C",
+      "Wind": "13.5 km/h",
+      "UV_Index": 9,
+      "Humidity": "72%",
+      "Visibility": "7.5 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2063": {
+      "Temperature": "27.0°C",
+      "Wind": "13.5 km/h",
+      "UV_Index": 9,
+      "Humidity": "72%",
+      "Visibility": "7.5 km",
+      "Air_Quality": "Moderate"
+    },
+    "2064": {
+      "Temperature": "27.1°C",
+      "Wind": "13.6 km/h",
+      "UV_Index": 9,
+      "Humidity": "72%",
+      "Visibility": "7.4 km",
+      "Air_Quality": "Good"
+    },
+    "2065": {
+      "Temperature": "27.1°C",
+      "Wind": "13.6 km/h",
+      "UV_Index": 9,
+      "Humidity": "72%",
+      "Visibility": "7.4 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2066": {
+      "Temperature": "27.2°C",
+      "Wind": "13.6 km/h",
+      "UV_Index": 9,
+      "Humidity": "72%",
+      "Visibility": "7.4 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2067": {
+      "Temperature": "27.2°C",
+      "Wind": "13.7 km/h",
+      "UV_Index": 9,
+      "Humidity": "72%",
+      "Visibility": "7.3 km",
+      "Air_Quality": "Moderate"
+    },
+    "2068": {
+      "Temperature": "27.3°C",
+      "Wind": "13.7 km/h",
+      "UV_Index": 9,
+      "Humidity": "72%",
+      "Visibility": "7.3 km",
+      "Air_Quality": "Moderate"
+    },
+    "2069": {
+      "Temperature": "27.3°C",
+      "Wind": "13.8 km/h",
+      "UV_Index": 9,
+      "Humidity": "72%",
+      "Visibility": "7.2 km",
+      "Air_Quality": "Moderate"
+    },
+    "2070": {
+      "Temperature": "27.4°C",
+      "Wind": "13.8 km/h",
+      "UV_Index": 9,
+      "Humidity": "73%",
+      "Visibility": "7.2 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2071": {
+      "Temperature": "27.5°C",
+      "Wind": "13.8 km/h",
+      "UV_Index": 9,
+      "Humidity": "73%",
+      "Visibility": "7.2 km",
+      "Air_Quality": "Good"
+    },
+    "2072": {
+      "Temperature": "27.5°C",
+      "Wind": "13.9 km/h",
+      "UV_Index": 9,
+      "Humidity": "73%",
+      "Visibility": "7.1 km",
+      "Air_Quality": "Good"
+    },
+    "2073": {
+      "Temperature": "27.6°C",
+      "Wind": "13.9 km/h",
+      "UV_Index": 9,
+      "Humidity": "73%",
+      "Visibility": "7.1 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2074": {
+      "Temperature": "27.6°C",
+      "Wind": "14.0 km/h",
+      "UV_Index": 9,
+      "Humidity": "73%",
+      "Visibility": "7.0 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2075": {
+      "Temperature": "27.7°C",
+      "Wind": "14.0 km/h",
+      "UV_Index": 9,
+      "Humidity": "73%",
+      "Visibility": "7.0 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2076": {
+      "Temperature": "27.7°C",
+      "Wind": "14.0 km/h",
+      "UV_Index": 9,
+      "Humidity": "73%",
+      "Visibility": "7.0 km",
+      "Air_Quality": "Good"
+    },
+    "2077": {
+      "Temperature": "27.8°C",
+      "Wind": "14.1 km/h",
+      "UV_Index": 9,
+      "Humidity": "73%",
+      "Visibility": "6.9 km",
+      "Air_Quality": "Moderate"
+    },
+    "2078": {
+      "Temperature": "27.8°C",
+      "Wind": "14.1 km/h",
+      "UV_Index": 9,
+      "Humidity": "73%",
+      "Visibility": "6.9 km",
+      "Air_Quality": "Good"
+    },
+    "2079": {
+      "Temperature": "27.9°C",
+      "Wind": "14.2 km/h",
+      "UV_Index": 9,
+      "Humidity": "73%",
+      "Visibility": "6.8 km",
+      "Air_Quality": "Moderate"
+    },
+    "2080": {
+      "Temperature": "27.9°C",
+      "Wind": "14.2 km/h",
+      "UV_Index": 9,
+      "Humidity": "73%",
+      "Visibility": "6.8 km",
+      "Air_Quality": "Moderate"
+    },
+    "2081": {
+      "Temperature": "28.0°C",
+      "Wind": "14.2 km/h",
+      "UV_Index": 9,
+      "Humidity": "73%",
+      "Visibility": "6.8 km",
+      "Air_Quality": "Moderate"
+    },
+    "2082": {
+      "Temperature": "28.0°C",
+      "Wind": "14.3 km/h",
+      "UV_Index": 9,
+      "Humidity": "73%",
+      "Visibility": "6.7 km",
+      "Air_Quality": "Moderate"
+    },
+    "2083": {
+      "Temperature": "28.1°C",
+      "Wind": "14.3 km/h",
+      "UV_Index": 9,
+      "Humidity": "73%",
+      "Visibility": "6.7 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2084": {
+      "Temperature": "28.1°C",
+      "Wind": "14.4 km/h",
+      "UV_Index": 9,
+      "Humidity": "73%",
+      "Visibility": "6.6 km",
+      "Air_Quality": "Moderate"
+    },
+    "2085": {
+      "Temperature": "28.2°C",
+      "Wind": "14.4 km/h",
+      "UV_Index": 9,
+      "Humidity": "74%",
+      "Visibility": "6.6 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2086": {
+      "Temperature": "28.3°C",
+      "Wind": "14.4 km/h",
+      "UV_Index": 9,
+      "Humidity": "74%",
+      "Visibility": "6.6 km",
+      "Air_Quality": "Good"
+    },
+    "2087": {
+      "Temperature": "28.3°C",
+      "Wind": "14.5 km/h",
+      "UV_Index": 9,
+      "Humidity": "74%",
+      "Visibility": "6.5 km",
+      "Air_Quality": "Moderate"
+    },
+    "2088": {
+      "Temperature": "28.4°C",
+      "Wind": "14.5 km/h",
+      "UV_Index": 9,
+      "Humidity": "74%",
+      "Visibility": "6.5 km",
+      "Air_Quality": "Good"
+    },
+    "2089": {
+      "Temperature": "28.4°C",
+      "Wind": "14.6 km/h",
+      "UV_Index": 9,
+      "Humidity": "74%",
+      "Visibility": "6.4 km",
+      "Air_Quality": "Good"
+    },
+    "2090": {
+      "Temperature": "28.5°C",
+      "Wind": "14.6 km/h",
+      "UV_Index": 9,
+      "Humidity": "74%",
+      "Visibility": "6.4 km",
+      "Air_Quality": "Moderate"
+    },
+    "2091": {
+      "Temperature": "28.5°C",
+      "Wind": "14.6 km/h",
+      "UV_Index": 9,
+      "Humidity": "74%",
+      "Visibility": "6.4 km",
+      "Air_Quality": "Moderate"
+    },
+    "2092": {
+      "Temperature": "28.6°C",
+      "Wind": "14.7 km/h",
+      "UV_Index": 9,
+      "Humidity": "74%",
+      "Visibility": "6.3 km",
+      "Air_Quality": "Moderate"
+    },
+    "2093": {
+      "Temperature": "28.6°C",
+      "Wind": "14.7 km/h",
+      "UV_Index": 9,
+      "Humidity": "74%",
+      "Visibility": "6.3 km",
+      "Air_Quality": "Good"
+    },
+    "2094": {
+      "Temperature": "28.7°C",
+      "Wind": "14.8 km/h",
+      "UV_Index": 9,
+      "Humidity": "74%",
+      "Visibility": "6.2 km",
+      "Air_Quality": "Moderate"
+    },
+    "2095": {
+      "Temperature": "28.7°C",
+      "Wind": "14.8 km/h",
+      "UV_Index": 9,
+      "Humidity": "74%",
+      "Visibility": "6.2 km",
+      "Air_Quality": "Moderate"
+    },
+    "2096": {
+      "Temperature": "28.8°C",
+      "Wind": "14.8 km/h",
+      "UV_Index": 9,
+      "Humidity": "74%",
+      "Visibility": "6.2 km",
+      "Air_Quality": "Moderate"
+    },
+    "2097": {
+      "Temperature": "28.8°C",
+      "Wind": "14.9 km/h",
+      "UV_Index": 9,
+      "Humidity": "74%",
+      "Visibility": "6.1 km",
+      "Air_Quality": "Moderate"
+    },
+    "2098": {
+      "Temperature": "28.9°C",
+      "Wind": "14.9 km/h",
+      "UV_Index": 9,
+      "Humidity": "74%",
+      "Visibility": "6.1 km",
+      "Air_Quality": "Good"
+    },
+    "2099": {
+      "Temperature": "28.9°C",
+      "Wind": "15.0 km/h",
+      "UV_Index": 10,
+      "Humidity": "74%",
+      "Visibility": "6.0 km",
+      "Air_Quality": "Unhealthy"
+    },
+    "2100": {
+      "Temperature": "29°C",
+      "Wind": "15 km/h",
+      "UV_Index": 10,
+      "Humidity": "75%",
+      "Visibility": "6 km",
+      "Air_Quality": "Unhealthy"
+    }
+  }
+}

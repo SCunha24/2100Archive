@@ -1,0 +1,6007 @@
+{
+  "Global": {
+    "1950": {
+      "populacao": 2493092843,
+      "cropland": 1200000000,
+      "minerals": 372563640,
+      "Renewablewaterpc": 14600.21,
+      "Fossilfconsumptionpc": 10381,
+      "Nuclearpc": 0,
+      "Renewablespc": 500,
+      "Greenhousegasemissions": 16669636000,
+      "CO2emissions": 5930000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 4940,
+      "Temperature": 13.7,
+      "Humidity": 7.58,
+      "Radiativeforcing": 0.5,
+      "Ozone": 300,
+      "sealevelrise": -92.28,
+      "Articice": 8050000,
+      "Forestarea": 38.3
+    },
+    "1951": {
+      "populacao": 2536927039,
+      "cropland": 1220000000,
+      "minerals": 428218185,
+      "Renewablewaterpc": 14500.46,
+      "Fossilfconsumptionpc": 10423,
+      "Nuclearpc": 0,
+      "Renewablespc": 512,
+      "Greenhousegasemissions": 17591742000,
+      "CO2emissions": 6380000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 5060,
+      "Temperature": 13.74,
+      "Humidity": 7.59,
+      "Radiativeforcing": 0.53,
+      "Ozone": 300,
+      "sealevelrise": -82.01,
+      "Articice": 7930000,
+      "Forestarea": 38.3
+    },
+    "1952": {
+      "populacao": 2584086332,
+      "cropland": 1230000000,
+      "minerals": 442336695,
+      "Renewablewaterpc": 14400.06,
+      "Fossilfconsumptionpc": 10571,
+      "Nuclearpc": 0,
+      "Renewablespc": 520,
+      "Greenhousegasemissions": 17698888000,
+      "CO2emissions": 6470000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 5190,
+      "Temperature": 13.76,
+      "Humidity": 7.6,
+      "Radiativeforcing": 0.55,
+      "Ozone": 300,
+      "sealevelrise": -85.08,
+      "Articice": 7960000,
+      "Forestarea": 38.2
+    },
+    "1953": {
+      "populacao": 2634106246,
+      "cropland": 1240000000,
+      "minerals": 485233637,
+      "Renewablewaterpc": 14300.03,
+      "Fossilfconsumptionpc": 10602,
+      "Nuclearpc": 0,
+      "Renewablespc": 530,
+      "Greenhousegasemissions": 18106272000,
+      "CO2emissions": 6650000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 5510,
+      "Temperature": 13.79,
+      "Humidity": 7.61,
+      "Radiativeforcing": 0.58,
+      "Ozone": 300,
+      "sealevelrise": null,
+      "Articice": 7990000,
+      "Forestarea": 38.2
+    },
+    "1954": {
+      "populacao": 2685894869,
+      "cropland": 1260000000,
+      "minerals": 465249121,
+      "Renewablewaterpc": 14150.71,
+      "Fossilfconsumptionpc": 10641,
+      "Nuclearpc": 0,
+      "Renewablespc": 545,
+      "Greenhousegasemissions": 18767930000,
+      "CO2emissions": 6790000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 6180,
+      "Temperature": 13.72,
+      "Humidity": 7.62,
+      "Radiativeforcing": 0.6,
+      "Ozone": 300,
+      "sealevelrise": -82.18,
+      "Articice": 7760000,
+      "Forestarea": 38.1
+    },
+    "1955": {
+      "populacao": 2740213784,
+      "cropland": 1270000000,
+      "minerals": 541587964,
+      "Renewablewaterpc": 14034.23,
+      "Fossilfconsumptionpc": 10783,
+      "Nuclearpc": 0,
+      "Renewablespc": 560,
+      "Greenhousegasemissions": 19766900000,
+      "CO2emissions": 7440000000,
+      "Airquality": "Moderate",
+      "Mercury": 6380,
+      "Temperature": 13.69,
+      "Humidity": 7.63,
+      "Radiativeforcing": 0.63,
+      "Ozone": 300,
+      "sealevelrise": -87.45,
+      "Articice": 7710000,
+      "Forestarea": 38
+    },
+    "1956": {
+      "populacao": 2795409978,
+      "cropland": 1280000000,
+      "minerals": 578910290,
+      "Renewablewaterpc": 13850.10,
+      "Fossilfconsumptionpc": 10821,
+      "Nuclearpc": 0,
+      "Renewablespc": 575,
+      "Greenhousegasemissions": 20498287000,
+      "CO2emissions": 7930000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 7620,
+      "Temperature": 13.64,
+      "Humidity": 7.63,
+      "Radiativeforcing": 0.65,
+      "Ozone": 300,
+      "sealevelrise": -82.38,
+      "Articice": 7840000,
+      "Forestarea": 38
+    },
+    "1957": {
+      "populacao": 2852618346,
+      "cropland": 1300000000,
+      "minerals": 620653834,
+      "Renewablewaterpc": 13750.12,
+      "Fossilfconsumptionpc": 10998,
+      "Nuclearpc": 1,
+      "Renewablespc": 590,
+      "Greenhousegasemissions": 21006020000,
+      "CO2emissions": 8190000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 8260,
+      "Temperature": 13.79,
+      "Humidity": 7.64,
+      "Radiativeforcing": 0.68,
+      "Ozone": 300,
+      "sealevelrise": -83.01,
+      "Articice": 7700000,
+      "Forestarea": 38
+    },
+    "1958": {
+      "populacao": 2911249658,
+      "cropland": 1310000000,
+      "minerals": 600469304,
+      "Renewablewaterpc": 13690.02,
+      "Fossilfconsumptionpc": 11209,
+      "Nuclearpc": 3,
+      "Renewablespc": 610,
+      "Greenhousegasemissions": 21251504000,
+      "CO2emissions": 8420000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 8490,
+      "Temperature": 13.82,
+      "Humidity": 7.65,
+      "Radiativeforcing": 0.7,
+      "Ozone": 300,
+      "sealevelrise": -72.25,
+      "Articice": 7520000,
+      "Forestarea": 37.9
+    },
+    "1959": {
+      "populacao": 2965950358,
+      "cropland": 1330000000,
+      "minerals": 655615041,
+      "Renewablewaterpc": 13685.33,
+      "Fossilfconsumptionpc": 11392,
+      "Nuclearpc": 5,
+      "Renewablespc": 625,
+      "Greenhousegasemissions": 22477308000,
+      "CO2emissions": 8850000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 7710,
+      "Temperature": 13.83,
+      "Humidity": 7.66,
+      "Radiativeforcing": 0.73,
+      "Ozone": 300,
+      "sealevelrise": -68.71,
+      "Articice": 7570000,
+      "Forestarea": 37.8
+    },
+    "1960": {
+      "populacao": 3015470890,
+      "cropland": 1340000000,
+      "minerals": 753172621,
+      "Renewablewaterpc": 13682.02,
+      "Fossilfconsumptionpc": 11527,
+      "Nuclearpc": 8,
+      "Renewablespc": 640,
+      "Greenhousegasemissions": 22127307000,
+      "CO2emissions": 9390000000,
+      "Airquality": "Unhealthy",
+      "Mercury": 8340,
+      "Temperature": 13.81,
+      "Humidity": 7.67,
+      "Radiativeforcing": 0.75,
+      "Ozone": 300,
+      "sealevelrise": -70.38,
+      "Articice": 7420000,
+      "Forestarea": 37.8
+    },
+    "1961": {
+      "populacao": 3064869656,
+      "cropland": 1350000000,
+      "minerals": 742548214,
+      "Renewablewaterpc": 13680.23,
+      "Fossilfconsumptionpc": 11601,
+      "Nuclearpc": 761,
+      "Renewablespc": null,
+      "Greenhousegasemissions": 22371980000,
+      "CO2emissions": 9420000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 8260,
+      "Temperature": 13.84,
+      "Humidity": 7.68,
+      "Radiativeforcing": 0.77,
+      "Ozone": 300,
+      "sealevelrise": -60.25,
+      "Articice": 7360000,
+      "Forestarea": 37.7
+    },
+    "1962": {
+      "populacao": 3123374299,
+      "cropland": 1350000000,
+      "minerals": 776839745,
+      "Renewablewaterpc": 13438.88,
+      "Fossilfconsumptionpc": 11792,
+      "Nuclearpc": 16,
+      "Renewablespc": 784,
+      "Greenhousegasemissions": 22341622000,
+      "CO2emissions": 9750000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 8430,
+      "Temperature": 13.82,
+      "Humidity": 7.69,
+      "Radiativeforcing": 0.8,
+      "Ozone": 300,
+      "sealevelrise": -66.68,
+      "Articice": 7380000,
+      "Forestarea": 37.6
+    },
+    "1963": {
+      "populacao": 3192807820,
+      "cropland": 1350000000,
+      "minerals": 789155422,
+      "Renewablewaterpc": 13150.68,
+      "Fossilfconsumptionpc": 11929,
+      "Nuclearpc": 18,
+      "Renewablespc": 791,
+      "Greenhousegasemissions": 22862530000,
+      "CO2emissions": 10270000000,
+      "Airquality": "Unhealthy",
+      "Mercury": 8260,
+      "Temperature": 13.85,
+      "Humidity": 7.7,
+      "Radiativeforcing": 0.83,
+      "Ozone": 300,
+      "sealevelrise": -63.88,
+      "Articice": 7110000,
+      "Forestarea": 37.6
+    },
+    "1964": {
+      "populacao": 3264487340,
+      "cropland": 1360000000,
+      "minerals": 872121115,
+      "Renewablewaterpc": 12872.78,
+      "Fossilfconsumptionpc": 12013,
+      "Nuclearpc": 20,
+      "Renewablespc": 801,
+      "Greenhousegasemissions": 23258208000,
+      "CO2emissions": 10820000000,
+      "Airquality": "Unhealthy",
+      "Mercury": 8800,
+      "Temperature": 13.69,
+      "Humidity": 7.71,
+      "Radiativeforcing": 0.85,
+      "Ozone": 300,
+      "sealevelrise": -77.95,
+      "Articice": 7080000,
+      "Forestarea": 37.5
+    },
+    "1965": {
+      "populacao": 3334533717,
+      "cropland": 1360000000,
+      "minerals": 937829429,
+      "Renewablewaterpc": 12604.03,
+      "Fossilfconsumptionpc": 12134,
+      "Nuclearpc": 22,
+      "Renewablespc": 838,
+      "Greenhousegasemissions": 23714190000,
+      "CO2emissions": 11310000000,
+      "Airquality": "Unhealthy",
+      "Mercury": 9230,
+      "Temperature": 13.74,
+      "Humidity": 7.72,
+      "Radiativeforcing": 0.88,
+      "Ozone": 300,
+      "sealevelrise": -66.18,
+      "Articice": 7140000,
+      "Forestarea": 37.4
+    },
+    "1966": {
+      "populacao": 3404041107,
+      "cropland": 1360000000,
+      "minerals": 973792432,
+      "Renewablewaterpc": 12333.54,
+      "Fossilfconsumptionpc": 12522,
+      "Nuclearpc": 29,
+      "Renewablespc": 875,
+      "Greenhousegasemissions": 24118213000,
+      "CO2emissions": 11860000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 9140,
+      "Temperature": 13.76,
+      "Humidity": 7.73,
+      "Radiativeforcing": 0.9,
+      "Ozone": 300,
+      "sealevelrise": -64.28,
+      "Articice": 7040000,
+      "Forestarea": 37.3
+    },
+    "1967": {
+      "populacao": 3473412894,
+      "cropland": 1360000000,
+      "minerals": 977237345,
+      "Renewablewaterpc": 12074.18,
+      "Fossilfconsumptionpc": 12732,
+      "Nuclearpc": 33,
+      "Renewablespc": 876,
+      "Greenhousegasemissions": 24786098000,
+      "CO2emissions": 12240000000,
+      "Airquality": "Unhealthy",
+      "Mercury": 8000,
+      "Temperature": 13.78,
+      "Humidity": 7.74,
+      "Radiativeforcing": 0.93,
+      "Ozone": 300,
+      "sealevelrise": -72.91,
+      "Articice": 7120000,
+      "Forestarea": 37.2
+    },
+    "1968": {
+      "populacao": 3545187239,
+      "cropland": 1380000000,
+      "minerals": 7140880080,
+      "Renewablewaterpc": 11819.8,
+      "Fossilfconsumptionpc": 13220,
+      "Nuclearpc": 42,
+      "Renewablespc": 905,
+      "Greenhousegasemissions": 25522776000,
+      "CO2emissions": 12910000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 8950,
+      "Temperature": 13.74,
+      "Humidity": 7.75,
+      "Radiativeforcing": 0.96,
+      "Ozone": 300,
+      "sealevelrise": -63.48,
+      "Articice": 6940000,
+      "Forestarea": 37.2
+    },
+    "1969": {
+      "populacao": 3619491592,
+      "cropland": 1390000000,
+      "minerals": 7745065378,
+      "Renewablewaterpc": 11567.93,
+      "Fossilfconsumptionpc": 13845,
+      "Nuclearpc": 48,
+      "Renewablespc": 939,
+      "Greenhousegasemissions": 27101106000,
+      "CO2emissions": 13760000000,
+      "Airquality": "Unhealthy",
+      "Mercury": 9970,
+      "Temperature": 13.79,
+      "Humidity": 7.76,
+      "Radiativeforcing": 0.98,
+      "Ozone": 300,
+      "sealevelrise": -59.71,
+      "Articice": 6840000,
+      "Forestarea": 37.1
+    },
+    "1970": {
+      "populacao": 3694683801,
+      "cropland": 1390000000,
+      "minerals": 10673648356,
+      "Renewablewaterpc": 11320.27,
+      "Fossilfconsumptionpc": 14444,
+      "Nuclearpc": 61,
+      "Renewablespc": 965,
+      "Greenhousegasemissions": 28266830000,
+      "CO2emissions": 14900000000,
+      "Airquality": "Unhealthy",
+      "Mercury": 9790,
+      "Temperature": 13.84,
+      "Humidity": 7.77,
+      "Radiativeforcing": 1.0,
+      "Ozone": 300,
+      "sealevelrise": -61.24,
+      "Articice": 7080000,
+      "Forestarea": 37
+    },
+    "1971": {
+      "populacao": 3769847834,
+      "cropland": 1380000000,
+      "minerals": 10685780960,
+      "Renewablewaterpc": 11075.4,
+      "Fossilfconsumptionpc": 14694,
+      "Nuclearpc": 83,
+      "Renewablespc": 989,
+      "Greenhousegasemissions": 28280381000,
+      "CO2emissions": 15500000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 10400,
+      "Temperature": 13.74,
+      "Humidity": 7.77,
+      "Radiativeforcing": 1.03,
+      "Ozone": 299,
+      "sealevelrise": -59.36,
+      "Articice": 6850000,
+      "Forestarea": 36.7
+    },
+    "1972": {
+      "populacao": 3844917687,
+      "cropland": 1380000000,
+      "minerals": 11933418215,
+      "Renewablewaterpc": 10848.2,
+      "Fossilfconsumptionpc": 15179,
+      "Nuclearpc": 112,
+      "Renewablespc": 1016,
+      "Greenhousegasemissions": 29437508000,
+      "CO2emissions": 16220000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 9620,
+      "Temperature": 13.79,
+      "Humidity": 7.78,
+      "Radiativeforcing": 1.05,
+      "Ozone": 299,
+      "sealevelrise": -57.46,
+      "Articice": 6830000,
+      "Forestarea": 36.5
+    },
+    "1973": {
+      "populacao": 3920805030,
+      "cropland": 1390000000,
+      "minerals": 4200533690,
+      "Renewablewaterpc": 10628.12,
+      "Fossilfconsumptionpc": 15760,
+      "Nuclearpc": 148,
+      "Renewablespc": 1012,
+      "Greenhousegasemissions": 30340880000,
+      "CO2emissions": 17090000000,
+      "Airquality": "Unhealthy",
+      "Mercury": 9250,
+      "Temperature": 13.94,
+      "Humidity": 7.94,
+      "Radiativeforcing": 1.08,
+      "Ozone": 298,
+      "sealevelrise": -53.01,
+      "Articice": 6630000,
+      "Forestarea": 36.2
+    },
+    "1974": {
+      "populacao": 3996416108,
+      "cropland": 1380000000,
+      "minerals": 11273414481,
+      "Renewablewaterpc": 10418.02,
+      "Fossilfconsumptionpc": 15413,
+      "Nuclearpc": 189,
+      "Renewablespc": 1090,
+      "Greenhousegasemissions": 30245190000,
+      "CO2emissions": 17010000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 8880,
+      "Temperature": 13.76,
+      "Humidity": 7.76,
+      "Radiativeforcing": 1.09,
+      "Ozone": 298,
+      "sealevelrise": -44.54,
+      "Articice": 6660000,
+      "Forestarea": 36
+    },
+    "1975": {
+      "populacao": 4070735264,
+      "cropland": 1380000000,
+      "minerals": 11264436061,
+      "Renewablewaterpc": 10219.77,
+      "Fossilfconsumptionpc": 15161,
+      "Nuclearpc": 258,
+      "Renewablespc": 1083,
+      "Greenhousegasemissions": 30411125000,
+      "CO2emissions": 17050000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 8700,
+      "Temperature": 13.79,
+      "Humidity": 7.79,
+      "Radiativeforcing": 1.13,
+      "Ozone": 297,
+      "sealevelrise": -41.24,
+      "Articice": 6670000,
+      "Forestarea": 35.7
+    },
+    "1976": {
+      "populacao": 4144246391,
+      "cropland": 1390000000,
+      "minerals": 4615978623,
+      "Renewablewaterpc": 10032.62,
+      "Fossilfconsumptionpc": 15718,
+      "Nuclearpc": 296,
+      "Renewablespc": 1063,
+      "Greenhousegasemissions": 31535469000,
+      "CO2emissions": 17990000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 8090,
+      "Temperature": 13.74,
+      "Humidity": 7.72,
+      "Radiativeforcing": 1.16,
+      "Ozone": 297,
+      "sealevelrise": -47.45,
+      "Articice": 6490000,
+      "Forestarea": 35.4
+    },
+    "1977": {
+      "populacao": 4217863819,
+      "cropland": 1380000000,
+      "minerals": 4760007883,
+      "Renewablewaterpc": 9853.19,
+      "Fossilfconsumptionpc": 15944,
+      "Nuclearpc": 362,
+      "Renewablespc": 1081,
+      "Greenhousegasemissions": 32603044000,
+      "CO2emissions": 18500000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 6580,
+      "Temperature": 13.89,
+      "Humidity": 7.93,
+      "Radiativeforcing": 1.18,
+      "Ozone": 296,
+      "sealevelrise": -44.83,
+      "Articice": 6590000,
+      "Forestarea": 35.2
+    },
+    "1978": {
+      "populacao": 4292097508,
+      "cropland": 1390000000,
+      "minerals": 4818385206,
+      "Renewablewaterpc": 9676.93,
+      "Fossilfconsumptionpc": 16194,
+      "Nuclearpc": 414,
+      "Renewablespc": 1150,
+      "Greenhousegasemissions": 33151205000,
+      "CO2emissions": 19070000000,
+      "Airquality": "Unhealthy",
+      "Mercury": 6250,
+      "Temperature": 13.84,
+      "Humidity": 7.85,
+      "Radiativeforcing": 1.21,
+      "Ozone": 296,
+      "sealevelrise": -41.26,
+      "Articice": 6440000,
+      "Forestarea": 34.9
+    },
+    "1979": {
+      "populacao": 4368539472,
+      "cropland": 1390000000,
+      "minerals": 5066896751,
+      "Renewablewaterpc": 9501.84,
+      "Fossilfconsumptionpc": 16417,
+      "Nuclearpc": 423,
+      "Renewablespc": 1188,
+      "Greenhousegasemissions": 33198746000,
+      "CO2emissions": 19610000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 6010,
+      "Temperature": 13.94,
+      "Humidity": 7.9,
+      "Radiativeforcing": 1.24,
+      "Ozone": 295,
+      "sealevelrise": -53.21,
+      "Articice": 7050000,
+      "Forestarea": 34.6
+    },
+    "1980": {
+      "populacao": 4447606208,
+      "cropland": 1390000000,
+      "minerals": 5147633873,
+      "Renewablewaterpc": 9329.95,
+      "Fossilfconsumptionpc": 15904,
+      "Nuclearpc": 455,
+      "Renewablespc": 1194,
+      "Greenhousegasemissions": 33347820000,
+      "CO2emissions": 19490000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 6810,
+      "Temperature": 13.99,
+      "Humidity": 7.93,
+      "Radiativeforcing": 1.26,
+      "Ozone": 295,
+      "sealevelrise": -39.63,
+      "Articice": 7670000,
+      "Forestarea": 34.4
+    },
+    "1981": {
+      "populacao": 4528777285,
+      "cropland": 1390000000,
+      "minerals": 5263550806,
+      "Renewablewaterpc": 9161.35,
+      "Fossilfconsumptionpc": 15438,
+      "Nuclearpc": 527,
+      "Renewablespc": 1199,
+      "Greenhousegasemissions": 32570309000,
+      "CO2emissions": 19020000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 7270,
+      "Temperature": 14.04,
+      "Humidity": 7.96,
+      "Radiativeforcing": 1.29,
+      "Ozone": 294,
+      "sealevelrise": -30.47,
+      "Articice": 7140000,
+      "Forestarea": 34.1
+    },
+    "1982": {
+      "populacao": 4612673436,
+      "cropland": 1410000000,
+      "minerals": 5318848409,
+      "Renewablewaterpc": 8992.69,
+      "Fossilfconsumptionpc": 15003,
+      "Nuclearpc": 562,
+      "Renewablespc": 1205,
+      "Greenhousegasemissions": 32320344000,
+      "CO2emissions": 18870000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 6820,
+      "Temperature": 13.94,
+      "Humidity": 7.82,
+      "Radiativeforcing": 1.31,
+      "Ozone": 293,
+      "sealevelrise": -30.79,
+      "Articice": 7300000,
+      "Forestarea": 33.9
+    },
+    "1983": {
+      "populacao": 4697327604,
+      "cropland": 1410000000,
+      "minerals": 5302521854,
+      "Renewablewaterpc": 8827.61,
+      "Fossilfconsumptionpc": 14888,
+      "Nuclearpc": 625,
+      "Renewablespc": 1239,
+      "Greenhousegasemissions": 32752468000,
+      "CO2emissions": 18990000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 6230,
+      "Temperature": 14.09,
+      "Humidity": 7.94,
+      "Radiativeforcing": 1.34,
+      "Ozone": 293,
+      "sealevelrise": -24.04,
+      "Articice": 7390000,
+      "Forestarea": 33.7
+    },
+    "1984": {
+      "populacao": 4782175500,
+      "cropland": 1430000000,
+      "minerals": 5655304845,
+      "Renewablewaterpc": 8669.01,
+      "Fossilfconsumptionpc": 15188,
+      "Nuclearpc": 745,
+      "Renewablespc": 1264,
+      "Greenhousegasemissions": 34383640000,
+      "CO2emissions": 19650000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 6740,
+      "Temperature": 13.94,
+      "Humidity": 7.79,
+      "Radiativeforcing": 1.36,
+      "Ozone": 292,
+      "sealevelrise": -31.58,
+      "Articice": 6800000,
+      "Forestarea": 33.4
+    },
+    "1985": {
+      "populacao": 4868943460,
+      "cropland": 1450000000,
+      "minerals": 6014403694,
+      "Renewablewaterpc": 8513.07,
+      "Fossilfconsumptionpc": 15210,
+      "Nuclearpc": 869,
+      "Renewablespc": 1268,
+      "Greenhousegasemissions": 34802164000,
+      "CO2emissions": 20310000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 6140,
+      "Temperature": 13.96,
+      "Humidity": 7.77,
+      "Radiativeforcing": 1.39,
+      "Ozone": 291,
+      "sealevelrise": -33.62,
+      "Articice": 6700000,
+      "Forestarea": 33.1
+    },
+    "1986": {
+      "populacao": 4958072822,
+      "cropland": 1450000000,
+      "minerals": 6020975980,
+      "Renewablewaterpc": 8358.63,
+      "Fossilfconsumptionpc": 15233,
+      "Nuclearpc": 914,
+      "Renewablespc": 1269,
+      "Greenhousegasemissions": 35424960000,
+      "CO2emissions": 20610000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 7780,
+      "Temperature": 13.99,
+      "Humidity": 7.79,
+      "Radiativeforcing": 1.41,
+      "Ozone": 291,
+      "sealevelrise": -34.12,
+      "Articice": 7410000,
+      "Forestarea": 33
+    },
+    "1987": {
+      "populacao": 5049746378,
+      "cropland": 1460000000,
+      "minerals": 6266721607,
+      "Renewablewaterpc": 8205.94,
+      "Fossilfconsumptionpc": 15478,
+      "Nuclearpc": 976,
+      "Renewablespc": 1266,
+      "Greenhousegasemissions": 35869164000,
+      "CO2emissions": 21250000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 5530,
+      "Temperature": 14.14,
+      "Humidity": 7.94,
+      "Radiativeforcing": 1.44,
+      "Ozone": 290,
+      "sealevelrise": -29.51,
+      "Articice": 7280000,
+      "Forestarea": 32.6
+    },
+    "1988": {
+      "populacao": 5141992550,
+      "cropland": 1460000000,
+      "minerals": 6530369895,
+      "Renewablewaterpc": 8057.32,
+      "Fossilfconsumptionpc": 15724,
+      "Nuclearpc": 1046,
+      "Renewablespc": 1283,
+      "Greenhousegasemissions": 36640596000,
+      "CO2emissions": 22090000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 6840,
+      "Temperature": 14.19,
+      "Humidity": 8.02,
+      "Radiativeforcing": 1.46,
+      "Ozone": 289,
+      "sealevelrise": -27.98,
+      "Articice": 7370000,
+      "Forestarea": 32.4
+    },
+    "1989": {
+      "populacao": 5234431714,
+      "cropland": 1470000000,
+      "minerals": 6654321282,
+      "Renewablewaterpc": 7913.12,
+      "Fossilfconsumptionpc": 15761,
+      "Nuclearpc": 1057,
+      "Renewablespc": 1263,
+      "Greenhousegasemissions": 36901773000,
+      "CO2emissions": 22390000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 6750,
+      "Temperature": 14.04,
+      "Humidity": 7.89,
+      "Radiativeforcing": 1.49,
+      "Ozone": 288,
+      "sealevelrise": -29.96,
+      "Articice": 7010000,
+      "Forestarea": 32.4
+    },
+    "1990": {
+      "populacao": 5327803075,
+      "cropland": 1470000000,
+      "minerals": 6471814351,
+      "Renewablewaterpc": 7771.17,
+      "Fossilfconsumptionpc": 15614,
+      "Nuclearpc": 1068,
+      "Renewablespc": 1291,
+      "Greenhousegasemissions": 37335880000,
+      "CO2emissions": 22730000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 4100,
+      "Temperature": 14.24,
+      "Humidity": 8.03,
+      "Radiativeforcing": 1.51,
+      "Ozone": 288,
+      "sealevelrise": -23.4,
+      "Articice": 6140000,
+      "Forestarea": 32.5
+    },
+    "1991": {
+      "populacao": 5418735879,
+      "cropland": 1480000000,
+      "minerals": 6113937614,
+      "Renewablewaterpc": 7637.63,
+      "Fossilfconsumptionpc": 15413,
+      "Nuclearpc": 1100,
+      "Renewablespc": 1301,
+      "Greenhousegasemissions": 37748945000,
+      "CO2emissions": 23190000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 2540,
+      "Temperature": 14.19,
+      "Humidity": 8.0,
+      "Radiativeforcing": 1.54,
+      "Ozone": 287,
+      "sealevelrise": -18.16,
+      "Articice": 6470000,
+      "Forestarea": 32.5
+    },
+    "1992": {
+      "populacao": 5505989821,
+      "cropland": 1470000000,
+      "minerals": 5868096260,
+      "Renewablewaterpc": 7983.28,
+      "Fossilfconsumptionpc": 15261,
+      "Nuclearpc": 1091,
+      "Renewablespc": 1285,
+      "Greenhousegasemissions": 37381090000,
+      "CO2emissions": 22530000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 1960,
+      "Temperature": 14.04,
+      "Humidity": 7.88,
+      "Radiativeforcing": 1.57,
+      "Ozone": 287,
+      "sealevelrise": -11.18,
+      "Articice": 7470000,
+      "Forestarea": 32.4
+    },
+    "1993": {
+      "populacao": 5591544841,
+      "cropland": 1480000000,
+      "minerals": 6063788170,
+      "Renewablewaterpc": 7784.11,
+      "Fossilfconsumptionpc": 15057,
+      "Nuclearpc": 1112,
+      "Renewablespc": 1340,
+      "Greenhousegasemissions": 37327962000,
+      "CO2emissions": 22760000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 1730,
+      "Temperature": 14.09,
+      "Humidity": 7.9,
+      "Radiativeforcing": 1.59,
+      "Ozone": 286,
+      "sealevelrise": -18.14,
+      "Articice": 6400000,
+      "Forestarea": 32.3
+    },
+    "1994": {
+      "populacao": 5675551281,
+      "cropland": 1480000000,
+      "minerals": 6178799358,
+      "Renewablewaterpc": 7663.15,
+      "Fossilfconsumptionpc": 15022,
+      "Nuclearpc": 1116,
+      "Renewablespc": 1333,
+      "Greenhousegasemissions": 38563020000,
+      "CO2emissions": 22990000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 1960,
+      "Temperature": 14.14,
+      "Humidity": 7.95,
+      "Radiativeforcing": 1.62,
+      "Ozone": 286,
+      "sealevelrise": -21.28,
+      "Articice": 7140000,
+      "Forestarea": 32.3
+    },
+    "1995": {
+      "populacao": 5758878997,
+      "cropland": 1480000000,
+      "minerals": 6396290005,
+      "Renewablewaterpc": 7548.88,
+      "Fossilfconsumptionpc": 15063,
+      "Nuclearpc": 1147,
+      "Renewablespc": 1385,
+      "Greenhousegasemissions": 38797140000,
+      "CO2emissions": 23530000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 3190,
+      "Temperature": 14.29,
+      "Humidity": 8.06,
+      "Radiativeforcing": 1.64,
+      "Ozone": 285,
+      "sealevelrise": -13.53,
+      "Articice": 6080000,
+      "Forestarea": 32.2
+    },
+    "1996": {
+      "populacao": 5842055726,
+      "cropland": 1480000000,
+      "minerals": 6481293622,
+      "Renewablewaterpc": 7437.26,
+      "Fossilfconsumptionpc": 15292,
+      "Nuclearpc": 1172,
+      "Renewablespc": 1384,
+      "Greenhousegasemissions": 40186060000,
+      "CO2emissions": 24260000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 2560,
+      "Temperature": 14.19,
+      "Humidity": 7.99,
+      "Radiativeforcing": 1.67,
+      "Ozone": 285,
+      "sealevelrise": -7.06,
+      "Articice": 7580000,
+      "Forestarea": 32.2
+    },
+    "1997": {
+      "populacao": 5924787787,
+      "cropland": 1490000000,
+      "minerals": 6529424786,
+      "Renewablewaterpc": 7329.27,
+      "Fossilfconsumptionpc": 15237,
+      "Nuclearpc": 1148,
+      "Renewablespc": 1395,
+      "Greenhousegasemissions": 41658655000,
+      "CO2emissions": 24400000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 2410,
+      "Temperature": 14.34,
+      "Humidity": 8.06,
+      "Radiativeforcing": 1.69,
+      "Ozone": 285,
+      "sealevelrise": -6.44,
+      "Articice": 6690000,
+      "Forestarea": 32.1
+    },
+    "1998": {
+      "populacao": 6007066714,
+      "cropland": 1490000000,
+      "minerals": 6427743395,
+      "Renewablewaterpc": 7224.5,
+      "Fossilfconsumptionpc": 15098,
+      "Nuclearpc": 1152,
+      "Renewablespc": 1392,
+      "Greenhousegasemissions": 40217952000,
+      "CO2emissions": 24300000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 1580,
+      "Temperature": 14.49,
+      "Humidity": 8.3,
+      "Radiativeforcing": 1.72,
+      "Ozone": 284,
+      "sealevelrise": -2.19,
+      "Articice": 6540000,
+      "Forestarea": 32
+    },
+    "1999": {
+      "populacao": 6089006330,
+      "cropland": 1490000000,
+      "minerals": 6152024373,
+      "Renewablewaterpc": 7124.01,
+      "Fossilfconsumptionpc": 15134,
+      "Nuclearpc": 1180,
+      "Renewablespc": 1390,
+      "Greenhousegasemissions": 40655057000,
+      "CO2emissions": 24850000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 1320,
+      "Temperature": 14.29,
+      "Humidity": 8.06,
+      "Radiativeforcing": 1.74,
+      "Ozone": 284,
+      "sealevelrise": -6.0,
+      "Articice": 6120000,
+      "Forestarea": 32
+    },
+    "2000": {
+      "populacao": 6171703018,
+      "cropland": 1490000000,
+      "minerals": 6080756393,
+      "Renewablewaterpc": 7027.59,
+      "Fossilfconsumptionpc": 15355,
+      "Nuclearpc": 1191,
+      "Renewablespc": 1403,
+      "Greenhousegasemissions": 40732266000,
+      "CO2emissions": 25510000000,
+      "Airquality": "Moderate",
+      "Mercury": 1360,
+      "Temperature": 14.34,
+      "Humidity": 8.05,
+      "Radiativeforcing": 1.77,
+      "Ozone": 284,
+      "sealevelrise": -5.18,
+      "Articice": 6250000,
+      "Forestarea": 31.9
+    },
+    "2001": {
+      "populacao": 6254936479,
+      "cropland": 1490000000,
+      "minerals": 6374998493,
+      "Renewablewaterpc": 6934.16,
+      "Fossilfconsumptionpc": 15335,
+      "Nuclearpc": 1201,
+      "Renewablespc": 1351,
+      "Greenhousegasemissions": 40393683000,
+      "CO2emissions": 25710000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 1500,
+      "Temperature": 14.39,
+      "Humidity": 8.08,
+      "Radiativeforcing": 1.79,
+      "Ozone": 284,
+      "sealevelrise": 0.74,
+      "Articice": 6730000,
+      "Forestarea": 31.9
+    },
+    "2002": {
+      "populacao": 6337730319,
+      "cropland": 1480000000,
+      "minerals": 6638129779,
+      "Renewablewaterpc": 6844.03,
+      "Fossilfconsumptionpc": 15469,
+      "Nuclearpc": 1196,
+      "Renewablespc": 1364,
+      "Greenhousegasemissions": 41334140000,
+      "CO2emissions": 26280000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 1490,
+      "Temperature": 14.44,
+      "Humidity": 8.05,
+      "Radiativeforcing": 1.82,
+      "Ozone": 284,
+      "sealevelrise": -1.06,
+      "Articice": 5830000,
+      "Forestarea": 31.8
+    },
+    "2003": {
+      "populacao": 6420361649,
+      "cropland": 1480000000,
+      "minerals": 7163429284,
+      "Renewablewaterpc": 6756.39,
+      "Fossilfconsumptionpc": 15924,
+      "Nuclearpc": 1150,
+      "Renewablespc": 1351,
+      "Greenhousegasemissions": 43886330000,
+      "CO2emissions": 27670000000,
+      "Airquality": "Moderate",
+      "Mercury": 1730,
+      "Temperature": 14.49,
+      "Humidity": 8.1,
+      "Radiativeforcing": 1.84,
+      "Ozone": 284,
+      "sealevelrise": 3.25,
+      "Articice": 6120000,
+      "Forestarea": 31.8
+    },
+    "2004": {
+      "populacao": 6503377778,
+      "cropland": 1490000000,
+      "minerals": 7855656011,
+      "Renewablewaterpc": 6669.71,
+      "Fossilfconsumptionpc": 16491,
+      "Nuclearpc": 1179,
+      "Renewablespc": 1436,
+      "Greenhousegasemissions": 44371150000,
+      "CO2emissions": 28630000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 1900,
+      "Temperature": 14.44,
+      "Humidity": 8.05,
+      "Radiativeforcing": 1.87,
+      "Ozone": 285,
+      "sealevelrise": 7.56,
+      "Articice": 5980000,
+      "Forestarea": 31.8
+    },
+    "2005": {
+      "populacao": 6586970145,
+      "cropland": 1500000000,
+      "minerals": 8350322324,
+      "Renewablewaterpc": 6585.68,
+      "Fossilfconsumptionpc": 16864,
+      "Nuclearpc": 1160,
+      "Renewablespc": 1475,
+      "Greenhousegasemissions": 44987160000,
+      "CO2emissions": 29610000000,
+      "Airquality": "Moderate",
+      "Mercury": 1520,
+      "Temperature": 14.54,
+      "Humidity": 8.1,
+      "Radiativeforcing": 1.87,
+      "Ozone": 285,
+      "sealevelrise": 9.02,
+      "Articice": 5500000,
+      "Forestarea": 31.7
+    },
+    "2006": {
+      "populacao": 6671452018,
+      "cropland": 1500000000,
+      "minerals": 8843431508,
+      "Renewablewaterpc": 6496.72,
+      "Fossilfconsumptionpc": 17120,
+      "Nuclearpc": 1152,
+      "Renewablespc": 1526,
+      "Greenhousegasemissions": 46601814000,
+      "CO2emissions": 30630000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 1150,
+      "Temperature": 14.49,
+      "Humidity": 8.08,
+      "Radiativeforcing": 1.92,
+      "Ozone": 285,
+      "sealevelrise": 9.36,
+      "Articice": 5860000,
+      "Forestarea": 31.7
+    },
+    "2007": {
+      "populacao": 6757308750,
+      "cropland": 1500000000,
+      "minerals": 9357471274,
+      "Renewablewaterpc": 6415.77,
+      "Fossilfconsumptionpc": 17480,
+      "Nuclearpc": 1108,
+      "Renewablespc": 1561,
+      "Greenhousegasemissions": 46866113000,
+      "CO2emissions": 31530000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 1200,
+      "Temperature": 14.54,
+      "Humidity": 8.08,
+      "Radiativeforcing": 1.98,
+      "Ozone": 285,
+      "sealevelrise": 6.52,
+      "Articice": 4270000,
+      "Forestarea": 31.6
+    },
+    "2008": {
+      "populacao": 6844457675,
+      "cropland": 1500000000,
+      "minerals": 9630522787,
+      "Renewablewaterpc": 6335.48,
+      "Fossilfconsumptionpc": 17388,
+      "Nuclearpc": 1084,
+      "Renewablespc": 1660,
+      "Greenhousegasemissions": 47752990000,
+      "CO2emissions": 32070000000,
+      "Airquality": "Moderate",
+      "Mercury": 1820,
+      "Temperature": 14.44,
+      "Humidity": 8.01,
+      "Radiativeforcing": 2.03,
+      "Ozone": 286,
+      "sealevelrise": 16.57,
+      "Articice": 4690000,
+      "Forestarea": 31.6
+    },
+    "2009": {
+      "populacao": 6932766459,
+      "cropland": 1500000000,
+      "minerals": 9712302542,
+      "Renewablewaterpc": 6257.14,
+      "Fossilfconsumptionpc": 16839,
+      "Nuclearpc": 1048,
+      "Renewablespc": 1676,
+      "Greenhousegasemissions": 47577604000,
+      "CO2emissions": 31540000000,
+      "Airquality": "Moderately Unhealthy",
+      "Mercury": 1880,
+      "Temperature": 14.49,
+      "Humidity": 8.05,
+      "Radiativeforcing": 2.08,
+      "Ozone": 286,
+      "sealevelrise": 18.87,
+      "Articice": 5260000,
+      "Forestarea": 31.6
+    },
+    "2010": {
+      "populacao": 7021732131,
+      "cropland": 1510000000,
+      "minerals": 10526444942,
+      "Renewablewaterpc": 6182.04,
+      "Fossilfconsumptionpc": 17413,
+      "Nuclearpc": 1055,
+      "Renewablespc": 1781,
+      "Greenhousegasemissions": 49800950000,
+      "CO2emissions": 33360000000,
+      "Airquality": "Moderate",
+      "Mercury": 2180,
+      "Temperature":14.59,
+      "Humidity": 8.2,
+      "Radiativeforcing": 2.14,
+      "Ozone": 286,
+      "sealevelrise": 38.78,
+      "Articice": 4870000,
+      "Forestarea": 31.5
+    },
+    "2011": {
+      "populacao": 7110923797,
+      "cropland": 1520000000,
+      "minerals": 11219443797,
+      "Renewablewaterpc": 6107.77,
+      "Fossilfconsumptionpc": 17629,
+      "Nuclearpc": 993,
+      "Renewablespc": 1837,
+      "Greenhousegasemissions": 51089150000,
+      "CO2emissions": 34500000000,
+      "Airquality": "Moderate",
+      "Mercury": 1970,
+      "Temperature": 14.49,
+      "Humidity": 8.05,
+      "Radiativeforcing": 2.19,
+      "Ozone": 287,
+      "sealevelrise": 37.35,
+      "Articice": 5560000,
+      "Forestarea": 31.5
+    },
+    "2012": {
+      "populacao": 7201202531,
+      "cropland": 1530000000,
+      "minerals": 11546814579,
+      "Renewablewaterpc": 5995.78,
+      "Fossilfconsumptionpc": 17653,
+      "Nuclearpc": 908,
+      "Renewablespc": 1929,
+      "Greenhousegasemissions": 52088530000,
+      "CO2emissions": 35000000000,
+      "Airquality": "Moderate",
+      "Mercury": 1830,
+      "Temperature": 14.54,
+      "Humidity": 8.03,
+      "Radiativeforcing": 2.23,
+      "Ozone": 287,
+      "sealevelrise": 34.2,
+      "Articice": 3570000,
+      "Forestarea": 31.4
+    },
+    "2013": {
+      "populacao": 7291793608,
+      "cropland": 1540000000,
+      "minerals": 11842039629,
+      "Renewablewaterpc": 5921.69,
+      "Fossilfconsumptionpc": 17665,
+      "Nuclearpc": 898,
+      "Renewablespc": 2028,
+      "Greenhousegasemissions": 51811950000,
+      "CO2emissions": 35300000000,
+      "Airquality": "Moderate",
+      "Mercury": 2320,
+      "Temperature": 14.59,
+      "Humidity": 8.05,
+      "Radiativeforcing": 2.28,
+      "Ozone": 288,
+      "sealevelrise": 44.8,
+      "Articice": 5210000,
+      "Forestarea": 31.4
+    },
+    "2014": {
+      "populacao": 7381616239,
+      "cropland": 1540000000,
+      "minerals": 12014325111,
+      "Renewablewaterpc": 5850.11,
+      "Fossilfconsumptionpc": 17559,
+      "Nuclearpc": 900,
+      "Renewablespc": 2101,
+      "Greenhousegasemissions": 52359200000,
+      "CO2emissions": 35450000000,
+      "Airquality": "Moderate",
+      "Mercury": 2770,
+      "Temperature": 14.64,
+      "Humidity": 8.07,
+      "Radiativeforcing": 2.33,
+      "Ozone": 288,
+      "sealevelrise": 41.27,
+      "Articice": 5220000,
+      "Forestarea": 31.4
+    },
+    "2015": {
+      "populacao": 7470491904,
+      "cropland": 1560000000,
+      "minerals": 11808296038,
+      "Renewablewaterpc": 5781.05,
+      "Fossilfconsumptionpc": 17425,
+      "Nuclearpc": 896,
+      "Renewablespc": 2150,
+      "Greenhousegasemissions": 52443984000,
+      "CO2emissions": 35400000000,
+      "Airquality": "Moderate",
+      "Mercury": 3330,
+      "Temperature": 14.74,
+      "Humidity": 8.17,
+      "Radiativeforcing": 2.38,
+      "Ozone": 288,
+      "sealevelrise": 53.26,
+      "Articice": 4620000,
+      "Forestarea": 31.3
+    },
+    "2016": {
+      "populacao": 7558554580,
+      "cropland": 1570000000,
+      "minerals": 11258023207,
+      "Renewablewaterpc": 5713.95,
+      "Fossilfconsumptionpc": 17306,
+      "Nuclearpc": 894,
+      "Renewablespc": 2245,
+      "Greenhousegasemissions": 51361518000,
+      "CO2emissions": 35420000000,
+      "Airquality": "Moderate",
+      "Mercury": 4000,
+      "Temperature": 14.84,
+      "Humidity": 8.3,
+      "Radiativeforcing": 2.43,
+      "Ozone": 289,
+      "sealevelrise": 58.72,
+      "Articice": 4530000,
+      "Forestarea": 31.3
+    },
+    "2017": {
+      "populacao": 7645618013,
+      "cropland": 1580000000,
+      "minerals": 11686630830,
+      "Renewablewaterpc": 5649.5,
+      "Fossilfconsumptionpc": 17460,
+      "Nuclearpc": 886,
+      "Renewablespc": 2346,
+      "Greenhousegasemissions": 51949548000,
+      "CO2emissions": 35990000000,
+      "Airquality": "Moderate",
+      "Mercury": 4010,
+      "Temperature": 14.79,
+      "Humidity": 8.18,
+      "Radiativeforcing": 2.48,
+      "Ozone": 289,
+      "sealevelrise": 54.96,
+      "Articice": 4820000,
+      "Forestarea": 31.3
+    },
+    "2018": {
+      "populacao": 7729902724,
+      "cropland": 1590000000,
+      "minerals": 11621063662,
+      "Renewablewaterpc": 5588.82,
+      "Fossilfconsumptionpc": 17660,
+      "Nuclearpc": 892,
+      "Renewablespc": 2468,
+      "Greenhousegasemissions": 52420270000,
+      "CO2emissions": 36730000000,
+      "Airquality": "Moderate",
+      "Mercury": 2780,
+      "Temperature": 14.69,
+      "Humidity": 8.13,
+      "Radiativeforcing": 2.53,
+      "Ozone": 290,
+      "sealevelrise": 49.37,
+      "Articice": 4790000,
+      "Forestarea": 31.2
+    },
+    "2019": {
+      "populacao": 7811293714,
+      "cropland": 1590000000,
+      "minerals": 11720110680,
+      "Renewablewaterpc": 5530.82,
+      "Fossilfconsumptionpc": 17553,
+      "Nuclearpc": 911,
+      "Renewablespc": 2572,
+      "Greenhousegasemissions": 52796522000,
+      "CO2emissions": 37100000000,
+      "Airquality": "Moderate",
+      "Mercury": 2500,
+      "Temperature": 14.79,
+      "Humidity": 8.2,
+      "Radiativeforcing": 2.57,
+      "Ozone": 290,
+      "sealevelrise": 56.61,
+      "Articice": 4360000,
+      "Forestarea": 31.2
+    },
+    "2020": {
+      "populacao": 7887001284,
+      "cropland": 1600000000,
+      "minerals": 12770393022,
+      "Renewablewaterpc": 5474.76,
+      "Fossilfconsumptionpc": 16549,
+      "Nuclearpc": 864,
+      "Renewablespc": 2695,
+      "Greenhousegasemissions": 50792542000,
+      "CO2emissions": 35130000000,
+      "Airquality": "Moderate",
+      "Mercury": 2490,
+      "Temperature": 14.84,
+      "Humidity": 8.3,
+      "Radiativeforcing": 2.62,
+      "Ozone": 291,
+      "sealevelrise": 68.81,
+      "Articice": 4000000,
+      "Forestarea": 31.2
+    },
+    "2021": {
+      "populacao": 7954448405,
+      "cropland": 1610000000,
+      "minerals": 13655584948,
+      "Renewablewaterpc": 5429.48,
+      "Fossilfconsumptionpc": 17242,
+      "Nuclearpc": 890,
+      "Renewablespc": 2822,
+      "Greenhousegasemissions": 52938793000,
+      "CO2emissions": 36990000000,
+      "Airquality": "Moderate",
+      "Mercury": 2200,
+      "Temperature": 14.79,
+      "Humidity": 8.18,
+      "Radiativeforcing": 2.66,
+      "Ozone": 291,
+      "sealevelrise": 69.21,
+      "Articice": 4950000,
+      "Forestarea": 31.4
+    },
+    "2022": {
+      "populacao": 8021407170,
+      "cropland": 1620000000,
+      "minerals": 14007887237,
+      "Renewablewaterpc": null,
+      "Fossilfconsumptionpc": 17327,
+      "Nuclearpc": 841,
+      "Renewablespc": 2987,
+      "Greenhousegasemissions": 53327217000,
+      "CO2emissions": 37290000000,
+      "Airquality": "Moderate",
+      "Mercury": 1160,
+      "Temperature": 14.94,
+      "Humidity": 8.19,
+      "Radiativeforcing": 2.7,
+      "Ozone": 291,
+      "sealevelrise": 70.01,
+      "Articice": 4900000,
+      "Forestarea": 31.3
+    },
+    "2023": {
+      "populacao": 8091734935,
+      "cropland": 1630000000,
+      "minerals": 5641627688,
+      "Renewablewaterpc": null,
+      "Fossilfconsumptionpc": 17430,
+      "Nuclearpc": 848,
+      "Renewablespc": 3115,
+      "Greenhousegasemissions": 53816852000,
+      "CO2emissions": 37790000000,
+      "Airquality": "Moderate",
+      "Mercury": 1200,
+      "Temperature": 15.37,
+      "Humidity": 8.42,
+      "Radiativeforcing": 2.74,
+      "Ozone": 292,
+      "sealevelrise": 70.81,
+      "Articice": 4370000,
+      "Forestarea": 31.3
+    },
+    "2024": {
+      "populacao": 8161972572,
+      "Renewablewaterpc": 5300,
+      "Fossilfconsumptionpc": 61800,
+      "Nuclearpc": 450,
+      "Renewablespc": 1200,
+      "Greenhousegasemissions": 5300130586,
+      "CO2emissions": 41612302030,
+      "Airquality": "Moderate",
+      "Temperature": 15.46,
+      "Humidity": 8.59,
+      "Radiativeforcing": 2.78,
+      "Ozone": 292,
+      "sealevelrise": 71.01,
+      "Articice": 4380200,
+      "Forestarea": 31.3
+    },
+    "2025": {
+      "populacao": 8231402300,
+      "Renewablewaterpc": 1300,
+      "Fossilfconsumptionpc": 1800,
+      "Nuclearpc": 500,
+      "Renewablespc": 2200,
+      "Greenhousegasemissions": 51002358020,
+      "CO2emissions": 37804200023,
+      "Temperature": 13.23,
+      "Humidity": 75,
+      "Radiativeforcing": 2.81,
+      "Ozone": 293,
+      "sealevelrise": 63.31,
+      "Articice": 14330000,
+      "Forestarea": 31.3
+    },
+    "2026": {
+      "populacao": 8263099184,
+      "cropland": 1613511884.49,
+      "minerals": 12311752023.39,
+      "Renewablewaterpc": 3925.23,
+      "Fossilfconsumptionpc": 17876.93,
+      "Nuclearpc": 1324.96,
+      "Renewablespc": 2425.19,
+      "Greenhousegasemissions": 56263087214.54,
+      "CO2emissions": 39158205405.4,
+      "Mercury": 809.77,
+      "Temperature": 14.87,
+      "Humidity": 8.29,
+      "Radiativeforcing": 2.64,
+      "Ozone": 284.03,
+      "sealevelrise": 58.85,
+      "Articice": 4640279.75,
+      "Forestarea": 29.62,
+      "Airquality": "Moderate"
+    },
+    "2027": {
+      "populacao": 8343076712,
+      "cropland": 1618048278.41,
+      "minerals": 12463203990.57,
+      "Renewablewaterpc": 3796.54,
+      "Fossilfconsumptionpc": 17941.13,
+      "Nuclearpc": 1342.15,
+      "Renewablespc": 2453.9,
+      "Greenhousegasemissions": 56781586798.49,
+      "CO2emissions": 39606767567.57,
+      "Mercury": 701.35,
+      "Temperature": 14.89,
+      "Humidity": 8.3,
+      "Radiativeforcing": 2.67,
+      "Ozone": 283.81,
+      "sealevelrise": 60.91,
+      "Articice": 4594444.19,
+      "Forestarea": 29.51,
+      "Airquality": "Moderate"
+    },
+    "2028": {
+      "populacao": 8423054241,
+      "cropland": 1622584672.34,
+      "minerals": 12614655957.75,
+      "Renewablewaterpc": 3667.84,
+      "Fossilfconsumptionpc": 18005.33,
+      "Nuclearpc": 1359.34,
+      "Renewablespc": 2482.6,
+      "Greenhousegasemissions": 57300086382.44,
+      "CO2emissions": 40055329729.73,
+      "Mercury": 592.93,
+      "Temperature": 14.91,
+      "Humidity": 8.31,
+      "Radiativeforcing": 2.7,
+      "Ozone": 283.59,
+      "sealevelrise": 62.98,
+      "Articice": 4548608.63,
+      "Forestarea": 29.39,
+      "Airquality": "Moderate"
+    },
+    "2029": {
+      "populacao": 8503031770,
+      "cropland": 1627121066.27,
+      "minerals": 12766107924.93,
+      "Renewablewaterpc": 3539.15,
+      "Fossilfconsumptionpc": 18069.53,
+      "Nuclearpc": 1376.52,
+      "Renewablespc": 2511.3,
+      "Greenhousegasemissions": 57818585966.38,
+      "CO2emissions": 40503891891.89,
+      "Mercury": 484.51,
+      "Temperature": 14.93,
+      "Humidity": 8.32,
+      "Radiativeforcing": 2.73,
+      "Ozone": 283.37,
+      "sealevelrise": 65.04,
+      "Articice": 4502773.07,
+      "Forestarea": 29.28,
+      "Airquality": "Moderate"
+    },
+    "2030": {
+      "populacao": 8549009298,
+      "cropland": 1631657460.2,
+      "minerals": 12917559892.11,
+      "Renewablewaterpc": 3410.46,
+      "Fossilfconsumptionpc": 18133.73,
+      "Nuclearpc": 1393.71,
+      "Renewablespc": 2540.01,
+      "Greenhousegasemissions": 58337085550.33,
+      "CO2emissions": 40952454054.05,
+      "Mercury": 376.08,
+      "Temperature": 14.95,
+      "Humidity": 8.33,
+      "Radiativeforcing": 2.76,
+      "Ozone": 283.15,
+      "sealevelrise": 67.11,
+      "Articice": 4456937.51,
+      "Forestarea": 29.16,
+      "Airquality": "Moderate"
+    },
+    "2031": {
+      "populacao": 8662986827,
+      "cropland": 1636193854.13,
+      "minerals": 13069011859.3,
+      "Renewablewaterpc": 3281.77,
+      "Fossilfconsumptionpc": 18197.92,
+      "Nuclearpc": 1410.89,
+      "Renewablespc": 2568.71,
+      "Greenhousegasemissions": 58855585134.28,
+      "CO2emissions": 41401016216.22,
+      "Mercury": 267.66,
+      "Temperature": 14.96,
+      "Humidity": 8.34,
+      "Radiativeforcing": 2.79,
+      "Ozone": 282.94,
+      "sealevelrise": 69.17,
+      "Articice": 4411101.94,
+      "Forestarea": 29.05,
+      "Airquality": "Moderate"
+    },
+    "2032": {
+      "populacao": 8742964355,
+      "cropland": 1640730248.06,
+      "minerals": 13220463826.48,
+      "Renewablewaterpc": 3153.08,
+      "Fossilfconsumptionpc": 18262.12,
+      "Nuclearpc": 1428.08,
+      "Renewablespc": 2597.41,
+      "Greenhousegasemissions": 59374084718.22,
+      "CO2emissions": 41849578378.38,
+      "Mercury": 159.24,
+      "Temperature": 14.98,
+      "Humidity": 8.35,
+      "Radiativeforcing": 2.82,
+      "Ozone": 282.72,
+      "sealevelrise": 71.24,
+      "Articice": 4365266.38,
+      "Forestarea": 28.93,
+      "Airquality": "Moderate"
+    },
+    "2033": {
+      "populacao": 8822941884,
+      "cropland": 1645266641.98,
+      "minerals": 13371915793.66,
+      "Renewablewaterpc": 3024.38,
+      "Fossilfconsumptionpc": 18326.32,
+      "Nuclearpc": 1445.26,
+      "Renewablespc": 2626.12,
+      "Greenhousegasemissions": 59892584302.17,
+      "CO2emissions": 42298140540.54,
+      "Mercury": 50.82,
+      "Temperature": 15.0,
+      "Humidity": 8.36,
+      "Radiativeforcing": 2.85,
+      "Ozone": 282.5,
+      "sealevelrise": 73.3,
+      "Articice": 4319430.82,
+      "Forestarea": 28.82,
+      "Airquality": "Moderate"
+    },
+    "2034": {
+      "populacao": 8902919413,
+      "cropland": 1649803035.91,
+      "minerals": 13523367760.84,
+      "Renewablewaterpc": 2895.69,
+      "Fossilfconsumptionpc": 18390.52,
+      "Nuclearpc": 1462.45,
+      "Renewablespc": 2654.82,
+      "Greenhousegasemissions": 60411083886.12,
+      "CO2emissions": 42746702702.7,
+      "Mercury": 50.82,
+      "Temperature": 15.02,
+      "Humidity": 8.36,
+      "Radiativeforcing": 2.88,
+      "Ozone": 282.28,
+      "sealevelrise": 75.37,
+      "Articice": 4273595.26,
+      "Forestarea": 28.7,
+      "Airquality": "Moderate"
+    },
+    "2035": {
+      "populacao": 8982896941,
+      "cropland": 1654339429.84,
+      "minerals": 13674819728.02,
+      "Renewablewaterpc": 2767.0,
+      "Fossilfconsumptionpc": 18454.72,
+      "Nuclearpc": 1479.63,
+      "Renewablespc": 2683.52,
+      "Greenhousegasemissions": 60929583470.06,
+      "CO2emissions": 43195264864.86,
+      "Mercury": 50.06,
+      "Temperature": 15.04,
+      "Humidity": 8.37,
+      "Radiativeforcing": 2.9,
+      "Ozone": 282.06,
+      "sealevelrise": 77.43,
+      "Articice": 4227759.7,
+      "Forestarea": 28.59,
+      "Airquality": "Moderate"
+    },
+    "2036": {
+      "populacao": 9062874470,
+      "cropland": 1658875823.77,
+      "minerals": 13826271695.2,
+      "Renewablewaterpc": 2638.31,
+      "Fossilfconsumptionpc": 18518.92,
+      "Nuclearpc": 1496.82,
+      "Renewablespc": 2712.22,
+      "Greenhousegasemissions": 61448083054.01,
+      "CO2emissions": 43643827027.03,
+      "Mercury": 49.31,
+      "Temperature": 15.05,
+      "Humidity": 8.38,
+      "Radiativeforcing": 2.93,
+      "Ozone": 281.84,
+      "sealevelrise": 79.5,
+      "Articice": 4181924.13,
+      "Forestarea": 28.47,
+      "Airquality": "Moderate"
+    },
+    "2037": {
+      "populacao": 9142851998,
+      "cropland": 1663412217.7,
+      "minerals": 13977723662.38,
+      "Renewablewaterpc": 2509.62,
+      "Fossilfconsumptionpc": 18583.12,
+      "Nuclearpc": 1514.0,
+      "Renewablespc": 2740.93,
+      "Greenhousegasemissions": 61966582637.96,
+      "CO2emissions": 44092389189.19,
+      "Mercury": 48.57,
+      "Temperature": 15.07,
+      "Humidity": 8.39,
+      "Radiativeforcing": 2.96,
+      "Ozone": 281.62,
+      "sealevelrise": 81.56,
+      "Articice": 4136088.57,
+      "Forestarea": 28.36,
+      "Airquality": "Moderate"
+    },
+    "2038": {
+      "populacao": 9222829527,
+      "cropland": 1667948611.62,
+      "minerals": 14129175629.56,
+      "Renewablewaterpc": 2380.92,
+      "Fossilfconsumptionpc": 18647.32,
+      "Nuclearpc": 1531.19,
+      "Renewablespc": 2769.63,
+      "Greenhousegasemissions": 62485082221.9,
+      "CO2emissions": 44540951351.35,
+      "Mercury": 47.84,
+      "Temperature": 15.09,
+      "Humidity": 8.4,
+      "Radiativeforcing": 2.99,
+      "Ozone": 281.4,
+      "sealevelrise": 83.63,
+      "Articice": 4090253.01,
+      "Forestarea": 28.24,
+      "Airquality": "Moderate"
+    },
+    "2039": {
+      "populacao": 9302807056,
+      "cropland": 1672485005.55,
+      "minerals": 14280627596.74,
+      "Renewablewaterpc": 2252.23,
+      "Fossilfconsumptionpc": 18711.52,
+      "Nuclearpc": 1548.37,
+      "Renewablespc": 2798.33,
+      "Greenhousegasemissions": 63003581805.85,
+      "CO2emissions": 44989513513.51,
+      "Mercury": 47.12,
+      "Temperature": 15.11,
+      "Humidity": 8.41,
+      "Radiativeforcing": 3.02,
+      "Ozone": 281.18,
+      "sealevelrise": 85.69,
+      "Articice": 4044417.45,
+      "Forestarea": 28.13,
+      "Airquality": "Moderate"
+    },
+    "2040": {
+      "populacao": 9199784584,
+      "cropland": 1677021399.48,
+      "minerals": 14432079563.92,
+      "Renewablewaterpc": 2123.54,
+      "Fossilfconsumptionpc": 18775.72,
+      "Nuclearpc": 1565.56,
+      "Renewablespc": 2827.04,
+      "Greenhousegasemissions": 63522081389.8,
+      "CO2emissions": 45438075675.68,
+      "Mercury": 46.41,
+      "Temperature": 15.13,
+      "Humidity": 8.42,
+      "Radiativeforcing": 3.05,
+      "Ozone": 280.96,
+      "sealevelrise": 87.76,
+      "Articice": 3998581.89,
+      "Forestarea": 28.01,
+      "Airquality": "Moderate"
+    },
+    "2041": {
+      "populacao": 9462762113,
+      "cropland": 1681557793.41,
+      "minerals": 14583531531.1,
+      "Renewablewaterpc": 1994.85,
+      "Fossilfconsumptionpc": 18839.92,
+      "Nuclearpc": 1582.74,
+      "Renewablespc": 2855.74,
+      "Greenhousegasemissions": 64040580973.74,
+      "CO2emissions": 45886637837.84,
+      "Mercury": 45.72,
+      "Temperature": 15.14,
+      "Humidity": 8.43,
+      "Radiativeforcing": 3.08,
+      "Ozone": 280.74,
+      "sealevelrise": 89.82,
+      "Articice": 3952746.33,
+      "Forestarea": 27.9,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2042": {
+      "populacao": 9542739641,
+      "cropland": 1686094187.34,
+      "minerals": 14734983498.28,
+      "Renewablewaterpc": 1866.15,
+      "Fossilfconsumptionpc": 18904.11,
+      "Nuclearpc": 1599.93,
+      "Renewablespc": 2884.44,
+      "Greenhousegasemissions": 64559080557.69,
+      "CO2emissions": 46335200000.0,
+      "Mercury": 45.03,
+      "Temperature": 15.16,
+      "Humidity": 8.44,
+      "Radiativeforcing": 3.11,
+      "Ozone": 280.52,
+      "sealevelrise": 91.89,
+      "Articice": 3906910.76,
+      "Forestarea": 27.78,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2043": {
+      "populacao": 9622717170,
+      "cropland": 1690630581.27,
+      "minerals": 14886435465.46,
+      "Renewablewaterpc": 1737.46,
+      "Fossilfconsumptionpc": 18968.31,
+      "Nuclearpc": 1617.12,
+      "Renewablespc": 2913.15,
+      "Greenhousegasemissions": 65077580141.64,
+      "CO2emissions": 46783762162.16,
+      "Mercury": 44.36,
+      "Temperature": 15.18,
+      "Humidity": 8.45,
+      "Radiativeforcing": 3.14,
+      "Ozone": 280.3,
+      "sealevelrise": 93.95,
+      "Articice": 3861075.2,
+      "Forestarea": 27.67,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2044": {
+      "populacao": 9702694699,
+      "cropland": 1695166975.19,
+      "minerals": 15037887432.65,
+      "Renewablewaterpc": 1608.77,
+      "Fossilfconsumptionpc": 19032.51,
+      "Nuclearpc": 1634.3,
+      "Renewablespc": 2941.85,
+      "Greenhousegasemissions": 65596079725.58,
+      "CO2emissions": 47232324324.32,
+      "Mercury": 43.69,
+      "Temperature": 15.2,
+      "Humidity": 8.46,
+      "Radiativeforcing": 3.17,
+      "Ozone": 280.08,
+      "sealevelrise": 96.01,
+      "Articice": 3815239.64,
+      "Forestarea": 27.55,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2045": {
+      "populacao": 9782672227,
+      "cropland": 1699703369.12,
+      "minerals": 15189339399.83,
+      "Renewablewaterpc": 1480.08,
+      "Fossilfconsumptionpc": 19096.71,
+      "Nuclearpc": 1651.49,
+      "Renewablespc": 2970.55,
+      "Greenhousegasemissions": 66114579309.53,
+      "CO2emissions": 47680886486.49,
+      "Mercury": 43.04,
+      "Temperature": 15.22,
+      "Humidity": 8.47,
+      "Radiativeforcing": 3.2,
+      "Ozone": 279.87,
+      "sealevelrise": 98.08,
+      "Articice": 3769404.08,
+      "Forestarea": 27.44,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2046": {
+      "populacao": 9862649756,
+      "cropland": 1704239763.05,
+      "minerals": 15340791367.01,
+      "Renewablewaterpc": 1351.39,
+      "Fossilfconsumptionpc": 19160.91,
+      "Nuclearpc": 1668.67,
+      "Renewablespc": 2999.26,
+      "Greenhousegasemissions": 66633078893.48,
+      "CO2emissions": 48129448648.65,
+      "Mercury": 42.39,
+      "Temperature": 15.23,
+      "Humidity": 8.48,
+      "Radiativeforcing": 3.23,
+      "Ozone": 279.65,
+      "sealevelrise": 100.14,
+      "Articice": 3723568.52,
+      "Forestarea": 27.32,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2047": {
+      "populacao": 9702312002,
+      "cropland": 1708776156.98,
+      "minerals": 15492243334.19,
+      "Renewablewaterpc": 1222.69,
+      "Fossilfconsumptionpc": 19225.11,
+      "Nuclearpc": 1685.86,
+      "Renewablespc": 3027.96,
+      "Greenhousegasemissions": 67151578477.42,
+      "CO2emissions": 48578010810.81,
+      "Mercury": 41.75,
+      "Temperature": 15.25,
+      "Humidity": 8.49,
+      "Radiativeforcing": 3.26,
+      "Ozone": 279.43,
+      "sealevelrise": 102.21,
+      "Articice": 3677732.95,
+      "Forestarea": 27.21,
+      "Airquality": "Moderate"
+    },
+    "2048": {
+      "populacao": 9619800245,
+      "cropland": 1713312550.91,
+      "minerals": 15643695301.37,
+      "Renewablewaterpc": 1094.0,
+      "Fossilfconsumptionpc": 19289.31,
+      "Nuclearpc": 1703.04,
+      "Renewablespc": 3056.66,
+      "Greenhousegasemissions": 67670078061.37,
+      "CO2emissions": 49026572972.97,
+      "Mercury": 41.13,
+      "Temperature": 15.27,
+      "Humidity": 8.49,
+      "Radiativeforcing": 3.29,
+      "Ozone": 279.21,
+      "sealevelrise": 104.27,
+      "Articice": 3631897.39,
+      "Forestarea": 27.09,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2049": {
+      "populacao": 9536072642,
+      "cropland": 1717848944.84,
+      "minerals": 15795147268.55,
+      "Renewablewaterpc": 965.31,
+      "Fossilfconsumptionpc": 19353.51,
+      "Nuclearpc": 1720.23,
+      "Renewablespc": 3085.36,
+      "Greenhousegasemissions": 68188577645.32,
+      "CO2emissions": 49475135135.14,
+      "Mercury": 40.51,
+      "Temperature": 15.29,
+      "Humidity": 8.5,
+      "Radiativeforcing": 3.32,
+      "Ozone": 278.99,
+      "sealevelrise": 106.34,
+      "Articice": 3586061.83,
+      "Forestarea": 26.98,
+      "Airquality": "Moderate"
+    },
+    "2050": {
+      "populacao": 9735034671,
+      "cropland": 1722385338.76,
+      "minerals": 15946599235.73,
+      "Renewablewaterpc": 836.62,
+      "Fossilfconsumptionpc": 19417.71,
+      "Nuclearpc": 1737.41,
+      "Renewablespc": 3114.07,
+      "Greenhousegasemissions": 68707077229.26,
+      "CO2emissions": 49923697297.3,
+      "Mercury": 39.9,
+      "Temperature": 15.31,
+      "Humidity": 8.51,
+      "Radiativeforcing": 3.35,
+      "Ozone": 278.77,
+      "sealevelrise": 108.4,
+      "Articice": 3540226.27,
+      "Forestarea": 26.86,
+      "Airquality": "Moderate"
+    },
+    "2051": {
+      "populacao": 9782101811, 
+      "cropland": 1726921732.69,
+      "minerals": 16098051202.91,
+      "Renewablewaterpc": 707.92,
+      "Fossilfconsumptionpc": 19481.91,
+      "Nuclearpc": 1754.6,
+      "Renewablespc": 3142.77,
+      "Greenhousegasemissions": 69225576813.21,
+      "CO2emissions": 50372259459.46,
+      "Mercury": 39.31,
+      "Temperature": 15.32,
+      "Humidity": 8.52,
+      "Radiativeforcing": 3.37,
+      "Ozone": 278.55,
+      "sealevelrise": 110.47,
+      "Articice": 3494390.71,
+      "Forestarea": 26.75,
+      "Airquality": "Moderate"
+    },
+    "2052": {
+      "populacao": 9812081980,
+      "cropland": 1731458126.62,
+      "minerals": 16249503170.09,
+      "Renewablewaterpc": 579.23,
+      "Fossilfconsumptionpc": 19546.1,
+      "Nuclearpc": 1771.78,
+      "Renewablespc": 3171.47,
+      "Greenhousegasemissions": 69744076397.16,
+      "CO2emissions": 50820821621.62,
+      "Mercury": 38.72,
+      "Temperature": 15.34,
+      "Humidity": 8.53,
+      "Radiativeforcing": 3.4,
+      "Ozone": 278.33,
+      "sealevelrise": 112.53,
+      "Articice": 3448555.15,
+      "Forestarea": 26.63,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2053": {
+      "populacao": 9882413488,
+      "cropland": 1735994520.55,
+      "minerals": 16400955137.27,
+      "Renewablewaterpc": 450.54,
+      "Fossilfconsumptionpc": 19610.3,
+      "Nuclearpc": 1788.97,
+      "Renewablespc": 3200.18,
+      "Greenhousegasemissions": 70262575981.1,
+      "CO2emissions": 51269383783.78,
+      "Mercury": 38.13,
+      "Temperature": 15.36,
+      "Humidity": 8.54,
+      "Radiativeforcing": 3.43,
+      "Ozone": 278.11,
+      "sealevelrise": 114.6,
+      "Articice": 3402719.58,
+      "Forestarea": 26.52,
+      "Airquality": "Moderate"
+    },
+    "2054": {
+      "populacao": 9930434671,
+      "cropland": 1740530914.48,
+      "minerals": 16552407104.45,
+      "Renewablewaterpc": 321.85,
+      "Fossilfconsumptionpc": 19674.5,
+      "Nuclearpc": 1806.15,
+      "Renewablespc": 3228.88,
+      "Greenhousegasemissions": 70781075565.05,
+      "CO2emissions": 51717945945.95,
+      "Mercury": 37.56,
+      "Temperature": 15.38,
+      "Humidity": 8.55,
+      "Radiativeforcing": 3.46,
+      "Ozone": 277.89,
+      "sealevelrise": 116.66,
+      "Articice": 3356884.02,
+      "Forestarea": 26.4,
+      "Airquality": "Moderate"
+    },
+    "2055": {
+      "populacao": 9950245782,
+      "cropland": 1745067308.4,
+      "minerals": 16703859071.63,
+      "Renewablewaterpc": 193.16,
+      "Fossilfconsumptionpc": 19738.7,
+      "Nuclearpc": 1823.34,
+      "Renewablespc": 3257.58,
+      "Greenhousegasemissions": 71299575149.0,
+      "CO2emissions": 52166508108.11,
+      "Mercury": 37.0,
+      "Temperature": 15.4,
+      "Humidity": 8.56,
+      "Radiativeforcing": 3.49,
+      "Ozone": 277.67,
+      "sealevelrise": 118.72,
+      "Articice": 3311048.46,
+      "Forestarea": 26.29,
+      "Airquality": "Moderate"
+    },
+    "2056": {
+      "populacao": 9930297101,
+      "cropland": 1749603702.33,
+      "minerals": 16855311038.81,
+      "Renewablewaterpc": 64.46,
+      "Fossilfconsumptionpc": 19802.9,
+      "Nuclearpc": 1840.52,
+      "Renewablespc": 3286.29,
+      "Greenhousegasemissions": 71818074732.94,
+      "CO2emissions": 52615070270.27,
+      "Mercury": 36.44,
+      "Temperature": 15.41,
+      "Humidity": 8.57,
+      "Radiativeforcing": 3.52,
+      "Ozone": 277.45,
+      "sealevelrise": 120.79,
+      "Articice": 3265212.9,
+      "Forestarea": 26.17,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2057": {
+      "populacao": 9992353422,
+      "cropland": 1754140096.26,
+      "minerals": 17006763005.99,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 19867.1,
+      "Nuclearpc": 1857.71,
+      "Renewablespc": 3314.99,
+      "Greenhousegasemissions": 72336574316.89,
+      "CO2emissions": 53063632432.43,
+      "Mercury": 35.9,
+      "Temperature": 15.43,
+      "Humidity": 8.58,
+      "Radiativeforcing": 3.55,
+      "Ozone": 277.23,
+      "sealevelrise": 122.86,
+      "Articice": 3219377.33,
+      "Forestarea": 26.06,
+      "Airquality": "Moderate"
+    },
+    "2058": {
+      "populacao": 10012300212,
+      "cropland": 1758676490.19,
+      "minerals": 17158214973.17,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 19931.3,
+      "Nuclearpc": 1874.89,
+      "Renewablespc": 3343.69,
+      "Greenhousegasemissions": 72855073900.84,
+      "CO2emissions": 53512194594.6,
+      "Mercury": 35.36,
+      "Temperature": 15.45,
+      "Humidity": 8.59,
+      "Radiativeforcing": 3.58,
+      "Ozone": 277.01,
+      "sealevelrise": 124.92,
+      "Articice": 3173541.77,
+      "Forestarea": 25.94,
+      "Airquality": "Moderate"
+    },
+    "2059": {
+      "populacao": 10023467004,
+      "cropland": 1763212884.12,
+      "minerals": 17309666940.35,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 19995.5,
+      "Nuclearpc": 1892.08,
+      "Renewablespc": 3372.4,
+      "Greenhousegasemissions": 73373573484.78,
+      "CO2emissions": 53960756756.76,
+      "Mercury": 34.83,
+      "Temperature": 15.47,
+      "Humidity": 8.6,
+      "Radiativeforcing": 3.61,
+      "Ozone": 276.8,
+      "sealevelrise": 126.98,
+      "Articice": 3127706.21,
+      "Forestarea": 25.83,
+      "Airquality": "Moderate"
+    },
+    "2060": {
+      "populacao": 10053360782,
+      "cropland": 1767749278.05,
+      "minerals": 17461118907.53,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 20059.7,
+      "Nuclearpc": 1909.27,
+      "Renewablespc": 3401.1,
+      "Greenhousegasemissions": 73892073068.73,
+      "CO2emissions": 54409318918.92,
+      "Mercury": 34.31,
+      "Temperature": 15.49,
+      "Humidity": 8.61,
+      "Radiativeforcing": 3.64,
+      "Ozone": 276.58,
+      "sealevelrise": 129.05,
+      "Articice": 3081870.65,
+      "Forestarea": 25.71,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2061": {
+      "populacao": 10062312685,
+      "cropland": 1772285671.97,
+      "minerals": 17612570874.72,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 20123.9,
+      "Nuclearpc": 1926.45,
+      "Renewablespc": 3429.8,
+      "Greenhousegasemissions": 74410572652.68,
+      "CO2emissions": 54857881081.08,
+      "Mercury": 33.79,
+      "Temperature": 15.5,
+      "Humidity": 8.62,
+      "Radiativeforcing": 3.67,
+      "Ozone": 276.36,
+      "sealevelrise": 131.11,
+      "Articice": 3036035.09,
+      "Forestarea": 25.6,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2062": {
+      "populacao": 10042290213,
+      "cropland": 1776822065.9,
+      "minerals": 17764022841.9,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 20188.1,
+      "Nuclearpc": 1943.64,
+      "Renewablespc": 3458.51,
+      "Greenhousegasemissions": 74929072236.62,
+      "CO2emissions": 55306443243.24,
+      "Mercury": 33.29,
+      "Temperature": 15.52,
+      "Humidity": 8.63,
+      "Radiativeforcing": 3.7,
+      "Ozone": 276.14,
+      "sealevelrise": 133.18,
+      "Articice": 2990199.53,
+      "Forestarea": 25.48,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2063": {
+      "populacao": 10022267742,
+      "cropland": 1781358459.83,
+      "minerals": 17915474809.08,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 20252.29,
+      "Nuclearpc": 1960.82,
+      "Renewablespc": 3487.21,
+      "Greenhousegasemissions": 75447571820.57,
+      "CO2emissions": 55755005405.4,
+      "Mercury": 32.79,
+      "Temperature": 15.54,
+      "Humidity": 8.63,
+      "Radiativeforcing": 3.73,
+      "Ozone": 275.92,
+      "sealevelrise": 135.24,
+      "Articice": 2944363.96,
+      "Forestarea": 25.37,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2064": {
+      "populacao": 10102245271,
+      "cropland": 1785894853.76,
+      "minerals": 18066926776.26,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 20316.49,
+      "Nuclearpc": 1978.01,
+      "Renewablespc": 3515.91,
+      "Greenhousegasemissions": 75966071404.52,
+      "CO2emissions": 56203567567.57,
+      "Mercury": 32.29,
+      "Temperature": 15.56,
+      "Humidity": 8.64,
+      "Radiativeforcing": 3.76,
+      "Ozone": 275.7,
+      "sealevelrise": 137.31,
+      "Articice": 2898528.4,
+      "Forestarea": 25.25,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2065": {
+      "populacao": 10082222799,
+      "cropland": 1790431247.69,
+      "minerals": 18218378743.44,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 20380.69,
+      "Nuclearpc": 1995.19,
+      "Renewablespc": 3544.61,
+      "Greenhousegasemissions": 76484570988.46,
+      "CO2emissions": 56652129729.73,
+      "Mercury": 31.81,
+      "Temperature": 15.58,
+      "Humidity": 8.65,
+      "Radiativeforcing": 3.79,
+      "Ozone": 275.48,
+      "sealevelrise": 139.37,
+      "Articice": 2852692.84,
+      "Forestarea": 25.14,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2066": {
+      "populacao": 10062200328,
+      "cropland": 1794967641.61,
+      "minerals": 18369830710.62,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 20444.89,
+      "Nuclearpc": 2012.38,
+      "Renewablespc": 3573.32,
+      "Greenhousegasemissions": 77003070572.41,
+      "CO2emissions": 57100691891.89,
+      "Mercury": 31.33,
+      "Temperature": 15.59,
+      "Humidity": 8.66,
+      "Radiativeforcing": 3.81,
+      "Ozone": 275.26,
+      "sealevelrise": 141.44,
+      "Articice": 2806857.28,
+      "Forestarea": 25.02,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2067": {
+      "populacao": 10042177856,
+      "cropland": 1799504035.54,
+      "minerals": 18521282677.8,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 20509.09,
+      "Nuclearpc": 2029.56,
+      "Renewablespc": 3602.02,
+      "Greenhousegasemissions": 77521570156.36,
+      "CO2emissions": 57549254054.05,
+      "Mercury": 30.86,
+      "Temperature": 15.61,
+      "Humidity": 8.67,
+      "Radiativeforcing": 3.84,
+      "Ozone": 275.04,
+      "sealevelrise": 143.5,
+      "Articice": 2761021.72,
+      "Forestarea": 24.91,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2068": {
+      "populacao": 10222155385,
+      "cropland": 1804040429.47,
+      "minerals": 18672734644.98,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 20573.29,
+      "Nuclearpc": 2046.75,
+      "Renewablespc": 3630.72,
+      "Greenhousegasemissions": 78040069740.3,
+      "CO2emissions": 57997816216.22,
+      "Mercury": 30.4,
+      "Temperature": 15.63,
+      "Humidity": 8.68,
+      "Radiativeforcing": 3.87,
+      "Ozone": 274.82,
+      "sealevelrise": 145.57,
+      "Articice": 2715186.15,
+      "Forestarea": 24.79,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2069": {
+      "populacao": 10102132914,
+      "cropland": 1808576823.4,
+      "minerals": 18824186612.16,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 20637.49,
+      "Nuclearpc": 2063.93,
+      "Renewablespc": 3659.43,
+      "Greenhousegasemissions": 78558569324.25,
+      "CO2emissions": 58446378378.38,
+      "Mercury": 29.94,
+      "Temperature": 15.65,
+      "Humidity": 8.69,
+      "Radiativeforcing": 3.9,
+      "Ozone": 274.6,
+      "sealevelrise": 147.63,
+      "Articice": 2669350.59,
+      "Forestarea": 24.68,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2070": {
+      "populacao": 10288045240,
+      "cropland": 1813113217.33,
+      "minerals": 18975638579.34,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 20701.69,
+      "Nuclearpc": 2081.12,
+      "Renewablespc": 3688.13,
+      "Greenhousegasemissions": 79077068908.2,
+      "CO2emissions": 58894940540.54,
+      "Mercury": 29.49,
+      "Temperature": 15.67,
+      "Humidity": 8.7,
+      "Radiativeforcing": 3.93,
+      "Ozone": 274.38,
+      "sealevelrise": 149.69,
+      "Articice": 2623515.03,
+      "Forestarea": 24.56,
+      "Airquality": "Unhealthy"
+    },
+    "2071": {
+      "populacao": 10262087971,
+      "cropland": 1817649611.26,
+      "minerals": 19127090546.52,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 20765.89,
+      "Nuclearpc": 2098.3,
+      "Renewablespc": 3716.83,
+      "Greenhousegasemissions": 79595568492.14,
+      "CO2emissions": 59343502702.7,
+      "Mercury": 29.05,
+      "Temperature": 15.68,
+      "Humidity": 8.71,
+      "Radiativeforcing": 3.96,
+      "Ozone": 274.16,
+      "sealevelrise": 151.76,
+      "Articice": 2577679.47,
+      "Forestarea": 24.45,
+      "Airquality": "Unhealthy"
+    },
+    "2072": {
+      "populacao": 10142065499,
+      "cropland": 1822186005.18,
+      "minerals": 19278542513.7,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 20830.09,
+      "Nuclearpc": 2115.49,
+      "Renewablespc": 3745.54,
+      "Greenhousegasemissions": 80114068076.09,
+      "CO2emissions": 59792064864.86,
+      "Mercury": 28.62,
+      "Temperature": 15.7,
+      "Humidity": 8.72,
+      "Radiativeforcing": 3.99,
+      "Ozone": 273.94,
+      "sealevelrise": 153.82,
+      "Articice": 2531843.91,
+      "Forestarea": 24.33,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2073": {
+      "populacao": 10322043028,
+      "cropland": 1826722399.11,
+      "minerals": 19429994480.88,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 20894.28,
+      "Nuclearpc": 2132.68,
+      "Renewablespc": 3774.24,
+      "Greenhousegasemissions": 80632567660.04,
+      "CO2emissions": 60240627027.03,
+      "Mercury": 28.19,
+      "Temperature": 15.72,
+      "Humidity": 8.73,
+      "Radiativeforcing": 4.02,
+      "Ozone": 273.73,
+      "sealevelrise": 155.89,
+      "Articice": 2486008.35,
+      "Forestarea": 24.22,
+      "Airquality": "Unhealthy"
+    },
+    "2074": {
+      "populacao": 10102020557,
+      "cropland": 1831258793.04,
+      "minerals": 19581446448.06,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 20958.49,
+      "Nuclearpc": 2149.86,
+      "Renewablespc": 3802.94,
+      "Greenhousegasemissions": 81151067243.98,
+      "CO2emissions": 60689189189.19,
+      "Mercury": 27.76,
+      "Temperature": 15.74,
+      "Humidity": 8.74,
+      "Radiativeforcing": 4.05,
+      "Ozone": 273.51,
+      "sealevelrise": 157.95,
+      "Articice": 2440172.78,
+      "Forestarea": 24.1,
+      "Airquality": "Unhealthy"
+    },
+    "2075": {
+      "populacao": 10111998085,
+      "cropland": 1835795186.97,
+      "minerals": 19732898415.24,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 21022.68,
+      "Nuclearpc": 2167.05,
+      "Renewablespc": 3831.65,
+      "Greenhousegasemissions": 81669566827.93,
+      "CO2emissions": 61137751351.35,
+      "Mercury": 27.35,
+      "Temperature": 15.76,
+      "Humidity": 8.75,
+      "Radiativeforcing": 4.08,
+      "Ozone": 273.29,
+      "sealevelrise": 160.02,
+      "Articice": 2394337.22,
+      "Forestarea": 23.99,
+      "Airquality": "Unhealthy"
+    },
+    "2076": {
+      "populacao": 10261975614,
+      "cropland": 1840331580.9,
+      "minerals": 19884350382.43,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 21086.88,
+      "Nuclearpc": 2184.23,
+      "Renewablespc": 3860.35,
+      "Greenhousegasemissions": 82188066411.88,
+      "CO2emissions": 61586313513.51,
+      "Mercury": 26.94,
+      "Temperature": 15.77,
+      "Humidity": 8.76,
+      "Radiativeforcing": 4.11,
+      "Ozone": 273.07,
+      "sealevelrise": 162.08,
+      "Articice": 2348501.66,
+      "Forestarea": 23.87,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2077": {
+      "populacao": 10241953142,
+      "cropland": 1844867974.82,
+      "minerals": 20035802349.61,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 21151.08,
+      "Nuclearpc": 2201.42,
+      "Renewablespc": 3889.05,
+      "Greenhousegasemissions": 82706565995.82,
+      "CO2emissions": 62034875675.68,
+      "Mercury": 26.53,
+      "Temperature": 15.79,
+      "Humidity": 8.77,
+      "Radiativeforcing": 4.14,
+      "Ozone": 272.85,
+      "sealevelrise": 164.15,
+      "Articice": 2302666.1,
+      "Forestarea": 23.76,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2078": {
+      "populacao": 10421930671,
+      "cropland": 1849404368.75,
+      "minerals": 20187254316.79,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 21215.28,
+      "Nuclearpc": 2218.6,
+      "Renewablespc": 3917.76,
+      "Greenhousegasemissions": 83225065579.77,
+      "CO2emissions": 62483437837.84,
+      "Mercury": 26.14,
+      "Temperature": 15.81,
+      "Humidity": 8.78,
+      "Radiativeforcing": 4.17,
+      "Ozone": 272.63,
+      "sealevelrise": 166.21,
+      "Articice": 2256830.54,
+      "Forestarea": 23.64,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2079": {
+      "populacao": 10401908200,
+      "cropland": 1853940762.68,
+      "minerals": 20338706283.97,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 21279.48,
+      "Nuclearpc": 2235.79,
+      "Renewablespc": 3946.46,
+      "Greenhousegasemissions": 83743565163.72,
+      "CO2emissions": 62932000000.0,
+      "Mercury": 25.74,
+      "Temperature": 15.83,
+      "Humidity": 8.79,
+      "Radiativeforcing": 4.2,
+      "Ozone": 272.41,
+      "sealevelrise": 168.28,
+      "Articice": 2210994.97,
+      "Forestarea": 23.53,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2080": {
+      "populacao": 10412450702,
+      "cropland": 1858477156.61,
+      "minerals": 20490158251.15,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 21343.68,
+      "Nuclearpc": 2252.97,
+      "Renewablespc": 3975.16,
+      "Greenhousegasemissions": 84262064747.66,
+      "CO2emissions": 63380562162.16,
+      "Mercury": 25.36,
+      "Temperature": 15.85,
+      "Humidity": 8.79,
+      "Radiativeforcing": 4.22,
+      "Ozone": 272.19,
+      "sealevelrise": 170.34,
+      "Articice": 2165159.41,
+      "Forestarea": 23.41,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2081": {
+      "populacao": 10422243412,
+      "cropland": 1863013550.54,
+      "minerals": 20641610218.33,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 21407.88,
+      "Nuclearpc": 2270.16,
+      "Renewablespc": 4003.86,
+      "Greenhousegasemissions": 84780564331.61,
+      "CO2emissions": 63829124324.32,
+      "Mercury": 24.98,
+      "Temperature": 15.86,
+      "Humidity": 8.8,
+      "Radiativeforcing": 4.25,
+      "Ozone": 271.97,
+      "sealevelrise": 172.41,
+      "Articice": 2119323.85,
+      "Forestarea": 23.3,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2082": {
+      "populacao": 10398275423,
+      "cropland": 1867549944.46,
+      "minerals": 20793062185.51,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 21472.08,
+      "Nuclearpc": 2287.34,
+      "Renewablespc": 4032.57,
+      "Greenhousegasemissions": 85299063915.56,
+      "CO2emissions": 64277686486.49,
+      "Mercury": 24.6,
+      "Temperature": 15.88,
+      "Humidity": 8.81,
+      "Radiativeforcing": 4.28,
+      "Ozone": 271.75,
+      "sealevelrise": 174.47,
+      "Articice": 2073488.29,
+      "Forestarea": 23.18,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2083": {
+      "populacao": 10323450021,
+      "cropland": 1872086338.39,
+      "minerals": 20944514152.69,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 21536.28,
+      "Nuclearpc": 2304.53,
+      "Renewablespc": 4061.27,
+      "Greenhousegasemissions": 85817563499.5,
+      "CO2emissions": 64726248648.65,
+      "Mercury": 24.23,
+      "Temperature": 15.9,
+      "Humidity": 8.82,
+      "Radiativeforcing": 4.31,
+      "Ozone": 271.53,
+      "sealevelrise": 176.54,
+      "Articice": 2027652.73,
+      "Forestarea": 23.07,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2084": {
+      "populacao": 10323450021,
+      "cropland": 1876622732.32,
+      "minerals": 21095966119.87,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 21600.47,
+      "Nuclearpc": 2321.71,
+      "Renewablespc": 4089.97,
+      "Greenhousegasemissions": 86336063083.45,
+      "CO2emissions": 65174810810.81,
+      "Mercury": 23.87,
+      "Temperature": 15.92,
+      "Humidity": 8.83,
+      "Radiativeforcing": 4.34,
+      "Ozone": 271.31,
+      "sealevelrise": 178.6,
+      "Articice": 1981817.17,
+      "Forestarea": 22.95,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2085": {
+      "populacao": 10313567010,
+      "cropland": 1881159126.25,
+      "minerals": 21247418087.05,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 21664.67,
+      "Nuclearpc": 2338.9,
+      "Renewablespc": 4118.68,
+      "Greenhousegasemissions": 86854562667.4,
+      "CO2emissions": 65623372972.97,
+      "Mercury": 23.51,
+      "Temperature": 15.94,
+      "Humidity": 8.84,
+      "Radiativeforcing": 4.37,
+      "Ozone": 271.09,
+      "sealevelrise": 180.66,
+      "Articice": 1935981.6,
+      "Forestarea": 22.84,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2086": {
+      "populacao": 10290098654,
+      "cropland": 1885695520.18,
+      "minerals": 21398870054.23,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 21728.87,
+      "Nuclearpc": 2356.08,
+      "Renewablespc": 4147.38,
+      "Greenhousegasemissions": 87373062251.34,
+      "CO2emissions": 66071935135.14,
+      "Mercury": 23.16,
+      "Temperature": 15.95,
+      "Humidity": 8.85,
+      "Radiativeforcing": 4.4,
+      "Ozone": 270.88,
+      "sealevelrise": 182.73,
+      "Articice": 1890146.04,
+      "Forestarea": 22.72,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2087": {
+      "populacao": 10270890321,
+      "cropland": 1890231914.11,
+      "minerals": 21550322021.41,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 21793.07,
+      "Nuclearpc": 2373.27,
+      "Renewablespc": 4176.08,
+      "Greenhousegasemissions": 87891561835.29,
+      "CO2emissions": 66520497297.3,
+      "Mercury": 22.81,
+      "Temperature": 15.97,
+      "Humidity": 8.86,
+      "Radiativeforcing": 4.43,
+      "Ozone": 270.66,
+      "sealevelrise": 184.79,
+      "Articice": 1844310.48,
+      "Forestarea": 22.61,
+      "Airquality": "Unhealthy"
+    },
+    "2088": {
+      "populacao": 10321530002,
+      "cropland": 1894768308.03,
+      "minerals": 21701773988.59,
+      "Renewablewaterpc": 108,
+      "Fossilfconsumptionpc": 21857.27,
+      "Nuclearpc": 2390.45,
+      "Renewablespc": 4204.79,
+      "Greenhousegasemissions": 88410061419.24,
+      "CO2emissions": 66969059459.46,
+      "Mercury": 22.47,
+      "Temperature": 15.99,
+      "Humidity": 8.87,
+      "Radiativeforcing": 4.46,
+      "Ozone": 270.44,
+      "sealevelrise": 186.86,
+      "Articice": 1798474.92,
+      "Forestarea": 22.49,
+      "Airquality": "Unhealthy"
+    },
+    "2089": {
+      "populacao": 10401530202,
+      "cropland": 1899304701.96,
+      "minerals": 21853225955.77,
+      "Renewablewaterpc": 108,
+      "Fossilfconsumptionpc": 21921.47,
+      "Nuclearpc": 2407.64,
+      "Renewablespc": 4233.49,
+      "Greenhousegasemissions": 88928561003.18,
+      "CO2emissions": 67417621621.62,
+      "Mercury": 22.13,
+      "Temperature": 16.01,
+      "Humidity": 8.88,
+      "Radiativeforcing": 4.49,
+      "Ozone": 270.22,
+      "sealevelrise": 188.92,
+      "Articice": 1752639.35,
+      "Forestarea": 22.38,
+      "Airquality": "Unhealthy"
+    },
+    "2090": {
+      "populacao": 10425207540,
+      "cropland": 1903841095.89,
+      "minerals": 22004677922.96,
+      "Renewablewaterpc": 110,
+      "Fossilfconsumptionpc": 21985.67,
+      "Nuclearpc": 2424.83,
+      "Renewablespc": 4262.19,
+      "Greenhousegasemissions": 89447060587.13,
+      "CO2emissions": 67866183783.78,
+      "Mercury": 21.8,
+      "Temperature": 16.02,
+      "Humidity": 8.89,
+      "Radiativeforcing": 4.52,
+      "Ozone": 270.0,
+      "sealevelrise": 190.99,
+      "Articice": 1706803.79,
+      "Forestarea": 22.26,
+      "Airquality": "Unhealthy"
+    },
+    "2091": {
+      "populacao": 10465401520,
+      "cropland": 1908377489.82,
+      "minerals": 22156129890.14,
+      "Renewablewaterpc": 106,
+      "Fossilfconsumptionpc": 22049.87,
+      "Nuclearpc": 2442.01,
+      "Renewablespc": 4290.9,
+      "Greenhousegasemissions": 89965560171.08,
+      "CO2emissions": 68314745945.95,
+      "Mercury": 21.47,
+      "Temperature": 16.04,
+      "Humidity": 8.9,
+      "Radiativeforcing": 4.55,
+      "Ozone": 269.78,
+      "sealevelrise": 193.05,
+      "Articice": 1660968.23,
+      "Forestarea": 22.15,
+      "Airquality": "Unhealthy"
+    },
+    "2092": {
+      "populacao": 10364570020,
+      "cropland": 1912913883.75,
+      "minerals": 22307581857.32,
+      "Renewablewaterpc": 103,
+      "Fossilfconsumptionpc": 22114.07,
+      "Nuclearpc": 2459.2,
+      "Renewablespc": 4319.6,
+      "Greenhousegasemissions": 90484059755.02,
+      "CO2emissions": 68763308108.11,
+      "Mercury": 21.15,
+      "Temperature": 16.06,
+      "Humidity": 8.91,
+      "Radiativeforcing": 4.58,
+      "Ozone": 269.56,
+      "sealevelrise": 195.12,
+      "Articice": 1615132.67,
+      "Forestarea": 22.03,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2093": {
+      "populacao": 10284640210,
+      "cropland": 1917450277.67,
+      "minerals": 22459033824.5,
+      "Renewablewaterpc": 102,
+      "Fossilfconsumptionpc": 22178.27,
+      "Nuclearpc": 2476.38,
+      "Renewablespc": 4348.3,
+      "Greenhousegasemissions": 91002559338.97,
+      "CO2emissions": 69211870270.27,
+      "Mercury": 20.83,
+      "Temperature": 16.08,
+      "Humidity": 8.91,
+      "Radiativeforcing": 4.61,
+      "Ozone": 269.34,
+      "sealevelrise": 197.18,
+      "Articice": 1569297.11,
+      "Forestarea": 21.92,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2094": {
+      "populacao": 10189644210,
+      "cropland": 1921986671.6,
+      "minerals": 22610485791.68,
+      "Renewablewaterpc": 99,
+      "Fossilfconsumptionpc": 22242.47,
+      "Nuclearpc": 2493.57,
+      "Renewablespc": 4377.01,
+      "Greenhousegasemissions": 91521058922.92,
+      "CO2emissions": 69660432432.43,
+      "Mercury": 20.52,
+      "Temperature": 16.1,
+      "Humidity": 8.93,
+      "Radiativeforcing": 4.64,
+      "Ozone": 269.12,
+      "sealevelrise": 199.25,
+      "Articice": 1523461.55,
+      "Forestarea": 21.8,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2095": {
+      "populacao": 10132785290,
+      "cropland": 1926523065.53,
+      "minerals": 22761937758.86,
+      "Renewablewaterpc": 101,
+      "Fossilfconsumptionpc": 22306.67,
+      "Nuclearpc": 2510.75,
+      "Renewablespc": 4405.71,
+      "Greenhousegasemissions": 92039558506.86,
+      "CO2emissions": 70108994594.6,
+      "Mercury": 20.21,
+      "Temperature": 16.11,
+      "Humidity": 8.93,
+      "Radiativeforcing": 4.67,
+      "Ozone": 268.9,
+      "sealevelrise": 201.31,
+      "Articice": 1477625.98,
+      "Forestarea": 21.69,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2096": {
+      "populacao":10222154236,
+      "cropland": 1931059459.46,
+      "minerals": 22913389726.04,
+      "Renewablewaterpc": 102,
+      "Fossilfconsumptionpc": 22370.86,
+      "Nuclearpc": 2527.94,
+      "Renewablespc": 4434.41,
+      "Greenhousegasemissions": 92558058090.81,
+      "CO2emissions": 70557556756.76,
+      "Mercury": 19.91,
+      "Temperature": 16.13,
+      "Humidity": 8.94,
+      "Radiativeforcing": 4.7,
+      "Ozone": 268.68,
+      "sealevelrise": 203.38,
+      "Articice": 1431790.42,
+      "Forestarea": 21.57,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2097": {
+      "populacao": 10261554221,
+      "cropland": 1935595853.39,
+      "minerals": 23064841693.22,
+      "Renewablewaterpc": 102,
+      "Fossilfconsumptionpc": 22435.06,
+      "Nuclearpc": 2545.12,
+      "Renewablespc": 4463.11,
+      "Greenhousegasemissions": 93076557674.76,
+      "CO2emissions": 71006118918.92,
+      "Mercury": 19.61,
+      "Temperature": 16.15,
+      "Humidity": 8.95,
+      "Radiativeforcing": 4.72,
+      "Ozone": 268.46,
+      "sealevelrise": 205.44,
+      "Articice": 1385954.86,
+      "Forestarea": 21.46,
+      "Airquality": "Moderately Unhealthy"
+    },
+    "2098": {
+      "populacao": 10369574121,
+      "cropland": 1940132247.32,
+      "minerals": 23216293660.4,
+      "Renewablewaterpc": 100,
+      "Fossilfconsumptionpc": 22499.26,
+      "Nuclearpc": 2562.31,
+      "Renewablespc": 4491.82,
+      "Greenhousegasemissions": 93595057258.7,
+      "CO2emissions": 71454681081.08,
+      "Mercury": 19.32,
+      "Temperature": 16.17,
+      "Humidity": 8.96,
+      "Radiativeforcing": 4.75,
+      "Ozone": 268.24,
+      "sealevelrise": 207.5,
+      "Articice": 1340119.3,
+      "Forestarea": 21.34,
+      "Airquality": "Moderate"
+    },
+    "2099": {
+      "populacao": 10355876356,
+      "cropland": 1944668641.24,
+      "minerals": 23367745627.58,
+      "Renewablewaterpc": 98,
+      "Fossilfconsumptionpc": 22563.46,
+      "Nuclearpc": 2579.49,
+      "Renewablespc": 4520.52,
+      "Greenhousegasemissions": 94113556842.65,
+      "CO2emissions": 71903243243.24,
+      "Mercury": 19.03,
+      "Temperature": 16.19,
+      "Humidity": 8.97,
+      "Radiativeforcing": 4.78,
+      "Ozone": 268.02,
+      "sealevelrise": 209.57,
+      "Articice": 1294283.74,
+      "Forestarea": 21.23,
+      "Airquality": "Moderate"
+    },
+    "2100": {
+      "populacao": 10355050071,
+      "cropland": 1949205035.17,
+      "minerals": 23519197594.76,
+      "Renewablewaterpc": 97,
+      "Fossilfconsumptionpc": 22627.66,
+      "Nuclearpc": 2596.68,
+      "Renewablespc": 4549.22,
+      "Greenhousegasemissions": 94632056426.6,
+      "CO2emissions": 72351805405.4,
+      "Mercury": 18.74,
+      "Temperature": 16.2,
+      "Humidity": 8.98,
+      "Radiativeforcing": 4.81,
+      "Ozone": 267.81,
+      "sealevelrise": 211.63,
+      "Articice": 1248448.17,
+      "Forestarea": 21.11,
+      "Airquality": "Moderate"
+    }
+  },
+  "America": {
+    "1950": {
+      "populacao": 303444786,
+      "pegada":45
+    },
+    "1951": {
+      "populacao": 309763819,
+      "pegada":45
+    },
+    "1952": {
+      "populacao": 316318517,
+      "pegada":45
+    },
+    "1953": {
+      "populacao": 323085025,
+      "pegada":45
+    },
+    "1954": {
+      "populacao": 330090519,
+      "pegada":45
+    },
+    "1955": {
+      "populacao": 337322162,
+      "pegada":45
+    },
+    "1956": {
+      "populacao": 344781216,
+      "pegada":45
+    },
+    "1957": {
+      "populacao": 352483945,
+      "pegada":45
+    },
+    "1958": {
+      "populacao": 360345581,
+      "pegada":45
+    },
+    "1959": {
+      "populacao": 368517007,
+      "pegada":47
+    },
+    "1960": {
+      "populacao": 377003518,
+      "pegada":46
+    },
+    "1961": {
+      "populacao": 385712100,
+      "pegada":46
+    },
+    "1962": {
+      "populacao": 394583164,
+      "pegada":45
+    },
+    "1963": {
+      "populacao": 403450725,
+      "pegada":45
+    },
+    "1964": {
+      "populacao": 412322404,
+      "pegada":45
+    },
+    "1965": {
+      "populacao": 421115200,
+      "pegada":45
+    },
+    "1966": {
+      "populacao": 429744982,
+      "pegada":44
+    },
+    "1967": {
+      "populacao": 438227515,
+      "pegada":44
+    },
+    "1968": {
+      "populacao": 446597386,
+      "pegada":44
+    },
+    "1969": {
+      "populacao": 454970746,
+      "pegada":44
+    },
+    "1970": {
+      "populacao": 463675350,
+      "pegada":44
+    },
+    "1971": {
+      "populacao": 472617654,
+      "pegada":44
+    },
+    "1972": {
+      "populacao": 481321714,
+      "pegada":44
+    },
+    "1973": {
+      "populacao": 489800064,
+      "pegada":44
+    },
+    "1974": {
+      "populacao": 498276640,
+      "pegada":44
+    },
+    "1975": {
+      "populacao": 506799619,
+      "pegada":43
+    },
+    "1976": {
+      "populacao": 515356612,
+      "pegada":43
+    },
+    "1977": {
+      "populacao": 524038953,
+      "pegada":43
+    },
+    "1978": {
+      "populacao": 532854260,
+      "pegada":43
+    },
+    "1979": {
+      "populacao": 541796785,
+      "pegada":43
+    },
+    "1980": {
+      "populacao": 550948366,
+      "pegada":43
+    },
+    "1981": {
+      "populacao": 560192706,
+      "pegada":44
+    },
+    "1982": {
+      "populacao": 569473090,
+      "pegada":44
+    },
+    "1983": {
+      "populacao": 578824658,
+      "pegada":44
+    },
+    "1984": {
+      "populacao": 588159939,
+      "pegada":44
+    },
+    "1985": {
+      "populacao": 597443489,
+      "pegada":44
+    },
+    "1986": {
+      "populacao": 606651323,
+      "pegada":42
+    },
+    "1987": {
+      "populacao": 615837299,
+      "pegada":42
+    },
+    "1988": {
+      "populacao": 625111372,
+      "pegada":42
+    },
+    "1989": {
+      "populacao": 634467747,
+      "pegada":42
+    },
+    "1990": {
+      "populacao": 644232494,
+      "pegada":40
+    },
+    "1991": {
+      "populacao": 654280386,
+      "pegada":40
+    },
+    "1992": {
+      "populacao": 664277266,
+      "pegada":40
+    },
+    "1993": {
+      "populacao": 674117566,
+      "pegada":40
+    },
+    "1994": {
+      "populacao": 683695767,
+      "pegada":40
+    },
+    "1995": {
+      "populacao": 693132148,
+      "pegada":39
+    },
+    "1996": {
+      "populacao": 702428538,
+      "pegada":39
+    },
+    "1997": {
+      "populacao": 711614620,
+      "pegada":39
+    },
+    "1998": {
+      "populacao": 720850702,
+      "pegada":39
+    },
+    "1999": {
+      "populacao": 730035876,
+      "pegada":38
+    },
+    "2000": {
+      "populacao": 739060978,
+      "pegada":38
+    },
+    "2001": {
+      "populacao": 747999618,
+      "pegada":38
+    },
+    "2002": {
+      "populacao": 756784796,
+      "pegada":38
+    },
+    "2003": {
+      "populacao": 765414343,
+      "pegada":38
+    },
+    "2004": {
+      "populacao": 773965873,
+      "pegada":37
+    },
+    "2005": {
+      "populacao": 782500002,
+      "pegada":37
+    },
+    "2006": {
+      "populacao": 791045781,
+      "pegada":37
+    },
+    "2007": {
+      "populacao": 799653634,
+      "pegada":37
+    },
+    "2008": {
+      "populacao": 808246930,
+      "pegada":37
+    },
+    "2009": {
+      "populacao": 816694932,
+      "pegada":37
+    },
+    "2010": {
+      "populacao": 825029053,
+      "pegada":38
+    },
+    "2011": {
+      "populacao": 833321247,
+      "pegada":37
+    },
+    "2012": {
+      "populacao": 841535724,
+      "pegada":37
+    },
+    "2013": {
+      "populacao": 849674849,
+      "pegada":36
+    },
+    "2014": {
+      "populacao": 857727917,
+      "pegada":36
+    },
+    "2015": {
+      "populacao": 865637299,
+      "pegada":36
+    },
+    "2016": {
+      "populacao": 873504605,
+      "pegada":36
+    },
+    "2017": {
+      "populacao": 881232795,
+      "pegada":36
+    },
+    "2018": {
+      "populacao": 888536792,
+      "pegada":35
+    },
+    "2019": {
+      "populacao": 895460382,
+      "pegada":33
+    },
+    "2020": {
+      "populacao": 900719029,
+      "pegada":30
+    },
+    "2021": {
+      "populacao": 904286126,
+      "pegada":29
+    },
+    "2022": {
+      "populacao": 908721484,
+      "pegada":29
+    },
+    "2023": {
+      "populacao": 914341242,
+      "pegada":28
+    },
+    "2026": {
+      "populacao": 960849311,
+      "pegada":28
+    },
+    "2027": {
+      "populacao": 969655182,
+      "pegada":28
+    },
+    "2028": {
+      "populacao": 978461053,
+      "pegada":27
+    },
+    "2029": {
+      "populacao": 987266924,
+      "pegada":27
+    },
+    "2030": {
+      "populacao": 996072794,
+      "pegada":27
+    },
+    "2031": {
+      "populacao": 1004878665,
+      "pegada":26
+    },
+    "2032": {
+      "populacao": 1013684536,
+      "pegada":26
+    },
+    "2033": {
+      "populacao": 1022490407,
+      "pegada":26
+    },
+    "2034": {
+      "populacao": 1031296278,
+      "pegada":26
+    },
+    "2035": {
+      "populacao": 1040102148,
+      "pegada":26
+    },
+    "2036": {
+      "populacao": 1048908019,
+      "pegada":25
+    },
+    "2037": {
+      "populacao": 1057713890,
+      "pegada":25
+    },
+    "2038": {
+      "populacao": 1066519761,
+      "pegada":25
+    },
+    "2039": {
+      "populacao": 1075325632,
+      "pegada":25
+    },
+    "2040": {
+      "populacao": 1084131502,
+      "pegada":25
+    },
+    "2041": {
+      "populacao": 1092937373,
+      "pegada":24
+    },
+    "2042": {
+      "populacao": 1101743244,
+      "pegada":24
+    },
+    "2043": {
+      "populacao": 1110549115,
+      "pegada":24
+    },
+    "2044": {
+      "populacao": 1119354985,
+      "pegada":23
+    },
+    "2045": {
+      "populacao": 1128160856,
+      "pegada":23
+    },
+    "2046": {
+      "populacao": 1136966727,
+      "pegada":23
+    },
+    "2047": {
+      "populacao": 1145772598,
+      "pegada":23
+    },
+    "2048": {
+      "populacao": 1154578469,
+      "pegada":22
+    },
+    "2049": {
+      "populacao": 1163384339,
+      "pegada":22
+    },
+    "2050": {
+      "populacao": 1172190210,
+      "pegada":22
+    },
+    "2051": {
+      "populacao": 1180996081,
+      "pegada":22
+    },
+    "2052": {
+      "populacao": 1189801952,
+      "pegada":22
+    },
+    "2053": {
+      "populacao": 1198607823,
+      "pegada":22
+    },
+    "2054": {
+      "populacao": 1207413693,
+      "pegada":22
+    },
+    "2055": {
+      "populacao": 1216219564,
+      "pegada":22
+    },
+    "2056": {
+      "populacao": 1225025435,
+      "pegada":22
+    },
+    "2057": {
+      "populacao": 1233831306,
+      "pegada":21
+    },
+    "2058": {
+      "populacao": 1242637177,
+      "pegada":21
+    },
+    "2059": {
+      "populacao": 1251443047,
+      "pegada":21
+    },
+    "2060": {
+      "populacao": 1260248918,
+      "pegada":21
+    },
+    "2061": {
+      "populacao": 1269054789,
+      "pegada":21
+    },
+    "2062": {
+      "populacao": 1277860660,
+      "pegada":20
+    },
+    "2063": {
+      "populacao": 1286666530,
+      "pegada":20
+    },
+    "2064": {
+      "populacao": 1295472401,
+      "pegada":20
+    },
+    "2065": {
+      "populacao": 1304278272,
+      "pegada":20
+    },
+    "2066": {
+      "populacao": 1313084143,
+      "pegada":20
+    },
+    "2067": {
+      "populacao": 1321890014,
+      "pegada":20
+    },
+    "2068": {
+      "populacao": 1330695884,
+      "pegada":20
+    },
+    "2069": {
+      "populacao": 1339501755,
+      "pegada":20
+    },
+    "2070": {
+      "populacao": 1348307626,
+      "pegada":20
+    },
+    "2071": {
+      "populacao": 1357113497,
+      "pegada":20
+    },
+    "2072": {
+      "populacao": 1365919368,
+      "pegada":20
+    },
+    "2073": {
+      "populacao": 1374725238,
+      "pegada":19
+    },
+    "2074": {
+      "populacao": 1383531109,
+      "pegada":19
+    },
+    "2075": {
+      "populacao": 1392336980,
+      "pegada":19
+    },
+    "2076": {
+      "populacao": 1401142851,
+      "pegada":19
+    },
+    "2077": {
+      "populacao": 1409948722,
+      "pegada":18
+    },
+    "2078": {
+      "populacao": 1418754592,
+      "pegada":18
+    },
+    "2079": {
+      "populacao": 1427560463,
+      "pegada":18
+    },
+    "2080": {
+      "populacao": 1436366334,
+      "pegada":17
+    },
+    "2081": {
+      "populacao": 1445172205,
+      "pegada":17
+    },
+    "2082": {
+      "populacao": 1453978075,
+      "pegada":17
+    },
+    "2083": {
+      "populacao": 1462783946,
+      "pegada":17
+    },
+    "2084": {
+      "populacao": 1471589817,
+      "pegada":16
+    },
+    "2085": {
+      "populacao": 1480395688,
+      "pegada":16
+    },
+    "2086": {
+      "populacao": 1489201559,
+      "pegada":16
+    },
+    "2087": {
+      "populacao": 1498007429,
+      "pegada":15
+    },
+    "2088": {
+      "populacao": 1506813300,
+      "pegada":15
+    },
+    "2089": {
+      "populacao": 1515619171,
+      "pegada":15
+    },
+    "2090": {
+      "populacao": 1524425042,
+      "pegada":15
+    },
+    "2091": {
+      "populacao": 1533230913,
+      "pegada":15
+    },
+    "2092": {
+      "populacao": 1542036783,
+      "pegada":15
+    },
+    "2093": {
+      "populacao": 1550842654,
+      "pegada":15
+    },
+    "2094": {
+      "populacao": 1559648525,
+      "pegada":15
+    },
+    "2095": {
+      "populacao": 1568454396,
+      "pegada":15
+    },
+    "2096": {
+      "populacao": 1577260267,
+      "pegada":15
+    },
+    "2097": {
+      "populacao": 1586066137,
+      "pegada":14
+    },
+    "2098": {
+      "populacao": 1594872008,
+      "pegada":14
+    },
+    "2099": {
+      "populacao": 1603677879,
+      "pegada":14
+    },
+    "2100": {
+      "populacao": 1612483750,
+      "pegada":14
+    }
+  },
+  "Europe": {
+    "1950": {
+      "populacao": 340992145,
+      "pegada":35
+    },
+    "1951": {
+      "populacao": 343536412,
+      "pegada":34
+    },
+    "1952": {
+      "populacao": 346033628,
+      "pegada":35
+    },
+    "1953": {
+      "populacao": 348830868,
+      "pegada":35
+    },
+    "1954": {
+      "populacao": 351750037,
+      "pegada":35
+    },
+    "1955": {
+      "populacao": 354664503,
+      "pegada":34
+    },
+    "1956": {
+      "populacao": 357628997,
+      "pegada":34
+    },
+    "1957": {
+      "populacao": 360876528,
+      "pegada":34
+    },
+    "1958": {
+      "populacao": 364412001,
+      "pegada":34
+    },
+    "1959": {
+      "populacao": 367842259,
+      "pegada":34
+    },
+    "1960": {
+      "populacao": 371155459,
+      "pegada":34
+    },
+    "1961": {
+      "populacao": 374445941,
+      "pegada":34
+    },
+    "1962": {
+      "populacao": 377802740,
+      "pegada":34
+    },
+    "1963": {
+      "populacao": 381198666,
+      "pegada":34
+    },
+    "1964": {
+      "populacao": 384533667,
+      "pegada":34
+    },
+    "1965": {
+      "populacao": 387790122,
+      "pegada":34
+    },
+    "1966": {
+      "populacao": 390920233,
+      "pegada":33
+    },
+    "1967": {
+      "populacao": 393829930,
+       "pegada":33
+    },
+    "1968": {
+      "populacao": 396713163,
+       "pegada":33
+    },
+    "1969": {
+      "populacao": 399704878,
+       "pegada":33
+    },
+    "1970": {
+      "populacao": 402169330,
+       "pegada":33
+    },
+    "1971": {
+      "populacao": 404713053,
+       "pegada":33
+    },
+    "1972": {
+      "populacao": 407702119,
+       "pegada":32
+    },
+    "1973": {
+      "populacao": 410389649,
+      "pegada":32
+    },
+    "1974": {
+      "populacao": 412708867,
+      "pegada":32
+    },
+    "1975": {
+      "populacao": 414606597,
+      "pegada":32
+    },
+    "1976": {
+      "populacao": 416332170,
+      "pegada":32
+    },
+    "1977": {
+      "populacao": 418077765,
+      "pegada":30
+    },
+    "1978": {
+      "populacao": 419787795,
+      "pegada":30
+    },
+    "1979": {
+      "populacao": 421618655,
+      "pegada":30
+    },
+    "1980": {
+      "populacao": 423753832,
+      "pegada":30
+    },
+    "1981": {
+      "populacao": 425684222,
+      "pegada":31
+    },
+    "1982": {
+      "populacao": 427102413,
+      "pegada":31
+    },
+    "1983": {
+      "populacao": 428368012,
+      "pegada":31
+    },
+    "1984": {
+      "populacao": 429599300,
+      "pegada":31
+    },
+    "1985": {
+      "populacao": 430864146,
+      "pegada":31
+    },
+    "1986": {
+      "populacao": 432194148,
+      "pegada":31
+    },
+    "1987": {
+      "populacao": 433528581,
+      "pegada":31
+    },
+    "1988": {
+      "populacao": 435020507,
+      "pegada":31
+    },
+    "1989": {
+      "populacao": 436764148,
+      "pegada":31
+    },
+    "1990": {
+      "populacao": 438509922,
+      "pegada":28
+    },
+    "1991": {
+      "populacao": 440108804,
+      "pegada":29
+    },
+    "1992": {
+      "populacao": 441820579,
+      "pegada":25
+    },
+    "1993": {
+      "populacao": 443232986,
+      "pegada":23
+    },
+    "1994": {
+      "populacao": 444181753,
+      "pegada":23
+    },
+    "1995": {
+      "populacao": 444626215,
+      "pegada":24
+    },
+    "1996": {
+      "populacao": 444746290,
+      "pegada":25
+    },
+    "1997": {
+      "populacao": 445021128,
+      "pegada":25
+    },
+    "1998": {
+      "populacao": 444902742,
+      "pegada":25
+    },
+    "1999": {
+      "populacao": 444967598,
+      "pegada":25
+    },
+    "2000": {
+      "populacao": 445615295,
+      "pegada":20
+    },
+    "2001": {
+      "populacao": 446332274,
+      "pegada":20
+    },
+    "2002": {
+      "populacao": 447380223,
+      "pegada":20
+    },
+    "2003": {
+      "populacao": 448770525,
+      "pegada":20
+    },
+    "2004": {
+      "populacao": 450253273,
+      "pegada":20
+    },
+    "2005": {
+      "populacao": 451619284,
+      "pegada":20
+    },
+    "2006": {
+      "populacao": 452671919,
+      "pegada":20
+    },
+    "2007": {
+      "populacao": 453969364,
+      "pegada":20
+    },
+    "2008": {
+      "populacao": 455486488,
+      "pegada":20
+    },
+    "2009": {
+      "populacao": 456657885,
+      "pegada":19
+    },
+    "2010": {
+      "populacao": 457717383,
+      "pegada":19
+    },
+    "2011": {
+      "populacao": 458781774,
+      "pegada":18
+    },
+    "2012": {
+      "populacao": 459577656,
+      "pegada":19
+    },
+    "2013": {
+      "populacao": 460174241,
+      "pegada":18
+    },
+    "2014": {
+      "populacao": 460853443,
+      "pegada":18
+    },
+    "2015": {
+      "populacao": 461855296,
+      "pegada":18
+    },
+    "2016": {
+      "populacao": 462934326,
+      "pegada":18
+    },
+    "2017": {
+      "populacao": 463781782,
+      "pegada":18
+    },
+    "2018": {
+      "populacao": 464535602,
+      "pegada":18
+    },
+    "2019": {
+      "populacao": 465248479,
+      "pegada":18
+    },
+    "2020": {
+      "populacao": 465427649,
+      "pegada":19
+    },
+    "2021": {
+      "populacao": 465202075,
+      "pegada":18
+    },
+    "2022": {
+      "populacao": 463325162,
+      "pegada":18
+    },
+    "2023": {
+      "populacao": 461460821,
+      "pegada":16
+    },
+    "2026": {
+      "populacao": 487195578,
+      "pegada":16
+    },
+    "2027": {
+      "populacao": 488842884,
+      "pegada":16
+    },
+    "2028": {
+      "populacao": 490490190,
+      "pegada":16
+    },
+    "2029": {
+      "populacao": 492137495,
+      "pegada":16
+    },
+    "2030": {
+      "populacao": 493784801,
+      "pegada":16
+    },
+    "2031": {
+      "populacao": 495432107,
+      "pegada":16
+    },
+    "2032": {
+      "populacao": 497079413,
+      "pegada":16
+    },
+    "2033": {
+      "populacao": 498726719,
+      "pegada":16
+    },
+    "2034": {
+      "populacao": 500374025,
+      "pegada":16
+    },
+    "2035": {
+      "populacao": 502021331,
+      "pegada":16
+    },
+    "2036": {
+      "populacao": 503668637,
+      "pegada":16
+    },
+    "2037": {
+      "populacao": 505315942,
+      "pegada":15
+    },
+    "2038": {
+      "populacao": 506963248,
+      "pegada":15
+    },
+    "2039": {
+      "populacao": 508610554,
+      "pegada":15
+    },
+    "2040": {
+      "populacao": 510257860,
+      "pegada":15
+    },
+    "2041": {
+      "populacao": 511905166,
+      "pegada":14
+    },
+    "2042": {
+      "populacao": 513552472,
+      "pegada":14
+    },
+    "2043": {
+      "populacao": 515199778,
+      "pegada":14
+    },
+    "2044": {
+      "populacao": 516847084,
+      "pegada":13
+    },
+    "2045": {
+      "populacao": 518494389,
+      "pegada":13
+    },
+    "2046": {
+      "populacao": 520141695,
+      "pegada":13
+    },
+    "2047": {
+      "populacao": 521789001,
+      "pegada":13
+    },
+    "2048": {
+      "populacao": 523436307,
+      "pegada":13
+    },
+    "2049": {
+      "populacao": 525083613,
+      "pegada":13
+    },
+    "2050": {
+      "populacao": 526730919,
+      "pegada":13
+    },
+    "2051": {
+      "populacao": 528378225,
+      "pegada":13
+    },
+    "2052": {
+      "populacao": 530025531,
+      "pegada":12
+    },
+    "2053": {
+      "populacao": 531672836,
+      "pegada":12
+    },
+    "2054": {
+      "populacao": 533320142,
+      "pegada":12
+    },
+    "2055": {
+      "populacao": 534967448,
+      "pegada":12
+    },
+    "2056": {
+      "populacao": 536614754,
+      "pegada":12
+    },
+    "2057": {
+      "populacao": 538262060,
+      "pegada":12
+    },
+    "2058": {
+      "populacao": 539909366,
+      "pegada":12
+    },
+    "2059": {
+      "populacao": 541556672,
+      "pegada":12
+    },
+    "2060": {
+      "populacao": 543203978,
+      "pegada":12
+    },
+    "2061": {
+      "populacao": 544851283,
+      "pegada":12
+    },
+    "2062": {
+      "populacao": 546498589,
+      "pegada":12
+    },
+    "2063": {
+      "populacao": 548145895,
+      "pegada":12
+    },
+    "2064": {
+      "populacao": 549793201,
+      "pegada":12
+    },
+    "2065": {
+      "populacao": 551440507,
+      "pegada":12
+    },
+    "2066": {
+      "populacao": 553087813,
+      "pegada":12
+    },
+    "2067": {
+      "populacao": 554735119,
+      "pegada":12
+    },
+    "2068": {
+      "populacao": 556382425,
+      "pegada":12
+    },
+    "2069": {
+      "populacao": 558029730,
+      "pegada":12
+    },
+    "2070": {
+      "populacao": 559677036,
+      "pegada":12
+    },
+    "2071": {
+      "populacao": 561324342,
+      "pegada":12
+    },
+    "2072": {
+      "populacao": 562971648,
+      "pegada":12
+    },
+    "2073": {
+      "populacao": 564618954,
+      "pegada":11
+    },
+    "2074": {
+      "populacao": 566266260,
+      "pegada":11
+    },
+    "2075": {
+      "populacao": 567913566,
+      "pegada":11
+    },
+    "2076": {
+      "populacao": 569560872,
+      "pegada":11
+    },
+    "2077": {
+      "populacao": 571208177,
+      "pegada":11
+    },
+    "2078": {
+      "populacao": 572855483,
+       "pegada":11
+    },
+    "2079": {
+      "populacao": 574502789,
+      "pegada":10
+    },
+    "2080": {
+      "populacao": 576150095,
+      "pegada":10
+    },
+    "2081": {
+      "populacao": 577797401,
+      "pegada":10
+    },
+    "2082": {
+      "populacao": 579444707,
+      "pegada":10
+    },
+    "2083": {
+      "populacao": 581092013,
+      "pegada":10
+    },
+    "2084": {
+      "populacao": 582739319,
+      "pegada":9
+    },
+    "2085": {
+      "populacao": 584386624,
+      "pegada":9
+    },
+    "2086": {
+      "populacao": 586033930,
+      "pegada":9
+    },
+    "2087": {
+      "populacao": 587681236,
+      "pegada":8
+    },
+    "2088": {
+      "populacao": 589328542,
+      "pegada":8
+    },
+    "2089": {
+      "populacao": 590975848,
+      "pegada":8
+    },
+    "2090": {
+      "populacao": 592623154,
+      "pegada":8
+    },
+    "2091": {
+      "populacao": 594270460,
+      "pegada":8
+    },
+    "2092": {
+      "populacao": 595917766,
+      "pegada":8
+    },
+    "2093": {
+      "populacao": 597565071,
+      "pegada":8
+    },
+    "2094": {
+      "populacao": 599212377,
+      "pegada":8
+    },
+    "2095": {
+      "populacao": 600859683,
+      "pegada":8
+    },
+    "2096": {
+      "populacao": 602506989,
+      "pegada":8
+    },
+    "2097": {
+      "populacao": 604154295,
+      "pegada":8
+    },
+    "2098": {
+      "populacao": 605801601,
+      "pegada":8
+    },
+    "2099": {
+      "populacao": 607448907,
+      "pegada":8
+    },
+    "2100": {
+      "populacao": 609096213,
+      "pegada":8
+    }
+  },
+  "Oceania": {
+    "1950": {
+      "populacao": 11940795,
+      "pegada":2
+    },
+    "1951": {
+      "populacao": 12260699,
+      "pegada":2
+    },
+    "1952": {
+      "populacao": 12561173,
+      "pegada":2
+    },
+    "1953": {
+      "populacao": 12845109,
+      "pegada":2
+    },
+    "1954": {
+      "populacao": 13127600,
+      "pegada":2
+    },
+    "1955": {
+      "populacao": 13432974,
+      "pegada":2
+    },
+    "1956": {
+      "populacao": 13755987,
+      "pegada":2
+    },
+    "1957": {
+      "populacao": 14079693,
+      "pegada":2
+    },
+    "1958": {
+      "populacao": 14402489,
+      "pegada":2
+    },
+    "1959": {
+      "populacao": 14727592,
+      "pegada":2
+    },
+    "1960": {
+      "populacao": 15060121,
+      "pegada":2
+    },
+    "1961": {
+      "populacao": 15393529,
+      "pegada":2
+    },
+    "1962": {
+      "populacao": 15715947,
+      "pegada":2
+    },
+    "1963": {
+      "populacao": 16036882,
+      "pegada":2
+    },
+    "1964": {
+      "populacao": 16363505,
+      "pegada":2
+    },
+    "1965": {
+      "populacao": 16702194,
+      "pegada":3
+    },
+    "1966": {
+      "populacao": 17047147,
+      "pegada":2
+    },
+    "1967": {
+      "populacao": 17370171,
+      "pegada":3
+    },
+    "1968": {
+      "populacao": 17685157,
+      "pegada":3
+    },
+    "1969": {
+      "populacao": 18024321,
+      "pegada":3
+    },
+    "1970": {
+      "populacao": 18458219,
+      "pegada":3
+    },
+    "1971": {
+      "populacao": 18972490,
+      "pegada":3
+    },
+    "1972": {
+      "populacao": 19402914,
+      "pegada":3.5
+    },
+    "1973": {
+      "populacao": 19747345,
+      "pegada":3
+    },
+    "1974": {
+      "populacao": 20080718,
+      "pegada":3
+    },
+    "1975": {
+      "populacao": 20378585,
+      "pegada":3
+    },
+    "1976": {
+      "populacao": 20636086,
+      "pegada":3
+    },
+    "1977": {
+      "populacao": 20881594,
+      "pegada":4
+    },
+    "1978": {
+      "populacao": 21124966,
+      "pegada":4
+    },
+    "1979": {
+      "populacao": 21368674,
+      "pegada":4
+    },
+    "1980": {
+      "populacao": 21640972,
+      "pegada":4
+    },
+    "1981": {
+      "populacao": 21963344,
+      "pegada":4
+    },
+    "1982": {
+      "populacao": 22315141,
+      "pegada":4
+    },
+    "1983": {
+      "populacao": 22657467,
+      "pegada":4
+    },
+    "1984": {
+      "populacao": 22982201,
+      "pegada":4
+    },
+    "1985": {
+      "populacao": 23306288,
+      "pegada":4
+    },
+    "1986": {
+      "populacao": 23645053,
+      "pegada":4
+    },
+    "1987": {
+      "populacao": 24004624,
+      "pegada":4
+    },
+    "1988": {
+      "populacao": 24380519,
+      "pegada":4
+    },
+    "1989": {
+      "populacao": 24765389,
+      "pegada":4
+    },
+    "1990": {
+      "populacao": 25192890,
+      "pegada":4
+    },
+    "1991": {
+      "populacao": 25635431,
+      "pegada":4
+    },
+    "1992": {
+      "populacao": 26033379,
+      "pegada":4
+    },
+    "1993": {
+      "populacao": 26407584,
+      "pegada":4
+    },
+    "1994": {
+      "populacao": 26793261,
+      "pegada":4
+    },
+    "1995": {
+      "populacao": 27212612,
+      "pegada":4
+    },
+    "1996": {
+      "populacao": 27651661,
+      "pegada":4
+    },
+    "1997": {
+      "populacao": 28081699,
+      "pegada":4
+    },
+    "1998": {
+      "populacao": 28501544,
+      "pegada":4
+    },
+    "1999": {
+      "populacao": 28926513,
+      "pegada":4
+    },
+    "2000": {
+      "populacao": 29367825,
+      "pegada":4
+    },
+    "2001": {
+      "populacao": 29835053,
+      "pegada":4
+    },
+    "2002": {
+      "populacao": 30328348,
+      "pegada":4
+    },
+    "2003": {
+      "populacao": 30832140,
+      "pegada":4
+    },
+    "2004": {
+      "populacao": 31332801,
+      "pegada":4
+    },
+    "2005": {
+      "populacao": 31847576,
+      "pegada":4
+    },
+    "2006": {
+      "populacao": 32410403,
+      "pegada":4
+    },
+    "2007": {
+      "populacao": 33038797,
+      "pegada":4
+    },
+    "2008": {
+      "populacao": 33718610,
+      "pegada":3
+    },
+    "2009": {
+      "populacao": 34400799,
+      "pegada":3
+    },
+    "2010": {
+      "populacao": 35033092,
+      "pegada":3
+    },
+    "2011": {
+      "populacao": 35634605,
+      "pegada":4
+    },
+    "2012": {
+      "populacao": 36260452,
+      "pegada":3
+    },
+    "2013": {
+      "populacao": 36909001,
+      "pegada":3
+    },
+    "2014": {
+      "populacao": 37559416,
+      "pegada":3
+    },
+    "2015": {
+      "populacao": 38223680,
+      "pegada":3
+    },
+    "2016": {
+      "populacao": 38925441,
+      "pegada":3
+    },
+    "2017": {
+      "populacao": 39641085,
+      "pegada":3
+    },
+    "2018": {
+      "populacao": 40332057,
+      "pegada":3
+    },
+    "2019": {
+      "populacao": 40995834,
+      "pegada":3
+    },
+    "2020": {
+      "populacao": 41544191,
+      "pegada":3
+    },
+    "2021": {
+      "populacao": 41993520,
+      "pegada":3
+    },
+    "2022": {
+      "populacao": 42455117,
+      "pegada":3
+    },
+    "2023": {
+      "populacao": 42937568,
+      "pegada":3
+    },
+    "2026": {
+      "populacao": 41470854,
+      "pegada":3
+    },
+    "2027": {
+      "populacao": 41881940,
+      "pegada":3
+    },
+    "2028": {
+      "populacao": 42293025,
+      "pegada":3
+    },
+    "2029": {
+      "populacao": 42704111,
+      "pegada":3
+    },
+    "2030": {
+      "populacao": 43115197,
+      "pegada":3
+    },
+    "2031": {
+      "populacao": 43526282,
+      "pegada":3
+    },
+    "2032": {
+      "populacao": 43937368,
+      "pegada":3
+    },
+    "2033": {
+      "populacao": 44348454,
+      "pegada":3
+    },
+    "2034": {
+      "populacao": 44759540,
+      "pegada":3
+    },
+    "2035": {
+      "populacao": 45170625,
+      "pegada":3
+    },
+    "2036": {
+      "populacao": 45581711,
+      "pegada":3
+    },
+    "2037": {
+      "populacao": 45992797,
+      "pegada":3
+    },
+    "2038": {
+      "populacao": 46403882,
+      "pegada":3
+    },
+    "2039": {
+      "populacao": 46814968,
+      "pegada":3
+    },
+    "2040": {
+      "populacao": 47226054,
+      "pegada":3
+    },
+    "2041": {
+      "populacao": 47637140,
+      "pegada":3
+    },
+    "2042": {
+      "populacao": 48048225,
+      "pegada":3
+    },
+    "2043": {
+      "populacao": 48459311,
+      "pegada":3
+    },
+    "2044": {
+      "populacao": 48870397,
+      "pegada":3
+    },
+    "2045": {
+      "populacao": 49281482,
+      "pegada":3
+    },
+    "2046": {
+      "populacao": 49692568,
+      "pegada":3
+    },
+    "2047": {
+      "populacao": 50103654,
+      "pegada":3
+    },
+    "2048": {
+      "populacao": 50514740,
+      "pegada":3
+    },
+    "2049": {
+      "populacao": 50925825,
+      "pegada":3
+    },
+    "2050": {
+      "populacao": 51336911,
+      "pegada":3
+    },
+    "2051": {
+      "populacao": 51747997,
+      "pegada":3
+    },
+    "2052": {
+      "populacao": 52159082,
+      "pegada":3
+    },
+    "2053": {
+      "populacao": 52570168,
+      "pegada":3
+    },
+    "2054": {
+      "populacao": 52981254,
+      "pegada":3
+    },
+    "2055": {
+      "populacao": 53392340,
+      "pegada":3
+    },
+    "2056": {
+      "populacao": 53803425,
+      "pegada":3
+    },
+    "2057": {
+      "populacao": 54214511,
+      "pegada":3
+    },
+    "2058": {
+      "populacao": 54625597,
+      "pegada":2
+    },
+    "2059": {
+      "populacao": 55036683,
+      "pegada":2
+    },
+    "2060": {
+      "populacao": 55447768,
+      "pegada":2
+    },
+    "2061": {
+      "populacao": 55858854,
+      "pegada":2
+    },
+    "2062": {
+      "populacao": 56269940,
+      "pegada":2
+    },
+    "2063": {
+      "populacao": 56681025,
+      "pegada":2
+    },
+    "2064": {
+      "populacao": 57092111,
+      "pegada":2
+    },
+    "2065": {
+      "populacao": 57503197,
+      "pegada":2
+    },
+    "2066": {
+      "populacao": 57914283,
+      "pegada":2
+    },
+    "2067": {
+      "populacao": 58325368,
+      "pegada":2
+    },
+    "2068": {
+      "populaca2o": 58736454,
+      "pegada":2
+    },
+    "2069": {
+      "populacao": 59147540,
+      "pegada":2
+    },
+    "2070": {
+      "populacao": 59558625,
+      "pegada":2
+    },
+    "2071": {
+      "populacao": 59969711,
+      "pegada":2
+    },
+    "2072": {
+      "populacao": 60380797,
+      "pegada":2
+    },
+    "2073": {
+      "populacao": 60791883,
+      "pegada":2
+    },
+    "2074": {
+      "populacao": 61202968,
+      "pegada":2
+    },
+    "2075": {
+      "populacao": 61614054,
+      "pegada":2
+    },
+    "2076": {
+      "populacao": 62025140,
+      "pegada":2
+    },
+    "2077": {
+      "populacao": 62436225,
+      "pegada":2
+    },
+    "2078": {
+      "populacao": 62847311,
+      "pegada":2
+    },
+    "2079": {
+      "populacao": 63258397,
+      "pegada":2
+    },
+    "2080": {
+      "populacao": 63669483,
+      "pegada":2
+    },
+    "2081": {
+      "populacao": 64080568,
+      "pegada":2
+    },
+    "2082": {
+      "populacao": 64491654,
+      "pegada":2
+    },
+    "2083": {
+      "populacao": 64902740,
+      "pegada":2
+    },
+    "2084": {
+      "populacao": 65313826,
+      "pegada":2
+    },
+    "2085": {
+      "populacao": 65724911,
+      "pegada":2
+    },
+    "2086": {
+      "populacao": 66135997,
+      "pegada":2
+    },
+    "2087": {
+      "populacao": 66547083,
+      "pegada":2
+    },
+    "2088": {
+      "populacao": 66958168,
+      "pegada":2
+    },
+    "2089": {
+      "populacao": 67369254,
+      "pegada":2
+    },
+    "2090": {
+      "populacao": 67780340,
+      "pegada":2
+    },
+    "2091": {
+      "populacao": 68191426,
+      "pegada":2
+    },
+    "2092": {
+      "populacao": 68602511,
+      "pegada":2
+    },
+    "2093": {
+      "populacao": 69013597,
+      "pegada":2
+    },
+    "2094": {
+      "populacao": 69424683,
+      "pegada":2
+    },
+    "2095": {
+      "populacao": 69835768,
+      "pegada":2
+    },
+    "2096": {
+      "populacao": 70246854,
+      "pegada":2
+    },
+    "2097": {
+      "populacao": 70657940,
+      "pegada":2
+    },
+    "2098": {
+      "populacao": 71069026,
+      "pegada":2
+    },
+    "2099": {
+      "populacao": 71480111,
+      "pegada":2
+    },
+    "2100": {
+      "populacao": 71891197,
+      "pegada":2
+    }
+  },
+  "Africa": {
+    "1950": {
+      "populacao": 128685157,
+      "pegada":3
+    },
+    "1951": {
+      "populacao": 131428105,
+      "pegada":3
+    },
+    "1952": {
+      "populacao": 134299564,
+      "pegada":3
+    },
+    "1953": {
+      "populacao": 137273499,
+      "pegada":3
+    },
+    "1954": {
+      "populacao": 140351851,
+      "pegada":3
+    },
+    "1955": {
+      "populacao": 143547782,
+      "pegada":3
+    },
+    "1956": {
+      "populacao": 146861878,
+      "pegada":3
+    },
+    "1957": {
+      "populacao": 150235539,
+      "pegada":3
+    },
+    "1958": {
+      "populacao": 153611682,
+      "pegada":3
+    },
+    "1959": {
+      "populacao": 157197630,
+      "pegada":3
+    },
+    "1960": {
+      "populacao": 161069179,
+      "pegada":4
+    },
+    "1961": {
+      "populacao": 165050775,
+      "pegada":4
+    },
+    "1962": {
+      "populacao": 169149362,
+      "pegada":4
+    },
+    "1963": {
+      "populacao": 173399879,
+      "pegada":4
+    },
+    "1964": {
+      "populacao": 177791616,
+      "pegada":4
+    },
+    "1965": {
+      "populacao": 182321292,
+      "pegada":4
+    },
+    "1966": {
+      "populacao": 186995504,
+      "pegada":4
+    },
+    "1967": {
+      "populacao": 191842973,
+      "pegada":4
+    },
+    "1968": {
+      "populacao": 196861597,
+      "pegada":4
+    },
+    "1969": {
+      "populacao": 202033216,
+      "pegada":4
+    },
+    "1970": {
+      "populacao": 207382813,
+      "pegada":4
+    },
+    "1971": {
+      "populacao": 212877827,
+      "pegada":4
+    },
+    "1972": {
+      "populacao": 218541790,
+      "pegada":4
+    },
+    "1973": {
+      "populacao": 224529465,
+      "pegada":4
+    },
+    "1974": {
+      "populacao": 230726756,
+      "pegada":4
+    },
+    "1975": {
+      "populacao": 237242989,
+      "pegada":4
+    },
+    "1976": {
+      "populacao": 244163228,
+      "pegada":4
+    },
+    "1977": {
+      "populacao": 251045102,
+      "pegada":4
+    },
+    "1978": {
+      "populacao": 258130247,
+      "pegada":4
+    },
+    "1979": {
+      "populacao": 265441945,
+      "pegada":4
+    },
+    "1980": {
+      "populacao": 272881746,
+      "pegada":4
+    },
+    "1981": {
+      "populacao": 281365432,
+      "pegada":4
+    },
+    "1982": {
+      "populacao": 290583427,
+      "pegada":4
+    },
+    "1983": {
+      "populacao": 299392097,
+      "pegada":4
+    },
+    "1984": {
+      "populacao": 308125505,
+      "pegada":4
+    },
+    "1985": {
+      "populacao": 317187198,
+      "pegada":4
+    },
+    "1986": {
+      "populacao": 326300792,
+      "pegada":4
+    },
+    "1987": {
+      "populacao": 335657884,
+      "pegada":4
+    },
+    "1988": {
+      "populacao": 345441357,
+      "pegada":4
+    },
+    "1989": {
+      "populacao": 355385159,
+      "pegada":5
+    },
+    "1990": {
+      "populacao": 365559582,
+      "pegada":5
+    },
+    "1991": {
+      "populacao": 375868942,
+      "pegada":5
+    },
+    "1992": {
+      "populacao": 385909642,
+      "pegada":5
+    },
+    "1993": {
+      "populacao": 395914377,
+      "pegada":5
+    },
+    "1994": {
+      "populacao": 405868615,
+      "pegada":5
+    },
+    "1995": {
+      "populacao": 415792775,
+      "pegada":5
+    },
+    "1996": {
+      "populacao": 425771054,
+      "pegada":5
+    },
+    "1997": {
+      "populacao": 435851022,
+      "pegada":5
+    },
+    "1998": {
+      "populacao": 446246719,
+      "pegada":5
+    },
+    "1999": {
+      "populacao": 456855337,
+      "pegada":5
+    },
+    "2000": {
+      "populacao": 467655424,
+      "pegada":5
+    },
+    "2001": {
+      "populacao": 478764810,
+      "pegada":6
+    },
+    "2002": {
+      "populacao": 490230173,
+      "pegada":6
+    },
+    "2003": {
+      "populacao": 501924643,
+      "pegada":6
+    },
+    "2004": {
+      "populacao": 513922726,
+      "pegada":6
+    },
+    "2005": {
+      "populacao": 526242230,
+      "pegada":6
+    },
+    "2006": {
+      "populacao": 538826126,
+      "pegada":6
+    },
+    "2007": {
+      "populacao": 551772009,
+      "pegada":6
+    },
+    "2008": {
+      "populacao": 565200240,
+      "pegada":6
+    },
+    "2009": {
+      "populacao": 579063425,
+      "pegada":7
+    },
+    "2010": {
+      "populacao": 593159096,
+      "pegada":7
+    },
+    "2011": {
+      "populacao": 607646070,
+      "pegada":7
+    },
+    "2012": {
+      "populacao": 622667034,
+      "pegada":7
+    },
+    "2013": {
+      "populacao": 638026270,
+      "pegada":8
+    },
+    "2014": {
+      "populacao": 653622487,
+      "pegada":8
+    },
+    "2015": {
+      "populacao": 669453351,
+      "pegada":8
+    },
+    "2016": {
+      "populacao": 684879063,
+      "pegada":8
+    },
+    "2017": {
+      "populacao": 700542757,
+      "pegada":8
+    },
+    "2018": {
+      "populacao": 716614763,
+      "pegada":8
+    },
+    "2019": {
+      "populacao": 732254602,
+      "pegada":8
+    },
+    "2020": {
+      "populacao": 747762684,
+      "pegada":8
+    },
+    "2021": {
+      "populacao": 763179709,
+      "pegada":8
+    },
+    "2022": {
+      "populacao": 778757800,
+      "pegada":9
+    },
+    "2023": {
+      "populacao": 794118677,
+      "pegada":9
+    },
+    "2026": {
+      "populacao": 732088698,
+      "pegada":9
+    },
+    "2027": {
+      "populacao": 741132909,
+      "pegada":9
+    },
+    "2028": {
+      "populacao": 750177120,
+      "pegada":9
+    },
+    "2029": {
+      "populacao": 759221331,
+      "pegada":9
+    },
+    "2030": {
+      "populacao": 768265542,
+      "pegada":9
+    },
+    "2031": {
+      "populacao": 777309753,
+      "pegada":10
+    },
+    "2032": {
+      "populacao": 786353963,
+      "pegada":10
+    },
+    "2033": {
+      "populacao": 795398174,
+      "pegada":10
+    },
+    "2034": {
+      "populacao": 804442385,
+      "pegada":10
+    },
+    "2035": {
+      "populacao": 813486596,
+      "pegada":10
+    },
+    "2036": {
+      "populacao": 822530807,
+      "pegada":10
+    },
+    "2037": {
+      "populacao": 831575018,
+      "pegada":10
+    },
+    "2038": {
+      "populacao": 840619229,
+      "pegada":10
+    },
+    "2039": {
+      "populacao": 849663440,
+      "pegada":10
+    },
+    "2040": {
+      "populacao": 858707651,
+      "pegada":10
+    },
+    "2041": {
+      "populacao": 867751862,
+      "pegada":10
+    },
+    "2042": {
+      "populacao": 876796073,
+      "pegada":10
+    },
+    "2043": {
+      "populacao": 885840284,
+      "pegada":10
+    },
+    "2044": {
+      "populacao": 894884495,
+      "pegada":10
+    },
+    "2045": {
+      "populacao": 903928706,
+      "pegada":11
+    },
+    "2046": {
+      "populacao": 912972917,
+      "pegada":11
+    },
+    "2047": {
+      "populacao": 922017128,
+      "pegada":11
+    },
+    "2048": {
+      "populacao": 931061339,
+      "pegada":11
+    },
+    "2049": {
+      "populacao": 940105550,
+      "pegada":11
+    },
+    "2050": {
+      "populacao": 949149761,
+      "pegada":12
+    },
+    "2051": {
+      "populacao": 958193971,
+      "pegada":12
+    },
+    "2052": {
+      "populacao": 967238182,
+      "pegada":12
+    },
+    "2053": {
+      "populacao": 976282393,
+      "pegada":12
+    },
+    "2054": {
+      "populacao": 985326604,
+      "pegada":12
+    },
+    "2055": {
+      "populacao": 994370815,
+      "pegada":12
+    },
+    "2056": {
+      "populacao": 1003415026,
+      "pegada":12
+    },
+    "2057": {
+      "populacao": 1012459237,
+      "pegada":12
+    },
+    "2058": {
+      "populacao": 1021503448,
+      "pegada":13
+    },
+    "2059": {
+      "populacao": 1030547659,
+      "pegada":13
+    },
+    "2060": {
+      "populacao": 1039591870,
+      "pegada":13
+    },
+    "2061": {
+      "populacao": 1048636081,
+      "pegada":13
+    },
+    "2062": {
+      "populacao": 1057680292,
+      "pegada":13
+    },
+    "2063": {
+      "populacao": 1066724503,
+      "pegada":13
+    },
+    "2064": {
+      "populacao": 1075768714,
+      "pegada":13
+    },
+    "2065": {
+      "populacao": 1084812925,
+      "pegada":13
+    },
+    "2066": {
+      "populacao": 1093857136,
+      "pegada":14
+    },
+    "2067": {
+      "populacao": 1102901347,
+      "pegada":14
+    },
+    "2068": {
+      "populacao": 1111945558,
+      "pegada":14
+    },
+    "2069": {
+      "populacao": 1120989769,
+      "pegada":14
+    },
+    "2070": {
+      "populacao": 1130033979,
+      "pegada":14
+    },
+    "2071": {
+      "populacao": 1139078190,
+      "pegada":14
+    },
+    "2072": {
+      "populacao": 1148122401,
+      "pegada":14
+    },
+    "2073": {
+      "populacao": 1157166612,
+      "pegada":14
+    },
+    "2074": {
+      "populacao": 1166210823,
+      "pegada":14
+    },
+    "2075": {
+      "populacao": 1175255034,
+      "pegada":14
+    },
+    "2076": {
+      "populacao": 1184299245,
+      "pegada":15
+    },
+    "2077": {
+      "populacao": 1193343456,
+      "pegada":15
+    },
+    "2078": {
+      "populacao": 1202387667,
+      "pegada":15
+    },
+    "2079": {
+      "populacao": 1211431878,
+      "pegada":15
+    },
+    "2080": {
+      "populacao": 1220476089,
+      "pegada":15
+    },
+    "2081": {
+      "populacao": 1229520300,
+      "pegada":15
+    },
+    "2082": {
+      "populacao": 1238564511,
+      "pegada":16
+    },
+    "2083": {
+      "populacao": 1247608722,
+      "pegada":16
+    },
+    "2084": {
+      "populacao": 1256652933,
+      "pegada":16
+    },
+    "2085": {
+      "populacao": 1265697144,
+      "pegada":16
+    },
+    "2086": {
+      "populacao": 1274741355,
+      "pegada":17
+    },
+    "2087": {
+      "populacao": 1283785566,
+      "pegada":17
+    },
+    "2088": {
+      "populacao": 1292829777,
+      "pegada":17
+    },
+    "2089": {
+      "populacao": 1301873987,
+      "pegada":17
+    },
+    "2090": {
+      "populacao": 1310918198,
+      "pegada":17
+    },
+    "2091": {
+      "populacao": 1319962409,
+      "pegada":17
+    },
+    "2092": {
+      "populacao": 1329006620,
+      "pegada":17
+    },
+    "2093": {
+      "populacao": 1338050831,
+      "pegada":18
+    },
+    "2094": {
+      "populacao": 1347095042,
+      "pegada":18
+    },
+    "2095": {
+      "populacao": 1356139253,
+      "pegada":18
+    },
+    "2096": {
+      "populacao": 1365183464,
+      "pegada":18
+    },
+    "2097": {
+      "populacao": 1374227675,
+      "pegada":18
+    },
+    "2098": {
+      "populacao": 1383271886,
+      "pegada":18
+    },
+    "2099": {
+      "populacao": 1392316097,
+      "pegada":18
+    },
+    "2100": {
+      "populacao": 1401360308,
+      "pegada":18
+    }
+  },
+  "Asia": {
+    "1950": {
+      "populacao": 1226234638,
+      "pegada":15
+    },
+    "1951": {
+      "populacao": 1250830475,
+      "pegada":15
+    },
+    "1952": {
+      "populacao": 1277748635,
+      "pegada":15
+    },
+    "1953": {
+      "populacao": 1306204131,
+      "pegada":15
+    },
+    "1954": {
+      "populacao": 1335400553,
+      "pegada":15
+    },
+    "1955": {
+      "populacao": 1366245524,
+      "pegada":16
+    },
+    "1956": {
+      "populacao": 1397253404,
+      "pegada":16
+    },
+    "1957": {
+      "populacao": 1429335558,
+      "pegada":16
+    },
+    "1958": {
+      "populacao": 1462035725,
+      "pegada":16
+    },
+    "1959": {
+      "populacao": 1490243398,
+      "pegada":16
+    },
+    "1960": {
+      "populacao": 1512536962,
+      "pegada":17
+    },
+    "1961": {
+      "populacao": 1534201385,
+      "pegada":17
+    },
+    "1962": {
+      "populacao": 1564683832,
+      "pegada":17
+    },
+    "1963": {
+      "populacao": 1605883844,
+      "pegada":17
+    },
+    "1964": {
+      "populacao": 1648434217,
+      "pegada":17
+    },
+    "1965": {
+      "populacao": 1689163278,
+      "pegada":17
+    },
+    "1966": {
+      "populacao": 1729945842,
+      "pegada":17
+    },
+    "1967": {
+      "populacao": 1771239752,
+      "pegada":17
+    },
+    "1968": {
+      "populacao": 1814650883,
+      "pegada":17
+    },
+    "1969": {
+      "populacao": 1859463265,
+      "pegada":18
+    },
+    "1970": {
+      "populacao": 1905165970,
+      "pegada":18
+    },
+    "1971": {
+      "populacao": 1950253129,
+      "pegada":18
+    },
+    "1972": {
+      "populacao": 1994691668,
+      "pegada":19
+    },
+    "1973": {
+      "populacao": 2040056907,
+      "pegada":19
+    },
+    "1974": {
+      "populacao": 2085039042,
+      "pegada":19
+    },
+    "1975": {
+      "populacao": 2128862458,
+      "pegada":19
+    },
+    "1976": {
+      "populacao": 2171713761,
+      "pegada":20
+    },
+    "1977": {
+      "populacao": 2214180136,
+      "pegada":20
+    },
+    "1978": {
+      "populacao": 2256383828,
+      "pegada":20
+    },
+    "1979": {
+      "populacao": 2299874565,
+      "pegada":20
+    },
+    "1980": {
+      "populacao": 2345616732,
+      "pegada":20
+    },
+    "1981": {
+      "populacao": 2393357743,
+      "pegada":20
+    },
+    "1982": {
+      "populacao": 2442963042,
+      "pegada":20
+    },
+    "1983": {
+      "populacao": 2492285991,
+      "pegada":20
+    },
+    "1984": {
+      "populacao": 2541189272,
+      "pegada":20
+    },
+    "1985": {
+      "populacao": 2591512071,
+      "pegada":20
+    },
+    "1986": {
+      "populacao": 2643729527,
+      "pegada":21
+    },
+    "1987": {
+      "populacao": 2697806461,
+      "pegada":23
+    },
+    "1988": {
+      "populacao": 2752022692,
+      "pegada":23
+    },
+    "1989": {
+      "populacao": 2806021029,
+      "pegada":23
+    },
+    "1990": {
+      "populacao": 2861378484,
+      "pegada":25
+    },
+    "1991": {
+      "populacao": 2914300199,
+      "pegada":25
+    },
+    "1992": {
+      "populacao": 2963034292,
+      "pegada":26
+    },
+    "1993": {
+      "populacao": 3009867753,
+      "pegada":26
+    },
+    "1994": {
+      "populacao": 3055575233,
+      "pegada":27
+    },
+    "1995": {
+      "populacao": 3101391458,
+      "pegada":27
+    },
+    "1996": {
+      "populacao": 3147151795,
+      "pegada":27
+    },
+    "1997": {
+      "populacao": 3192532529,
+      "pegada":28
+    },
+    "1998": {
+      "populacao": 3237822023,
+       "pegada":30
+    },
+    "1999": {
+      "populacao": 3282730676,
+      "pegada":30
+    },
+    "2000": {
+      "populacao": 3327841928,
+      "pegada":33
+    },
+    "2001": {
+      "populacao": 3372818307,
+      "pegada":33
+    },
+    "2002": {
+      "populacao": 3415274501,
+      "pegada":33
+    },
+    "2003": {
+      "populacao": 3456671217,
+      "pegada":35
+    },
+    "2004": {
+      "populacao": 3498726476,
+      "pegada":35
+    },
+    "2005": {
+      "populacao": 3540496425,
+      "pegada":36
+    },
+    "2006": {
+      "populacao": 3582111745,
+      "pegada":36
+    },
+    "2007": {
+      "populacao": 3623654053,
+      "pegada":36
+    },
+    "2008": {
+      "populacao": 3664897807,
+      "pegada":36
+    },
+    "2009": {
+      "populacao": 3706815322,
+      "pegada":36
+    },
+    "2010": {
+      "populacao": 3749270551,
+      "pegada":36
+    },
+    "2011": {
+      "populacao": 3790807209,
+      "pegada":37
+    },
+    "2012": {
+      "populacao": 3832310971,
+      "pegada":37
+    },
+    "2013": {
+      "populacao": 3873358257,
+      "pegada":37
+    },
+    "2014": {
+      "populacao": 3913021551,
+      "pegada":38
+    },
+    "2015": {
+      "populacao": 3951192792,
+      "pegada":38
+    },
+    "2016": {
+      "populacao": 3988512307,
+      "pegada":38
+    },
+    "2017": {
+      "populacao": 4025232720,
+      "pegada":38
+    },
+    "2018": {
+      "populacao": 4058962508,
+      "pegada":38
+    },
+    "2019": {
+      "populacao": 4089835685,
+      "pegada":39
+    },
+    "2020": {
+      "populacao": 4117750680,
+      "pegada":39
+    },
+    "2021": {
+      "populacao": 4140448140,
+      "pegada":39
+    },
+    "2022": {
+      "populacao": 4161654217,
+      "pegada":40
+    },
+    "2023": {
+      "populacao": 4183275780,
+      "pegada":40
+    },
+    "2026": {
+      "populacao": 4417582256,
+      "pegada":42
+    },
+    "2027": {
+      "populacao": 4461388585,
+      "pegada":43
+    },
+    "2028": {
+      "populacao": 4505194914,
+      "pegada":42
+    },
+    "2029": {
+      "populacao": 4549001243,
+      "pegada":42
+    },
+    "2030": {
+      "populacao": 4592807572,
+      "pegada":44
+    },
+    "2031": {
+      "populacao": 4636613901,
+      "pegada":44
+    },
+    "2032": {
+      "populacao": 4680420230,
+      "pegada":44
+    },
+    "2033": {
+      "populacao": 4724226559,
+      "pegada":44
+    },
+    "2034": {
+      "populacao": 4768032889,
+      "pegada":44
+    },
+    "2035": {
+      "populacao": 4811839218,
+      "pegada":44
+    },
+    "2036": {
+      "populacao": 4855645547,
+      "pegada":44
+    },
+    "2037": {
+      "populacao": 4899451876,
+      "pegada":45
+    },
+    "2038": {
+      "populacao": 4943258205,
+      "pegada":45
+    },
+    "2039": {
+      "populacao": 4987064534,
+      "pegada":45
+    },
+    "2040": {
+      "populacao": 5030870863,
+      "pegada":45
+    },
+    "2041": {
+      "populacao": 5074677192,
+      "pegada":47
+    },
+    "2042": {
+      "populacao": 5118483522,
+      "pegada":47
+    },
+    "2043": {
+      "populacao": 5162289851,
+      "pegada":47
+    },
+    "2044": {
+      "populacao": 5206096180,
+      "pegada":47
+    },
+    "2045": {
+      "populacao": 5249902509,
+      "pegada":48
+    },
+    "2046": {
+      "populacao": 5293708838,
+      "pegada":48
+    },
+    "2047": {
+      "populacao": 5337515167,
+      "pegada":49
+    },
+    "2048": {
+      "populacao": 5381321496,
+      "pegada":49
+    },
+    "2049": {
+      "populacao": 5425127825,
+      "pegada":49
+    },
+    "2050": {
+      "populacao": 5468934155,
+      "pegada":49
+    },
+    "2051": {
+      "populacao": 5512740484,
+      "pegada":50
+    },
+    "2052": {
+      "populacao": 5556546813,
+      "pegada":50
+    },
+    "2053": {
+      "populacao": 5600353142,
+      "pegada":50
+    },
+    "2054": {
+      "populacao": 5644159471,
+      "pegada":50
+    },
+    "2055": {
+      "populacao": 5687965800,
+      "pegada":50
+    },
+    "2056": {
+      "populacao": 5731772129,
+      "pegada":50
+    },
+    "2057": {
+      "populacao": 5775578458,
+      "pegada":50
+    },
+    "2058": {
+      "populacao": 5819384788,
+      "pegada":50
+    },
+    "2059": {
+      "populacao": 5863191117,
+      "pegada":50
+    },
+    "2060": {
+      "populacao": 5906997446,
+      "pegada":50
+    },
+    "2061": {
+      "populacao": 5950803775,
+      "pegada":50
+    },
+    "2062": {
+      "populacao": 5994610104,
+      "pegada":50
+    },
+    "2063": {
+      "populacao": 6038416433,
+      "pegada":50
+    },
+    "2064": {
+      "populacao": 6082222762,
+      "pegada":50
+    },
+    "2065": {
+      "populacao": 6126029092,
+      "pegada":51
+    },
+    "2066": {
+      "populacao": 6169835421,
+      "pegada":51
+    },
+    "2067": {
+      "populacao": 6213641750,
+      "pegada":51
+    },
+    "2068": {
+      "populacao": 6257448079,
+      "pegada":51
+    },
+    "2069": {
+      "populacao": 6301254408,
+      "pegada":51
+    },
+    "2070": {
+      "populacao": 6345060737,
+      "pegada":51
+    },
+    "2071": {
+      "populacao": 6388867066,
+      "pegada":51
+    },
+    "2072": {
+      "populacao": 6432673395,
+      "pegada":51
+    },
+    "2073": {
+      "populacao": 6476479725,
+      "pegada":51
+    },
+    "2074": {
+      "populacao": 6520286054,
+      "pegada":51
+    },
+    "2075": {
+      "populacao": 6564092383,
+      "pegada":51
+    },
+    "2076": {
+      "populacao": 6607898712,
+      "pegada":52
+    },
+    "2077": {
+      "populacao": 6651705041,
+         "pegada":52
+    },
+    "2078": {
+      "populacao": 6695511370,
+         "pegada":52
+    },
+    "2079": {
+      "populacao": 6739317699,
+         "pegada":52
+    },
+    "2080": {
+      "populacao": 6783124028,
+         "pegada":52
+    },
+    "2081": {
+      "populacao": 6826930358,
+         "pegada":52
+    },
+    "2082": {
+      "populacao": 6870736687,
+         "pegada":52
+    },
+    "2083": {
+      "populacao": 6914543016,
+         "pegada":52
+    },
+    "2084": {
+      "populacao": 6958349345,
+         "pegada":52
+    },
+    "2085": {
+      "populacao": 7002155674,
+         "pegada":52
+    },
+    "2086": {
+      "populacao": 7045962003,
+         "pegada":52
+    },
+    "2087": {
+      "populacao": 7089768332,
+         "pegada":52
+    },
+    "2088": {
+      "populacao": 7133574661,
+         "pegada":52
+    },
+    "2089": {
+      "populacao": 7177380991,
+         "pegada":52
+    },
+    "2090": {
+      "populacao": 7221187320,
+         "pegada":51
+    },
+    "2091": {
+      "populacao": 7264993649,
+      "pegada":51
+    },
+    "2092": {
+      "populacao": 7308799978,
+      "pegada":51
+    },
+    "2093": {
+      "populacao": 7352606307,
+      "pegada":51
+    },
+    "2094": {
+      "populacao": 7396412636,
+      "pegada":51
+    },
+    "2095": {
+      "populacao": 7440218965,
+      "pegada":50
+    },
+    "2096": {
+      "populacao": 7484025294,
+      "pegada":50
+    },
+    "2097": {
+      "populacao": 7527831624,
+      "pegada":50
+    },
+    "2098": {
+      "populacao": 7571637953,
+      "pegada":50
+    },
+    "2099": {
+      "populacao": 7615444282,
+      "pegada":50
+    },
+    "2100": {
+      "populacao": 7659250611,
+      "pegada":50
+    }
+  }
+}

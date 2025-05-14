@@ -1,0 +1,1379 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@font-face {
+    font-family: machina;
+    src: url("../Font/NeueMachina-Regular.otf") format("opentype");
+}
+
+
+body{
+    margin: 0px;
+    font-family: machina;
+    user-select: none; /*Para não dar para selecionar texto*/
+
+}
+
+main{
+    display: none;
+    transition: 0.5s ease-in-out;
+    z-index: 1;    
+}
+
+main>div{
+    width: 20%;
+    opacity: 1;
+
+}
+
+.abs{
+    position: absolute;
+}
+/* main>div:nth-child(2){
+    display: flex;
+    align-items: center;
+    width: 7%;
+    height: 100%;
+    background-color: rgb(75, 75, 75,0.1);
+}
+*/
+#comandContentor{
+    height: 13%;
+    width: 16%;
+    background-color: rgb(30, 30, 30);
+    border-radius: 10pt 10pt 0pt 0pt;
+    display: flex
+;
+    /* flex-direction: column; */
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+    bottom: 0;
+    left: 42.5%;
+}
+
+.principal {
+    display: grid;
+    row-gap: 0%;
+    grid-template-rows: 120px 75px 100px 500px;
+    margin: 2%;
+}
+.principal > div:nth-child(1){
+    display: grid;
+    grid-template-rows: 60% auto;
+
+    color: white;
+    font-weight: 600;
+
+    height: 100%;
+}
+
+.principal > div:nth-child(1) span:nth-child(1){
+    margin-top: 5%;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.principal > div:nth-child(1) span{
+    color: rgb(75, 75, 75);
+    font-size: 1.25rem;
+}
+
+.principal > div{
+    background-color: rgb(35, 35, 35,0.25);
+    padding-left: 7%;
+}
+
+
+/*-------------------------- Content */
+
+.principal > div:nth-child(2){
+    display: grid;
+    grid-template-rows: 30% auto;
+}
+
+#bloco2{
+    display: grid;
+    grid-template-columns: 65% auto;
+}
+
+#bloco2> div{
+   display: grid;
+   grid-template-rows: auto auto;
+   color: aqua; 
+}
+
+#bloco2 div > span:nth-child(1){
+    display: flex;
+    gap: 5%;
+    align-items: center;
+
+    font-size: 1rem;
+    font-weight: 600;
+
+    color: rgb(225, 225, 225)
+}
+
+span:nth-child(1) img{
+    width: 25px;
+    height: 25px;
+}
+
+
+
+#bloco2 div > span:nth-child(2), #bloco3 div > span:nth-child(2){
+    font-size: 1.75rem;
+    font-weight: 200;
+}
+
+#bloco3{
+    display: grid;
+    grid-template-columns: 65% auto;
+}
+
+
+#bloco3 >div{
+    display: grid;
+    grid-template-rows: 35% auto;
+    flex-direction: row;
+    color: rgb(190, 190, 190); 
+}
+
+#bloco4{
+    margin-top: 10px;
+    padding-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 5px;
+}
+
+#notDefined{
+    width: 100%;
+    height: 65%;
+}
+
+
+.elementos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color:rgb(200, 200, 200);
+
+    height: 30px;
+    gap: 20px
+}
+
+
+.barras{
+    height: 45%;
+    border-radius: 8pt;
+}
+
+#barra1{
+    width: 20%;
+    background-color: rgb(68, 158, 68);
+    transition: width 1s;
+}
+
+#barra2{
+    width: 50%;
+    background-color: rgb(194, 34, 34);
+    transition: width 1s;
+}
+
+#barra3{
+    width: 40%;
+    background-color: rgb(230, 230, 64);
+    transition: width 1s;
+}
+
+.title{
+    font-size: 1rem;
+    color: rgb(200, 200, 200);
+    font-weight: 600;
+}
+
+.titleB{
+    font-size: 1.5rem;
+    color: rgb(200, 200, 200);
+    font-weight: 600;
+    width: 15%;
+}
+
+
+
+
+
+.gestos{
+    height: 100%;
+}
+
+
+.universe{
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+#cena{
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+
+#Ano {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: calc(50% - 40vh);
+    left: calc(50%);
+    width: 45vh; 
+    height: 15vh; 
+    color: rgb(165, 131, 71);
+    text-align: center;
+    font-size: 15vh;
+}
+
+
+.circle-box {
+    z-index: 0;
+    top: calc(50%);
+    left: calc(50% + 25vh);
+    animation: rodar 4s linear infinite;
+    transform-origin: -50% -50%;
+    position: absolute;
+}
+  
+.circle-container {
+    position: relative;
+    transform: translate(-50%, -50%);
+    pointer-events: auto;
+}
+  
+.stroke {
+    position: absolute;
+    width: 0.4vh;
+    background: rgb(187, 107, 54);
+    transform-origin: bottom center;
+    transition: background 0.5s ease-in-out;
+}
+  
+.circle-container:hover .stroke {
+    background: rgb(118, 68, 34);
+}
+  
+@keyframes rodar {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+}
+
+/*Pop ups ---------------------------------------*/
+
+
+/*Data cenários ---------------------------------------*/
+
+
+/*SETA BACK NOS CENÁRIOS*/
+#hideScene {
+    width: 6vh;
+    height: 6vh;
+    position: absolute;
+    top: 2vw;
+    left: 2vw;
+    /*z-index: 100;*/
+    line-height: 100px;
+    text-align: center;
+    color: white;
+
+    background: rgb(0, 0, 0);
+    opacity: 0.4;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+#hideScene p{
+margin-top:-5vh;
+font-size: 4vh;
+}
+
+#hideScene:hover {
+    background-color: rgb(114, 64, 45);
+}
+/*FIM SETA BACK NOS CENÁRIOS*/
+
+
+
+#cenarioinfo {
+    position: absolute;
+    z-index: 10;
+    display: none;
+    transition: 0.5s ease-in-out;
+}
+
+#Local {
+    position: absolute;
+    top: 2vw;
+    left: 11vh;
+    width: 37vh;
+    height: 6vh;
+    background: rgb(0, 0, 0);
+    opacity: 0.4;
+    border-radius: 5%;
+    transition:  0.5s ease-in-out;
+}
+
+#Ano_cenarios {
+    position: absolute;
+    top: 2vw;
+    left: 50vh;
+    width: 10vh;
+    height: 6vh;
+    background: rgb(0, 0, 0);
+    opacity: 0.4;
+    border-radius: 5%;
+    transition:  0.5s ease-in-out;
+}
+
+
+#Local .linha-info {
+    gap: 0vh; 
+}
+
+
+  #Weatherdata {
+    position: absolute;
+    top: 29vw;
+    left: 3vh;
+    width: 45vh;
+    height: 27vh;
+    background: rgb(0, 0, 0);
+    opacity: 0.4;
+    border-radius: 5%;
+    transition:  0.5s ease-in-out;
+}
+
+#AirQuality{
+    position: absolute;
+    top: 44vw;
+    left: 3vh;
+    width: 45vh;
+    height: 6vh;
+    background: rgb(0, 0, 0);
+    opacity: 0.4;
+    border-radius: 5%;
+    transition:  0.5s ease-in-out;
+}
+
+.infocenarios {
+    color: white;
+    font-size: 2.5vh;
+    margin-left:2vh;
+}
+
+
+
+.linha-info {
+    display: flex;
+    align-items: center;
+    gap: 10vh; 
+  }
+  
+
+  .infocenarios_label{
+    color: white;
+    font-weight:normal; 
+    font-size: 3vh;
+    padding-top:2vh;
+    padding-bottom:2vh;
+    margin-left:2vh;
+
+  }
+
+  .infocenarios.titulo {
+    font-weight:normal; 
+    width: 15vh; 
+    flex-shrink: 0; 
+  }
+  
+  .infocenarios.dado {
+    font-weight: bold;
+  }
+/*--------------------------------------- Fim das caixas de data nos cenários   */
+
+  
+/*Bússula ---------------------------------------*/
+#compass {
+    position: absolute;
+    top: 12vh;
+    right: 15vh;
+    width: 16vh;
+    height: 16vh;
+    z-index: 10;
+    transition:  0.5s ease-in-out;
+    opacity: 0;
+    display: none;
+  }
+
+#compass-pointer {
+    position: absolute;
+    top: -1.8vh;
+    left: 6.8vh;
+    width: 0.65vh;
+    height: 9vh;
+    background: rgb(141, 0, 0);
+    transform-origin: bottom center;
+    transition: transform 0.1s linear;
+}
+
+
+#compass-background1 {
+    position: absolute;
+    top: -3vh;
+    left: -3vh;
+    width: 20vh;
+    height: 20vh;
+    background: rgb(0, 0, 0);
+    opacity: 0.4;
+    border-radius: 50%;
+}
+
+#compass-background2 {
+    position: absolute;
+    top: -8vh;
+    left: -8vh;
+    width: 30vh;
+    height: 30vh;
+    background: rgb(0, 0, 0);
+    opacity: 0.4;
+    border-radius: 50%;
+}
+
+.compass-label {
+    color: white;
+    font-size: 2.5vh;
+}
+
+.N {
+    position: absolute;
+    top: -6.5vh;
+    left: 6.25vh;  
+}
+
+.S {
+    position: absolute;
+    top: 17.5vh;
+    left: 6.25vh;  
+}
+
+.E {
+    position: absolute;
+    top: 6vh;
+    left: 18.3vh;  
+}
+
+.O {
+    position: absolute;
+    top: 6vh;
+    left: -6vh;  
+}
+
+
+.NE {
+    position: absolute;
+    top: -3vh;
+    left: 14.5vh;   
+}
+
+.SE {
+    position: absolute;
+    top: 14.5vh;
+    left: 14.5vh;  
+}
+
+.NO {
+    position: absolute;
+    top: -3vh;
+    left: -3.5vh;   
+}
+
+.SO {
+    position: absolute;
+    top: 14.5vh;
+    left: -3.5vh;  
+}
+
+.cross {
+    top: -7.8vh;
+    left: 6.8vh;
+    position: absolute;
+    width: 0.55vh;
+    height: 30vh;
+    background: rgb(163, 163, 163);
+    opacity: 0.2;
+}
+
+.c2 {
+    rotate: 90deg;
+}
+.c3 {
+    rotate: 45deg;
+}
+.c4 {
+    rotate: -45deg;
+}
+
+
+/*--------------------------------------- Fim da Bússula   */
+
+
+/*--------------------------------------- Mudar de ano   */
+/*
+#handle {
+    position: absolute;
+    top: calc(50% - 2.5vh);
+    left: calc(50% - 27vh);
+    width: 6vh;
+    height: 4vh;
+    border-radius: 0.7vh;
+    background-color: aliceblue;
+    transition: 0s;
+    cursor: pointer;
+}
+
+#handle:hover {
+    background-color: rgb(151, 155, 159);
+} 
+
+#slider {
+    position: absolute;
+    top: calc(50%);
+    left: calc(50% - 30vh);
+    height: 1vh;
+    width: 50vh;
+    border-radius: 0.7vh;
+    background-color: black;
+    transition: 0s;
+}*/
+/*-------------------------------------------------------------- Slider do Ano*/
+#slider-container {
+    position: absolute;
+    width: 10vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  #slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    cursor: grab;
+  }
+  
+  #slider::-webkit-scrollbar {
+    display: none;
+  }
+  
+  #year-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50vh 0; /* centralizar primeiro/último ano */
+    gap: 4vh;
+  }
+  
+  #year-list span {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    opacity: 0.3;
+    color: white;
+    transition: 0.2s ease;
+    pointer-events: none;
+    user-select: none;
+  }
+  
+  #slider-container::before,
+  #slider-container::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  .fade-top, .fade-bottom {
+    position: absolute;
+    left: 0;
+    width: 8vw;
+    height: 80px;
+    z-index: 3;
+    pointer-events: none;
+  }
+
+  .fade-top {
+    top: 0;
+    background: linear-gradient(to bottom, black 0%, transparent 100%);
+  }
+  
+  .fade-bottom {
+    bottom: 0;
+    background: linear-gradient(to top, black 0%, transparent 100%);
+  }
+  
+  .center-line {
+    position: absolute;
+    top: 0;
+    left: 1vw;
+    width: 0.2vw;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    transform: translateY(-1px);
+    z-index: 2;
+  }
+
+  .center-glow {
+    position: absolute;
+    left: 0vw;
+    top: 5vh;
+    width: 8vh;
+    height: 150vh;
+    background: linear-gradient(to bottom, #00ff6688, #00ff6611);
+    transform: translateX(-50%);
+    filter: blur(3vh);
+    z-index: 1;
+    pointer-events: none;
+  }
+  
+  .center-marker {
+    position: absolute;
+    left: 0.9vw;
+    top: 52.8vh;
+    width: 0.5vw;
+    height: 6vh;
+    background: #aaffc9;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    pointer-events: none;
+  }
+
+  .center-stick {
+    position: absolute;
+    left: 1.22vw;
+    top: 52.8vh;
+    width: 1.1vw;
+    height: 0.2vh;
+    background: #aaffc9;;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    pointer-events: none;
+  }
+
+  #slider span.active {
+    font-family: machina;
+    font-size: 2.2vw;
+    margin-left: 5vh;
+    color: #00ff99;   
+    z-index: 5;
+  }
+/*------------------------------------------------------------------------------ Fim de mudar de ano   */
+
+
+
+
+
+
+
+
+
+/*-------------------------- Add cenas carolina          */
+
+
+.elemento{
+    position: absolute;
+
+    display: grid;
+
+    background-color: rgb(255,255,255,0.075);
+
+    padding-left: 1%;
+    padding-right: 0%;
+    padding-bottom: 1%;
+
+    transition: all 0.7s;
+
+}
+
+#Elemento1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 21vw;
+    height: 22.5vh;
+
+    top: 3vh;
+    left: 11.5vw;
+
+    scale:0.95;
+
+    padding: 0%;
+}
+
+
+#Elemento1 > div:nth-child(2){
+    width: 92.5%;
+    height: 90%;
+
+    display: grid;
+
+    grid-template-rows: 35% 1fr 1fr 1fr 1fr;
+    transition: transform 0.3s ease;
+
+    padding: 0%;
+    padding-bottom: 2%;
+}
+
+.barraT2{
+    height: 100%;
+    width: 1%;
+
+    background-color: rgb(66, 180, 56);
+}
+
+#Elemento2{
+    width: 19vw;
+    height: 37.5vh;
+
+    grid-template-rows: 35% 1fr 1fr 1fr 65%;
+    
+    padding-bottom: 0%;
+}
+
+#Elemento3{
+    width: 20vw;
+    height: 42.5vh;
+
+    padding: 0%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#Elemento3 > div:nth-child(2), #Elemento3 > .title, #ene{
+    padding-left: 7.5%;
+    height: 20%;
+}
+
+#Elemento3 .title{
+    height: 15%;
+    font-size: 1.6vw;
+}
+
+
+#Elemento3>div:nth-child(3){
+    height: 65%;
+    background-color: rgb(11,80,18,0.2);
+
+}
+
+.divG{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 3.5%;
+}
+
+.divG .barra{
+    width: 100%;
+    height: 1.25%;
+}
+
+
+#ene{
+    height: 35%;
+    font-size: 0.90vw;
+    color: rgb(255,255,255,0.3);
+}
+
+.barraCont{
+    height: 73.75%;
+    padding: 5%;
+
+    padding-left: 17%;
+    padding-right: 17%;
+
+    display: grid;
+    grid-template-areas: 
+    'g1 g2 g3'
+    'g1 g2 g3'
+    'barra barra barra'
+    ;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 3.5%;
+}
+
+.barraCont span{
+    writing-mode: vertical-rl;
+    /* transform: rotate(180deg); */
+    display: flex;
+    align-items: end;
+
+    transform: translate(0vw, 1vh);
+    font-size: 0.80vw;
+
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 300;
+}
+
+.barraCont > .divE{
+    transform: rotate(180deg) translate(0.75vw, 0vh);
+}
+
+.barraCont > .divE div{
+    height: 30%;
+    background-color: #42B438;
+    width: 75%;
+    border-radius: 0% 0% 10% 10%;
+}
+
+#g1{
+    grid-area: g1;
+}
+
+#g2{
+    grid-area: g2;
+}
+#g3{
+    grid-area: g3;
+}
+#whiteBar{
+    background-color: rgb(255,255,255,0.8);
+    grid-area: barra;
+    height: 100%;
+    transform: scale(1.15,1);
+}
+#Elemento2 {
+    top: 2.5vh;
+    right: 1.2vw;
+    scale:0.95;
+}
+
+#Elemento3 {
+    bottom: 18.5vh;
+    right: 1.2vw;
+    scale: 0.95;
+}
+
+
+#Elemento6 {
+    bottom: 1.5vh;
+    right: -0.27vw;
+    scale: 0.825;
+}
+
+
+#Elemento4{
+    top: 55vh;
+    left: 13vw;
+    width: 15vw;
+    height: 40vh;
+    scale:1.1;
+}
+
+#Elemento10{
+    top: 21vh;
+    left:18vw;
+    scale:0.9;
+}
+
+
+#Elemento7, #Elemento8, #Elemento9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 30vh;
+    height: 30vh;
+
+    padding: 0%;
+
+    background-color: transparent;
+    scale:0.6;
+    
+}
+
+#Elemento7{
+    top: 0vh;
+    left: 65vw;
+}
+
+
+#Elemento7 .title {
+    font-size: 3vw;
+}
+
+
+#Elemento8 .title {
+    font-size: 3vw;
+}
+
+#Elemento9 .title {
+    font-size: 3vw;
+}
+
+#Elemento8{
+    top: 65vh;
+    left: 65vw;
+}
+
+#Elemento9{
+    top: 58vh;
+    left: 65vw;
+}
+
+.elemento > div > span:nth-child(1){
+    font-weight: 300;
+}
+.elemento > .divE > span:nth-child(2), #Elemento6 .divE>:nth-child(2){
+    color: rgb(85, 165, 71);
+    font-weight: 500;
+}
+
+
+
+.title{
+    font-size: 1.55vw;
+    font-weight: 400;
+    color: rgb(85, 165, 71);
+
+    font-family: 'Machina';
+}
+
+span{
+    display: block;
+}
+
+.divE{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.label{
+    color: rgb(255,255,255,0.4);
+    font-size: 1vw;
+
+    font-family: 'Inter';
+}
+
+
+/*
+.meio{
+    width: 50%;
+}
+*/
+.cent{
+    display: flex;
+    align-items: center;
+}
+
+.label_Roda
+
+.divF{
+    display: grid;
+    grid-template-rows: auto 75%;
+}
+
+.divF > span:nth-child(2){
+    font-size: 8vh;
+    font-weight: 400;
+    color: rgb(46,146,53);
+}
+
+.barra{
+    width: 100%;
+    background-color: rgb(66,180,56);
+}
+
+.centComplete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Elemento4{
+    width: 17.5vw;
+    height: 40vh;
+
+    padding: 0%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transform : scale(1);
+}
+
+.bColor{
+    background-color:#42B438;
+}
+
+#Elemento4 > div{
+    position: absolute;
+    width: 17.5vw;
+    height: 40vh;
+}
+
+#Elemento4 > div:nth-child(2){
+    width: 14.5vw;
+}
+
+.barraComp{
+    width: 15%;
+    height: 1.5%;
+}
+.barraAlt{
+    width: 1.5%;
+    height: 98.5%; 
+}
+
+.contImg{
+    width: 100%;
+    height: 50%;
+}
+
+.content5{
+    width: 70%;
+}
+
+.contText{
+    height: 50%;
+}
+
+#Elemento4 .title{
+    width: 100%;
+    padding-bottom: 6%;
+    font-size: 1.80vw;
+}
+
+#Elemento4 .divE > span:nth-child(1){
+    width: 60%;
+}
+
+#Elemento10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 30vh;
+    height: 30vh;
+
+    padding: 0%;
+
+    background-color: transparent;
+}
+
+.label_Roda{
+    top: 40%;
+    left: 30%;
+}
+/*-----------------------------------------------*/
+.title { 
+    color: white;
+}
+
+.pizza1{
+  position: absolute;
+  width: 30vh;
+  height: 30vh;
+  border-radius: 50%;
+  background: conic-gradient(
+  #10240D 0% 0.425%,
+  #319E35 0.425% 5%,
+
+  #10240D 5% 5.425%,
+  #319E35 5.425% 10%,
+
+  #10240D 10% 10.425%,
+  #319E35 10.425% 15%,
+
+  #10240D 15% 15.425%,
+  #319E35 15.425% 20%,
+
+  #10240D 20% 20.425%,
+  #319E35 20.425% 25%,
+
+  #10240D 25% 25.425%,
+  #319E35 25.425% 30%,
+
+  #10240D 30% 30.425%,
+  #319E35 30.425% 35%,
+
+  #10240D 35% 35.425%,
+  #319E35 35.425% 40%,
+
+  #10240D 40% 40.425%,
+  #319E35 40.425% 45%,
+
+  #10240D 45% 45.425%,
+  #319E35 45.425% 50%,
+
+  #10240D 50% 50.425%,
+  #319E35 50.425% 55%,
+
+  #10240D 55% 55.425%,
+  #319E35 55.425% 60%,
+
+  #10240D 60% 60.425%,
+  #319E35 60.425% 65%,
+
+  #10240D 65% 65.425%,
+  #319E35 65.425% 70%,
+
+  #10240D 70% 70.425%,
+  #319E35 70.425% 75%,
+
+  #10240D 75% 75.425%,
+  #319E35 75.425% 80%,
+
+  #10240D 80% 80.425%,
+  #319E35 80.425% 85%,
+
+  #10240D 85% 85.425%,
+  #319E35 85.425% 90%,
+
+  #10240D 90% 90.425%,
+  #319E35 90.425% 95%,
+
+  #10240D 95% 95.425%,
+  #319E35 95.425% 100%
+);
+
+}
+
+.pizza2{
+    position: absolute;
+    width: 28vh;
+    height: 28vh;
+    border-radius: 50%;
+    background: conic-gradient(
+        #10240D 0% 70%,
+        #98CF9D 70% 100%
+    );
+}
+
+.eleC .title{
+    z-index: 10;
+    font-weight: 400;
+    font-size: 1.3vw;
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #98CF9D;
+}
+
+.eleC > span:nth-child(4){
+    padding: 0%;
+    position: absolute;
+    transform: translate(0vw, 20vh);
+    color: rgb(255,255,255,0.9);
+}
+
+
+#Elemento6{
+    display: flex
+;
+    flex-direction: column;
+    width: 22.5vw;
+    height: 20vh;
+    padding: 0%;
+    align-items: center;
+    padding-left: 0.5%;
+}
+
+#Elemento6 .title{
+    height: 40%;
+    font-size: 1.95vw;
+}
+
+#Elemento6 > div:nth-child(2){
+    width: 89%;
+}
+
+#Elemento6 .barra{
+    height: 2.5%;
+}
+
+
+
+#botao_PollutionandEmissions{
+    left:20vh;
+    bottom:2vh;
+}
+
+#botao_PopulationandResources{
+    left:35vh;
+    bottom:2vh;
+}
+
+#botao_ClimateandAtmosphere{
+    left:50vh;
+    bottom:2vh;
+}
+
+#botao_NaturalChanges{
+    left:65vh;
+    bottom:2vh;
+}
+
+#botao_Continentes{
+    left:80vh;
+    bottom:2vh;
+}
+
+.hideIcons {
+    transform: translate(25vw, 94.5vh)
+}
+
+.hideIcons p{
+    font-size: 2vh;
+    position:absolute;
+    bottom:-3vh;
+    filter: brightness(110%);
+    color:rgb(24, 202, 89);
+}
+.hideIcons p:nth-of-type(1) {
+    left:18.5vh;  
+}
+
+.hideIcons p:nth-of-type(2) {
+    left: 33vh;
+}
+
+.hideIcons p:nth-of-type(3) {
+    left: 49vh;
+}
+
+.hideIcons p:nth-of-type(4) {
+    left: 64vh;
+}
+
+.hideIcons p:nth-of-type(5) {
+    left: 78vh;
+}
+/*--------------------------------------- Pictogramas*/
+.pictogramas {
+    position: relative;
+    bottom: 32%;
+    left: 0%;
+    display: flex;          
+    gap: 1vh;              
+}
+
+.pictograma svg {
+  color: #ddd; /* cor base */
+  width: 2vh;  
+}
+
+.pictograma.pintado svg {
+  color: #4FA547;
+}
+
+
+.pictograma.dez svg {
+  color: #4FA547;
+  clip-path: inset(0 90% 0 0);
+}
+
+.pictograma.quarto svg {
+  color: #4FA547;
+  clip-path: inset(0 75% 0 0);
+}
+
+.pictograma.metade svg {
+  color: #4FA547;
+  clip-path: inset(0 50% 0 0);
+}
+
+.pictograma.tresquartos svg {
+  color: #4FA547;
+  clip-path: inset(0 25% 0 0);
+}
+
+
+/*--------------------------------------- Fim dos Pictogramas*/
+
+#mapa_svg{
+color: rgb(24, 202, 89);
+}
+
+#botao_PollutionandEmissions svg{
+    color: rgb(24, 202, 89);
+}
+
+#botao_PopulationandResources svg{
+    color: rgb(24, 202, 89);
+}
+
+#botao_ClimateandAtmosphere svg{
+    color: rgb(24, 202, 89);
+}
+
+#botao_NaturalChanges svg{
+    color: rgb(24, 202, 89);
+}
+
+#botao_Continentes svg{
+    color: rgb(24, 202, 89);
+}
+
+
+.botao_caixas {
+    width: 6vh;
+    height: 6vh;
+    background-color: rgba(65, 165, 77, 0.3);
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+
+    display: flex;              
+    justify-content: center;   
+    align-items: center; 
+}
+
+.botao_caixas svg {
+    width: 75%; 
+    height: 75%;
+    color:rgb(24, 202, 89);
+
+}
+
+.botao_caixas:hover{
+    filter: brightness(170%);
+    scale:1.1;
+}
+
+/*---------------------------------------------- Responsividade*/
+.MobileShow {
+    display: none;
+}
+
+@media (max-aspect-ratio: 15/9) {
+    .MobileHide {
+      display: none;
+    }
+    .MobileShow {
+    display: block;
+    }
+
+}
+
+/*------------------------------------------------------------*/
