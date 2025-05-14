@@ -582,14 +582,14 @@
       <div></div>
       <a-scene id="cena" style="display: none" cursor="rayOrigin: mouse" raycaster="objects: .hoverable">
 
-                <a-circle id="triggerPlane"
+                <!--<a-circle id="triggerPlane"
                 class="hoverable popUpTrigger"
                 position="0.25 1.1 -1" 
                 rotation="0 0 0" 
                 radius="0.05"
                 color="orange"
                 material="opacity: 1; transparent: true;">
-                </a-circle>
+                </a-circle>-->
       
 
       
@@ -666,6 +666,14 @@
               </a-plane>
             </a-entity>
 
+            <a-entity id="popup2" position="1 -0.5 -1" scale="0 0 0">
+              <a-plane id="TextPopUp2"  width="1" height="0.5"
+                      src="#PopUpAsia1"
+                      material="shader: flat; opacity: 0.95; transparent: true"
+                      color="#ffffff">
+              </a-plane>
+            </a-entity>
+
             <!--<a-entity id="popup" position="1 -0.5 -1" scale="0 0 0">
               <a-plane width="1" height="0.5"
                       src="Data/PopUp/Asia2.png"
@@ -683,6 +691,12 @@
             event-set__enter="_event: mouseenter; _target: #popup; scale: 1 1 1"
             event-set__leave="_event: mouseleave; _target: #popup; scale: 0 0 0">
           </a-circle>
+
+          <!--<a-circle id="trigger2" position="5 1.5 2.5" radius="0.5" color="white" class="clickable" 
+          event-setenter="_event: mouseenter; _target: #popup2; scale: 1 1 1" 
+          event-setleave="_event: mouseleave; _target: #popup2; scale: 0 0 0" 
+          material="side: double" rotation="0 30 0" scale="" visible="" geometry="">
+          </a-circle>-->
       </a-scene>
 
       
