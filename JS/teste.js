@@ -741,7 +741,7 @@ function handleResults(results) {
             camera.position.applyAxisAngle(eixoX, mapX);
             camera.position.applyAxisAngle(eixoY, mapY);
 
-            light.position.copy(camera.position).normalize().multiplyScalar(10);
+            //light.position.copy(camera.position).normalize().multiplyScalar(10);
 
             controls.target.set(0, 0, 0);
             controls.update();
