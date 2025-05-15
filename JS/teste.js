@@ -2145,7 +2145,7 @@ if ("webkitSpeechRecognition" in window) {
     };
 
     recognition.onerror = function (event) {
-        //console.error("Erro no reconhecimento de voz:", event.error);
+        console.error("Erro no reconhecimento de voz:", event.error);
     };
 }
 
@@ -2422,17 +2422,15 @@ function processarComandos(palavra) {
 
             }
         
-    
-
     const palavrasChave_continente_Europa = [
-    "europa.","albânia.","alemanha.","andorra.","áustria.","bélgica.","bielorrússia.",
-    "bósnia e herzegovina.","bulgária.","chipre.","croácia.","dinamarca.",
-    "eslováquia.","eslovênia.","espanha.","estônia.","finlândia.","frança.",
-    "geórgia.","grécia.","hungria.","irlanda.","islândia.","itália.","kosovo.",
-    "letônia.","liechtenstein.","lituânia.","luxemburgo.","malta.","moldávia.",
-    "mônaco.","montenegro.","noruega.","países baixos.","polônia.","portugal.",
-    "reino unido.","república tcheca.","romênia.","rússia.","san marino.",
-    "sérvia.","suécia.","suíça.","turquia.","ucrânia.","vaticano."
+    "europa","albânia","alemanha","andorra","áustria","bélgica","bielorrússia",
+    "bósnia e herzegovina","bulgária","chipre","croácia","dinamarca",
+    "eslováquia","eslovênia","espanha","estônia","finlândia","frança",
+    "geórgia","grécia","hungria","irlanda","islândia","itália","kosovo",
+    "letônia","liechtenstein","lituânia","luxemburgo","malta","moldávia",
+    "mônaco","montenegro","noruega","países baixos","polônia","portugal",
+    "reino unido","república tcheca","romênia","rússia","san marino",
+    "sérvia","suécia","suíça","turquia","ucrânia","vaticano"
     ];
 
 
@@ -2441,10 +2439,10 @@ function processarComandos(palavra) {
     }
 
     const palavrasChave_continente_Asia = [
-    "ásia.","afeganistão.","arábia saudita.","armênia.","azerbaijão.","bahrein.","bangladesh.","butão.","brunei.","camboja.","catar.","cazaquistão.",
-    "china.","chipre.","coreia do norte.","coreia do sul.","emirados árabes unidos.","filipinas.","geórgia.","índia.","indonésia.","irã.","iraque.",
-    "israel.","japão.","jordânia.","kuwait.","laos.","líbano.","malásia.","maldivas.","mongólia.","myanmar.","nepal.","omã.","paquistão.","palestina.",
-    "quirguistão.","rússia.","singapura.","síria.","sri lanka.","tajiquistão.","tailândia.","timor-leste.","turcomenistão.","turquia.","uzbequistão.","vietnã.","iémen."
+    "ásia","afeganistão","arábia saudita","armênia","azerbaijão","bahrein","bangladesh","butão","brunei","camboja","catar","cazaquistão",
+    "china","chipre","coreia do norte","coreia do sul","emirados árabes unidos","filipinas","geórgia","índia","indonésia","irã","iraque",
+    "israel","japão","jordânia","kuwait","laos","líbano","malásia","maldivas","mongólia","myanmar","nepal","omã","paquistão","palestina",
+    "quirguistão","rússia","singapura","síria","sri lanka","tajiquistão","tailândia","timor-leste","turcomenistão","turquia","uzbequistão","vietnã","iémen"
     ];
 
     
@@ -2452,12 +2450,13 @@ function processarComandos(palavra) {
     rodaPlaneta("asia", 1500);
     }
 
-const palavrasChave_continente_America = [
-    "américa.","canadá.","estados unidos.","méxico.","antígua e barbuda.","bahamas.","barbados.","belize.","costa rica.","cuba.",
-    "dominica.","el salvador.","granada.","guatemala.","haiti.","honduras.","jamaica.","nicarágua.","panamá.","república dominicana.",
-    "são cristóvão e neves.","santa lúcia.","são vicente e granadinas.","argentina.","bolívia.","brasil.","chile.","colômbia.","equador.","guiana.",
-    "paraguai.","peru.","suriname.","uruguai.","venezuela.","groenlândia.","porto rico.","guiana francesa.","bermudas.","ilhas cayman.",
-    "ilhas virgens.","aruba.","curaçao.","montserrat.","são bartolomeu.","saint martin.","ilhas turks e caicos."];
+    const palavrasChave_continente_America = [
+    "américa","canadá","estados unidos","méxico","antígua e barbuda","bahamas","barbados","belize","costa rica","cuba",
+    "dominica","el salvador","granada","guatemala","haiti","honduras","jamaica","nicarágua","panamá","república dominicana",
+    "são cristóvão e neves","santa lúcia","são vicente e granadinas","argentina","bolívia","brasil","chile","colômbia","equador","guiana",
+    "paraguai","peru","suriname","uruguai","venezuela","groenlândia","porto rico","guiana francesa","bermudas","ilhas cayman",
+    "ilhas virgens","aruba","curaçao","montserrat","são bartolomeu","saint martin","ilhas turks e caicos"
+    ];
 
     if (palavrasChave_continente_America.some(palavraChave => palavra.includes(palavraChave))) {
     rodaPlaneta("america", 1500);
@@ -2465,28 +2464,29 @@ const palavrasChave_continente_America = [
 
 
     const palavrasChave_continente_Oceania = [
-    "oceania.","austrália.","fiji.","kiribati.","ilhas marshall.","micronésia.",
-    "nauru.","nova zelândia.","palau.","papua-nova guiné.","samoa.",
-    "ilhas salomão.","tonga.","tuvalu.","vanuatu.",
-    "guam.","nova caledônia.","polinésia francesa.","ilhas cook.",
-    "niue.","tokelau.","wallis e futuna.","ilhas marianas do norte.",
-    "ilhas pitcairn.","samoa americana.","ilha norfolk."];
+    "oceania","austrália","fiji","kiribati","ilhas marshall","micronésia",
+    "nauru","nova zelândia","palau","papua-nova guiné","samoa",
+    "ilhas salomão","tonga","tuvalu","vanuatu",
+    "guam","nova caledônia","polinésia francesa","ilhas cook",
+    "niue","tokelau","wallis e futuna","ilhas marianas do norte",
+    "ilhas pitcairn","samoa americana","ilha norfolk"
+    ];
 
     if (palavrasChave_continente_Oceania.some(palavraChave => palavra.includes(palavraChave))) {
     rodaPlaneta("oceania", 1500);
     }
     
     const palavrasChave_continente_Africa = [
-    "áfrica.","argélia.","egito.","líbia.","marrocos.","sudão.","tunísia.","saara ocidental.",
-    "benim.","burkina faso.","cabo verde.","costa do marfim.","gâmbia.",
-    "gana.","guiné.","guiné-bissau.","libéria.","mali.","níger.","nigéria.",
-    "senegal.","serra leoa.","togo.",
-    "angola.","camarões.","chade.","congo.","república centro-africana.",
-    "república democrática do congo.","guiné equatorial.","gabão.","são tomé e príncipe.",
-    "burundi.","comores.","djibuti.","eritreia.","etiópia.","quênia.",
-    "madagáscar.","malawi.","maurício.","moçambique.","ruanda.","seicheles.",
-    "somália.","sudão do sul.","tanzânia.","uganda.","zâmbia.","zimbábue.",
-    "botsuana.","lesoto.","namíbia.","áfrica do sul.","eswatini."
+    "áfrica","argélia","egito","líbia","marrocos","sudão","tunísia","saara ocidental",
+    "benim","burkina faso","cabo verde","costa do marfim","gâmbia",
+    "gana","guiné","guiné-bissau","libéria","mali","níger","nigéria",
+    "senegal","serra leoa","togo",
+    "angola","camarões","chade","congo","república centro-africana",
+    "república democrática do congo","guiné equatorial","gabão","são tomé e príncipe",
+    "burundi","comores","djibuti","eritreia","etiópia","quênia",
+    "madagáscar","malawi","maurício","moçambique","ruanda","seicheles",
+    "somália","sudão do sul","tanzânia","uganda","zâmbia","zimbábue",
+    "botsuana","lesoto","namíbia","áfrica do sul","eswatini"
     ];
 
     if (palavrasChave_continente_Africa.some(palavraChave => palavra.includes(palavraChave))) {
@@ -2494,8 +2494,6 @@ const palavrasChave_continente_America = [
     }
        
 }
-
-
 
 
 
