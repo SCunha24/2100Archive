@@ -10,7 +10,7 @@
       "Renewablespc": 500,
       "Greenhousegasemissions": 16669636000,
       "CO2emissions": 5930000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 4940,
       "Temperature": 13.7,
       "Humidity": 7.58,
@@ -30,7 +30,7 @@
       "Renewablespc": 512,
       "Greenhousegasemissions": 17591742000,
       "CO2emissions": 6380000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 5060,
       "Temperature": 13.74,
       "Humidity": 7.59,
@@ -50,7 +50,7 @@
       "Renewablespc": 520,
       "Greenhousegasemissions": 17698888000,
       "CO2emissions": 6470000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 5190,
       "Temperature": 13.76,
       "Humidity": 7.6,
@@ -70,7 +70,7 @@
       "Renewablespc": 530,
       "Greenhousegasemissions": 18106272000,
       "CO2emissions": 6650000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 5510,
       "Temperature": 13.79,
       "Humidity": 7.61,
@@ -90,7 +90,7 @@
       "Renewablespc": 545,
       "Greenhousegasemissions": 18767930000,
       "CO2emissions": 6790000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 6180,
       "Temperature": 13.72,
       "Humidity": 7.62,
@@ -130,7 +130,7 @@
       "Renewablespc": 575,
       "Greenhousegasemissions": 20498287000,
       "CO2emissions": 7930000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 7620,
       "Temperature": 13.64,
       "Humidity": 7.63,
@@ -150,7 +150,7 @@
       "Renewablespc": 590,
       "Greenhousegasemissions": 21006020000,
       "CO2emissions": 8190000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 8260,
       "Temperature": 13.79,
       "Humidity": 7.64,
@@ -170,7 +170,7 @@
       "Renewablespc": 610,
       "Greenhousegasemissions": 21251504000,
       "CO2emissions": 8420000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 8490,
       "Temperature": 13.82,
       "Humidity": 7.65,
@@ -190,7 +190,7 @@
       "Renewablespc": 625,
       "Greenhousegasemissions": 22477308000,
       "CO2emissions": 8850000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 7710,
       "Temperature": 13.83,
       "Humidity": 7.66,
@@ -230,7 +230,7 @@
       "Renewablespc": null,
       "Greenhousegasemissions": 22371980000,
       "CO2emissions": 9420000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 8260,
       "Temperature": 13.84,
       "Humidity": 7.68,
@@ -250,7 +250,7 @@
       "Renewablespc": 784,
       "Greenhousegasemissions": 22341622000,
       "CO2emissions": 9750000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 8430,
       "Temperature": 13.82,
       "Humidity": 7.69,
@@ -330,7 +330,7 @@
       "Renewablespc": 875,
       "Greenhousegasemissions": 24118213000,
       "CO2emissions": 11860000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 9140,
       "Temperature": 13.76,
       "Humidity": 7.73,
@@ -370,7 +370,7 @@
       "Renewablespc": 905,
       "Greenhousegasemissions": 25522776000,
       "CO2emissions": 12910000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 8950,
       "Temperature": 13.74,
       "Humidity": 7.75,
@@ -430,7 +430,7 @@
       "Renewablespc": 989,
       "Greenhousegasemissions": 28280381000,
       "CO2emissions": 15500000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 10400,
       "Temperature": 13.74,
       "Humidity": 7.77,
@@ -450,7 +450,7 @@
       "Renewablespc": 1016,
       "Greenhousegasemissions": 29437508000,
       "CO2emissions": 16220000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 9620,
       "Temperature": 13.79,
       "Humidity": 7.78,
@@ -490,7 +490,7 @@
       "Renewablespc": 1090,
       "Greenhousegasemissions": 30245190000,
       "CO2emissions": 17010000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 8880,
       "Temperature": 13.76,
       "Humidity": 7.76,
@@ -510,7 +510,7 @@
       "Renewablespc": 1083,
       "Greenhousegasemissions": 30411125000,
       "CO2emissions": 17050000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 8700,
       "Temperature": 13.79,
       "Humidity": 7.79,
@@ -530,7 +530,7 @@
       "Renewablespc": 1063,
       "Greenhousegasemissions": 31535469000,
       "CO2emissions": 17990000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 8090,
       "Temperature": 13.74,
       "Humidity": 7.72,
@@ -550,7 +550,7 @@
       "Renewablespc": 1081,
       "Greenhousegasemissions": 32603044000,
       "CO2emissions": 18500000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 6580,
       "Temperature": 13.89,
       "Humidity": 7.93,
@@ -590,7 +590,7 @@
       "Renewablespc": 1188,
       "Greenhousegasemissions": 33198746000,
       "CO2emissions": 19610000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 6010,
       "Temperature": 13.94,
       "Humidity": 7.9,
@@ -610,7 +610,7 @@
       "Renewablespc": 1194,
       "Greenhousegasemissions": 33347820000,
       "CO2emissions": 19490000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 6810,
       "Temperature": 13.99,
       "Humidity": 7.93,
@@ -630,7 +630,7 @@
       "Renewablespc": 1199,
       "Greenhousegasemissions": 32570309000,
       "CO2emissions": 19020000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 7270,
       "Temperature": 14.04,
       "Humidity": 7.96,
@@ -650,7 +650,7 @@
       "Renewablespc": 1205,
       "Greenhousegasemissions": 32320344000,
       "CO2emissions": 18870000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 6820,
       "Temperature": 13.94,
       "Humidity": 7.82,
@@ -670,7 +670,7 @@
       "Renewablespc": 1239,
       "Greenhousegasemissions": 32752468000,
       "CO2emissions": 18990000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 6230,
       "Temperature": 14.09,
       "Humidity": 7.94,
@@ -690,7 +690,7 @@
       "Renewablespc": 1264,
       "Greenhousegasemissions": 34383640000,
       "CO2emissions": 19650000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 6740,
       "Temperature": 13.94,
       "Humidity": 7.79,
@@ -710,7 +710,7 @@
       "Renewablespc": 1268,
       "Greenhousegasemissions": 34802164000,
       "CO2emissions": 20310000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 6140,
       "Temperature": 13.96,
       "Humidity": 7.77,
@@ -730,7 +730,7 @@
       "Renewablespc": 1269,
       "Greenhousegasemissions": 35424960000,
       "CO2emissions": 20610000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 7780,
       "Temperature": 13.99,
       "Humidity": 7.79,
@@ -750,7 +750,7 @@
       "Renewablespc": 1266,
       "Greenhousegasemissions": 35869164000,
       "CO2emissions": 21250000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 5530,
       "Temperature": 14.14,
       "Humidity": 7.94,
@@ -770,7 +770,7 @@
       "Renewablespc": 1283,
       "Greenhousegasemissions": 36640596000,
       "CO2emissions": 22090000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 6840,
       "Temperature": 14.19,
       "Humidity": 8.02,
@@ -790,7 +790,7 @@
       "Renewablespc": 1263,
       "Greenhousegasemissions": 36901773000,
       "CO2emissions": 22390000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 6750,
       "Temperature": 14.04,
       "Humidity": 7.89,
@@ -810,7 +810,7 @@
       "Renewablespc": 1291,
       "Greenhousegasemissions": 37335880000,
       "CO2emissions": 22730000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 4100,
       "Temperature": 14.24,
       "Humidity": 8.03,
@@ -830,7 +830,7 @@
       "Renewablespc": 1301,
       "Greenhousegasemissions": 37748945000,
       "CO2emissions": 23190000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 2540,
       "Temperature": 14.19,
       "Humidity": 8.0,
@@ -850,7 +850,7 @@
       "Renewablespc": 1285,
       "Greenhousegasemissions": 37381090000,
       "CO2emissions": 22530000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 1960,
       "Temperature": 14.04,
       "Humidity": 7.88,
@@ -870,7 +870,7 @@
       "Renewablespc": 1340,
       "Greenhousegasemissions": 37327962000,
       "CO2emissions": 22760000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 1730,
       "Temperature": 14.09,
       "Humidity": 7.9,
@@ -890,7 +890,7 @@
       "Renewablespc": 1333,
       "Greenhousegasemissions": 38563020000,
       "CO2emissions": 22990000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 1960,
       "Temperature": 14.14,
       "Humidity": 7.95,
@@ -910,7 +910,7 @@
       "Renewablespc": 1385,
       "Greenhousegasemissions": 38797140000,
       "CO2emissions": 23530000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 3190,
       "Temperature": 14.29,
       "Humidity": 8.06,
@@ -930,7 +930,7 @@
       "Renewablespc": 1384,
       "Greenhousegasemissions": 40186060000,
       "CO2emissions": 24260000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 2560,
       "Temperature": 14.19,
       "Humidity": 7.99,
@@ -950,7 +950,7 @@
       "Renewablespc": 1395,
       "Greenhousegasemissions": 41658655000,
       "CO2emissions": 24400000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 2410,
       "Temperature": 14.34,
       "Humidity": 8.06,
@@ -970,7 +970,7 @@
       "Renewablespc": 1392,
       "Greenhousegasemissions": 40217952000,
       "CO2emissions": 24300000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 1580,
       "Temperature": 14.49,
       "Humidity": 8.3,
@@ -990,7 +990,7 @@
       "Renewablespc": 1390,
       "Greenhousegasemissions": 40655057000,
       "CO2emissions": 24850000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 1320,
       "Temperature": 14.29,
       "Humidity": 8.06,
@@ -1030,7 +1030,7 @@
       "Renewablespc": 1351,
       "Greenhousegasemissions": 40393683000,
       "CO2emissions": 25710000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 1500,
       "Temperature": 14.39,
       "Humidity": 8.08,
@@ -1050,7 +1050,7 @@
       "Renewablespc": 1364,
       "Greenhousegasemissions": 41334140000,
       "CO2emissions": 26280000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 1490,
       "Temperature": 14.44,
       "Humidity": 8.05,
@@ -1090,7 +1090,7 @@
       "Renewablespc": 1436,
       "Greenhousegasemissions": 44371150000,
       "CO2emissions": 28630000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 1900,
       "Temperature": 14.44,
       "Humidity": 8.05,
@@ -1130,7 +1130,7 @@
       "Renewablespc": 1526,
       "Greenhousegasemissions": 46601814000,
       "CO2emissions": 30630000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 1150,
       "Temperature": 14.49,
       "Humidity": 8.08,
@@ -1150,7 +1150,7 @@
       "Renewablespc": 1561,
       "Greenhousegasemissions": 46866113000,
       "CO2emissions": 31530000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 1200,
       "Temperature": 14.54,
       "Humidity": 8.08,
@@ -1190,7 +1190,7 @@
       "Renewablespc": 1676,
       "Greenhousegasemissions": 47577604000,
       "CO2emissions": 31540000000,
-      "Airquality": "Moderately Unhealthy",
+      "Airquality": "Prejudicial",
       "Mercury": 1880,
       "Temperature": 14.49,
       "Humidity": 8.05,
@@ -1444,7 +1444,7 @@
       "populacao": 8021407170,
       "cropland": 1620000000,
       "minerals": 14007887237,
-      "Renewablewaterpc": null,
+      "Renewablewaterpc": 5426.48,
       "Fossilfconsumptionpc": 17327,
       "Nuclearpc": 841,
       "Renewablespc": 2987,
@@ -1464,7 +1464,7 @@
       "populacao": 8091734935,
       "cropland": 1630000000,
       "minerals": 5641627688,
-      "Renewablewaterpc": null,
+      "Renewablewaterpc": 4325,
       "Fossilfconsumptionpc": 17430,
       "Nuclearpc": 848,
       "Renewablespc": 3115,
@@ -1483,7 +1483,7 @@
     "2024": {
       "populacao": 8161972572,
       "Renewablewaterpc": 5300,
-      "Fossilfconsumptionpc": 61800,
+      "Fossilfconsumptionpc": 17430,
       "Nuclearpc": 450,
       "Renewablespc": 1200,
       "Greenhousegasemissions": 5300130586,
@@ -1495,23 +1495,26 @@
       "Ozone": 292,
       "sealevelrise": 71.01,
       "Articice": 4380200,
-      "Forestarea": 31.3
+      "Forestarea": 31.3,
+      "Mercury": 1203
     },
     "2025": {
       "populacao": 8231402300,
       "Renewablewaterpc": 1300,
-      "Fossilfconsumptionpc": 1800,
+      "Fossilfconsumptionpc": 18000,
       "Nuclearpc": 500,
       "Renewablespc": 2200,
       "Greenhousegasemissions": 51002358020,
       "CO2emissions": 37804200023,
       "Temperature": 13.23,
-      "Humidity": 75,
+      "Humidity": 8.62,
       "Radiativeforcing": 2.81,
       "Ozone": 293,
       "sealevelrise": 63.31,
       "Articice": 14330000,
-      "Forestarea": 31.3
+      "Forestarea": 31.3,
+      "Mercury": 932,
+      "Airquality": "Moderate"
     },
     "2026": {
       "populacao": 8263099184,
@@ -1519,7 +1522,7 @@
       "minerals": 12311752023.39,
       "Renewablewaterpc": 3925.23,
       "Fossilfconsumptionpc": 17876.93,
-      "Nuclearpc": 1324.96,
+      "Nuclearpc": 724.96,
       "Renewablespc": 2425.19,
       "Greenhousegasemissions": 56263087214.54,
       "CO2emissions": 39158205405.4,
@@ -1539,7 +1542,7 @@
       "minerals": 12463203990.57,
       "Renewablewaterpc": 3796.54,
       "Fossilfconsumptionpc": 17941.13,
-      "Nuclearpc": 1342.15,
+      "Nuclearpc": 842.15,
       "Renewablespc": 2453.9,
       "Greenhousegasemissions": 56781586798.49,
       "CO2emissions": 39606767567.57,
@@ -1559,7 +1562,7 @@
       "minerals": 12614655957.75,
       "Renewablewaterpc": 3667.84,
       "Fossilfconsumptionpc": 18005.33,
-      "Nuclearpc": 1359.34,
+      "Nuclearpc": 959.34,
       "Renewablespc": 2482.6,
       "Greenhousegasemissions": 57300086382.44,
       "CO2emissions": 40055329729.73,
@@ -1579,7 +1582,7 @@
       "minerals": 12766107924.93,
       "Renewablewaterpc": 3539.15,
       "Fossilfconsumptionpc": 18069.53,
-      "Nuclearpc": 1376.52,
+      "Nuclearpc": 1076.52,
       "Renewablespc": 2511.3,
       "Greenhousegasemissions": 57818585966.38,
       "CO2emissions": 40503891891.89,
@@ -1599,7 +1602,7 @@
       "minerals": 12917559892.11,
       "Renewablewaterpc": 3410.46,
       "Fossilfconsumptionpc": 18133.73,
-      "Nuclearpc": 1393.71,
+      "Nuclearpc": 1193.71,
       "Renewablespc": 2540.01,
       "Greenhousegasemissions": 58337085550.33,
       "CO2emissions": 40952454054.05,
@@ -1619,7 +1622,7 @@
       "minerals": 13069011859.3,
       "Renewablewaterpc": 3281.77,
       "Fossilfconsumptionpc": 18197.92,
-      "Nuclearpc": 1410.89,
+      "Nuclearpc": 1210.89,
       "Renewablespc": 2568.71,
       "Greenhousegasemissions": 58855585134.28,
       "CO2emissions": 41401016216.22,
@@ -1831,7 +1834,7 @@
       "sealevelrise": 89.82,
       "Articice": 3952746.33,
       "Forestarea": 27.9,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2042": {
       "populacao": 9542739641,
@@ -1851,7 +1854,7 @@
       "sealevelrise": 91.89,
       "Articice": 3906910.76,
       "Forestarea": 27.78,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2043": {
       "populacao": 9622717170,
@@ -1871,7 +1874,7 @@
       "sealevelrise": 93.95,
       "Articice": 3861075.2,
       "Forestarea": 27.67,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2044": {
       "populacao": 9702694699,
@@ -1891,7 +1894,7 @@
       "sealevelrise": 96.01,
       "Articice": 3815239.64,
       "Forestarea": 27.55,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2045": {
       "populacao": 9782672227,
@@ -1911,7 +1914,7 @@
       "sealevelrise": 98.08,
       "Articice": 3769404.08,
       "Forestarea": 27.44,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2046": {
       "populacao": 9862649756,
@@ -1931,7 +1934,7 @@
       "sealevelrise": 100.14,
       "Articice": 3723568.52,
       "Forestarea": 27.32,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2047": {
       "populacao": 9702312002,
@@ -1971,7 +1974,7 @@
       "sealevelrise": 104.27,
       "Articice": 3631897.39,
       "Forestarea": 27.09,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2049": {
       "populacao": 9536072642,
@@ -2051,7 +2054,7 @@
       "sealevelrise": 112.53,
       "Articice": 3448555.15,
       "Forestarea": 26.63,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2053": {
       "populacao": 9882413488,
@@ -2131,7 +2134,7 @@
       "sealevelrise": 120.79,
       "Articice": 3265212.9,
       "Forestarea": 26.17,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2057": {
       "populacao": 9992353422,
@@ -2211,7 +2214,7 @@
       "sealevelrise": 129.05,
       "Articice": 3081870.65,
       "Forestarea": 25.71,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2061": {
       "populacao": 10062312685,
@@ -2231,7 +2234,7 @@
       "sealevelrise": 131.11,
       "Articice": 3036035.09,
       "Forestarea": 25.6,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2062": {
       "populacao": 10042290213,
@@ -2251,7 +2254,7 @@
       "sealevelrise": 133.18,
       "Articice": 2990199.53,
       "Forestarea": 25.48,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2063": {
       "populacao": 10022267742,
@@ -2271,7 +2274,7 @@
       "sealevelrise": 135.24,
       "Articice": 2944363.96,
       "Forestarea": 25.37,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2064": {
       "populacao": 10102245271,
@@ -2291,7 +2294,7 @@
       "sealevelrise": 137.31,
       "Articice": 2898528.4,
       "Forestarea": 25.25,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2065": {
       "populacao": 10082222799,
@@ -2311,7 +2314,7 @@
       "sealevelrise": 139.37,
       "Articice": 2852692.84,
       "Forestarea": 25.14,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2066": {
       "populacao": 10062200328,
@@ -2331,7 +2334,7 @@
       "sealevelrise": 141.44,
       "Articice": 2806857.28,
       "Forestarea": 25.02,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2067": {
       "populacao": 10042177856,
@@ -2351,7 +2354,7 @@
       "sealevelrise": 143.5,
       "Articice": 2761021.72,
       "Forestarea": 24.91,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2068": {
       "populacao": 10222155385,
@@ -2371,7 +2374,7 @@
       "sealevelrise": 145.57,
       "Articice": 2715186.15,
       "Forestarea": 24.79,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2069": {
       "populacao": 10102132914,
@@ -2391,7 +2394,7 @@
       "sealevelrise": 147.63,
       "Articice": 2669350.59,
       "Forestarea": 24.68,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2070": {
       "populacao": 10288045240,
@@ -2451,7 +2454,7 @@
       "sealevelrise": 153.82,
       "Articice": 2531843.91,
       "Forestarea": 24.33,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2073": {
       "populacao": 10322043028,
@@ -2531,7 +2534,7 @@
       "sealevelrise": 162.08,
       "Articice": 2348501.66,
       "Forestarea": 23.87,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2077": {
       "populacao": 10241953142,
@@ -2551,7 +2554,7 @@
       "sealevelrise": 164.15,
       "Articice": 2302666.1,
       "Forestarea": 23.76,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2078": {
       "populacao": 10421930671,
@@ -2571,7 +2574,7 @@
       "sealevelrise": 166.21,
       "Articice": 2256830.54,
       "Forestarea": 23.64,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2079": {
       "populacao": 10401908200,
@@ -2591,7 +2594,7 @@
       "sealevelrise": 168.28,
       "Articice": 2210994.97,
       "Forestarea": 23.53,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2080": {
       "populacao": 10412450702,
@@ -2611,7 +2614,7 @@
       "sealevelrise": 170.34,
       "Articice": 2165159.41,
       "Forestarea": 23.41,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2081": {
       "populacao": 10422243412,
@@ -2631,7 +2634,7 @@
       "sealevelrise": 172.41,
       "Articice": 2119323.85,
       "Forestarea": 23.3,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2082": {
       "populacao": 10398275423,
@@ -2651,7 +2654,7 @@
       "sealevelrise": 174.47,
       "Articice": 2073488.29,
       "Forestarea": 23.18,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2083": {
       "populacao": 10323450021,
@@ -2671,7 +2674,7 @@
       "sealevelrise": 176.54,
       "Articice": 2027652.73,
       "Forestarea": 23.07,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2084": {
       "populacao": 10323450021,
@@ -2691,7 +2694,7 @@
       "sealevelrise": 178.6,
       "Articice": 1981817.17,
       "Forestarea": 22.95,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2085": {
       "populacao": 10313567010,
@@ -2711,7 +2714,7 @@
       "sealevelrise": 180.66,
       "Articice": 1935981.6,
       "Forestarea": 22.84,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2086": {
       "populacao": 10290098654,
@@ -2731,7 +2734,7 @@
       "sealevelrise": 182.73,
       "Articice": 1890146.04,
       "Forestarea": 22.72,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2087": {
       "populacao": 10270890321,
@@ -2851,7 +2854,7 @@
       "sealevelrise": 195.12,
       "Articice": 1615132.67,
       "Forestarea": 22.03,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2093": {
       "populacao": 10284640210,
@@ -2871,7 +2874,7 @@
       "sealevelrise": 197.18,
       "Articice": 1569297.11,
       "Forestarea": 21.92,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2094": {
       "populacao": 10189644210,
@@ -2891,7 +2894,7 @@
       "sealevelrise": 199.25,
       "Articice": 1523461.55,
       "Forestarea": 21.8,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2095": {
       "populacao": 10132785290,
@@ -2911,7 +2914,7 @@
       "sealevelrise": 201.31,
       "Articice": 1477625.98,
       "Forestarea": 21.69,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2096": {
       "populacao":10222154236,
@@ -2931,7 +2934,7 @@
       "sealevelrise": 203.38,
       "Articice": 1431790.42,
       "Forestarea": 21.57,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2097": {
       "populacao": 10261554221,
@@ -2951,7 +2954,7 @@
       "sealevelrise": 205.44,
       "Articice": 1385954.86,
       "Forestarea": 21.46,
-      "Airquality": "Moderately Unhealthy"
+      "Airquality": "Prejudicial"
     },
     "2098": {
       "populacao": 10369574121,
@@ -3310,6 +3313,14 @@
     "2023": {
       "populacao": 914341242,
       "pegada":28
+    },
+    "2024": {
+      "populacao": 1049788246,
+      "pegada": 28
+    },
+    "2025": {
+      "populacao": 1059788246,
+      "pegada": 28
     },
     "2026": {
       "populacao": 960849311,
@@ -3909,6 +3920,14 @@
       "populacao": 461460821,
       "pegada":16
     },
+    "2024": {
+      "populacao": 444576885,
+      "pegada": 4.7
+    },
+    "2025": {
+      "populacao": 444576885,
+      "pegada": 4.7
+    },
     "2026": {
       "populacao": 487195578,
       "pegada":16
@@ -4506,6 +4525,14 @@
     "2023": {
       "populacao": 42937568,
       "pegada":3
+    },
+    "2024": {
+      "populacao": 46088716,
+      "pegada": 3
+    },
+    "2025": {
+      "populacao": 46471904,
+      "pegada": 3
     },
     "2026": {
       "populacao": 41470854,
@@ -5105,6 +5132,14 @@
       "populacao": 794118677,
       "pegada":9
     },
+    "2024": {
+      "populacao": 1515140849,
+      "pegada": 10
+    },
+    "2025": {
+      "populacao": 1564171376,
+      "pegada": 11
+    },
     "2026": {
       "populacao": 732088698,
       "pegada":9
@@ -5703,6 +5738,14 @@
       "populacao": 4183275780,
       "pegada":40
     },
+    "2024": {
+      "populacao": 4806898007,
+      "pegada": 41
+    },
+    "2025": {
+      "populacao": 4827860796,
+      "pegada": 42
+    },
     "2026": {
       "populacao": 4417582256,
       "pegada":42
@@ -6002,6 +6045,612 @@
     "2100": {
       "populacao": 7659250611,
       "pegada":50
+    }
+  },
+    "Arctic": {
+    "1950": {
+      "populacao": 5000,
+      "pegada": 1.0
+    },
+    "1951": {
+      "populacao": 5366,
+      "pegada": 1.04
+    },
+    "1952": {
+      "populacao": 5733,
+      "pegada": 1.08
+    },
+    "1953": {
+      "populacao": 6100,
+      "pegada": 1.12
+    },
+    "1954": {
+      "populacao": 6466,
+      "pegada": 1.16
+    },
+    "1955": {
+      "populacao": 6833,
+      "pegada": 1.2
+    },
+    "1956": {
+      "populacao": 7200,
+      "pegada": 1.24
+    },
+    "1957": {
+      "populacao": 7566,
+      "pegada": 1.28
+    },
+    "1958": {
+      "populacao": 7933,
+      "pegada": 1.32
+    },
+    "1959": {
+      "populacao": 8300,
+      "pegada": 1.36
+    },
+    "1960": {
+      "populacao": 8666,
+      "pegada": 1.4
+    },
+    "1961": {
+      "populacao": 9033,
+      "pegada": 1.44
+    },
+    "1962": {
+      "populacao": 9400,
+      "pegada": 1.48
+    },
+    "1963": {
+      "populacao": 9766,
+      "pegada": 1.52
+    },
+    "1964": {
+      "populacao": 10133,
+      "pegada": 1.56
+    },
+    "1965": {
+      "populacao": 10500,
+      "pegada": 1.6
+    },
+    "1966": {
+      "populacao": 10866,
+      "pegada": 1.64
+    },
+    "1967": {
+      "populacao": 11233,
+      "pegada": 1.68
+    },
+    "1968": {
+      "populacao": 11600,
+      "pegada": 1.72
+    },
+    "1969": {
+      "populacao": 11966,
+      "pegada": 1.76
+    },
+    "1970": {
+      "populacao": 12333,
+      "pegada": 1.8
+    },
+    "1971": {
+      "populacao": 12700,
+      "pegada": 1.84
+    },
+    "1972": {
+      "populacao": 13066,
+      "pegada": 1.88
+    },
+    "1973": {
+      "populacao": 13433,
+      "pegada": 1.92
+    },
+    "1974": {
+      "populacao": 13800,
+      "pegada": 1.96
+    },
+    "1975": {
+      "populacao": 14166,
+      "pegada": 2.0
+    },
+    "1976": {
+      "populacao": 14533,
+      "pegada": 2.04
+    },
+    "1977": {
+      "populacao": 14900,
+      "pegada": 2.08
+    },
+    "1978": {
+      "populacao": 15266,
+      "pegada": 2.12
+    },
+    "1979": {
+      "populacao": 15633,
+      "pegada": 2.16
+    },
+    "1980": {
+      "populacao": 16000,
+      "pegada": 2.2
+    },
+    "1981": {
+      "populacao": 16366,
+      "pegada": 2.24
+    },
+    "1982": {
+      "populacao": 16733,
+      "pegada": 2.28
+    },
+    "1983": {
+      "populacao": 17100,
+      "pegada": 2.32
+    },
+    "1984": {
+      "populacao": 17466,
+      "pegada": 2.36
+    },
+    "1985": {
+      "populacao": 17833,
+      "pegada": 2.4
+    },
+    "1986": {
+      "populacao": 18200,
+      "pegada": 2.44
+    },
+    "1987": {
+      "populacao": 18566,
+      "pegada": 2.48
+    },
+    "1988": {
+      "populacao": 18933,
+      "pegada": 2.52
+    },
+    "1989": {
+      "populacao": 19300,
+      "pegada": 2.56
+    },
+    "1990": {
+      "populacao": 19666,
+      "pegada": 2.6
+    },
+    "1991": {
+      "populacao": 20033,
+      "pegada": 2.64
+    },
+    "1992": {
+      "populacao": 20400,
+      "pegada": 2.68
+    },
+    "1993": {
+      "populacao": 20766,
+      "pegada": 2.72
+    },
+    "1994": {
+      "populacao": 21133,
+      "pegada": 2.76
+    },
+    "1995": {
+      "populacao": 21500,
+      "pegada": 2.8
+    },
+    "1996": {
+      "populacao": 21866,
+      "pegada": 2.84
+    },
+    "1997": {
+      "populacao": 22233,
+      "pegada": 2.88
+    },
+    "1998": {
+      "populacao": 22600,
+      "pegada": 2.92
+    },
+    "1999": {
+      "populacao": 22966,
+      "pegada": 2.96
+    },
+    "2000": {
+      "populacao": 23333,
+      "pegada": 3.0
+    },
+    "2001": {
+      "populacao": 23700,
+      "pegada": 3.04
+    },
+    "2002": {
+      "populacao": 24066,
+      "pegada": 3.08
+    },
+    "2003": {
+      "populacao": 24433,
+      "pegada": 3.12
+    },
+    "2004": {
+      "populacao": 24800,
+      "pegada": 3.16
+    },
+    "2005": {
+      "populacao": 25166,
+      "pegada": 3.2
+    },
+    "2006": {
+      "populacao": 25533,
+      "pegada": 3.24
+    },
+    "2007": {
+      "populacao": 25900,
+      "pegada": 3.28
+    },
+    "2008": {
+      "populacao": 26266,
+      "pegada": 3.32
+    },
+    "2009": {
+      "populacao": 26633,
+      "pegada": 3.36
+    },
+    "2010": {
+      "populacao": 27000,
+      "pegada": 3.4
+    },
+    "2011": {
+      "populacao": 27366,
+      "pegada": 3.44
+    },
+    "2012": {
+      "populacao": 27733,
+      "pegada": 3.48
+    },
+    "2013": {
+      "populacao": 28100,
+      "pegada": 3.52
+    },
+    "2014": {
+      "populacao": 28466,
+      "pegada": 3.56
+    },
+    "2015": {
+      "populacao": 28833,
+      "pegada": 3.6
+    },
+    "2016": {
+      "populacao": 29200,
+      "pegada": 3.64
+    },
+    "2017": {
+      "populacao": 29566,
+      "pegada": 3.68
+    },
+    "2018": {
+      "populacao": 29933,
+      "pegada": 3.72
+    },
+    "2019": {
+      "populacao": 30300,
+      "pegada": 3.76
+    },
+    "2020": {
+      "populacao": 30666,
+      "pegada": 3.8
+    },
+    "2021": {
+      "populacao": 31033,
+      "pegada": 3.84
+    },
+    "2022": {
+      "populacao": 31400,
+      "pegada": 3.88
+    },
+    "2023": {
+      "populacao": 31766,
+      "pegada": 3.92
+    },
+    "2024": {
+      "populacao": 32133,
+      "pegada": 3.96
+    },
+    "2025": {
+      "populacao": 32500,
+      "pegada": 4.0
+    },
+    "2026": {
+      "populacao": 32866,
+      "pegada": 4.04
+    },
+    "2027": {
+      "populacao": 33233,
+      "pegada": 4.08
+    },
+    "2028": {
+      "populacao": 33600,
+      "pegada": 4.12
+    },
+    "2029": {
+      "populacao": 33966,
+      "pegada": 4.16
+    },
+    "2030": {
+      "populacao": 34333,
+      "pegada": 4.2
+    },
+    "2031": {
+      "populacao": 34700,
+      "pegada": 4.24
+    },
+    "2032": {
+      "populacao": 35066,
+      "pegada": 4.28
+    },
+    "2033": {
+      "populacao": 35433,
+      "pegada": 4.32
+    },
+    "2034": {
+      "populacao": 35800,
+      "pegada": 4.36
+    },
+    "2035": {
+      "populacao": 36166,
+      "pegada": 4.4
+    },
+    "2036": {
+      "populacao": 36533,
+      "pegada": 4.44
+    },
+    "2037": {
+      "populacao": 36900,
+      "pegada": 4.48
+    },
+    "2038": {
+      "populacao": 37266,
+      "pegada": 4.52
+    },
+    "2039": {
+      "populacao": 37633,
+      "pegada": 4.56
+    },
+    "2040": {
+      "populacao": 38000,
+      "pegada": 4.6
+    },
+    "2041": {
+      "populacao": 38366,
+      "pegada": 4.64
+    },
+    "2042": {
+      "populacao": 38733,
+      "pegada": 4.68
+    },
+    "2043": {
+      "populacao": 39100,
+      "pegada": 4.72
+    },
+    "2044": {
+      "populacao": 39466,
+      "pegada": 4.76
+    },
+    "2045": {
+      "populacao": 39833,
+      "pegada": 4.8
+    },
+    "2046": {
+      "populacao": 40200,
+      "pegada": 4.84
+    },
+    "2047": {
+      "populacao": 40566,
+      "pegada": 4.88
+    },
+    "2048": {
+      "populacao": 40933,
+      "pegada": 4.92
+    },
+    "2049": {
+      "populacao": 41300,
+      "pegada": 4.96
+    },
+    "2050": {
+      "populacao": 41666,
+      "pegada": 5.0
+    },
+    "2051": {
+      "populacao": 42033,
+      "pegada": 5.04
+    },
+    "2052": {
+      "populacao": 42400,
+      "pegada": 5.08
+    },
+    "2053": {
+      "populacao": 42766,
+      "pegada": 5.12
+    },
+    "2054": {
+      "populacao": 43133,
+      "pegada": 5.16
+    },
+    "2055": {
+      "populacao": 43500,
+      "pegada": 5.2
+    },
+    "2056": {
+      "populacao": 43866,
+      "pegada": 5.24
+    },
+    "2057": {
+      "populacao": 44233,
+      "pegada": 5.28
+    },
+    "2058": {
+      "populacao": 44600,
+      "pegada": 5.32
+    },
+    "2059": {
+      "populacao": 44966,
+      "pegada": 5.36
+    },
+    "2060": {
+      "populacao": 45333,
+      "pegada": 5.4
+    },
+    "2061": {
+      "populacao": 45700,
+      "pegada": 5.44
+    },
+    "2062": {
+      "populacao": 46066,
+      "pegada": 5.48
+    },
+    "2063": {
+      "populacao": 46433,
+      "pegada": 5.52
+    },
+    "2064": {
+      "populacao": 46800,
+      "pegada": 5.56
+    },
+    "2065": {
+      "populacao": 47166,
+      "pegada": 5.6
+    },
+    "2066": {
+      "populacao": 47533,
+      "pegada": 5.64
+    },
+    "2067": {
+      "populacao": 47900,
+      "pegada": 5.68
+    },
+    "2068": {
+      "populacao": 48266,
+      "pegada": 5.72
+    },
+    "2069": {
+      "populacao": 48633,
+      "pegada": 5.76
+    },
+    "2070": {
+      "populacao": 49000,
+      "pegada": 5.8
+    },
+    "2071": {
+      "populacao": 49366,
+      "pegada": 5.84
+    },
+    "2072": {
+      "populacao": 49733,
+      "pegada": 5.88
+    },
+    "2073": {
+      "populacao": 50100,
+      "pegada": 5.92
+    },
+    "2074": {
+      "populacao": 50466,
+      "pegada": 5.96
+    },
+    "2075": {
+      "populacao": 50833,
+      "pegada": 6.0
+    },
+    "2076": {
+      "populacao": 51200,
+      "pegada": 6.04
+    },
+    "2077": {
+      "populacao": 51566,
+      "pegada": 6.08
+    },
+    "2078": {
+      "populacao": 51933,
+      "pegada": 6.12
+    },
+    "2079": {
+      "populacao": 52300,
+      "pegada": 6.16
+    },
+    "2080": {
+      "populacao": 52666,
+      "pegada": 6.2
+    },
+    "2081": {
+      "populacao": 53033,
+      "pegada": 6.24
+    },
+    "2082": {
+      "populacao": 53400,
+      "pegada": 6.28
+    },
+    "2083": {
+      "populacao": 53766,
+      "pegada": 6.32
+    },
+    "2084": {
+      "populacao": 54133,
+      "pegada": 6.36
+    },
+    "2085": {
+      "populacao": 54500,
+      "pegada": 6.4
+    },
+    "2086": {
+      "populacao": 54866,
+      "pegada": 6.44
+    },
+    "2087": {
+      "populacao": 55233,
+      "pegada": 6.48
+    },
+    "2088": {
+      "populacao": 55600,
+      "pegada": 6.52
+    },
+    "2089": {
+      "populacao": 55966,
+      "pegada": 6.56
+    },
+    "2090": {
+      "populacao": 56333,
+      "pegada": 6.6
+    },
+    "2091": {
+      "populacao": 56700,
+      "pegada": 6.64
+    },
+    "2092": {
+      "populacao": 57066,
+      "pegada": 6.68
+    },
+    "2093": {
+      "populacao": 57433,
+      "pegada": 6.72
+    },
+    "2094": {
+      "populacao": 57800,
+      "pegada": 6.76
+    },
+    "2095": {
+      "populacao": 58166,
+      "pegada": 6.8
+    },
+    "2096": {
+      "populacao": 58533,
+      "pegada": 6.84
+    },
+    "2097": {
+      "populacao": 58900,
+      "pegada": 6.88
+    },
+    "2098": {
+      "populacao": 59266,
+      "pegada": 6.92
+    },
+    "2099": {
+      "populacao": 59633,
+      "pegada": 6.96
+    },
+    "2100": {
+      "populacao": 60000,
+      "pegada": 7.0
     }
   }
 }

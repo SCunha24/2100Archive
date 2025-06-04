@@ -5,7 +5,6 @@
     src: url("../Font/NeueMachina-Regular.otf") format("opentype");
 }
 
-
 body{
     margin: 0px;
     font-family: machina;
@@ -282,20 +281,20 @@ span:nth-child(1) img{
     position: absolute;
     top: 2vw;
     left: 2vw;
-    /*z-index: 100;*/
-    line-height: 100px;
-    text-align: center;
+
+    align-items: center;         
+    justify-content: center;    
     color: white;
 
-    background: rgb(0, 0, 0);
-    opacity: 0.4;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0.75;
     border-radius: 5%;
     cursor: pointer;
 }
 
-#hideScene p{
-margin-top:-5vh;
-font-size: 4vh;
+#hideScene svg{
+    margin-left: -0.2vh;
+    margin-top: -0.2vh;
 }
 
 #hideScene:hover {
@@ -318,8 +317,8 @@ font-size: 4vh;
     left: 11vh;
     width: 37vh;
     height: 6vh;
-    background: rgb(0, 0, 0);
-    opacity: 0.4;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0.75;
     border-radius: 5%;
     transition:  0.5s ease-in-out;
 }
@@ -330,8 +329,8 @@ font-size: 4vh;
     left: 50vh;
     width: 10vh;
     height: 6vh;
-    background: rgb(0, 0, 0);
-    opacity: 0.4;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0.75;
     border-radius: 5%;
     transition:  0.5s ease-in-out;
 }
@@ -344,24 +343,24 @@ font-size: 4vh;
 
   #Weatherdata {
     position: absolute;
-    top: 29vw;
+    top: 60vh;
     left: 3vh;
     width: 45vh;
     height: 27vh;
-    background: rgb(0, 0, 0);
-    opacity: 0.4;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0.75;
     border-radius: 5%;
     transition:  0.5s ease-in-out;
 }
 
 #AirQuality{
     position: absolute;
-    top: 44vw;
+    top: 88.5vh;
     left: 3vh;
     width: 45vh;
     height: 6vh;
-    background: rgb(0, 0, 0);
-    opacity: 0.4;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0.75;
     border-radius: 5%;
     transition:  0.5s ease-in-out;
 }
@@ -372,12 +371,15 @@ font-size: 4vh;
     margin-left:2vh;
 }
 
-
+#Weatherdata > .linha-info{
+height: auto;
+}
 
 .linha-info {
     display: flex;
     align-items: center;
     gap: 10vh; 
+    height: 100%;
   }
   
 
@@ -912,7 +914,7 @@ font-size: 4vh;
 
 #Elemento7{
     top: 0vh;
-    left: 65vw;
+    right: 20vw;
 }
 
 
@@ -931,8 +933,28 @@ font-size: 4vh;
 
 #Elemento8{
     top: 65vh;
-    left: 65vw;
+    right: 20vw;
 }
+ 
+/*--------------------------------------------------- Responsividade especifica*/
+@media (max-width: 1200px) {
+    #Elemento7 {
+        right: 17vw; 
+    }
+    #Elemento8 {
+        right: 17vw;
+    }
+    #mapa_svg{
+    padding-top: 3vh;
+    }
+}
+
+@media (max-width: 2000px) {
+    #mapa_svg{
+    padding-top: 1.5vh;
+    }
+}
+
 
 #Elemento9{
     top: 58vh;
@@ -992,7 +1014,7 @@ span{
 }
 
 .divF > span:nth-child(2){
-    font-size: 8vh;
+    font-size: 4vw;
     font-weight: 400;
     color: rgb(46,146,53);
 }
@@ -1063,9 +1085,16 @@ span{
     font-size: 1.80vw;
 }
 
+#Elemento4 .title{
+    width: 100%;
+    padding-bottom: 6%;
+    font-size: 1.80vw;
+}
+
 #Elemento4 .divE > span:nth-child(1){
     width: 60%;
 }
+
 
 #Elemento10{
     display: flex;
@@ -1213,62 +1242,40 @@ span{
 }
 
 
-
-#botao_PollutionandEmissions{
-    left:20vh;
-    bottom:2vh;
-}
-
-#botao_PopulationandResources{
-    left:35vh;
-    bottom:2vh;
-}
-
-#botao_ClimateandAtmosphere{
-    left:50vh;
-    bottom:2vh;
-}
-
-#botao_NaturalChanges{
-    left:65vh;
-    bottom:2vh;
-}
-
-#botao_Continentes{
-    left:80vh;
-    bottom:2vh;
-}
-
 .hideIcons {
-    transform: translate(25vw, 94.5vh)
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 2.5vw; 
+  flex-wrap: wrap;
+  padding: 2vh 0 2vh 1.5vw;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 
-.hideIcons p{
-    font-size: 2vh;
-    position:absolute;
-    bottom:-3vh;
-    filter: brightness(110%);
-    color:rgb(24, 202, 89);
-}
-.hideIcons p:nth-of-type(1) {
-    left:18.5vh;  
+
+.icone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4vw; 
 }
 
-.hideIcons p:nth-of-type(2) {
-    left: 33vh;
+.icone div{
+    width: 3vw;
+    height: 3vw;
 }
 
-.hideIcons p:nth-of-type(3) {
-    left: 49vh;
+
+.hideIcons p {
+  margin-top: 4vw;
+  font-size: 1.8vh;
+  color: rgb(24, 202, 89);
+  filter: brightness(110%);
+  text-align: center;
 }
 
-.hideIcons p:nth-of-type(4) {
-    left: 64vh;
-}
-
-.hideIcons p:nth-of-type(5) {
-    left: 78vh;
-}
 /*--------------------------------------- Pictogramas*/
 .pictogramas {
     position: relative;
@@ -1280,7 +1287,7 @@ span{
 
 .pictograma svg {
   color: #ddd; /* cor base */
-  width: 2vh;  
+  width: 1vw;  
 }
 
 .pictograma.pintado svg {
@@ -1366,7 +1373,7 @@ color: rgb(24, 202, 89);
     display: none;
 }
 
-@media (max-aspect-ratio: 15/9) {
+@media (max-aspect-ratio: 13/9) {
     .MobileHide {
       display: none;
     }

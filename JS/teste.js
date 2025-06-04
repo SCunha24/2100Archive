@@ -25,8 +25,34 @@ const data_scene = document.getElementById('cenarioinfo');
 const MAIN = document.getElementById("main");
 const INTRO = document.getElementById("Intro");
 
+const cena = document.querySelector('a-scene');
+const backButton = document.querySelector('#backButton');
+const backVR = document.querySelector('#backVR');
+const textVR = document.querySelector('#locationName');
+
+cena.addEventListener('enter-vr', () => {
+
+  console.log("VR entrou");
+  backButton.setAttribute('visible', true); 
+  textVR.setAttribute('visible', true); 
+});
+
+cena.addEventListener('exit-vr', () => {
+  console.log("VR saiu");
+  backButton.setAttribute('visible', false);
+  textVR.setAttribute('visible', false); 
+});
+
+backButton.addEventListener('click', () => {
+
+  if (cena && cena.exitVR) {
+    cena.exitVR();  
+  }
+});
+
 document.getElementById('enterBtn').addEventListener('click', () => {
     console.log("Enter");
+
 
         MAIN.style.transition = "0.5s ease-in-out";
         INTRO.style.transition = "1s ease-in-out";
@@ -66,10 +92,35 @@ const light = new THREE.DirectionalLight(0xffffff, 3.5);
 light.position.set(0, 1, 0.5).normalize();
 lightGroup.add(light);
 
-let sphere1;// Terra
+let sphereT1;
+let sphereT2;
+
+let sphereT3;
+let sphereT4;
+
+let sphereT5;
+let sphereT6;
+
+let sphereT7;
+
 let sphere2;// camada1
 let sphere3;// camada2
-let sphere4; // Nuvem
+
+let sphere4;// camada1
+let sphere6;// camada2
+
+let sphere7;// camada1
+let sphere8;// camada2
+
+let sphere9;// camada1
+let sphere10;// camada2
+
+let sphere11;// camada1
+let sphere12;// camada2
+
+
+
+let sphere20; // Nuvem
 let sphere5; // camada azul
 
 
@@ -228,31 +279,97 @@ function normalize(vec) {
 const group = new THREE.Group();
 
 // Terra
-sphere1 = createCustomSphereText(9, "Data/Final/Camada01T.jpg", 42);
-group.add(sphere1);
+sphereT1 = createCustomSphereText(9, "Data/Final/Earth/Camada1950.jpg", 42);
+group.add(sphereT1);
 
-// Camada1
-sphere2 = createCustomSphereText(9.010, "Data/Final/Camada02.png", 42);
+sphereT2 = createCustomSphereText(9, "Data/Final/Earth/Camada1975.jpg", 42);
+group.add(sphereT2);
+
+sphereT3 = createCustomSphereText(9, "Data/Final/Earth/Camada2000.jpg", 42);
+group.add(sphereT3);
+
+sphereT4 = createCustomSphereText(9, "Data/Final/Earth/Camada2025.jpg", 42);
+group.add(sphereT4);
+
+sphereT5 = createCustomSphereText(9, "Data/Final/Earth/Camada2050.jpg", 42);
+group.add(sphereT5);
+
+sphereT6 = createCustomSphereText(9, "Data/Final/Earth/Camada2075.jpg", 42);
+group.add(sphereT6);
+
+sphereT7 = createCustomSphereText(9, "Data/Final/Earth/Camada2100.jpg", 42);
+group.add(sphereT7);
+
+// Camada1 Base 2040
+sphere2 = createCustomSphereText(9.01, "Data/Final/Base/2040.png", 42);
 group.add(sphere2);
 
-// Camada2
-sphere3 = createCustomSphereText(9.010, "Data/Final/Camada03.png", 42);
+// Camada2 Base 2055
+sphere3 = createCustomSphereText(9.0125, "Data/Final/Base/2055.png", 42);
 group.add(sphere3);
 
-//Nuvem
-sphere4 = createCustomSphereText(9.040, "Data/clouds_test1.png", 42);
+
+
+// 2065-------------------------------
+
+
+// Camada3 Red 2065 - Red
+sphere4 = createCustomSphereText(9.015, "Data/Final/Red/red2065.png", 42);
 group.add(sphere4);
 
+// Camada3 yellow 2065 - Yellow
+sphere6 = createCustomSphereText(9.0175, "Data/Final/Yellow/Yellow_2065.png", 42);
+group.add(sphere6);
+
+
+// 2075-------------------------------
+
+
+// Camada3 Red 2075 - Red
+sphere7 = createCustomSphereText(9.02, "Data/Final/Red/red2075.png", 42);
+group.add(sphere7);
+
+// Camada3 yellow 2075 - Yellow
+sphere8 = createCustomSphereText(9.0225, "Data/Final/Yellow/Yellow_2075.png", 42);
+group.add(sphere8);
+
+
+// 2085-------------------------------
+
+// Camada3 Red 2085 - Red
+sphere9 = createCustomSphereText(9.0250, "Data/Final/Red/red2085.png", 42);
+group.add(sphere9);
+
+// Camada3 yellow 2085 - Yellow
+sphere10 = createCustomSphereText(9.0275, "Data/Final/Yellow/Yellow_2085.png", 42);
+group.add(sphere10);
+
+
+// 2095-------------------------------
+
+// Camada3 Red 2095 - Red
+sphere11 = createCustomSphereText(9.03, "Data/Final/Red/red2085.png", 42);
+group.add(sphere11);
+
+// Camada3 yellow 2095 - Yellow
+sphere12 = createCustomSphereText(9.0325, "Data/Final/Yellow/Yellow_2085.png", 42);
+group.add(sphere12);
+
+
 //Nuvem
-sphere5 = createCustomSphereColor(9.09, 0x005499, 42);
+sphere20 = createCustomSphereText(9.13, "Data/clouds_test1.png", 42);
+group.add(sphere20);
+
+//Nuvem
+sphere5 = createCustomSphereColor(9.2, 0x005499, 42);
 group.add(sphere5);
 
-const atmosphere = createAtmosphere(9.15, 0x66ccff, 0.15);
+const atmosphere = createAtmosphere(9.25, 0x66ccff, 0.15);
 group.add(atmosphere);
 
 // Adicionar o grupo à cena
 scene.add(group);
-group.position.set(0, -0.3, 0); //cheguei-o um bocado para baixo
+group.position.set(0, 0, 0); //cheguei-o um bocado para baixo
 
 
 camera.position.z = 8.90;
@@ -277,55 +394,6 @@ function updateCompass() {
 }
 
 setInterval(updateCompass, 50);
-//------------------------------------------------------//
-
-
-
-//-------------------------------------------------------------------//
-
-//Pop ups----------------------------------------------------------------//
-/*const trigger = document.querySelector('#triggerPlane');
-const hover = document.querySelector('#hoverPlane');
-
-trigger.addEventListener('mouseenter', () => {
-    console.log('Hover ON');
-    hover.setAttribute('visible', 'true');
-    //hover.style.display = "block";
-});
-
-trigger.addEventListener('mouseleave', () => {
-    console.log('Hover OFF');
-    hover.setAttribute('visible', 'false');
-   // hover.style.display = "none";
-    
-});
-
-
-
-function PopUpTrigger() {
-    // Para piscar o coisito de ativat Pop Up
-        let decreasing = true; 
-        let op = 1; 
-        
-        setInterval(() => {
-        if (decreasing) {
-            op -= 0.05; 
-            if (op <= 0) {
-            op = 0;
-            decreasing = false; 
-            }
-        } else {
-            op += 0.05; 
-            if (op >= 1) {
-            op = 1; 
-            decreasing = true;
-            }
-        }
-        trigger.setAttribute('material', 'opacity', op);
-        }, 50); 
-    }
-PopUpTrigger();*/
-//---------------------------------------------------------//
 
 function setOpacity(id, value) {
     const el = document.getElementById(id);
@@ -357,74 +425,7 @@ const ZOOM_SMOOTHNESS = 0.2;
 
 let etapa = 0;
 
-let currentDistance = camera.position.distanceTo(controls.target);
 
-//--------------------------------------------------------------------------------------//
-//--------------------------------------------------------------------------------------//
-//--------------------------------------------------------------------------------------//
-renderer.domElement.addEventListener('wheel', (event) => { //Assim as caixas começam noutra posição, porque isto só começa a 
-// atualizar quando fazemos scroll
-    event.preventDefault();
-    
-    const delta = -event.deltaY * 0.01; // Sensibilidade
-    const direction = new THREE.Vector3()
-        .subVectors(camera.position, controls.target)
-        .normalize();
-    
-        currentDistance = camera.position.distanceTo(controls.target);
-        
-    let targetDistance = currentDistance * (1 + delta);
-
-    if (currentDistance > 7.5) {
-        etapa = 0;
-        
-        elementosC.forEach(element => {
-            element.style.transform = 'scale(0)';
-        });
-
-    setOpacity('botao_PollutionandEmissions', '1');
-    setOpacity('botao_PopulationandResources', '1');
-    setOpacity('botao_ClimateandAtmosphere', '1');
-    setOpacity('botao_NaturalChanges', '1');
-
-
-        elementosG.forEach(element => {
-            element.style.transform = 'scale(1)';
-        });
-       
-    } else {
-        etapa = 1;
-        
-        elementosG.forEach(element => {
-            element.style.transform = 'scale(0)';
-        });
-        
-
-    setOpacity('botao_PollutionandEmissions', '0.5');
-    setOpacity('botao_PopulationandResources', '0.5');
-    setOpacity('botao_ClimateandAtmosphere', '0.5');
-    setOpacity('botao_NaturalChanges', '0.5');
-
-
-        elementosC.forEach(element => {
-            element.style.transform = 'scale(1)';
-        });
-    }
-    
-    console.log(currentDistance);
-
-    targetDistance = Math.max(MIN_DISTANCE, Math.min(MAX_DISTANCE, targetDistance));
-    
-    
-    const smoothedDistance = THREE.MathUtils.lerp(
-        currentDistance,
-        targetDistance,
-        ZOOM_SMOOTHNESS
-    );
-    
-    camera.position.copy(controls.target)
-        .add(direction.multiplyScalar(smoothedDistance));
-}, { passive: false });
 
 // Gestos
 
@@ -528,6 +529,83 @@ document.getElementById('botao_Continentes').addEventListener('click', function(
 
     visivel5 = !visivel5; 
 });
+
+
+
+let currentDistance = camera.position.distanceTo(controls.target);
+
+//--------------------------------------------------------------------------------------//
+//--------------------------------------------------------------------------------------//
+//--------------------------------------------------------------------------------------//
+renderer.domElement.addEventListener('wheel', (event) => { //Assim as caixas começam noutra posição, porque isto só começa a 
+// atualizar quando fazemos scroll
+    event.preventDefault();
+    
+    const delta = -event.deltaY * 0.01; // Sensibilidade
+    const direction = new THREE.Vector3()
+        .subVectors(camera.position, controls.target)
+        .normalize();
+    
+        currentDistance = camera.position.distanceTo(controls.target);
+        
+    let targetDistance = currentDistance * (1 + delta);
+
+    if (currentDistance > 7.5) {
+        etapa = 0;
+        
+            
+        /*elementosC.forEach(element => {
+            element.style.transform = 'scale(0)';
+        });
+
+    setOpacity('botao_PollutionandEmissions', '1');
+    setOpacity('botao_PopulationandResources', '1');
+    setOpacity('botao_ClimateandAtmosphere', '1');
+    setOpacity('botao_NaturalChanges', '1');*/
+
+
+        /*elementosG.forEach(element => {
+            element.style.transform = 'scale(1)';
+        });*/
+       
+    } else {
+        etapa = 1;
+
+        if (visivel){document.getElementById('botao_PollutionandEmissions').click();}
+        if (visivel2){document.getElementById('botao_PopulationandResources').click();}
+        if (visivel3){document.getElementById('botao_ClimateandAtmosphere').click();}
+        if (visivel4){document.getElementById('botao_NaturalChanges').click();}
+
+        /*elementosG.forEach(element => {
+            element.style.transform = 'scale(0)';
+        });
+        
+
+    setOpacity('botao_PollutionandEmissions', '0.5');
+    setOpacity('botao_PopulationandResources', '0.5');
+    setOpacity('botao_ClimateandAtmosphere', '0.5');
+    setOpacity('botao_NaturalChanges', '0.5');
+
+
+        elementosC.forEach(element => {
+            element.style.transform = 'scale(1)';
+        });*/
+    }
+    
+    console.log(currentDistance);
+
+    targetDistance = Math.max(MIN_DISTANCE, Math.min(MAX_DISTANCE, targetDistance));
+    
+    
+    const smoothedDistance = THREE.MathUtils.lerp(
+        currentDistance,
+        targetDistance,
+        ZOOM_SMOOTHNESS
+    );
+    
+    camera.position.copy(controls.target)
+        .add(direction.multiplyScalar(smoothedDistance));
+}, { passive: false });
 
 
 
@@ -785,7 +863,7 @@ setupMediaPipe();
 
 // Variável do ano
 
-const anoActual = 1975;
+const anoActual = 2025; //Vou usar para começar em 2025, a outra não muda de inicio
 const year = anoActual.toString();
 
 const textGroup = new THREE.Group();
@@ -862,21 +940,22 @@ const spriteMaterial = new THREE.SpriteMaterial({ map: spriteMap });
 
 
 const markers = [
-    { name: "Asia", position: sphericalToCartesian(4.60, Math.PI / 2 - Math.PI / 7.5, Math.PI / 2), continent: "Asia" },
-    { name: "America", position: sphericalToCartesian(4.60, Math.PI / 2 + 0.26, -2.05), continent: "America" },
-    { name: "Europe", position: sphericalToCartesian(4.60, Math.PI / 4.5, Math.PI / 1.05), continent: "Europe" },
-    { name: "Oceania", position: sphericalToCartesian(4.60, Math.PI /  1.3 - Math.PI / 6.25, Math.PI / 4), continent: "Oceania" },
-    { name: "Africa", position: sphericalToCartesian(4.60, Math.PI / 2.5, Math.PI / 1.1), continent: "Africa" },
-    { name: "America", position: sphericalToCartesian(4.60, Math.PI / 2 - Math.PI / 5, -Math.PI / 3), continent: "America2" },
+    { name: "Asia", position: sphericalToCartesian(4.67, Math.PI / 2 - Math.PI / 7.5, Math.PI / 2), continent: "Asia" },
+    { name: "America", position: sphericalToCartesian(4.67, Math.PI / 2 + 0.26, -2.05), continent: "America" },
+    { name: "Europe", position: sphericalToCartesian(4.67, Math.PI / 4.5, Math.PI / 1.05), continent: "Europe" },
+    { name: "Oceania", position: sphericalToCartesian(4.67, Math.PI /  1.3 - Math.PI / 6.25, Math.PI / 4), continent: "Oceania" },
+    { name: "Africa", position: sphericalToCartesian(4.67, Math.PI / 2.5, Math.PI / 1.1), continent: "Africa" },
+    { name: "America", position: sphericalToCartesian(4.67, Math.PI / 2 - Math.PI / 5, -Math.PI / 3), continent: "America2" },
+    { name: "Arctic", position: sphericalToCartesian(4.67, Math.PI / 24, -Math.PI / 0.6), continent: "Arctic" },
 
 ];
 
 
-const markerObjects = markers.map(markerData => {
+const markerObjects = markers.map(markerData => { 
     const marker = new THREE.Sprite(spriteMaterial);
     marker.scale.set(0.2, 0.3, 0.3);
     marker.position.copy(markerData.position);
-    marker.position.y -= 0.3; // Adicionei isto porque tinha baixei o planeta
+    marker.position.y -= 0; // Adicionei isto porque baixei o planeta
 
     if (markerData.continent === "Africa") {
     marker.visible = false;
@@ -898,7 +977,9 @@ const mTela = new THREE.Vector3(0, 0, -10); // Centro da tela normalizado
 // INFORMAÇÃO GLOBAIS NAS CAIXAS - ASSOCIADAS AO JSON 
 const regiao = "Global";
 const regiao2 = "Europe";
-let ano = 1950;
+let ano = 2025;
+
+
 
 /*
 const aumentar = document.getElementById("aumentaAno");
@@ -936,8 +1017,12 @@ function atualizarDados() {
 
         /**/
         // Variáveis - Pollution and Emissions
-        document.getElementById("Greenhousegasemissions").textContent = `${dados.Greenhousegasemissions.toLocaleString()} t`;
-        document.getElementById("CO2emissions").textContent = `${dados.CO2emissions.toLocaleString()} t`;
+        document.getElementById("Greenhousegasemissions").textContent = 
+        `${(dados.Greenhousegasemissions / 1e6).toLocaleString(undefined, { maximumFractionDigits: 2 })} Mt`;
+        document.getElementById("CO2emissions").textContent = 
+        `${(dados.CO2emissions / 1e6).toLocaleString(undefined, { maximumFractionDigits: 2 })} Mt`;
+
+
         document.getElementById("Mercury").textContent = `${dados.Mercury.toLocaleString()} t`;
         document.getElementById("Airquality").textContent = dados.Airquality;
 
@@ -960,6 +1045,7 @@ function atualizarDados() {
         let displayValue = (minerals / 1_000_000).toFixed(2); // converte para milhões
         document.getElementById("Minerals").textContent = `${Number(displayValue).toLocaleString()} Mt`;
         document.getElementById("Renewable water").textContent = `${dados.Renewablewaterpc.toLocaleString()} m³`;
+
         /*
         document.getElementById("Fossil").textContent = `${dados.Fossilfconsumptionpc.toLocaleString()} kWh`;
         document.getElementById("Nuclear").textContent = `${dados.Nuclearpc.toLocaleString()} kWh`;
@@ -1006,6 +1092,7 @@ function atualizarDados() {
 atualizarDados();
 
 let regiao_cenarios;
+const vrText = document.getElementById('vrText');
 
 function atualizarDadosCenarios() {
     fetch("JSON/data_scenarios.json")
@@ -1016,6 +1103,7 @@ function atualizarDadosCenarios() {
         const dados = data[regiao_local][ano_alterado];
 
         document.getElementById("nome_cenarios").textContent = regiao_cenarios;
+        vrText.setAttribute('value', regiao_cenarios);
 
         // Variáveis - Pollution and Emissions
         document.getElementById("temperatura_cenarios").textContent = `${dados.Temperature.toLocaleString()}`;
@@ -1192,6 +1280,8 @@ function atualizarDadosCenarios() {
     }
 }
 
+
+
 function boxColor(){
     //--------------------------------------------------------------- Atualizar rodas de dados - População
      //teve que ser :(
@@ -1222,8 +1312,8 @@ function boxColor(){
     
     
     population.style.background = `conic-gradient(
-    ${lightColor2Pop} 0% ${percent_realValue}%,
-    ${color2} ${percent_realValue}% 100%)`;
+    ${color2} 0% ${percent_realValue}%,
+    ${lightColor2Pop} ${percent_realValue}% 100%)`;
 
     //para os tracinhos em volta das rodas
     let borderGradient = "";
@@ -1257,36 +1347,32 @@ function boxColor(){
     const AirText = El7.querySelectorAll("span");
     const AirTitle = El7.querySelector(".title");
 
-    const AirMax = 92351805405;  
-    const AirPercentValue = Math.min(100, Math.max(0, (AirValue / AirMax) * 100));
+    const minCO2 = 0.031; 
+    const maxCO2 = 0.1;   
+    const AirMaxTon = 92351805405; 
 
-    const AirPercentText = `${AirPercentValue.toFixed(1)}%`;
+    const normalizedAir = Math.min(1, Math.max(0, AirValue / AirMaxTon));
+    const AirPercentValue = minCO2 + (maxCO2 - minCO2) * normalizedAir;
 
+    const AirPercentText = `${AirPercentValue.toFixed(3)}%`;
     AirTitle.textContent = AirPercentText;
 
-
-
-    const AirPercent = Math.min(100, Math.max(0, (AirValue / AirMax) * 100));
-    const Airpercent_realValue = (100 - AirPercent); //Para não ter os valores invertidos a mudar a roda
-
-    const normalizedAir = Math.min(1, Math.max(0, AirValue / AirMax));
+  
+    const Airpercent_realValue = 100 - ((AirPercentValue - minCO2) / (maxCO2 - minCO2)) * 100;
 
     const rAir = Math.round(255 * normalizedAir);
     const gAir = Math.round(255 * (1 - normalizedAir));
     const bAir = 50;
 
-    const color1Air = `rgb(${rAir * 0.8}, ${gAir * 0.8}, ${bAir})`;              
-    const color2Air = `rgb(${rAir * 0.2}, ${gAir * 0.2}, ${bAir * 0.2})`; 
-
+    const color1Air = `rgb(${rAir * 0.8}, ${gAir * 0.8}, ${bAir})`;
+    const color2Air = `rgb(${rAir * 0.2}, ${gAir * 0.2}, ${bAir * 0.2})`;
 
     const lightColor2Air = mixWithWhite(rAir, gAir, bAir * 2, 0.6 );
-    
-    
-    RodaAir.style.background = `conic-gradient(
-    ${lightColor2Air} 0% ${Airpercent_realValue}%,
-    ${color2Air} ${Airpercent_realValue}% 100%)`;
 
-    //para os tracinhos em volta das rodas
+    RodaAir.style.background = `conic-gradient(
+    ${color2Air} 0% ${Airpercent_realValue}%,
+    ${lightColor2Air} ${Airpercent_realValue}% 100%)`;
+
     let borderGradientAir = "";
     for (let i = 0; i < 100; i += 5) {
     const darkStart = i;
@@ -1300,11 +1386,10 @@ function boxColor(){
     }
 
     borderGradientAir = borderGradientAir.slice(0, -1);
-
     RodaAirBorder.style.background = `conic-gradient(${borderGradientAir})`;
 
     AirText.forEach(span => {
-        span.style.color = lightColor2Air;
+    span.style.color = lightColor2Air;
     });
     //-------------------------------------------------------------------------//
 
@@ -1345,8 +1430,8 @@ function boxColor(){
     
     
     RodaHumidity.style.background = `conic-gradient(
-    ${lightColor2Hum} 0% ${Humiditypercent_realValue}%,
-    ${color2Hum} ${Humiditypercent_realValue}% 100%)`;
+    ${color2Hum} 0% ${Humiditypercent_realValue}%,
+    ${lightColor2Hum} ${Humiditypercent_realValue}% 100%)`;
 
     //para os tracinhos em volta das rodas
     let borderGradientHum = "";
@@ -1485,6 +1570,8 @@ function boxColor(){
         continenteMax = 1000000000;
     } else if (continente_detetado == "Africa") {
         continenteMax = 4000000000;
+    } else if (continente_detetado == "Arctic") {
+        continenteMax = 200000;
     }
 
     const continentepercent = Math.min(1, Math.max(0, continenteValue / continenteMax));
@@ -1681,7 +1768,7 @@ function boxColor(){
     //POLUIÇÃO
     const iconPollution = document.getElementById("botao_PollutionandEmissions");
     const iconPollutionStroke = iconPollution.querySelector("svg");
-    const iconText = document.querySelector('.hideIcons p:nth-of-type(1)');
+    const iconText = iconPollution.parentElement.querySelector("p");
 
     const lightColorICON = mixWithWhite(red1 * 2, green1 * 2.3, blue1 + 20, (0.4 - 0.005 * red1) );
 
@@ -1693,7 +1780,7 @@ function boxColor(){
     //RECURSOS
     const iconRecursos = document.getElementById("botao_PopulationandResources");
     const iconRecursosStroke = iconRecursos.querySelector("svg");
-    const iconRecursosText = document.querySelector('.hideIcons p:nth-of-type(2)');
+    const iconRecursosText = iconRecursos.parentElement.querySelector("p");
 
     const lightColorICONRecursos = mixWithWhite(red * 2, green * 2.3, blue + 20, (0.4 - 0.005 * red) );
 
@@ -1705,7 +1792,7 @@ function boxColor(){
     //CLIMATE
     const iconCLIMATE = document.getElementById("botao_ClimateandAtmosphere");
     const iconCLIMATEStroke = iconCLIMATE.querySelector("svg");
-    const iconCLIMATEText = document.querySelector('.hideIcons p:nth-of-type(3)');
+    const iconCLIMATEText = iconCLIMATE.parentElement.querySelector("p");
 
     const lightColorICONCLIMATE = mixWithWhite(red2 * 2, green2 * 2.3, blue2 + 20, (0.4 - 0.005 * red2) );
 
@@ -1717,7 +1804,7 @@ function boxColor(){
     //CHANGES
     const iconCHANGES = document.getElementById("botao_NaturalChanges");
     const iconCHANGESStroke = iconCHANGES.querySelector("svg");
-    const iconCHANGESText = document.querySelector('.hideIcons p:nth-of-type(4)');
+    const iconCHANGESText = iconCHANGES.parentElement.querySelector("p");
 
     const lightColorICONCHANGES = mixWithWhite(red6 * 2, green6 * 2.3, blue6 + 20, (0.4 - 0.005 * red6) );
 
@@ -1729,7 +1816,7 @@ function boxColor(){
     //CONTINENTE
     const iconCONTINENTE = document.getElementById("botao_Continentes");
     const iconCONTINENTEStroke = iconCONTINENTE.querySelector("svg");
-    const iconCONTINENTEText = document.querySelector('.hideIcons p:nth-of-type(5)');
+    const iconCONTINENTEText = iconCONTINENTE.parentElement.querySelector("p");
 
     const lightColorICONCONTINENTE = mixWithWhite(red4 * 2, green4 * 2.3, blue4 + 20, (0.4 - 0.005 * red4) );
 
@@ -1755,7 +1842,14 @@ window.onload = () => {
 
 light.position.set(0, 1, 0.5).multiplyScalar(200);
 
+function getBlinkOpacity(speed = 2) {
+    return Math.abs(Math.sin(performance.now() * 0.001 * speed)); // entre 0 e 1
+}
+
 function animate() {
+    let cena = map(currentDistance, 8.64, 6.5, 1, 0);
+    sphere20.material.opacity = cena;
+
     requestAnimationFrame(animate);
 
     lightGroup.position.copy(camera.position);
@@ -1763,7 +1857,129 @@ function animate() {
 
     light.target.position.set(0, 0, 0);
     
+const blinkOpacity = getBlinkOpacity(); // você pode passar a velocidade: getBlinkOpacity(3)
 
+if(ano >= 1975 && ano < 2000){
+    sphereT1.material.opacity = 0;
+    sphereT2.material.opacity = 1;
+    sphereT3.material.opacity = 0;
+    sphereT4.material.opacity = 0;
+    sphereT5.material.opacity = 0;
+    sphereT6.material.opacity = 0;
+    sphereT7.material.opacity = 0;
+}else if(ano >= 2000 && ano < 2025){
+    sphereT1.material.opacity = 0;
+    sphereT2.material.opacity = 0;
+    sphereT3.material.opacity = 1;
+    sphereT4.material.opacity = 0;
+    sphereT5.material.opacity = 0;
+    sphereT6.material.opacity = 0;
+    sphereT7.material.opacity = 0;
+}else if(ano >= 2025 && ano < 2050){
+    sphereT1.material.opacity = 0;
+    sphereT2.material.opacity = 0;
+    sphereT3.material.opacity = 0;
+    sphereT4.material.opacity = 1;
+    sphereT5.material.opacity = 0;
+    sphereT6.material.opacity = 0;
+    sphereT7.material.opacity = 0;
+}else if(ano >= 2050 && ano < 2075){
+    sphereT1.material.opacity = 0;
+    sphereT2.material.opacity = 0;
+    sphereT3.material.opacity = 0;
+    sphereT4.material.opacity = 0;
+    sphereT5.material.opacity = 1;
+    sphereT6.material.opacity = 0;
+    sphereT7.material.opacity = 0;
+}else if(ano >= 2075 && ano < 2085){
+    sphereT1.material.opacity = 0;
+    sphereT2.material.opacity = 0;
+    sphereT3.material.opacity = 0;
+    sphereT4.material.opacity = 0;
+    sphereT5.material.opacity = 0;
+    sphereT6.material.opacity = 1;
+    sphereT7.material.opacity = 0;
+}else if(ano >= 2085){
+    sphereT1.material.opacity = 0;
+    sphereT2.material.opacity = 0;
+    sphereT3.material.opacity = 0;
+    sphereT4.material.opacity = 0;
+    sphereT5.material.opacity = 0;
+    sphereT6.material.opacity = 0;
+    sphereT7.material.opacity = 1;
+}else{
+    sphereT1.material.opacity = 1;
+    sphereT2.material.opacity = 0;
+    sphereT3.material.opacity = 0;
+    sphereT4.material.opacity = 0;
+    sphereT5.material.opacity = 0;
+    sphereT6.material.opacity = 0;
+    sphereT7.material.opacity = 0;
+}
+
+
+
+// Exemplo com sphere2
+if (ano > 2040) {
+    sphere2.material.transparent = true;
+    sphere2.material.opacity = blinkOpacity;
+} else {
+    sphere2.material.opacity = 0;
+}
+
+// sphere3
+if (ano > 2055) {
+    sphere3.material.transparent = true;
+    sphere3.material.opacity = blinkOpacity;
+} else {
+    sphere3.material.opacity = 0;
+}
+
+// sphere4 & sphere6
+if (ano > 2065) {
+    sphere4.material.transparent = true;
+    sphere6.material.transparent = true;
+    sphere4.material.opacity = blinkOpacity;
+    sphere6.material.opacity = blinkOpacity;
+} else {
+    sphere4.material.opacity = 0;
+    sphere6.material.opacity = 0;
+}
+
+// sphere7 & sphere8
+if (ano > 2075) {
+    sphere7.material.transparent = true;
+    sphere8.material.transparent = true;
+    sphere7.material.opacity = blinkOpacity;
+    sphere8.material.opacity = blinkOpacity;
+} else {
+    sphere7.material.opacity = 0;
+    sphere8.material.opacity = 0;
+}
+
+// sphere9 & sphere10
+if (ano > 2085) {
+    sphere9.material.transparent = true;
+    sphere10.material.transparent = true;
+    sphere9.material.opacity = blinkOpacity;
+    sphere10.material.opacity = blinkOpacity;
+} else {
+    sphere9.material.opacity = 0;
+    sphere10.material.opacity = 0;
+}
+
+// sphere11 & sphere12
+if (ano > 2095) {
+    sphere11.material.transparent = true;
+    sphere12.material.transparent = true;
+    sphere11.material.opacity = blinkOpacity;
+    sphere12.material.opacity = blinkOpacity;
+} else {
+    sphere11.material.opacity = 0;
+    sphere12.material.opacity = 0;
+}
+
+    /*
     if (sphere2) {
         if (opac1) {
             sphere2.material.opacity += 0.05;
@@ -1783,8 +1999,10 @@ function animate() {
             if (sphere3.material.opacity <= 0) opac2 = true;
         }
     }
+
+    */
     // Continua a rotação
-    [sphere1, sphere2, sphere3].forEach(sphere => {
+    [sphereT1, sphere2, sphere3].forEach(sphere => {
         if (sphere) {
             sphere.rotation.x = angY
             sphere.rotation.y = angX
@@ -1794,9 +2012,12 @@ function animate() {
         controls.update();
     }
 
+    /*
     sphere4.rotation.x = angY;
     sphere4.rotation.y += 0.00015;
-    sphere5.rotation.y += 0.00015;
+    */
+
+    sphere20.rotation.y += 0.00015;
 
     estrelas.rotation.y += 0.00015;
 
@@ -1825,7 +2046,7 @@ const dist = 0;
 scene.position.x = dist;
 light.position.x = -(dist);
 
-[sphere1, sphere2, sphere3].forEach(sphere => {
+[sphereT1, sphere2, sphere3].forEach(sphere => {
         if (sphere) sphere.rotation.x += 0.5;
 });
 
@@ -1931,6 +2152,7 @@ function Update(id, value) {
     if (closestMarker) {
       atualiza(closestMarker.name);
       //console.log(closestMarker.name);
+
     continente_detetado = closestMarker.name;
     document.getElementById("Continente_detetado").textContent = continente_detetado;
     atualizarDados();
@@ -1962,109 +2184,519 @@ function Update(id, value) {
             const popUp = document.getElementById("TextPopUp");
             const circlePopUp = document.getElementById("trigger");
 
+            const popUp2 = document.getElementById("TextPopUp2");
+            const circlePopUp2 = document.getElementById("trigger2");
 
-           
+            const circlePopUp3 = document.getElementById("trigger3");
+
 
             if (markerData.name == "Asia") {
+                popUp.setAttribute('scale', '0 0 0');
                 regiao_cenarios ="South Asia";
                 if (ano < 1970) {
                     sky.setAttribute('src','#1950_asia');
+
+                    circlePopUp.setAttribute('position','1 1.5 -4');
+                    circlePopUp.addEventListener("mouseenter", () => {
                     popUp.setAttribute('src','#PopUpAsia1');
-                    circlePopUp.setAttribute('position','0 1.5 -3');
-                    //circlePopUp2.setAttribute('position','5 1.5 2.5');
-                    //popUp2.setAttribute('src','#PopUpAsia5');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                    
+                    circlePopUp2.setAttribute('position', '14 4 10');
+                    circlePopUp2.setAttribute('rotation', '0 240 0');
+                    circlePopUp2.setAttribute('scale', '3.5 3.5 3.5');
+                    circlePopUp2.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpAsia2');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                                        
+                    circlePopUp3.setAttribute('position', '14 8.885 -2.5');
+                    circlePopUp3.setAttribute('rotation', '0 280 0');
+                    circlePopUp3.setAttribute('scale', '3.5 3.5 3.5');
+                    circlePopUp3.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpAsia13');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+    
                 }
+                
                 if (ano > 1970 && ano < 1990) {
                     sky.setAttribute('src','#1990_asia');
-                    popUp.setAttribute('src','#PopUpAsia2');
-                    circlePopUp.setAttribute('position','0 1.5 -3');
-                    //circlePopUp2.setAttribute('position','5 1.5 2.5');
-                    //popUp2.setAttribute('src','#PopUpAsia6');
-                }
-                if (ano > 1990 && ano < 2040) {
-                    sky.setAttribute('src','#2030_asia');
+                    circlePopUp.setAttribute('position','-4.4 0.6 -0.3');
+                    circlePopUp.setAttribute('rotation', '0 100 0');
+                    circlePopUp.addEventListener("mouseenter", () => {
                     popUp.setAttribute('src','#PopUpAsia3');
-                    circlePopUp.setAttribute('position','0 1.5 -3');
-                    //circlePopUp2.setAttribute('position','5 1.5 2.5');
-                    //popUp2.setAttribute('src','#PopUpAsia7');
-                }
-                if (ano > 2040 && ano < 2070)  {
-                    sky.setAttribute('src','#2050_asia');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                    circlePopUp2.setAttribute('position', '15.5 -2.5 9.2');
+                    circlePopUp2.setAttribute('rotation', '0 240 0');
+                    circlePopUp2.setAttribute('scale', '3.5 3.5 3.5');
+                    circlePopUp2.addEventListener("mouseenter", () => {
                     popUp.setAttribute('src','#PopUpAsia4');
-                    circlePopUp.setAttribute('position','0 1.5 -3');
-                    //circlePopUp2.setAttribute('position','5 1.5 2.5');
-                    //popUp2.setAttribute('src','#PopUpAsia7');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                    circlePopUp3.setAttribute('position', '14 8.885 -2.5');  //repetido
+                    circlePopUp3.setAttribute('rotation', '0 280 0');
+                    circlePopUp3.setAttribute('scale', '3.5 3.5 3.5');
+                    circlePopUp3.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpAsia13');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
                 }
+                
+                if (ano > 1990 && ano < 2020) {
+                    sky.setAttribute('src','#2030_asia');
+                    circlePopUp.setAttribute('position', '-6 -1 -3');
+                    circlePopUp.setAttribute('rotation', '0 70 0');
+                    circlePopUp.setAttribute('scale', '2 2 2');
+                    circlePopUp.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpAsia6');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                    circlePopUp2.setAttribute('position', '27 3 -4');
+                    circlePopUp2.setAttribute('rotation', '0 270 0');
+                    circlePopUp2.setAttribute('scale', '5 5 5');
+                    circlePopUp2.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpAsia5');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                    
+                    circlePopUp3.setAttribute('position', '-0.4 1.8 -5.5'); //repetido
+                    circlePopUp3.setAttribute('rotation', '0 0 0');
+                    circlePopUp3.setAttribute('scale', '2 2 2');
+                    circlePopUp3.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpAsia7');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+                }
+
+                    if (ano > 2020 && ano < 2070) {
+                    sky.setAttribute('src','#2030_asia');
+                    circlePopUp.setAttribute('position', '-0.4 1.8 -5.5');
+                    circlePopUp.setAttribute('rotation', '0 0 0');
+                    circlePopUp.setAttribute('scale', '2 2 2');
+                    circlePopUp.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpAsia7');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                    circlePopUp2.setAttribute('position', '8 -26 20');
+                    circlePopUp2.setAttribute('rotation', '-60 240 -40');
+                    circlePopUp2.setAttribute('scale', '8 8 8');
+                    circlePopUp2.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpAsia8');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                    circlePopUp3.setAttribute('position', '-22 -9 -3');
+                    circlePopUp3.setAttribute('rotation', '0 100 0');
+                    circlePopUp3.setAttribute('scale', '8 8 8');
+                    circlePopUp3.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpAsia9');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+                }
+
                  if (ano > 2070)  {
                     sky.setAttribute('src','#2100_asia');
-                    popUp.setAttribute('src','#PopUpAsia5');
-                    circlePopUp.setAttribute('position','0 1.5 -3');
-                    //circlePopUp2.setAttribute('position','5 1.5 2.5');
-                    //popUp2.setAttribute('src','#PopUpAsia7');
+                    circlePopUp.setAttribute('position', '13.5 -0.9 -15');
+                    circlePopUp.setAttribute('rotation', '0 -40 0');
+                    circlePopUp.setAttribute('scale', '4 4 4');
+                    circlePopUp.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpAsia10');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                    circlePopUp2.setAttribute('position', '-21 -16 22');
+                    circlePopUp2.setAttribute('rotation', '0 140 0');
+                    circlePopUp2.setAttribute('scale', '9 9 9');
+                    circlePopUp2.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpAsia11');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                    circlePopUp3.setAttribute('position', '-2.3 -23 -30');
+                    circlePopUp3.setAttribute('rotation', '-20 10 0');
+                    circlePopUp3.setAttribute('scale', '8 8 8');
+                    circlePopUp3.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpAsia12');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
                 }
             }
 
             if (markerData.name == "America") {
+                popUp.setAttribute('scale', '0 0 0');
                 regiao_cenarios ="Rainforests";
                 if (ano < 1970) {
                     sky.setAttribute('src','#1950_amazonia');
+                    circlePopUp.setAttribute('position', '-3.7 4 -1.5');
+                    circlePopUp.setAttribute('rotation', '20 80 0');
+                    circlePopUp.setAttribute('scale', '2 2 2');
+                    circlePopUp.addEventListener("mouseenter", () => {
                     popUp.setAttribute('src','#PopUpAmerica1');
-                    circlePopUp.setAttribute('position','0 1.5 -3');
-                    //circlePopUp2.setAttribute('position','0 0 0');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+                    
+                    circlePopUp2.setAttribute('position', '4.6 -1.5 0.2');
+                    circlePopUp2.setAttribute('rotation', '0 270 0');
+                    circlePopUp2.setAttribute('scale', '2 2 2');
+                    circlePopUp2.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpAmerica2');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+                    
+                    circlePopUp3.setAttribute('position', '-5 -1.5 -7');
+                    circlePopUp3.setAttribute('rotation', '0 30 0');
+                    circlePopUp3.setAttribute('scale', '3 3 3');
+                    circlePopUp3.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpAmerica12');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });  
                 }
+
                 if (ano > 1970 && ano < 1990) {
-                sky.setAttribute('src','#1970_amazonia');
-                popUp.setAttribute('src','#PopUpAmerica2');
-                circlePopUp.setAttribute('position','0 1.5 -3');
-                //circlePopUp2.setAttribute('position','0 0 0');
+                    sky.setAttribute('src','#1970_amazonia');
+                    circlePopUp.setAttribute('position', '-3.3 6.5 -4');
+                    circlePopUp.setAttribute('rotation', '20 40 5');
+                    circlePopUp.setAttribute('scale', '4 4 4');
+                    circlePopUp.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpAmerica3');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                    circlePopUp2.setAttribute('position', '3 -1.3 -1.7');
+                    circlePopUp2.setAttribute('rotation', '0 -60 0');
+                    circlePopUp2.setAttribute('scale', '2 2 2');
+                    circlePopUp2.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpAmerica4');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                    circlePopUp3.setAttribute('position', '5 4.4 0.5');
+                    circlePopUp3.setAttribute('rotation', '15 -100 -10');
+                    circlePopUp3.setAttribute('scale', '2 2 2');
+                    circlePopUp3.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpAmerica15');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });                    
                 }
 
                 if (ano > 1990 && ano < 2015) {
-                sky.setAttribute('src','#1990_amazonia'); 
-                popUp.setAttribute('src','#PopUpAmerica3');
-                circlePopUp.setAttribute('position','0 1.5 -3');
-                //circlePopUp2.setAttribute('position','0 0 0');
+                    sky.setAttribute('src','#1990_amazonia'); 
+                    circlePopUp.setAttribute('position', '-0.9 -1.5 -3.2');
+                    circlePopUp.setAttribute('rotation', '-20 40 5');
+                    circlePopUp.setAttribute('scale', '4 4 4');
+                    circlePopUp.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpAmerica5');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                    circlePopUp2.setAttribute('position', '3 0.1 -1.1');
+                    circlePopUp2.setAttribute('rotation', '0 -60 0');
+                    circlePopUp2.setAttribute('scale', '1.5 1.5 1.5');
+                    circlePopUp2.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpAmerica6');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                    circlePopUp3.setAttribute('position', '-0.9 5 -2.0');
+                    circlePopUp3.setAttribute('rotation', '30 30 0');
+                    circlePopUp3.setAttribute('scale', '2 2 2');
+                    circlePopUp3.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpAmerica13');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
                 }
 
                 if (ano > 2015 && ano < 2060) {
                 sky.setAttribute('src','#2015_amazonia'); 
-                popUp.setAttribute('src','');
-                circlePopUp.setAttribute('position','0 0 0');
-                //circlePopUp2.setAttribute('position','0 0 0');
+                    circlePopUp.setAttribute('position', '-3.9 -1.3 -3.5');
+                    circlePopUp.setAttribute('rotation', '0 60 0');
+                    circlePopUp.setAttribute('scale', '4 4 4');
+                    circlePopUp.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpAmerica7');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                    circlePopUp2.setAttribute('position', '-9.5 16 -6');
+                    circlePopUp2.setAttribute('rotation', '40 40 -15');
+                    circlePopUp2.setAttribute('scale', '4 4 4');
+                    circlePopUp2.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpAmerica8');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                    circlePopUp3.setAttribute('position', '0 0.4 -1.1');
+                    circlePopUp3.setAttribute('rotation', '0 -10 0');
+                    circlePopUp3.setAttribute('scale', '0.2 0.2 0.2');
+                    circlePopUp3.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpAmerica14');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
                 }
+
+
                 if (ano > 2060) {
                 sky.setAttribute('src','#2060_amazonia');
-                popUp.setAttribute('src','');
-                circlePopUp.setAttribute('position','0 0 0');
-                //circlePopUp2.setAttribute('position','0 0 0');
-                }
+
+                    circlePopUp.setAttribute('position', '-10 -3 3.5');
+                    circlePopUp.setAttribute('rotation', '-20 100 0');
+                    circlePopUp.setAttribute('scale', '4 4 4');
+                    circlePopUp.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpAmerica10');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                    circlePopUp2.setAttribute('position', '3 0.5 -1.1');
+                    circlePopUp2.setAttribute('rotation', '0 -60 0');
+                    circlePopUp2.setAttribute('scale', '1.5 1.5 1.5');
+                    circlePopUp2.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpAmerica9');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                    
+                    circlePopUp3.setAttribute('position', '3 1.4 1.7');
+                    circlePopUp3.setAttribute('rotation', '0 -120 0');
+                    circlePopUp3.setAttribute('scale', '1.2 1.2 1.2');
+                    circlePopUp3.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpAmerica11');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+            }
             }
 
             if (markerData.name == "Europe") {
+                popUp.setAttribute('scale', '0 0 0');
                 regiao_cenarios ="North Europe";
-                if (ano < 2000) {
+                if (ano < 1990) {
                     sky.setAttribute('src','#1950_europa');
-                    popUp.setAttribute('src','');
-                    circlePopUp.setAttribute('position','0 0 0');
-                    //circlePopUp2.setAttribute('position','0 0 0');
+                    circlePopUp.setAttribute('position', '-3.9 -1.3 -3.5');
+                    circlePopUp.setAttribute('rotation', '0 60 0');
+                    circlePopUp.setAttribute('scale', '4 4 4');
+                    circlePopUp.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpEuropa1');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+                    
+                    circlePopUp2.setAttribute('position', '4.2 2.5 1.2');
+                    circlePopUp2.setAttribute('rotation', '10 250 0');
+                    circlePopUp2.setAttribute('scale', '2 2 2');
+                    circlePopUp2.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpEuropa2');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                    circlePopUp3.setAttribute('position', '4.7 0.2 -2.8');
+                    circlePopUp3.setAttribute('rotation', '10 -50 0');
+                    circlePopUp3.setAttribute('scale', '1 1 1');
+                    circlePopUp3.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpEuropa10');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
                 }
-                if (ano > 2000 && ano < 2040) {
+
+                if (ano > 1990 && ano < 2040) {
                     sky.setAttribute('src','#2020_europa');
-                    popUp.setAttribute('src','');
-                    circlePopUp.setAttribute('position','0 0 0');
-                    //circlePopUp2.setAttribute('position','0 0 0');
+                    circlePopUp.setAttribute('position', '0.3 1 -15.5');
+                    circlePopUp.setAttribute('rotation', '0 -20 0');
+                    circlePopUp.setAttribute('scale', '4 4 4');
+                    circlePopUp.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpEuropa4');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+                    
+                    circlePopUp2.setAttribute('position', '3 0.2 -3');
+                    circlePopUp2.setAttribute('rotation', '10 -50 0');
+                    circlePopUp2.setAttribute('scale', '2 2 2');
+                    circlePopUp2.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpEuropa3');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                    circlePopUp3.setAttribute('position', '-20 -2 11.7');
+                    circlePopUp3.setAttribute('rotation', '0 150 0');
+                    circlePopUp3.setAttribute('scale', '8 8 8');
+                    circlePopUp3.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpEuropa5');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
                 }
+                
                 if (ano > 2040 && ano < 2070)  {
                     sky.setAttribute('src','#2050_europa');
-                    popUp.setAttribute('src','');
-                    circlePopUp.setAttribute('position','0 0 0');   
-                    //circlePopUp2.setAttribute('position','0 0 0');             
+                    circlePopUp.setAttribute('position', '0.3 12 -15.5');
+                    circlePopUp.setAttribute('rotation', '20 0 0');
+                    circlePopUp.setAttribute('scale', '4 4 4');
+                    circlePopUp.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpEuropa6');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+                    
+                    circlePopUp2.setAttribute('position', '3.5 1 -3');
+                    circlePopUp2.setAttribute('rotation', '10 -50 0');
+                    circlePopUp2.setAttribute('scale', '1.4 1.4 1.4');
+                    circlePopUp2.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpEuropa7');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                    circlePopUp3.setAttribute('position', '12 20 -15.5'); //repetido heat
+                    circlePopUp3.setAttribute('rotation', '20 -40 0');
+                    circlePopUp3.setAttribute('scale', '4 4 4');
+                    circlePopUp3.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpEuropa8');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
                 }
+
                  if (ano > 2070)  {
                     sky.setAttribute('src','#2100_europa');
+
+                    circlePopUp.setAttribute('position', '12 20 -15.5');
+                    circlePopUp.setAttribute('rotation', '20 -40 0');
+                    circlePopUp.setAttribute('scale', '4 4 4');
+                    circlePopUp.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpEuropa8');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+                    
+                    circlePopUp2.setAttribute('position', '1.6 -0.3 2.3');
+                    circlePopUp2.setAttribute('rotation', '10 -150 0');
+                    circlePopUp2.setAttribute('scale', '1.4 1.4 1.4');
+                    circlePopUp2.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpEuropa9');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                    circlePopUp3.setAttribute('position', '-3 -1.7 -3.5');
+                    circlePopUp3.setAttribute('rotation', '0 60 0');
+                    circlePopUp3.setAttribute('scale', '2 2 2');
+                    circlePopUp3.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpEuropa11');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+                }
+                
+            }
+
+            if (markerData.name == "Arctic") {
+                popUp.setAttribute('scale', '0 0 0');
+                regiao_cenarios ="Arctic"; //Trocar pelos dados do artico 
+                if (ano < 2000) {
+                    sky.setAttribute('src','#1950_artico');
+                    circlePopUp.setAttribute('position', '-0.2 -15 -15.5');
+                    circlePopUp.setAttribute('rotation', '-30 0 0');
+                    circlePopUp.setAttribute('scale', '4 4 4');
+                    circlePopUp.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpArtico1');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+                    
+                    circlePopUp2.setAttribute('position', '-6 4 7');
+                    circlePopUp2.setAttribute('rotation', '10 140 0');
+                    circlePopUp2.setAttribute('scale', '3 3 3');
+                    circlePopUp2.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpArtico2');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                    circlePopUp3.setAttribute('position', '8 -5 5');
+                    circlePopUp3.setAttribute('rotation', '-30 -120 0');
+                    circlePopUp3.setAttribute('scale', '2 2 2');
+                    circlePopUp3.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpArtico9');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+                }
+                if (ano > 2000 && ano < 2040) {
+                    sky.setAttribute('src','#2020_artico');
+                    circlePopUp.setAttribute('position', '-18 -5.5 -13');
+                    circlePopUp.setAttribute('rotation', '10 50 0');
+                    circlePopUp.setAttribute('scale', '4 4 4');
+                    circlePopUp.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpArtico3');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+                    
+                    circlePopUp2.setAttribute('position', '3.4 4 3.8');
+                    circlePopUp2.setAttribute('rotation', '0 -140 0');
+                    circlePopUp2.setAttribute('scale', '2 2 2');
+                    circlePopUp2.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpArtico4');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                    circlePopUp3.setAttribute('position', '0 -4 3.4');
+                    circlePopUp3.setAttribute('rotation', '-90 -90 0');
+                    circlePopUp3.setAttribute('scale', '2 2 2');
+                    circlePopUp3.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpArtico6');
+                    popUp.setAttribute('scale', '1 1 1');
+                    }); 
+                }
+
+                if (ano > 2040 && ano < 2070)  {
+                    sky.setAttribute('src','#2050_artico');
+                    circlePopUp.setAttribute('position', '0.3 10 -15.5');
+                    circlePopUp.setAttribute('rotation', '20 0 0');
+                    circlePopUp.setAttribute('scale', '4 4 4');
+                    circlePopUp.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpArtico5');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+                    
+                    circlePopUp2.setAttribute('position', '0 -4 3.4');
+                    circlePopUp2.setAttribute('rotation', '-90 -90 0');
+                    circlePopUp2.setAttribute('scale', '2 2 2');
+                    circlePopUp2.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpArtico6');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                    circlePopUp3.setAttribute('position', '-21 -8 -13');
+                    circlePopUp3.setAttribute('rotation', '10 50 0');
+                    circlePopUp3.setAttribute('scale', '4 4 4');
+                    circlePopUp3.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpArtico11');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });        
+                }
+                 if (ano > 2070)  {
+                    sky.setAttribute('src','#2100_artico');
                     popUp.setAttribute('src','');
-                    circlePopUp.setAttribute('position','0 0 0');
-                    //circlePopUp2.setAttribute('position','0 0 0');
+                    circlePopUp.setAttribute('position', '5 -15 -15.5');
+                    circlePopUp.setAttribute('rotation', '-30 -10 0');
+                    circlePopUp.setAttribute('scale', '5 5 5');
+                    circlePopUp.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpArtico7');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                    circlePopUp2.setAttribute('position', '4.9 -6 3.4');
+                    circlePopUp2.setAttribute('rotation', '-30 -120 0');
+                    circlePopUp2.setAttribute('scale', '2 2 2');
+                    circlePopUp2.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpArtico8');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
+
+                    circlePopUp3.setAttribute('position', '-19 -11 -13');
+                    circlePopUp3.setAttribute('rotation', '10 50 0');
+                    circlePopUp3.setAttribute('scale', '4 4 4');
+                    circlePopUp3.addEventListener("mouseenter", () => {
+                    popUp.setAttribute('src','#PopUpArtico10');
+                    popUp.setAttribute('scale', '1 1 1');
+                    });
                 }
             }
             //------------------------------------------------------------------------------//
@@ -2155,7 +2787,7 @@ function startRecognition() {
     }
 }
 
-function rolarAno(speakedYear) {
+function rolarAno(speakedYear, amount) {
     const passo = ano < speakedYear ? 1 : -1;
     const totalPassos = Math.abs(speakedYear - ano);
 
@@ -2164,9 +2796,24 @@ function rolarAno(speakedYear) {
             ano += passo;
             atualizarDados();
             scrollToYear(ano);
-        }, i * 60); 
+        }, i * amount); 
     }
 }
+
+
+document.getElementById('enterBtn').addEventListener('click', () => {
+    setTimeout(() => {
+        rolarAno(2025, 15);
+    }, 1300); 
+
+    if (visivel) document.getElementById('botao_PollutionandEmissions').click();
+    if (visivel2) document.getElementById('botao_PopulationandResources').click();
+    if (visivel3) document.getElementById('botao_ClimateandAtmosphere').click();
+    if (visivel4) document.getElementById('botao_NaturalChanges').click();
+    if (visivel5) document.getElementById('botao_Continentes').click();
+
+});
+
 
 
 
@@ -2183,7 +2830,9 @@ const continentRotations = {
     africa: { azimuth: -1.2767, polar: 1.6827},
     europe: { azimuth: -1.3513, polar: 0.8011 },
     asia:   { azimuth: 0.0513, polar: 1.1717 },
-    oceania: { azimuth: 0.7412, polar: 1.9928 }
+    oceania: { azimuth: 0.7412, polar: 1.9928 },
+    artico: { azimuth: -1.3513, polar: 0.3011 },
+    americanorte: { azimuth: -3.0679, polar: 0.9450}
 };
 
 function rodaPlaneta(name, duration = 1500) {
@@ -2203,6 +2852,7 @@ function rodaPlaneta(name, duration = 1500) {
     const startTime = performance.now();
 
     function animate(time) {
+        
         const elapsed = time - startTime;
         const t = Math.min(elapsed / duration, 1);
         const eased = t * (2 - t); // ease-out
@@ -2245,7 +2895,10 @@ function processarComandos(palavra) {
     if (resultado) {  // Se encontrar um ano
         const anoEncontrado = parseInt(resultado[0], 10);  
         if (anoEncontrado >= 1950 && anoEncontrado <= 2100) { 
-            rolarAno(anoEncontrado);
+            //rolarAno(anoEncontrado, 75);
+             setTimeout(() => {
+                rolarAno(anoEncontrado, 60);
+            }, 300); 
 
         }
     }
@@ -2363,7 +3016,7 @@ function processarComandos(palavra) {
                     sky.setAttribute('src','#1950_europa');
                 }
                 if (ano > 2000 && ano < 2040) {
-                    sky.setAttribute('src','#1950_europa');
+                    sky.setAttribute('src','#2020_europa');
                 }
                 if (ano > 2040 && ano < 2070)  {
                     sky.setAttribute('src','#2050_europa');
@@ -2373,10 +3026,26 @@ function processarComandos(palavra) {
                 }
             }
 
+            if (continente_detetado == "Arctic") {
+                regiao_cenarios ="Arctic";
+                if (ano < 2000) {
+                    sky.setAttribute('src','#1950_artico');
+                }
+                if (ano > 2000 && ano < 2040) {
+                    sky.setAttribute('src','#2020_artico');
+                }
+                if (ano > 2040 && ano < 2070)  {
+                    sky.setAttribute('src','#2050_artico');
+                }
+                 if (ano > 2070)  {
+                    sky.setAttribute('src','#2100_artico');
+                }
+            }
+
                 renderer.domElement.style.transition = "opacity 1s ease";
                 renderer.domElement.style.opacity = 0;
 
-                back.style.display = "block";
+                back.style.display = "flex";
                 compass.style.display = "block";
                 data_scene.style.display = "block";
                 main.style.opacity = 0;
@@ -2450,16 +3119,24 @@ function processarComandos(palavra) {
     rodaPlaneta("asia", 1500);
     }
 
-    const palavrasChave_continente_America = [
-    "américa","canadá","estados unidos","méxico","antígua e barbuda","bahamas","barbados","belize","costa rica","cuba",
-    "dominica","el salvador","granada","guatemala","haiti","honduras","jamaica","nicarágua","panamá","república dominicana",
-    "são cristóvão e neves","santa lúcia","são vicente e granadinas","argentina","bolívia","brasil","chile","colômbia","equador","guiana",
-    "paraguai","peru","suriname","uruguai","venezuela","groenlândia","porto rico","guiana francesa","bermudas","ilhas cayman",
-    "ilhas virgens","aruba","curaçao","montserrat","são bartolomeu","saint martin","ilhas turks e caicos"
-    ];
+    const palavrasChave_continente_AmericaSul = [
+  "américa do sul","argentina","bolívia","brasil","chile","colômbia","equador","guiana","paraguai","peru","suriname","uruguai","venezuela"];
 
-    if (palavrasChave_continente_America.some(palavraChave => palavra.includes(palavraChave))) {
+
+    if (palavrasChave_continente_AmericaSul.some(palavraChave => palavra.includes(palavraChave))) {
     rodaPlaneta("america", 1500);
+    }
+
+const palavrasChave_continente_Americanorte = [
+  "america", "américa do norte", "américa central", "canadá","estados unidos","méxico","antígua e barbuda","bahamas","barbados","cuba","dominica",
+  "granada","haiti","jamaica","são cristóvão e neves","santa lúcia","são vicente e granadinas","república dominicana","belize","costa rica",
+  "el salvador","guatemala","honduras","nicarágua","panamá","porto rico","guiana francesa","bermudas","ilhas cayman","ilhas virgens","aruba",
+  "curaçao", "montserrat","são bartolomeu","saint martin","ilhas turks e caicos"
+];
+
+
+    if (palavrasChave_continente_Americanorte.some(palavraChave => palavra.includes(palavraChave))) {
+    rodaPlaneta("americanorte", 1500);
     }
 
 
@@ -2492,6 +3169,17 @@ function processarComandos(palavra) {
     if (palavrasChave_continente_Africa.some(palavraChave => palavra.includes(palavraChave))) {
     rodaPlaneta("africa", 1500);
     }
+
+    const palavrasChave_continente_Artico = [
+    "gronelândia ", "canadá ártico", "alasca", "rússia ártica", "ilhas svalbard", "ilhas frans josef", "ilha wrangel", "ilha nova sibéria",
+  "ilha de severnaia zemlia", "ilhas canadenses do ártico", "ilhas do mar de barents", "ilha de banaan", "ilha ellef ringnes", "ilha melville",
+  "ilha prins carl", "ilhas diomedes", "ártico", "polo norte", "círculo polar ártico"
+    ];
+
+    if (palavrasChave_continente_Artico.some(palavraChave => palavra.includes(palavraChave))) {
+    rodaPlaneta("artico", 1500);
+    }
+       
        
 }
 
@@ -2752,6 +3440,50 @@ function SVGPorContinente(continente_detetado) {
 154.117L432.98 144.999Z" fill="currentColor"/>
 </g>
 </svg>`;
+  } else if (continente_detetado === "Arctic") {
+    novoConteudoSVG = `<svg width="100%" viewBox="0 0 1024 642" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M484.813 222.944C487.102 220.777 490.716 219.091 491.439 216.441C493.367 209.577 498.909 208.975 502.885 208.132C503.849 203.676 504.571 200.183 505.415 195.968C505.174 195.968 504.09 195.246 502.764 195.246C499.27 195.005 497.584 193.439 498.065 189.826C498.668 184.407 493.969 178.747 498.186 173.689C501.559 169.715 505.776 166.463 509.391 162.609C511.439 160.442 513.607 158.154 514.451 155.504C517.222 147.315 524.692 144.063 530.595 139.126C532.764 137.319 535.896 136.597 538.306 134.911C544.33 130.575 551.438 131.779 556.86 136.717C560.836 140.21 566.137 142.498 571.197 144.425C576.619 146.472 581.438 148.278 581.317 155.384C587.944 154.42 586.137 148.88 587.582 145.027H593.486C593.727 147.194 594.088 149.121 594.45 152.493C602.763 143.822 612.763 142.739 623.365 143.461C623.606 142.859 623.726 142.257 623.967 141.655C621.919 141.053 619.871 140.33 617.702 139.728C618.425 138.764 619.028 137.801 619.751 136.838C621.919 137.199 624.329 137.078 626.377 137.921C631.196 139.848 634.931 139.005 637.943 134.79C638.907 133.466 640.112 132.382 641.196 131.177C645.292 126.44 649.268 126.44 653.124 131.177C654.569 129.973 655.895 128.648 657.822 127.083C658.545 129.612 659.148 131.539 659.75 133.466C660.232 133.466 660.593 133.586 661.075 133.706C661.557 131.9 661.919 129.973 662.401 127.805C663.967 127.805 665.654 127.564 667.461 127.444C667.702 125.878 668.063 124.433 668.304 122.988C668.666 123.47 669.027 124.072 669.389 124.554C678.304 117.569 687.942 112.029 700.231 109.621C700.352 109.621 701.677 110.945 703.966 112.993C706.617 109.5 708.665 106.008 711.436 103.117C712.641 101.913 716.617 101.19 717.099 101.793C720.352 106.369 724.93 105.887 729.026 104.924C734.448 103.479 737.098 107.091 739.147 110.343C740.351 112.27 739.388 115.522 739.388 119.255C747.58 120.7 757.821 120.459 765.893 124.433C778.062 130.455 789.989 125.517 801.917 127.444C803.122 122.627 805.531 121.302 810.591 122.386C821.314 124.674 829.989 131.418 840.35 135.031C843.362 130.936 847.94 129.973 850.47 134.309C855.41 142.739 862.518 139.005 869.024 139.126C869.627 139.126 870.109 138.644 870.711 138.524C871.073 138.524 871.434 138.524 872.036 138.524C873.241 140.089 874.566 141.655 876.976 144.545C876.615 141.053 876.494 139.126 876.133 135.272C883.362 137.319 889.627 139.126 895.892 140.932C898.301 141.655 900.831 142.136 903 143.22C908.542 145.99 913.964 149.001 919.385 151.891C919.988 152.252 920.349 152.975 920.951 153.216C926.654 155.464 929.024 160.361 928.06 167.908C925.409 166.584 922.879 165.861 921.072 164.295C915.771 160.08 915.048 160.08 910.711 166.102C912.518 168.27 914.325 170.558 916.614 173.328C912.879 174.532 909.867 175.616 906.614 176.338C902.759 177.302 898.663 177.543 897.699 182.721C897.578 183.444 894.687 183.805 893.12 184.046C889.988 184.407 886.494 183.805 883.723 184.889C879.024 186.936 879.506 192.596 884.687 196.57C881.072 204.157 877.338 211.865 873.603 219.572C872.88 219.572 872.157 219.332 871.314 219.332C870.229 217.405 869.145 215.478 868.181 213.431C866.976 210.781 865.53 208.132 864.808 205.362C864.085 202.833 863.241 199.822 864.085 197.534C866.494 191.031 869.627 184.889 872.398 178.626C871.916 178.145 871.434 177.663 870.952 177.302C870.109 178.867 869.145 180.433 868.542 181.517C866.374 180.794 863.241 179.59 863.121 179.951C861.555 182.962 860.47 186.214 859.145 189.345C859.506 190.067 859.747 190.79 860.109 191.512C853.121 190.429 846.013 189.465 839.025 188.14C830.23 186.334 827.097 188.14 824.447 196.57C823.844 198.497 821.917 200.063 820.953 201.99C820.35 203.074 819.868 205.241 820.35 205.603C821.435 206.446 823.121 206.687 824.567 206.687C827.097 206.446 829.627 205.844 832.157 205.482C832.278 205.964 832.398 206.446 832.519 207.048C833.362 205.844 834.206 204.639 836.133 201.749C837.218 205.603 837.579 207.891 838.422 210.059C839.989 213.792 841.796 217.405 843.483 221.138C844.687 223.547 846.374 225.835 847.097 228.364C847.338 229.086 845.049 230.532 843.242 232.579C843.242 232.94 843.362 234.867 843.603 237.276C838.422 234.987 838.061 230.893 837.579 226.678C837.097 222.944 836.013 219.332 835.169 215.719C834.567 215.719 834.085 215.96 833.483 216.08C833.483 217.043 833.242 218.007 833.483 218.729C837.579 230.532 830.712 239.443 825.652 248.837C825.17 249.8 823.844 250.402 822.88 250.884C815.17 254.979 814.447 256.424 815.29 265.576C815.772 270.875 817.579 276.295 811.917 282.437C807.82 275.813 803.965 269.791 800.11 263.65C797.941 268.467 795.893 272.32 794.688 276.295C794.086 278.101 794.327 281.112 795.411 282.196C802.158 288.699 801.314 301.946 794.929 310.135C792.278 313.507 790.592 317.722 788.423 321.576C786.495 325.068 784.086 327.477 779.387 326.995C777.339 326.754 775.05 328.2 771.074 329.404C777.7 332.174 776.134 335.064 774.206 338.677C772.881 341.206 772.761 344.698 772.64 347.709C772.158 357.825 768.785 363.004 763.845 364.088C758.062 359.993 753.604 356.741 749.267 353.61C746.014 358.066 746.978 363.124 752.038 368.062C757.219 372.999 759.146 379.503 760.472 386.367C751.918 381.068 743.725 375.649 741.797 364.69C741.556 363.606 741.315 361.92 741.918 361.197C744.809 357.584 743.002 355.296 740.713 352.406C739.147 350.359 739.026 347.107 737.942 343.374C736.858 343.374 734.93 343.012 733.002 342.892C729.388 342.651 728.424 341.326 728.303 337.232C728.183 333.017 724.809 328.922 722.641 324.225C719.749 325.55 716.617 326.032 714.81 327.838C710.111 332.656 706.617 339.038 701.436 343.012C694.93 348.07 697.099 355.537 694.689 361.559C692.641 366.496 690.714 368.423 686.979 367.339C682.28 357.103 677.943 347.589 673.605 338.195C672.882 336.63 672.401 334.823 671.919 333.137C671.557 331.933 671.678 330.247 670.955 329.765C664.69 325.791 663.124 316.398 653.244 315.916C648.184 315.675 643.485 314.109 639.268 318.324C637.582 315.795 636.256 313.869 635.052 311.942C634.57 312.183 634.088 312.423 633.606 312.544C634.57 314.832 635.172 317.481 636.738 319.408C641.196 324.707 640.594 330.849 634.811 334.944C626.016 341.086 617.1 346.866 607.221 351.202C600.715 354.092 598.787 353.851 596.859 346.625C594.45 337.954 589.269 331.331 583.847 324.707C581.799 320.01 579.751 315.193 577.582 310.497C577.101 316.518 576.378 322.66 583.245 325.309C583.607 333.378 587.462 339.761 592.402 345.782C594.932 348.793 596.98 352.165 600.353 356.982C603.727 356.26 608.666 355.537 613.365 353.972C616.98 352.767 619.389 353.731 619.269 357.223C619.269 361.077 618.425 365.292 616.618 368.664C613.245 375.047 609.028 380.948 605.173 386.969C604.329 388.294 603.606 390.1 602.281 390.702C596.257 393.954 593.365 399.132 592.161 405.395C591.197 409.971 590.594 414.668 590.353 419.244C590.112 423.58 590.594 428.035 590.594 432.491C590.474 438.633 589.39 443.812 583.968 448.749C579.751 452.603 578.667 459.949 576.257 465.73C575.655 467.175 575.655 469.945 575.052 470.065C568.185 471.39 569.631 477.412 567.824 481.627C566.619 484.517 563.245 486.564 562.041 489.575C557.583 500.895 546.378 501.979 537.342 506.194C533.005 508.241 529.872 506.435 528.788 501.859C526.619 492.826 521.921 484.637 521.559 474.882C521.318 469.222 516.86 463.683 514.571 457.902C513.607 455.493 512.162 452.483 512.885 450.435C517.222 437.309 514.089 424.543 511.439 411.778C511.198 410.814 510.957 409.73 510.354 409.008C503.728 401.902 504.933 393.713 507.102 385.404C507.583 383.597 507.102 381.55 507.102 379.021C499.15 381.55 492.162 381.67 486.258 374.565C486.258 374.565 485.415 374.444 485.295 374.685C480.355 383.236 471.439 380.466 464.331 380.827C459.994 381.068 454.934 376.853 451.199 373.481C448.307 370.832 447.464 366.014 444.813 363.004C439.753 357.344 440.235 350.84 439.512 343.976C438.307 332.174 442.042 321.576 445.536 310.858C446.259 308.811 448.428 307.125 450.355 305.679C454.813 302.548 457.584 298.574 457.343 293.155C456.861 284.966 463.367 281.594 468.066 277.017C468.668 276.415 470.716 276.174 471.319 276.776C475.295 280.028 478.186 277.258 481.319 275.452C492.041 274.247 502.764 272.923 513.607 271.718C512.644 282.918 515.294 286.049 523.366 288.819C527.222 290.144 530.957 292.312 535.294 294.359C536.74 286.772 542.161 287.495 547.824 288.338C555.294 289.542 562.763 290.746 571.077 292.071C572.281 287.013 573.727 281.473 575.052 275.933C574.45 275.813 573.968 275.692 573.366 275.452C571.799 277.499 570.354 279.546 568.787 281.594C568.306 281.232 567.824 280.991 567.221 280.63C567.221 279.065 567.101 277.499 567.101 277.378C561.318 276.656 556.378 275.933 551.318 275.211C550.233 270.634 549.149 266.058 548.065 261.121C543.125 264.252 546.378 268.708 546.378 272.32C546.378 273.404 549.39 274.488 551.077 275.452V280.028C547.583 278.221 544.932 275.933 542.041 275.572C538.185 275.09 537.583 273.284 537.704 270.032C537.945 265.817 536.981 262.084 532.282 260.398C531.92 258.953 532.041 256.906 531.198 256.063C527.704 252.69 523.969 249.8 520.354 246.669C519.872 247.151 519.391 247.632 518.909 248.114C520.836 250.161 522.764 252.45 524.812 254.256C527.222 256.424 529.872 258.351 532.402 260.398C532.523 260.518 532.643 260.639 532.764 260.88C532.764 261 532.764 261.241 532.764 261.482C531.439 261.482 530.113 261.482 530.234 261.482C527.824 265.336 525.776 268.587 523.366 272.561C521.68 271.237 519.872 269.791 518.427 268.708C520.595 266.901 522.041 265.697 523.487 264.493C521.8 262.686 520.475 260.398 518.427 258.953C516.258 257.387 513.607 256.544 511.077 255.46C509.752 258.712 514.089 264.131 506.499 266.419C506.017 260.278 505.535 254.858 505.053 249.439C503.246 249.8 500.716 251.125 498.668 250.523C494.09 249.318 491.68 251.245 490.114 254.858C487.102 261.723 484.331 268.708 481.439 275.572C474.813 274.609 468.186 273.645 460.476 272.441V249.68C466.138 249.318 471.198 248.716 476.259 248.837C480.837 248.957 481.921 245.344 480.837 243.177C479.271 240.166 477.945 235.71 472.885 235.59C471.68 235.59 470.475 234.265 469.271 233.422C470.235 232.338 471.078 230.893 472.283 230.17C476.379 227.4 480.716 224.992 484.933 222.342L484.813 222.463V222.944ZM542.161 160.442C541.559 160.08 540.956 159.84 540.354 159.478C537.222 163.332 533.848 166.945 531.198 171.16C529.39 174.05 527.222 178.506 528.186 181.035C531.198 188.622 526.981 194.162 524.451 200.304C523.728 201.99 521.318 204.157 519.993 204.037C518.065 203.796 516.017 201.869 514.812 200.063C513.246 197.895 512.523 195.246 511.318 192.837C510.836 192.958 510.354 193.198 509.873 193.319C511.077 197.413 512.282 201.388 513.848 206.807C517.463 205.964 521.68 203.796 525.415 204.398C534.21 205.723 535.414 201.026 536.137 194.282C536.378 191.994 538.788 190.067 540.113 187.9C540.836 187.9 541.679 188.02 542.402 188.14C541.438 185.973 541.077 182.962 539.511 181.999C531.318 176.94 530.836 174.291 537.463 167.186C539.27 165.138 540.595 162.609 542.161 160.321V160.442ZM565.534 154.179C566.378 159.358 565.896 164.055 573.125 164.898C569.751 157.07 579.39 161.044 579.992 155.263C575.414 154.902 570.836 154.541 565.534 154.179ZM629.871 312.544C627.702 309.172 626.016 306.161 623.967 303.271C622.16 300.742 621.919 295.202 616.377 298.694C619.51 303.993 622.401 309.051 625.293 313.989C626.979 313.507 628.546 313.026 629.871 312.544ZM769.628 339.038C770.592 338.436 771.556 337.714 772.64 337.111C770.592 334.101 768.544 331.21 766.375 328.2C765.532 328.802 764.688 329.404 763.725 330.006C765.652 333.017 767.58 336.148 769.628 339.159V339.038Z" fill="white"/>
+<path d="M286.869 119.738C287.471 121.183 288.194 122.629 288.917 124.194C292.411 123.472 296.628 120.461 298.796 126.362C306.628 123.833 311.688 131.059 318.314 132.143C324.7 133.226 328.555 139.248 325.302 144.426C329.158 146.955 334.459 148.641 336.266 152.134C337.591 154.783 334.579 159.721 333.374 164.056C330.121 162.129 327.832 160.684 325.423 159.36C330.724 165.742 326.507 171.884 325.182 179.592C321.567 177.304 317.832 175.618 314.941 173.089C311.085 169.716 307.471 166.706 301.688 167.308C300.001 167.428 298.074 165.622 296.146 164.658C297.351 162.972 298.435 161.046 300.001 159.6C300.965 158.637 302.772 158.637 303.736 157.674C306.146 155.506 310.483 152.134 310.001 150.93C308.676 147.678 305.664 144.426 302.531 142.981C299.037 141.295 294.58 141.416 292.17 141.054C291.688 146.233 293.013 152.616 290.483 155.626C287.592 158.998 281.086 159.119 277.833 160.203C269.52 169.837 262.05 178.387 254.58 186.817C261.086 195.368 267.351 202.714 279.279 201.871C280.483 205.725 281.688 209.94 283.375 215.48C285.182 210.301 286.507 206.568 287.833 202.714C286.869 201.871 285.905 201.028 283.857 199.222H290.724C291.568 191.755 292.652 184.409 293.013 177.063C293.254 172.005 296.266 171.402 299.76 172.366C303.254 173.209 306.387 175.256 309.76 176.581C310.965 177.063 312.411 177.183 314.097 177.544C314.338 181.157 314.459 184.891 314.7 188.985H322.411C322.772 187.42 323.133 185.734 323.495 184.048C324.218 184.048 325.182 184.048 325.302 184.288C327.471 188.985 330.483 193.561 331.447 198.62C332.41 203.678 336.266 209.338 342.531 210.181C342.531 213.553 342.772 217.166 342.531 220.658C342.169 225.114 343.495 228.486 346.748 231.978C348.555 233.905 348.314 237.639 349.398 242.456C344.459 240.408 341.206 239.084 337.953 237.759C338.073 237.277 338.314 236.796 338.435 236.193C336.145 236.555 333.856 237.036 329.88 237.639C333.856 231.497 337.109 226.559 341.206 220.297C335.302 222.585 330.965 224.391 326.868 225.957C326.146 227.643 325.543 229.57 324.459 231.256C323.254 233.062 321.567 234.507 320.001 236.073C321.688 237.277 323.495 238.482 325.182 239.565C325.664 239.927 326.266 240.047 328.435 240.77C324.097 243.299 320.603 245.346 316.146 247.875C316.507 245.828 316.748 244.985 317.109 242.937C311.447 245.346 306.387 247.514 300.965 249.922C302.411 252.692 303.254 254.378 304.58 256.907C294.339 258.593 290.845 265.578 288.917 273.888C287.833 275.694 286.989 277.742 285.785 279.428C284.7 280.873 283.375 282.197 282.05 283.402C278.797 286.412 274.821 289.062 272.17 292.554C270.966 294.12 272.17 297.612 272.17 300.141C272.17 300.503 272.893 300.744 272.893 301.105C272.893 307.006 272.291 313.268 280.483 316.158C279.881 316.64 279.158 317.242 278.556 317.724C277.231 317.122 275.905 316.761 274.7 316.038C273.616 315.436 272.652 314.713 271.929 313.75C269.761 311.221 267.592 308.692 265.664 305.922C264.46 304.356 263.978 300.984 262.773 300.864C259.158 300.382 255.424 300.864 251.809 301.225C250.002 301.466 247.713 303.273 246.749 302.55C239.761 297.974 234.219 301.346 228.075 305.44C228.075 310.98 227.954 316.761 228.075 322.541C228.075 325.07 228.315 327.961 229.52 330.008C230.605 331.694 233.255 333.139 235.303 333.259C236.508 333.259 238.074 330.73 239.159 329.044C239.882 327.961 240.123 326.395 240.604 324.829H252.893C251.93 329.647 250.966 334.223 249.881 339.522C251.327 339.883 253.134 340.485 254.942 340.726C262.532 341.93 263.616 343.496 262.532 351.203C262.17 353.612 261.929 356.021 261.809 358.429C261.809 359.633 262.05 360.717 262.291 361.801C266.387 364.21 272.05 351.083 274.941 363.246C274.459 363.848 273.857 364.451 273.375 365.053C271.206 366.859 268.917 368.666 265.544 371.556C260.484 366.859 255.062 361.681 249.641 356.623C248.556 355.539 247.351 354.214 246.026 353.853C241.327 352.649 236.749 351.806 235.183 346.145C234.942 345.543 233.255 345.182 232.171 344.941C224.942 343.014 217.231 342.051 210.605 338.799C207.472 337.354 205.063 331.694 204.822 327.84C204.46 321.578 201.93 317.363 197.473 313.509C196.027 312.305 195.183 310.498 193.256 308.09C194.099 312.184 194.822 315.075 195.545 318.567C190.967 318.567 188.798 317.001 186.629 313.629C181.69 306.042 179.16 297.853 176.629 289.423C176.148 287.978 175.184 286.292 173.979 285.449C167.834 281.234 166.027 275.333 166.63 268.348C167.352 259.316 168.316 250.284 169.039 241.251C169.28 238 169.16 234.748 168.798 231.497C167.714 223.428 166.389 215.359 165.304 207.772C164.943 208.856 164.22 210.422 163.618 212.108C163.136 212.348 162.533 212.589 162.051 212.83C163.377 198.138 148.558 197.897 142.654 189.587C141.57 188.142 136.028 189.949 133.016 190.31C132.534 195.368 133.618 201.269 131.329 202.955C126.871 206.447 120.606 207.772 115.064 210.06C114.823 209.579 114.582 208.976 114.341 208.495L118.196 200.908C117.594 200.426 117.112 199.944 116.51 199.583C109.401 206.688 103.016 214.516 95.0643 220.417C89.1607 224.873 81.9319 228.366 73.8597 227.402C73.4983 226.92 73.1368 226.318 72.7754 225.837C76.6308 222.946 80.6066 220.176 84.3415 217.166C90.0041 212.348 95.4257 207.17 101.329 201.992C95.6667 198.499 95.5462 198.499 90.3655 203.075C88.1969 200.306 86.0282 197.536 83.9801 194.766C83.7391 195.007 83.3777 195.368 83.1367 195.609C82.5343 193.441 82.4138 190.912 81.209 189.106C77.4741 183.445 78.438 178.267 84.7029 175.738C88.9198 174.052 93.6185 173.45 97.9558 172.005C100.124 171.282 102.052 170.078 103.859 167.91H91.4498C87.8354 163.815 84.9439 160.684 81.5705 156.951C88.5583 155.265 95.1847 150.207 104.341 152.736C105.064 152.134 106.751 150.689 108.317 149.364C105.426 147.798 102.414 146.594 99.763 144.788C98.6787 144.065 97.8353 141.897 98.0763 140.693C98.3172 139.73 100.365 138.887 101.691 138.525C107.956 136.96 114.1 135.635 120.365 134.19C121.329 133.949 122.413 133.467 123.257 133.588C134.823 135.876 146.268 138.284 157.834 140.573C161.449 141.295 165.184 141.777 168.678 141.416C175.184 140.813 181.569 139.489 188.798 138.405C188.918 138.766 189.521 140.332 190.244 142.74C192.653 141.175 194.822 139.85 197.111 138.405C196.991 138.887 196.87 139.248 196.629 139.73C206.629 142.74 216.749 145.751 226.749 149.003C228.797 149.605 230.605 151.05 232.412 152.134C234.701 147.678 230.966 143.945 224.46 143.463C220.002 143.102 215.665 140.693 211.328 139.127C211.93 137.562 212.533 135.996 213.255 134.069C208.798 131.179 202.894 131.42 196.629 134.19C195.545 130.938 193.376 128.048 194.099 125.88C195.424 121.665 198.075 117.691 200.725 114.078C202.292 111.79 214.099 113.837 218.436 116.487C220.123 115.282 221.81 114.319 223.135 113.115C224.34 111.91 225.303 110.465 226.508 108.9C230.123 109.381 234.099 109.863 236.508 110.104C238.918 107.093 240.604 104.926 242.291 102.758C243.376 104.805 244.58 106.852 246.147 109.743C250.363 108.057 255.424 106.13 261.929 103.601V113.837C258.797 113.596 255.544 113.476 252.412 113.235C251.327 113.235 250.243 112.392 249.279 112.753C241.809 115.162 234.339 117.811 226.629 120.461C228.918 121.545 231.448 122.629 234.58 124.194C241.207 116.728 250.363 117.932 259.761 118.534C260.363 121.665 260.966 124.435 261.568 127.566C257.11 130.577 252.653 133.588 248.074 136.719V142.981C244.58 142.62 241.327 142.259 237.713 141.897C242.291 147.919 243.135 148.039 256.749 143.824C257.472 145.51 258.315 147.196 259.038 148.882C259.64 148.882 260.122 148.882 260.725 148.882C260.725 145.269 260.725 141.777 260.725 138.164C260.725 135.996 261.086 133.829 261.207 131.781C263.014 132.022 265.062 131.781 266.628 132.504C268.435 133.467 270.002 135.153 271.447 136.598C272.773 137.923 273.857 139.489 275.544 140.813C273.255 133.347 275.423 127.085 280.483 121.906C281.809 120.581 284.58 120.581 286.628 119.859H286.387L286.869 119.738Z" fill="white"/>
+<path d="M273.256 365.179C273.738 364.577 274.341 363.974 274.823 363.372C279.642 359.037 284.461 354.701 289.521 350.125C291.328 351.691 292.895 352.895 294.702 354.46C295.907 353.497 297.112 352.413 298.557 351.209C300.124 352.895 301.328 354.581 302.895 355.665C305.304 357.351 307.593 358.555 311.087 359.157C317.232 360.241 324.822 361.807 327.955 369.514C329.4 373.247 331.569 375.776 336.629 374.933C342.292 374.09 347.111 379.269 347.713 385.893C347.834 387.819 347.713 389.867 347.713 393.118C355.665 395.166 363.978 397.092 372.171 399.381C374.821 400.103 377.11 402.03 379.641 403.114C381.207 403.836 383.014 403.836 384.46 404.559C385.906 405.282 387.833 406.365 388.436 407.69C391.689 416.12 388.074 423.707 384.339 431.053C382.894 433.944 380.002 436.232 378.315 439.122C376.99 441.29 376.267 443.819 375.785 446.348C374.942 451.406 374.46 456.464 373.858 461.643C373.376 465.858 371.207 468.025 366.87 469.23C360.243 471.036 357.352 475.492 356.99 482.356C356.99 483.199 357.231 484.163 356.87 484.765C354.099 489.221 350.605 493.315 348.436 498.012C345.665 503.793 341.328 505.358 335.665 504.395C335.424 505.358 335.063 505.72 335.183 506.081C337.954 516.558 337.232 516.679 326.75 521.014C323.376 522.459 321.328 527.879 319.4 531.853C318.316 534.02 319.159 537.031 318.437 539.44C317.232 543.173 313.738 546.545 318.437 550.399C319.039 550.881 318.437 554.253 317.473 555.216C307.352 564.61 310.123 570.511 320.605 577.977C314.702 582.433 304.461 579.784 300.846 573.642C293.859 561.96 293.015 548.954 292.172 535.827C292.051 533.057 291.569 530.287 291.328 527.276C293.015 525.229 294.822 522.7 297.714 519.087H290.003C291.569 510.778 293.136 502.829 294.702 494.881C295.184 492.593 296.148 490.425 296.148 488.137C296.148 479.948 296.509 471.638 295.907 463.449C295.425 457.066 293.618 451.286 287.714 447.191C283.136 444.06 277.473 440.688 278.919 433.221C279.039 432.499 277.112 431.535 276.148 430.572C274.22 428.645 271.811 426.959 270.485 424.55C268.437 420.576 267.714 416.482 274.702 414.916C272.052 413.23 270.003 412.026 268.799 411.183C262.895 394.804 274.943 380.834 273.377 365.299L273.256 365.179Z" fill="white"/>
+<path d="M383.5 79.1561C383.138 68.5583 383.138 68.6788 392.897 68.197C403.62 67.7153 414.222 66.511 424.945 66.6315C431.812 66.6315 438.68 68.7992 445.547 69.8831C445.547 70.8465 445.668 71.6895 445.788 72.6529C442.053 74.5798 438.439 76.5067 434.704 78.554C434.945 79.0357 435.186 79.5174 435.306 79.9991C436.752 79.6378 438.198 79.397 439.523 78.9152C443.86 77.3497 447.957 76.1454 451.451 80.6013C452.053 81.3238 453.258 81.4443 453.981 82.0464C455.306 83.0098 456.511 84.2141 457.836 85.298C456.39 85.9001 454.945 86.7431 453.378 87.2249C449.643 88.3087 445.788 89.2722 441.812 90.356C442.535 93.3668 443.017 95.1732 443.378 96.6183C441.571 97.8226 440.005 98.7861 438.318 99.9904C441.089 102.038 443.258 103.603 446.511 106.132C442.053 106.975 439.162 107.577 435.909 108.3C436.391 111.311 437.234 114.081 437.234 116.85C437.234 119.379 437.354 123.113 435.909 124.197C432.535 126.726 432.174 129.375 433.62 133.47C431.692 132.988 430.367 132.627 428.439 132.145C429.764 134.072 430.848 135.517 431.933 136.962C431.692 137.564 431.451 138.287 431.21 138.889C426.27 137.323 421.21 135.758 416.27 134.192C416.029 134.915 415.788 135.517 415.668 136.24C418.559 137.444 421.451 138.648 425.306 140.214C422.415 142.863 419.644 145.994 416.391 148.162C410.969 151.895 405.307 155.267 399.524 158.399C397.355 159.603 394.584 160.085 392.174 159.964C386.994 159.603 386.271 163.216 384.945 166.708C382.174 173.693 379.283 180.678 376.994 186.218C371.813 184.773 367.958 184.05 364.464 182.725C362.898 182.123 360.97 180.558 360.608 179.112C359.645 175.861 359.886 172.368 359.163 169.117C358.199 164.3 356.874 159.723 355.307 153.1C357.115 151.052 360.367 147.44 363.982 143.345C361.09 141.659 357.837 139.732 353.139 136.962C356.151 136.36 357.837 136.36 358.922 135.637C359.886 135.035 360.488 133.711 360.127 131.904C358.199 132.747 356.151 133.59 354.103 134.554C353.38 128.05 352.657 122.27 352.054 116.73C347.597 115.164 343.5 113.719 339.404 112.395C338.561 112.154 337.476 112.395 336.633 112.635C330.97 114.562 327.115 112.756 324.344 106.253C329.043 105.771 333.5 105.41 337.958 105.048C337.958 104.567 337.958 104.205 337.958 103.724C332.055 103.483 326.272 103.122 320.368 102.881C320.127 102.038 319.886 101.195 319.766 100.352C326.392 98.0635 333.139 95.7753 340.97 93.0055C338.32 91.3195 336.874 90.4765 335.428 89.513C350.729 81.3238 366.03 74.5798 383.741 79.2765L383.5 79.1561ZM416.15 76.5067C425.708 78.6744 431.13 78.3532 432.415 75.5432C426.873 75.9045 421.451 76.2658 416.15 76.5067Z" fill="white"/>
+<path d="M823.853 427.917C831.804 430.446 839.876 426.713 846.744 431.891C842.647 435.665 844.535 439.88 852.406 444.536C858.189 439.117 853.009 431.289 856.382 425.268C863.25 424.424 859.997 430.807 861.804 433.457C863.972 436.588 865.418 440.08 867.105 443.452C868.792 446.945 870.84 450.437 871.924 454.05C873.008 457.663 873.008 461.517 873.611 465.852C878.069 463.925 879.273 466.093 880.117 470.067C881.804 477.895 884.093 485.723 879.996 493.43C877.105 498.85 873.972 504.269 870.599 509.448C863.852 519.925 858.069 521.972 846.141 519.202C838.19 517.396 837.828 516.914 838.19 508.484C832.768 508.243 829.395 505.353 826.744 500.295C824.334 495.598 814.094 495.719 806.865 499.091C800.479 502.101 793.853 504.51 787.347 506.798C783.733 508.123 779.154 504.39 779.998 500.897C782.287 491.383 778.19 482.471 777.347 473.198C776.986 468.863 777.106 466.575 781.564 466.213C786.504 465.732 788.431 462.721 789.154 458.386C789.877 454.411 791.202 451.16 796.624 454.411C795.66 447.427 799.997 446.222 804.696 446.824C808.551 447.306 810.118 445.981 810.118 442.609C810.118 437.551 813.25 435.624 817.467 434.781C821.081 434.059 825.057 433.818 823.732 427.676L823.853 427.917Z" fill="white"/>
+<path d="M287.109 119.861C283.133 118.295 279.157 116.97 275.181 115.164C273.976 114.682 273.253 113.237 272.289 112.274C272.53 111.671 272.892 111.19 273.133 110.588C276.024 111.19 279.036 111.792 281.928 112.394C284.94 112.996 287.952 113.598 291.084 114.08C291.325 113.357 291.446 112.635 291.687 111.912C289.518 111.19 287.35 110.106 285.06 109.745C282.771 109.383 280.362 109.745 277.711 109.745C278.675 103.844 281.566 101.796 287.229 102.88C286.265 102.037 285.301 101.194 283.735 99.8694C286.386 97.8221 289.157 95.6544 292.53 93.1254C286.024 91.9211 283.735 96.377 281.205 100.592C276.988 100.592 273.735 99.6286 274.458 94.2092C274.458 93.4867 274.217 92.4028 273.735 92.0415C267.229 86.7426 276.024 84.9362 276.145 81.2029C278.675 82.2867 281.205 83.2502 283.494 84.6953C284.94 85.5383 286.145 86.9835 288.313 87.4652C287.831 86.6222 287.47 85.6588 286.747 84.9362C281.446 79.6373 281.807 76.6266 289.398 75.7836C303.012 74.3384 316.867 74.0976 330.602 73.6158C336.867 73.375 343.132 73.6158 350.12 73.6158C348.313 82.5276 341.084 79.0352 336.626 81.6846V86.3813C330 89.7534 323.373 92.4028 317.711 96.377C314.458 98.6651 312.771 103.241 310.241 106.613C308.072 109.504 305.783 112.394 303.614 115.164C299.157 120.704 292.651 119.379 286.747 119.981H286.988L287.109 119.861Z" fill="white"/>
+<path d="M826.98 399.858C829.028 397.329 830.233 396.004 831.438 394.439C829.269 393.596 827.1 392.873 824.932 392.151C827.944 386.37 830.715 385.768 837.462 389.14C836.859 390.103 836.257 391.067 835.534 391.91C834.932 392.512 834.088 392.994 833.365 393.475C833.365 394.198 833.486 394.8 833.606 395.523C835.775 395.523 838.425 396.366 839.992 395.402C845.895 391.91 849.63 392.03 855.654 396.245C859.148 398.774 862.883 400.942 867.461 403.832C871.076 408.89 875.533 414.912 879.991 421.054C879.509 421.656 879.027 422.378 878.545 422.981C876.618 421.897 874.329 421.295 872.883 419.729C870.112 416.598 867.943 415.393 864.811 419.488C863.967 420.451 860.714 420.09 858.787 419.488C856.136 418.765 853.606 417.2 850.233 415.634C848.425 407.686 836.859 398.413 827.1 399.738L826.98 399.858Z" fill="white"/>
+<path d="M540.839 108.539C536.14 106.371 532.405 104.685 528.309 102.878C527.827 104.564 527.104 106.973 526.502 109.382C526.14 110.586 525.899 111.67 525.538 112.874C521.562 111.67 517.345 110.706 513.61 109.02C512.767 108.659 512.767 105.287 513.369 103.721C514.092 101.794 515.899 100.349 516.622 97.459C513.61 99.0246 510.598 100.711 508.911 101.554C506.381 97.8203 504.092 95.0504 502.526 91.9193C501.803 90.3537 501.803 87.8247 502.647 86.3795C503.49 85.0548 506.02 83.8505 507.466 84.2118C509.996 84.8139 512.285 86.6204 514.092 87.4634C515.417 86.0182 516.863 84.5731 518.309 83.1279C519.755 84.8139 521.2 86.4999 522.767 88.0655C523.971 89.2698 525.297 90.8354 526.743 91.1967C536.02 93.8461 541.08 99.0246 540.839 108.418V108.539Z" fill="white"/>
+<path d="M790.968 371.313C798.076 372.036 798.558 373.963 797.112 382.152C795.907 389.137 795.425 396.242 792.293 402.746C791.449 404.552 788.799 407.563 788.196 407.322C783.98 405.395 778.558 403.709 776.389 400.216C769.522 388.535 770.124 388.414 781.57 380.827C784.823 378.66 787.233 375.167 790.847 371.313H790.968Z" fill="white"/>
+<path d="M614.457 428.281C614.698 433.941 615.662 439.721 614.818 445.261C613.493 454.052 610.722 462.603 609.156 471.274C608.071 477.295 603.252 476.573 599.517 476.814C598.313 476.814 596.023 472.478 595.903 470.19C595.782 465.975 596.987 461.76 597.469 457.545C597.71 456.22 598.192 454.534 597.71 453.45C595.662 448.994 597.59 445.622 600.963 443.575C605.903 440.564 608.312 436.108 610.12 431.05C610.481 429.967 611.324 429.124 611.927 428.16C612.77 428.16 613.614 428.16 614.457 428.281Z" fill="white"/>
+<path d="M484.936 222.836C479.032 223.317 473.129 223.679 467.346 224.16C467.346 223.799 467.105 223.438 466.984 223.197C468.43 222.233 469.996 221.39 471.924 220.066C467.105 214.044 471.683 210.552 476.141 207.18C469.876 203.085 468.551 198.268 471.804 189.718C472.647 187.429 476.743 186.466 479.273 184.9C479.635 185.503 480.117 185.984 480.478 186.586C479.755 188.032 478.912 189.597 478.43 190.681C481.683 197.786 484.815 204.892 488.068 212.238C487.225 215.249 486.02 219.223 484.936 223.076L485.056 222.956L484.936 222.836Z" fill="white"/>
+<path d="M844.934 252.698C845.778 259.201 846.501 265.824 847.464 272.328C847.946 275.94 847.103 278.59 843.489 280.035C838.79 281.841 833.971 283.407 829.513 285.695C826.862 287.02 824.814 289.549 821.561 292.319C820.718 290.874 818.549 288.826 818.79 287.02C819.272 283.768 819.272 280.035 823.73 278.349C829.031 276.302 833.971 273.291 838.79 270.28C840.115 269.437 841.199 267.029 841.199 265.343C841.32 261.248 840.838 257.033 840.477 252.818C841.922 252.818 843.489 252.698 844.934 252.577V252.698Z" fill="white"/>
+<path d="M639.394 108.061C637.105 109.867 634.936 112.035 632.527 113.359C628.43 115.648 624.093 117.334 619.876 119.26C619.153 119.622 618.551 120.224 617.828 120.585C611.965 124.037 610.961 128.774 614.816 134.796C615.298 135.518 615.539 136.241 615.9 136.843C611.683 140.938 608.912 140.215 601.684 132.749C604.696 126.848 607.105 120.465 610.961 115.166C612.888 112.516 617.467 111.433 620.96 110.228C626.623 108.301 632.406 106.736 638.069 105.05C638.43 106.013 638.912 106.977 639.273 107.94L639.394 108.061Z" fill="white"/>
+<path d="M735.537 375.169C741.199 373.363 744.814 375.049 747.344 380.468C748.789 383.599 751.56 386.49 754.452 388.417C759.994 392.15 760.115 398.171 761.681 403.591C762.042 404.674 759.874 406.36 758.91 407.806C755.536 404.915 750.115 402.507 749.151 399.014C747.705 393.836 745.536 389.982 741.681 386.61C738.187 383.599 734.452 380.709 735.537 375.29V375.169Z" fill="white"/>
+<path d="M431.928 152.622C437.229 153.586 442.41 154.67 449.036 155.874C448.193 154.91 448.675 155.151 448.675 155.513C449.518 159.246 453.856 163.22 449.518 166.833C447.47 168.519 443.615 168.037 440.482 168.519C437.35 169.001 434.338 169.844 432.41 165.99C431.928 164.906 429.76 164.786 427.952 164.063C428.555 162.497 429.157 161.173 429.88 159.487C428.916 159.246 427.711 158.885 426.266 158.523C428.434 155.753 430.241 153.465 432.049 151.057C432.049 151.538 431.928 152.141 431.808 152.622H431.928Z" fill="white"/>
+<path d="M925.174 523.294C930.234 526.546 930.234 529.797 923.849 534.855C920.235 537.745 916.741 541.117 914.331 545.092C910.958 550.511 906.259 546.296 902.524 547.982L901.078 546.778C903.729 543.406 905.897 539.672 908.909 536.782C913.849 532.085 919.391 528.111 925.174 523.414V523.294Z" fill="white"/>
+<path d="M301.694 335.792C286.513 337.839 284.826 337.237 285.911 332.541C281.212 330.012 277.116 327.242 272.537 325.796C268.682 324.472 264.345 324.713 259.525 324.11C260.128 323.267 261.212 320.498 262.537 320.257C271.092 319.293 279.525 319.173 286.272 326.158C287.838 327.723 290.368 328.687 292.657 329.169C296.633 330.012 300.609 330.493 301.694 335.913V335.792Z" fill="white"/>
+<path d="M526.266 80.6006C536.145 81.4436 545.904 82.1662 556.265 83.0092C554.578 89.1511 550.844 90.7166 545.904 90.7166C535.181 90.7166 527.229 86.8629 526.266 80.6006Z" fill="white"/>
+<path d="M810.238 406.246C808.31 405.042 806.383 403.717 803.973 402.272C803.371 404.199 802.768 406.006 802.286 407.812C795.419 403.477 795.78 395.167 803.491 386.496C806.624 388.182 809.997 389.868 813.25 391.554C813.13 392.156 813.009 392.638 812.768 393.24C811.202 393.842 809.756 394.444 807.829 395.167C809.033 398.419 810.359 401.67 811.684 405.042C811.202 405.403 810.72 405.765 810.238 406.126V406.246Z" fill="white"/>
+<path d="M930.838 519.927C929.393 519.324 928.308 518.843 927.465 518.602C929.393 512.942 931.2 507.522 933.368 501.501C934.332 503.307 935.296 505.114 936.139 506.92C939.031 507.161 942.043 507.402 945.296 507.643C940.236 514.748 935.898 520.89 931.561 527.032C930.959 526.671 930.356 526.309 929.874 526.069C930.236 524.021 930.597 522.094 930.838 520.047V519.927Z" fill="white"/>
+<path d="M789.152 421.296C780.116 419.249 771.2 417.202 762.164 415.275C762.526 408.531 763.369 408.17 769.152 409.735C773.489 410.94 778.067 412.505 782.525 412.746C787.344 412.987 788.549 416.118 790.116 419.249C789.875 419.972 789.513 420.694 789.272 421.296H789.152Z" fill="white"/>
+<path d="M684.213 94.81C682.044 88.7885 684.936 86.7412 689.996 86.7412C693.128 86.7412 696.381 87.1025 699.273 88.1864C700.96 88.7885 702.044 90.9562 703.369 92.5218C701.442 93.6057 699.514 95.5325 697.586 95.653C693.249 95.8938 688.912 95.1713 684.092 94.9304L684.213 94.81Z" fill="white"/>
+<path d="M844.937 252.689C843.491 252.689 841.925 252.809 840.479 252.93C839.516 251.846 837.588 250.642 837.588 249.558C837.588 246.427 838.431 243.295 839.034 239.321C843.732 240.887 848.07 242.212 853.612 244.018C848.793 245.824 851.925 253.532 844.937 252.689Z" fill="white"/>
+<path d="M808.189 356.269C810.117 354.824 812.045 353.379 814.575 351.452C814.695 350.489 815.057 348.321 815.659 343.985C819.997 348.923 823.37 352.777 826.864 356.751C822.527 358.798 818.912 360.484 814.575 362.411C814.334 361.207 814.093 359.641 813.732 357.714H808.912C808.671 357.233 808.43 356.63 808.189 356.149V356.269Z" fill="white"/>
+<path d="M792.289 107.699C798.434 108.662 805.06 102.159 809.879 111.673C807.711 112.998 804.578 116.49 802.409 116.009C798.554 115.166 792.048 115.888 792.41 107.699H792.289Z" fill="white"/>
+<path d="M467.716 203.674V214.272C464.825 214.874 461.813 215.476 458.921 216.078C456.27 206.685 458.439 203.674 467.716 203.674Z" fill="white"/>
+<path d="M846.615 524.387C850.471 524.628 854.326 524.989 858.543 525.35C859.386 529.926 858.784 534.262 853.965 534.864C847.7 535.707 848.543 529.204 845.893 526.073C846.134 525.591 846.374 524.989 846.615 524.507V524.387Z" fill="white"/>
+<path d="M805.778 343.498C802.525 340.126 796.862 338.199 800.477 332.9C801.681 331.214 807.826 330.371 809.031 331.695C813.368 336.151 808.067 339.162 805.778 343.498Z" fill="white"/>
+<path d="M290.971 172.008C288.803 171.526 286.513 170.924 283.983 170.322C281.333 175.259 278.321 173.814 274.586 169.84C277.718 167.432 280.489 163.337 283.501 163.337C286.393 163.337 289.285 167.311 292.176 169.479C291.815 170.322 291.453 171.165 290.971 172.008Z" fill="white"/>
+<path d="M798.064 324.474C798.305 319.777 791.558 317.369 797.221 313.274C798.426 312.431 801.679 312.311 801.92 312.792C803.606 316.767 803.004 320.38 798.185 324.474H798.064Z" fill="white"/>
+<path d="M621.32 88.5489C617.344 88.9102 614.091 89.1511 610.959 89.3919C611.682 87.7059 611.923 85.5382 613.128 84.5747C616.14 82.407 619.031 82.7683 621.32 88.5489Z" fill="white"/>
+<path d="M697.83 360.966C700.119 364.338 704.577 366.144 700.721 370.239C699.757 371.202 698.191 371.443 696.866 372.045C696.504 370.721 695.782 369.275 695.902 367.951C696.143 365.903 696.986 363.977 697.83 360.966Z" fill="white"/>
+<path d="M288.914 317.366C291.926 319.533 294.335 321.219 296.745 323.026C297.106 323.387 297.106 324.591 296.745 325.073C296.384 325.555 295.058 326.157 294.817 325.916C292.528 323.507 286.504 323.989 288.793 317.245L288.914 317.366Z" fill="white"/>
+<path d="M281.69 337.359C279.28 337.841 276.75 338.202 272.533 339.045C273.979 336.396 274.461 334.107 275.304 333.987C277.473 333.867 279.642 334.589 281.81 334.95V337.359H281.69Z" fill="white"/>
+<path d="M383.5 79.5331C383.138 68.9353 383.138 69.0557 392.897 68.574C403.62 68.0923 414.222 66.888 424.945 67.0084C431.812 67.0084 438.68 69.1761 445.547 70.26C445.547 71.2234 445.668 72.0664 445.788 73.0299C442.053 74.9567 438.439 76.8836 434.704 78.9309C434.945 79.4126 435.186 79.8943 435.306 80.3761C436.752 80.0148 438.198 79.7739 439.523 79.2922C443.86 77.7266 447.957 76.5223 451.451 80.9782C452.053 81.7008 453.258 81.8212 453.981 82.4234C455.306 83.3868 456.511 84.5911 457.836 85.6749C456.39 86.2771 454.945 87.1201 453.378 87.6018C449.643 88.6857 445.788 89.6491 441.812 90.733C442.535 93.7437 443.017 95.5501 443.378 96.9953C441.571 98.1996 440.005 99.163 438.318 100.367C441.089 102.415 443.258 103.98 446.511 106.509C442.053 107.352 439.162 107.954 435.909 108.677C436.391 111.688 437.234 114.458 437.234 117.227C437.234 119.756 437.354 123.49 435.909 124.574C432.535 127.103 432.174 129.752 433.62 133.847C431.692 133.365 430.367 133.004 428.439 132.522C429.764 134.449 430.848 135.894 431.933 137.339C431.692 137.941 431.451 138.664 431.21 139.266C426.27 137.7 421.21 136.135 416.27 134.569C416.029 135.292 415.788 135.894 415.668 136.617C418.559 137.821 421.451 139.025 425.306 140.591C422.415 143.24 419.644 146.371 416.391 148.539C410.969 152.272 405.307 155.644 399.524 158.776C397.355 159.98 394.584 160.462 392.174 160.341C386.994 159.98 386.271 163.593 384.945 167.085C382.174 174.07 379.283 181.055 376.994 186.595C371.813 185.15 367.958 184.427 364.464 183.102C362.898 182.5 360.97 180.935 360.608 179.489C359.645 176.238 359.886 172.745 359.163 169.494C358.199 164.677 356.874 160.1 355.307 153.477C357.115 151.429 360.367 147.816 363.982 143.722C361.09 142.036 357.837 140.109 353.139 137.339C356.151 136.737 357.837 136.737 358.922 136.014C359.886 135.412 360.488 134.088 360.127 132.281C358.199 133.124 356.151 133.967 354.103 134.931C353.38 128.427 352.657 122.647 352.054 117.107C347.597 115.541 343.5 114.096 339.404 112.772C338.561 112.531 337.476 112.772 336.633 113.012C330.97 114.939 327.115 113.133 324.344 106.63C329.043 106.148 333.5 105.787 337.958 105.425C337.958 104.944 337.958 104.582 337.958 104.101C332.055 103.86 326.272 103.498 320.368 103.258C320.127 102.415 319.886 101.572 319.766 100.729C326.392 98.4405 333.139 96.1523 340.97 93.3824C338.32 91.6964 336.874 90.8534 335.428 89.89C350.729 81.7008 366.03 74.9567 383.741 79.6535L383.5 79.5331ZM416.15 76.8836C425.708 79.0513 431.13 78.7302 432.415 75.9202C426.873 76.2815 421.451 76.6428 416.15 76.8836Z" fill="currentcolor"/>
+<path d="M286.769 119.729C282.793 118.163 278.817 116.839 274.841 115.032C273.636 114.55 272.913 113.105 271.95 112.142C272.191 111.54 272.552 111.058 272.793 110.456C275.685 111.058 278.697 111.66 281.588 112.262C284.6 112.864 287.612 113.467 290.745 113.948C290.986 113.226 291.106 112.503 291.347 111.781C289.178 111.058 287.01 109.974 284.721 109.613C282.431 109.251 280.022 109.613 277.371 109.613C278.335 103.712 281.227 101.664 286.889 102.748C285.925 101.905 284.961 101.062 283.395 99.7376C286.046 97.6903 288.817 95.5226 292.19 92.9935C285.684 91.7893 283.395 96.2451 280.865 100.46C276.648 100.46 273.395 99.4967 274.118 94.0774C274.118 93.3548 273.877 92.271 273.395 91.9097C266.889 86.6108 275.685 84.8044 275.805 81.071C278.335 82.1549 280.865 83.1183 283.154 84.5635C284.6 85.4065 285.805 86.8517 287.974 87.3334C287.492 86.4904 287.13 85.5269 286.407 84.8044C281.106 79.5055 281.468 76.4947 289.058 75.6517C302.672 74.2066 316.527 73.9657 330.262 73.484C336.527 73.2431 342.792 73.484 349.78 73.484C347.973 82.3958 340.744 78.9033 336.286 81.5528V86.2495C329.66 89.6215 323.033 92.271 317.371 96.2451C314.118 98.5333 312.431 103.11 309.901 106.482C307.732 109.372 305.443 112.262 303.275 115.032C298.817 120.572 292.311 119.247 286.407 119.849H286.648L286.769 119.729Z" fill="currentcolor"/>
+<path d="M540.839 108.915C536.14 106.748 532.405 105.062 528.309 103.255C527.827 104.941 527.104 107.35 526.502 109.758C526.14 110.963 525.899 112.047 525.538 113.251C521.562 112.047 517.345 111.083 513.61 109.397C512.767 109.036 512.767 105.664 513.369 104.098C514.092 102.171 515.899 100.726 516.622 97.836C513.61 99.4015 510.598 101.088 508.911 101.931C506.381 98.1973 504.092 95.4274 502.526 92.2962C501.803 90.7306 501.803 88.2016 502.647 86.7565C503.49 85.4318 506.02 84.2275 507.466 84.5887C509.996 85.1909 512.285 86.9973 514.092 87.8403C515.417 86.3952 516.863 84.95 518.309 83.5049C519.755 85.1909 521.2 86.8769 522.767 88.4425C523.972 89.6468 525.297 91.2124 526.743 91.5736C536.02 94.2231 541.08 99.4015 540.839 108.795V108.915Z" fill="currentcolor"/>
+<path d="M526.266 80.9775C536.145 81.8205 545.904 82.5431 556.265 83.3861C554.578 89.528 550.844 91.0936 545.904 91.0936C535.181 91.0936 527.229 87.2399 526.266 80.9775Z" fill="currentcolor"/>
+<path d="M684.213 95.1869C682.044 89.1655 684.936 87.1182 689.996 87.1182C693.128 87.1182 696.381 87.4795 699.273 88.5633C700.96 89.1655 702.044 91.3332 703.369 92.8988C701.442 93.9826 699.514 95.9095 697.586 96.0299C693.249 96.2708 688.912 95.5482 684.092 95.3074L684.213 95.1869Z" fill="currentcolor"/>
+<path d="M792.289 108.076C798.434 109.039 805.06 102.536 809.879 112.05C807.711 113.375 804.578 116.867 802.409 116.386C798.554 115.543 792.048 116.265 792.41 108.076H792.289Z" fill="currentcolor"/>
+<path d="M621.32 88.9259C617.344 89.2871 614.091 89.528 610.959 89.7689C611.682 88.0829 611.923 85.9151 613.128 84.9517C616.14 82.784 619.031 83.1453 621.32 88.9259Z" fill="currentcolor"/>
+</svg>`;
   } else if (continente_detetado === "Oceania") {
     novoConteudoSVG = `<svg width="100%" viewBox="0 0 1024 642" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="1024" height="642" fill="none"/>
@@ -2791,6 +3523,7 @@ function SVGPorContinente(continente_detetado) {
 <path d="M281.69 337.359C279.28 337.841 276.75 338.202 272.533 339.045C273.979 336.396 274.461 334.107 275.304 333.987C277.473 333.867 279.642 334.589 281.81 334.95V337.359H281.69Z" fill="#FFFFFF" fill-opacity="1"/>
 </svg>`;
   }
+  
 
   svgContainer.innerHTML = novoConteudoSVG;
 }
@@ -2830,7 +3563,7 @@ function rotateGlobeToContinent(continentName, duration = 1500) {
 
 //const testcontinente = document.getElementById('testeContinente');
 document.getElementById('testeContinente').addEventListener('click', () => {
-   rotateGlobeToContinent("Europe", 1500);
+   //rotateGlobeToContinent("Europe", 1500);
 });
 
 
