@@ -2197,6 +2197,7 @@ function Update(id, value) {
                     sky.setAttribute('src','#1950_asia');
 
                     circlePopUp.setAttribute('position','1 1.5 -4');
+                    circlePopUp.setAttribute('rotation', '0 0 0');
                     circlePopUp.addEventListener("mouseenter", () => {
                     popUp.setAttribute('src','#PopUpAsia1');
                     popUp.setAttribute('scale', '1 1 1');
